@@ -26,20 +26,23 @@ import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverB
 import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
-for(def rowIdx = 0; rowIdx < findTestData('Level 1/LifeShield').getAllData().size(); rowIdx++) {
-WebUI.openBrowser('https://praetemptatus.agilehealthinsurance.com/')
-
-def driver = DriverFactory.getWebDriver()
-def zipcode= findTestData('Level 1/Lifeshield').getValue(1, rowIdx + 1)
-
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 String baseUrl = 'https://praetemptatus.agilehealthinsurance.com/'
 
-println(zipcode) 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
-selenium.open('https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=zipcode&census[effective]=2019-01-10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=1980-11-06&census[member][0][smoker]=false&census[member][0][name][first]=Denis&census[member][0][name][last]=yu&email=denis.yu@suryani.cn&phone=777-061-5555')
+String fastQuoteUrl = ('https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=' +
+zipcode + '&census[effective]='+effectiveDate+'&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]='+dob)
 
-WebUI.takeScreenshot('~/workplace/test/screenshort/capture.png')
+println(fastQuoteUrl)
+
+WebUI.openBrowser(fastQuoteUrl)
+
+def driver = DriverFactory.getWebDriver()
+
+selenium = new WebDriverBackedSelenium(driver, fastQuoteUrl)
+
+
+Thread.sleep(3000)
 
 selenium.click('link=LifeShield Flex 5K/20/9K/750K Extended')
 
@@ -56,11 +59,13 @@ selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Glo
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'By checking this box I understand and agree to the statement above.\'])[1]/following::button[1]')
 
 Thread.sleep(1000)
+
 selenium.click('id=fillApp')
 
 Thread.sleep(1000)
 
 selenium.click('id=js-app-continue-link')
+
 Thread.sleep(1000)
 
 selenium.click('id=js-app-continue-link')
@@ -70,6 +75,7 @@ selenium.click('id=credit-card-cvv')
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Email Address\'])[1]/following::label[1]')
 
 selenium.click('id=js-app-continue-link')
+
 Thread.sleep(1000)
 
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Terms and Agreements\'])[1]/preceding::label[1]')
@@ -93,4 +99,4 @@ WebUI.takeScreenshot()
 
 'Close browser'
 WebUI.closeBrowser()
-}
+

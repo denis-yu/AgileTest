@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>xpath__.____normalize-space_text____and_normalize-space_.________2__following__p_1_</name>
+   <name>CTA button</name>
    <tag></tag>
-   <elementGuidId>642a79ad-9b4b-4d7a-b3c8-361957ad0c5a</elementGuidId>
+   <elementGuidId>7886bea6-f4d8-44a2-a4c2-adf85e127624</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::p[1]</value>
+         <value>//*[id='js-see-plans']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
