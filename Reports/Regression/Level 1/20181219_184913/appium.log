@@ -1,0 +1,276 @@
+[35m[Appium][39m Welcome to Appium v1.10.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 57796
+[35m[Appium][39m   chromeDriverPort: 57797
+[35m[Appium][39m   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1545216618251
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57796
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"browserName":"Chrome","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"capabilities":{"desiredCapabilities":{"browserName":"Chrome","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"firstMatch":[{"browserName":"Chrome","platformName":"android"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"browserName":"Chrome","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},null,{"desiredCapabilities":{"browserName":"Chrome","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","newCommandTimeout":1800,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"firstMatch":[{"browserName":"Chrome","platformName":"android"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1545216621717 (18:50:21 GMT+0800 (China Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank
+[35m[Appium][39m Trying to fix W3C capabilities by merging them with JSONWP caps
+[35m[BaseDriver][39m The capabilities ["deviceName","newCommandTimeout","platform","udid"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Creating new AndroidDriver (v4.8.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceName: HUAWEI ATH-AL00 (Android 6.0.1)
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   udid: 69T7N15915029735
+[35m[Appium][39m   browserName: Chrome
+[35m[Appium][39m   platformName: android
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"appium:dev... and MJSONWP desired capabilities {"browserName":"Chrome","de... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"appium:dev...
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
+[35m[BaseDriver][39m Session created with session id: 021be180-490a-494c-b451-500c62f2f47b
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
+[35m[AndroidDriver][39m We're going to run a Chrome-based session
+[35m[AndroidDriver][39m Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Cannot sort build-tools folders ["aapt","aapt2","aarch64-linux-android-ld","aidl","apksigner","arm-linux-androideabi-ld","bcc_compat","core-lambda-stubs.jar","d8","dexdump","dx","i686-linux-android-ld","lib","lib64","llvm-rs-cc","mainDexClasses","mainDexClasses.rules","mainDexClassesNoAapt.rules","mipsel-linux-android-ld","NOTICE.txt","renderscript","runtime.properties","source.properties","split-select","x86_64-linux-android-ld","zipalign"] by semantic version names.
+[35m[ADB][39m Falling back to sorting by modification date. Original error: Invalid Version: zipalign
+[35m[ADB][39m Found 26 'build-tools' folders under '/Users/denisyu/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/lib64
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/aapt
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/aarch64-linux-android-ld
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/aidl
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/apksigner
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/arm-linux-androideabi-ld
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/bcc_compat
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/core-lambda-stubs.jar
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/d8
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/dexdump
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/dx
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/i686-linux-android-ld
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/lib
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/aapt2
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/llvm-rs-cc
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/mainDexClasses
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/mainDexClasses.rules
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/mainDexClassesNoAapt.rules
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/mipsel-linux-android-ld
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/NOTICE.txt
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/x86_64-linux-android-ld
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/runtime.properties
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/source.properties
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/split-select
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/zipalign
+[35m[ADB][39m     /Users/denisyu/.katalon/tools/android_sdk/build-tools/renderscript
+[35m[ADB][39m Using adb from /Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[35m[AndroidDriver][39m Using device: 69T7N15915029735
+[debug] [35m[ADB][39m Setting device id to 69T7N15915029735
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 23
+[debug] [35m[ADB][39m Device API level: 23
+[35m[AndroidDriver][39m Consider setting 'automationName' capability to 'uiautomator2' on Android >= 6, since UIAutomator framework is not maintained anymore by the OS vendor.
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run com.android.chrome directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell pm list packages com.android.chrome'
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 wait-for-device'
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Checking whether aapt is present
+[35m[AndroidDriver][39m Ignored error while installing Appium Settings helper: 'Could not find aapt in /Users/denisyu/.katalon/tools/android_sdk/platform-tools/aapt,/Users/denisyu/.katalon/tools/android_sdk/emulator/aapt,/Users/denisyu/.katalon/tools/android_sdk/tools/aapt,/Users/denisyu/.katalon/tools/android_sdk/tools/bin/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/lib64/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/aapt/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/aarch64-linux-android-ld/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/aidl/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/apksigner/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/arm-linux-androideabi-ld/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/bcc_compat/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/core-lambda-stubs.jar/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/d8/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/dexdump/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/dx/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/i686-linux-android-ld/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/lib/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/aapt2/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/llvm-rs-cc/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/mainDexClasses/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/mainDexClasses.rules/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/mainDexClassesNoAapt.rules/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/mipsel-linux-android-ld/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/NOTICE.txt/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/x86_64-linux-android-ld/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/runtime.properties/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/source.properties/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/split-select/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/zipalign/aapt,/Users/denisyu/.katalon/tools/android_sdk/build-tools/renderscript/aapt. Do you have the Android SDK installed at '/Users/denisyu/.katalon/tools/android_sdk'?'. Manually uninstalling the application with package id 'io.appium.settings' may help. Expect some Appium features may not work as expected unless this problem is fixed.
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Device API level: 23
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [35m[Logcat][39m Starting logcat capture
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 6.0.1
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell wm size'
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': ATH-AL00
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': HUAWEI
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.android.chrome
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package com.android.chrome'
+[debug] [35m[ADB][39m 'com.android.chrome' is installed
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am force-stop com.android.chrome'
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell pm clear com.android.chrome'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.android.chrome' application (stop and clear)
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 push /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-android-driver\@4.8.0\@appium-android-driver/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","69T7N15915029735","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.android.chrome","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Loading json...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[AndroidDriver][39m Starting a chrome-based browser session
+[debug] [35m[Chromedriver][39m Changed state to 'starting'
+[debug] [35m[Chromedriver][39m Found 1 executable in '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-chromedriver@4.10.0@appium-chromedriver/chromedriver/mac'
+[debug] [35m[Chromedriver][39m The following Chromedriver executables were found:
+[debug] [35m[Chromedriver][39m     /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-chromedriver@4.10.0@appium-chromedriver/chromedriver/mac/chromedriver (minimum Chrome version '70.0.0')
+[debug] [35m[ADB][39m Device API level: 23
+[debug] [35m[ADB][39m Getting package info for 'com.android.chrome'
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package com.android.chrome'
+[debug] [35m[Chromedriver][39m Found Chrome bundle 'com.android.chrome' version '70.0.3538'
+[debug] [35m[Chromedriver][39m Found 1 Chromedriver executable capable of automating Chrome '70.0.3538'.
+[debug] [35m[Chromedriver][39m Choosing the most recent, '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-chromedriver@4.10.0@appium-chromedriver/chromedriver/mac/chromedriver'.
+[debug] [35m[Chromedriver][39m If a specific version is required, specify it with the `chromedriverExecutable`desired capability.
+[35m[Chromedriver][39m Set chromedriver binary as: /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-chromedriver@4.10.0@appium-chromedriver/chromedriver/mac/chromedriver
+[debug] [35m[Chromedriver][39m Killing any old chromedrivers, running: pkill -15 -f "/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-chromedriver@4.10.0@appium-chromedriver/chromedriver/mac/chromedriver.*--port=57797"
+[35m[Chromedriver][39m No old chromedrivers seemed to exist
+[debug] [35m[Chromedriver][39m Cleaning any old adb forwarded port socket connections
+[debug] [35m[ADB][39m List forwarding ports
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 forward --list'
+[35m[Chromedriver][39m Spawning chromedriver with: /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-chromedriver@4.10.0@appium-chromedriver/chromedriver/mac/chromedriver --url-base=wd/hub --port=57797 --adb-port=5037 --verbose
+[debug] [35m[Chromedriver][39m Chromedriver version: '2.45.615355'
+[debug] [35m[JSONWP Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:57797/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"\",\"status\":0,\"value\":{\"build\":{\"version\":\"2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189)\"},\"message\":\"ChromeDriver ready for new sessions.\",\"os\":{\"arch\":\"x86_64\",\"name\":\"Mac OS X\",\"version\":\"10.14.1\"},\"ready\":true}}"
+[debug] [35m[JSONWP Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:57797/wd/hub/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.android.chrome","androidDeviceSerial":"69T7N15915029735"}}}
+[debug] [35m[Chromedriver][39m Webview version: 'Chrome/70.0.3538.80'
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189)"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:57913"},"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","proxy":{},"rotatable":false,"setWindowRect":false,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"70.0.3538.80","webStorageEnabled":true}}
+[debug] [35m[Chromedriver][39m Changed state to 'online'
+[35m[Appium][39m New AndroidDriver session created successfully, session 021be180-490a-494c-b451-500c62f2f47b added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1545216633467 (18:50:33 GMT+0800 (China Standard Time))
+[debug] [35m[W3C (021be180)][39m Cached the protocol value 'W3C' for the new session 021be180-490a-494c-b451-500c62f2f47b
+[debug] [35m[W3C (021be180)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"browserName":"Chrome","platformName":"android","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","newCommandTimeout":1800,"platform":"ANDROID","udid":"69T7N15915029735"},"browserName":"Chrome","platformName":"android","deviceName":"69T7N15915029735","newCommandTimeout":1800,"udid":"69T7N15915029735","deviceUDID":"69T7N15915029735","platformVersion":"6.0.1","deviceScreenSize":"1080x1920","deviceModel":"ATH-AL00","deviceManufacturer":"HUAWEI"}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m11753 ms - 729[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts' to command name 'timeouts'
+[debug] [35m[Protocol Converter][39m Will send the following request bodies to /timeouts: [{"type":"implicit","ms":30000}]
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts] to [POST http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/timeouts] with body: {"type":"implicit","ms":30000}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":null}
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts [39m[32m200[39m [90m21 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":0}[39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts' to command name 'timeouts'
+[debug] [35m[Protocol Converter][39m Will send the following request bodies to /timeouts: [{"type":"implicit","ms":0}]
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts] to [POST http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/timeouts] with body: {"type":"implicit","ms":0}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":null}
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/timeouts [39m[32m200[39m [90m4 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}[39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync' to command name 'execute'
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync' to '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute' for MJSONWP protocol
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute] to [POST http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/execute] with body: {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":"Chrome 70.0.3538.80"}
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync [39m[32m200[39m [90m130 ms - 93[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/url[39m
+[35m[HTTP][39m [90m{"url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=\t30301&census[effective]=2019/1/10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=02/10/1980"}[39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/url' to command name 'setUrl'
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/url] to [POST http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/url] with body: {"url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=\t30301&census[effective]=2019/1/10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=02/10/1980"}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":null}
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/url [39m[32m200[39m [90m11444 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/window[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/window' to command name 'getWindowHandle'
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/window' to '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/window_handle' for MJSONWP protocol
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/window_handle] to [GET http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/window_handle] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"16335c598da1a8aaa40f87bf16c7545c\",\"status\":0,\"value\":\"CDwindow-0\"}"
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/window [39m[32m200[39m [90m5 ms - 84[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"var canUseLocalStorage = false; try { canUseLocalStorage = !!window.localStorage; } catch(ex) { /* probe failed */ } var canUseJSON = false; try { canUseJSON = !!JSON; } catch(ex) { /* probe failed */ } if (canUseLocalStorage && canUseJSON) {   window.localStorage.setItem('__webdriverAlerts', JSON.stringify([]));   window.alert = function(msg) {     var alerts = JSON.parse(window.localStorage.getItem('__webdriverAlerts'));     alerts.push(msg);     window.localStorage.setItem('__webdriverAlerts', JSON.stringify(alerts));   };   window.localStorage.setItem('__webdriverConfirms', JSON.stringify([]));   if (!('__webdriverNextConfirm' in window.localStorage)) {     window.localStorage.setItem('__webdriverNextConfirm', JSON.stringify(true));   }   window.confirm = function(msg) {     var confirms = JSON.parse(window.localStorage.getItem('__webdriverConfirms'));     confirms.push(msg);     window.localStorage.setItem('__webdriverConfirms', JSON.stringify(confirms));     var res = [39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync' to command name 'execute'
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync' to '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute' for MJSONWP protocol
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute] to [POST http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/execute] with body: {"script":"var canUseLocalStorage = false; try { canUseLocalStorage = !!window.localStorage; } catch(ex) { /* probe failed */ } var canUseJSON = false; try { canUseJSON = !!JSON; } catch(ex) { /* probe failed */ } if (canUseLocalStorage && canUseJSON) {   window.localStorage.setItem('__webdriverAlerts', JSON.stringify([]));   window.alert = function(msg) {     var alerts = JSON.parse(window.localStorage.getItem('__webdriverAlerts'));     alerts.push(msg);     window.localStorage.setItem('__webdriverAlerts', JSON.stringify(alerts));   };   window.localStorage.setItem('__webdriverConfirms', JSON.stringify([]));   if (!('__webdriverNextConfirm' in window.localStorage)) {     window.localStorage.setItem('__webdriverNextConfirm', JSON.stringify(true));   }   window.confirm = function(msg) {     var confirms = JSON.parse(window.localStorage.getItem('__webdriverConfirms'));     confirms.push(msg);     window.localStorage.setItem('__webdriverConfirms', JSON.stringify(confirms));     var res = JSON.parse(window.loc...
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":null}
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync [39m[32m200[39m [90m3145 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"return (function() { return (function(){return function(){var d=this;function aa(a,b){var f=Array.prototype.slice.call(arguments,1);return function(){var b=f.slice();b.push.apply(b,arguments);return a.apply(this,b)}}function h(a,b){function f(){}f.prototype=b.prototype;a.f=b.prototype;a.prototype=new f;a.prototype.constructor=a;a.b=function(a,f,c){for(var g=Array(arguments.length-2),e=2;e<arguments.length;e++)g[e-2]=arguments[e];return b.prototype[f].apply(a,g)}};var k=window;function n(a){if(Error.captureStackTrace)Error.captureStackTrace(this,n);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))}h(n,Error);n.prototype.name=\"CustomError\";var p=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^[\\s\\xa0]+|[\\s\\xa0]+$/g,\"\")};\nfunction q(a,b){var f=0;a=p(String(a)).split(\".\");b=p(String(b)).split(\".\");for(var l=Math.max(a.length,b.length),e=0;!f&&e<l;e++){var c=a[e]||\"\",g=b[e]||\"\";do{c=/(\\d*)(\\D*)(.*)/.exec(c)[39m
+[35m[W3C (021be180)][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Matched '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync' to command name 'execute'
+[35m[Protocol Converter][39m Rewrote the original URL '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync' to '/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute' for MJSONWP protocol
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute] to [POST http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c/execute] with body: {"script":"return (function() { return (function(){return function(){var d=this;function aa(a,b){var f=Array.prototype.slice.call(arguments,1);return function(){var b=f.slice();b.push.apply(b,arguments);return a.apply(this,b)}}function h(a,b){function f(){}f.prototype=b.prototype;a.f=b.prototype;a.prototype=new f;a.prototype.constructor=a;a.b=function(a,f,c){for(var g=Array(arguments.length-2),e=2;e<arguments.length;e++)g[e-2]=arguments[e];return b.prototype[f].apply(a,g)}};var k=window;function n(a){if(Error.captureStackTrace)Error.captureStackTrace(this,n);else{var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))}h(n,Error);n.prototype.name=\"CustomError\";var p=String.prototype.trim?function(a){return a.trim()}:function(a){return a.replace(/^[\\s\\xa0]+|[\\s\\xa0]+$/g,\"\")};\nfunction q(a,b){var f=0;a=p(String(a)).split(\".\");b=p(String(b)).split(\".\");for(var l=Math.max(a.length,b.length),e=0;!f&&e<l;e++){var c=a[e]||\"\",g=b[e]||\"\";do{c=/(\\d*)(\\D*)(.*)/.exec(c)||[\"\",\"\",\"\",\"\...
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"16335c598da1a8aaa40f87bf16c7545c","status":0,"value":{"ELEMENT":"0.7831823623908982-1"}}
+[35m[JSONWP Proxy][39m Replacing sessionId 16335c598da1a8aaa40f87bf16c7545c with 021be180-490a-494c-b451-500c62f2f47b
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b/execute/sync [39m[32m200[39m [90m336 ms - 106[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/021be180-490a-494c-b451-500c62f2f47b[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (021be180)][39m Calling AppiumDriver.deleteSession() with args: ["021be180-490a-494c-b451-500c62f2f47b"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1545216654785 (18:50:54 GMT+0800 (China Standard Time))
+[35m[Appium][39m Removing session 021be180-490a-494c-b451-500c62f2f47b from our master session list
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[debug] [35m[AndroidDriver][39m Stopping chromedriver for context CHROMIUM
+[debug] [35m[Chromedriver][39m Changed state to 'stopping'
+[debug] [35m[JSONWP Proxy][39m Proxying [DELETE /] to [DELETE http://127.0.0.1:57797/wd/hub/session/16335c598da1a8aaa40f87bf16c7545c] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"16335c598da1a8aaa40f87bf16c7545c\",\"status\":0,\"value\":null}"
+[debug] [35m[Chromedriver][39m Changed state to 'stopped'
+[debug] [35m[ADB][39m Pressing the HOME button
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell input keyevent 3'
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[UiAutomator][39m Shutting down UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'stopping'
+[debug] [35m[UiAutomator][39m UiAutomator shut down normally
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
+[35m[ADB][39m No 'uiautomator' process has been found
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am force-stop io.appium.unlock'
+[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1545216657811 (18:50:57 GMT+0800 (China Standard Time))
+[debug] [35m[W3C (021be180)][39m Received response: null
+[debug] [35m[W3C (021be180)][39m But deleting session, so not returning
+[debug] [35m[W3C (021be180)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/021be180-490a-494c-b451-500c62f2f47b [39m[32m200[39m [90m3028 ms - 14[39m
+[35m[HTTP][39m [90m[39m

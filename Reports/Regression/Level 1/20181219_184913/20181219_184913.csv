@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Level 1,Chrome 70.0.3538.80,,2018-12-19 18:49:26,2018-12-19 18:50:57,1m - 31.609s,ERROR
+,,,,,,
+Test Cases/Regression/Level 1/LifeShield,Chrome 70.0.3538.80,,2018-12-19 18:49:26,2018-12-19 18:50:14,48.047s,ERROR
+"fastQuoteUrl = ENV + ""/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]="" + zipcode + ""&census[effective]="" + effectiveDate + ""&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]="" + dob",Chrome 70.0.3538.80,,2018-12-19 18:49:27,2018-12-19 18:49:27,0.009s,PASSED
+println(fastQuoteUrl),Chrome 70.0.3538.80,,2018-12-19 18:49:27,2018-12-19 18:49:27,0.004s,PASSED
+openBrowser(fastQuoteUrl),Chrome 70.0.3538.80,,2018-12-19 18:49:27,2018-12-19 18:50:06,38.460s,PASSED
+driver = getWebDriver(),Chrome 70.0.3538.80,,2018-12-19 18:50:06,2018-12-19 18:50:06,0.014s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl)",Chrome 70.0.3538.80,,2018-12-19 18:50:06,2018-12-19 18:50:06,0.117s,PASSED
+Thread.sleep(4000),Chrome 70.0.3538.80,,2018-12-19 18:50:06,2018-12-19 18:50:10,4.009s,PASSED
+"selenium.click(""link=LifeShield Flex 5K/20/9K/750K Extended"")",Chrome 70.0.3538.80,,2018-12-19 18:50:10,2018-12-19 18:50:12,2.513s,ERROR
+,,,,,,
+Test Cases/Regression/Level 1/LifeShield,Chrome 70.0.3538.80,,2018-12-19 18:50:14,2018-12-19 18:50:54,39.860s,ERROR
+"fastQuoteUrl = ENV + ""/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]="" + zipcode + ""&census[effective]="" + effectiveDate + ""&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]="" + dob",Chrome 70.0.3538.80,,2018-12-19 18:50:14,2018-12-19 18:50:14,0.002s,PASSED
+println(fastQuoteUrl),Chrome 70.0.3538.80,,2018-12-19 18:50:14,2018-12-19 18:50:14,0.001s,PASSED
+openBrowser(fastQuoteUrl),Chrome 70.0.3538.80,,2018-12-19 18:50:14,2018-12-19 18:50:45,30.180s,PASSED
+driver = getWebDriver(),Chrome 70.0.3538.80,,2018-12-19 18:50:45,2018-12-19 18:50:45,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl)",Chrome 70.0.3538.80,,2018-12-19 18:50:45,2018-12-19 18:50:45,0.020s,PASSED
+Thread.sleep(4000),Chrome 70.0.3538.80,,2018-12-19 18:50:45,2018-12-19 18:50:49,4.006s,PASSED
+"selenium.click(""link=LifeShield Flex 5K/20/9K/750K Extended"")",Chrome 70.0.3538.80,,2018-12-19 18:50:49,2018-12-19 18:50:52,3.509s,ERROR

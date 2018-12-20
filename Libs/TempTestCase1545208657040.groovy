@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Test Cases/Regression/Level 1/LifeShield - Copy/20181213_155742/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Test Cases/Regression/Level 1/LifeShield/20181219_163733/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Regression/Level 1/LifeShield - Copy', new TestCaseBinding('Test Cases/Regression/Level 1/LifeShield - Copy',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Regression/Level 1/LifeShield', new TestCaseBinding('Test Cases/Regression/Level 1/LifeShield',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

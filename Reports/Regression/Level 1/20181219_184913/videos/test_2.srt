@@ -1,0 +1,32 @@
+1
+00:00:00,004 --> 00:00:00,005
+1. fastQuoteUrl = ENV + "/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=" + zipcode + "&census[effective]=" + effectiveDate + "&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=" + dob
+
+2
+00:00:00,006 --> 00:00:00,006
+5. println(fastQuoteUrl)
+
+3
+00:00:00,007 --> 00:00:00,007
+9. openBrowser(fastQuoteUrl)
+
+4
+00:00:30,186 --> 00:00:30,187
+13. driver = getWebDriver()
+
+5
+00:00:30,188 --> 00:00:30,188
+17. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl)
+
+6
+00:00:30,208 --> 00:00:30,209
+21. Thread.sleep(4000)
+
+7
+00:00:34,215 --> 00:00:34,215
+25. selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended")
+
+8
+00:00:39,847 --> 00:00:39,849
+3. Close browser
+

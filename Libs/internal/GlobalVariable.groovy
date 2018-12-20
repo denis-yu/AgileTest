@@ -13,14 +13,21 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
  */
 public class GlobalVariable {
      
+    /**
+     * <p></p>
+     */
+    public static Object ENV
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', [:])
+        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com'])
+        allVariables.put('staging', allVariables['default'] + ['ENV' : 'https://staging.agilehealthinsurance.com'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
+        ENV = selectedVariables['ENV']
         
     }
 }

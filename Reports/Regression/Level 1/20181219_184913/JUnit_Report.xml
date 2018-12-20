@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Level 1" time="11" tests="0" failures="0" errors="2">
-   <testsuite name="Level 1" tests="0" failures="0" errors="2" time="11" timestamp="2018-12-13 15:41:28" hostname="denisyu - 172.16.86.34" id="Test Suites/Regression/Level 1">
+<testsuites name="Level 1" time="91" tests="0" failures="0" errors="2">
+   <testsuite name="Level 1" tests="0" failures="0" errors="2" time="91" timestamp="2018-12-19 18:49:26" hostname="denisyu - 172.16.86.34" id="Test Suites/Regression/Level 1">
       <properties>
-         <property name="deviceName" value=""/>
+         <property name="deviceName" value="HUAWEI ATH-AL00 (Android 6.0.1)"/>
          <property name="devicePlatform" value=""/>
-         <property name="logFolder" value="/Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20181213_154116"/>
-         <property name="logFiles" value="/Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20181213_154116/execution0.log"/>
-         <property name="attachments" value="~/workplace/test/screenshort/capture.png, ~/workplace/test/screenshort/capture.png"/>
+         <property name="logFolder" value="/Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20181219_184913"/>
+         <property name="logFiles" value="/Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20181219_184913/execution0.log, /Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20181219_184913/appium.log"/>
+         <property name="attachments" value=""/>
          <property name="hostName" value="denisyu - 172.16.86.34"/>
          <property name="os" value="Mac OS X 64bit"/>
          <property name="katalonVersion" value="5.9.1.2"/>
-         <property name="browser" value="Chrome 70.0.3538.110"/>
-         <property name="hostAddress" value="172.16.86.34"/>
-         <property name="sessionId" value="0f4ea0978d9740469d6381647ce17711"/>
-         <property name="seleniumVersion" value="3.7.1"/>
-         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.10.0"/>
+         <property name="sessionId" value="021be180-490a-494c-b451-500c62f2f47b"/>
+         <property name="deviceId" value="69T7N15915029735"/>
+         <property name="deviceName" value="HUAWEI ATH-AL00 (Android 6.0.1)"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=MANUAL_CONFIG, proxyServerType=HTTP, password=, proxyServerAddress=127.0.0.1, proxyServerPort=1087}"/>
+         <property name="deviceOSVersion" value="6.0.1"/>
          <property name="platform" value="Mac OS X"/>
+         <property name="browser" value="Chrome 70.0.3538.80"/>
+         <property name="deviceModel" value="ATH-AL00"/>
+         <property name="hostAddress" value="172.16.86.34"/>
+         <property name="deviceManufacturer" value="HUAWEI"/>
+         <property name="seleniumVersion" value="3.7.1"/>
       </properties>
-      <testcase name="Test Cases/Regression/Level 1/LifeShield - Copy" classname="Test Cases/Regression/Level 1/LifeShield - Copy" status="ERROR">
-         <error type="ERROR" message="Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+      <testcase name="Test Cases/Regression/Level 1/LifeShield" classname="Test Cases/Regression/Level 1/LifeShield" status="ERROR">
+         <error type="ERROR" message="Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -30,7 +37,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -43,9 +50,9 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)
 "/>
-         <system-out><![CDATA[2018-12-13 15:41:28 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield - Copy: Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+         <system-out><![CDATA[2018-12-19 18:49:26 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield: Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -57,7 +64,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -70,33 +77,28 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)
 
 
-2018-12-13 15:41:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2018-12-19 18:49:27 - [TEST_STEP][PASSED] - fastQuoteUrl = ENV + "/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=" + zipcode + "&census[effective]=" + effectiveDate + "&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=" + dob: null
 
-2018-12-13 15:41:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2018-12-19 18:49:27 - [TEST_STEP][PASSED] - println(fastQuoteUrl): null
 
-2018-12-13 15:41:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+2018-12-19 18:49:27 - [TEST_STEP][PASSED] - openBrowser(fastQuoteUrl): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=	60002&census[effective]=2019/1/10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=02/10/1980'
 
-2018-12-13 15:41:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2018-12-19 18:49:28 - [MESSAGE][INFO] - Starting 'Android' driver
 
-2018-12-13 15:41:32 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+2018-12-19 18:49:33 - [MESSAGE][INFO] - Appium server started on port 57,554
 
-2018-12-13 15:41:32 - [TEST_STEP][PASSED] - baseUrl = "https://praetemptatus.agilehealthinsurance.com/": null
+2018-12-19 18:50:06 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=	60002&census[effective]=2019/1/10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=02/10/1980'
 
-2018-12-13 15:41:32 - [TEST_STEP][PASSED] - fastQuoteUrl = "https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=" + zipcode + "&census[effective]=" + effectiveDate + "&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=" + dob: null
+2018-12-19 18:50:06 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
 
-2018-12-13 15:41:32 - [TEST_STEP][PASSED] - println(fastQuoteUrl): null
+2018-12-19 18:50:06 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl): null
 
-2018-12-13 15:41:32 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl): null
+2018-12-19 18:50:06 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
 
-2018-12-13 15:41:32 - [TEST_STEP][PASSED] - takeScreenshot("~/workplace/test/screenshort/capture.png"): Taking screenshot successfully
-
-2018-12-13 15:41:33 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|~/workplace/test/screenshort/capture.png]]
-
-2018-12-13 15:41:33 - [TEST_STEP][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended"): selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+2018-12-19 18:50:10 - [TEST_STEP][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended"): selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -108,7 +110,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -121,10 +123,10 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)
 
 
-2018-12-13 15:41:33 - [MESSAGE][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+2018-12-19 18:50:12 - [MESSAGE][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -136,7 +138,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -149,8 +151,8 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)]]></system-out>
-         <system-err><![CDATA[2018-12-13 15:41:28 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield - Copy: Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-19 18:49:26 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield: Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -162,7 +164,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -175,13 +177,13 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)]]></system-err>
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)]]></system-err>
       </testcase>
-      <testcase name="Test Cases/Regression/Level 1/LifeShield - Copy" classname="Test Cases/Regression/Level 1/LifeShield - Copy" status="ERROR">
-         <error type="ERROR" message="Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+      <testcase name="Test Cases/Regression/Level 1/LifeShield" classname="Test Cases/Regression/Level 1/LifeShield" status="ERROR">
+         <error type="ERROR" message="Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
-com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
-	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+java.lang.ClassCastException: java.util.HashMap cannot be cast to org.openqa.selenium.WebElement
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:74)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
 	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
@@ -190,7 +192,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -203,12 +205,12 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)
 "/>
-         <system-out><![CDATA[2018-12-13 15:41:35 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield - Copy: Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+         <system-out><![CDATA[2018-12-19 18:50:14 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield: Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
-com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
-	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+java.lang.ClassCastException: java.util.HashMap cannot be cast to org.openqa.selenium.WebElement
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:74)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
 	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
@@ -217,7 +219,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -230,36 +232,33 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)
 
 
-2018-12-13 15:41:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2018-12-19 18:50:14 - [TEST_STEP][PASSED] - fastQuoteUrl = ENV + "/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=" + zipcode + "&census[effective]=" + effectiveDate + "&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=" + dob: null
 
-2018-12-13 15:41:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+2018-12-19 18:50:14 - [TEST_STEP][PASSED] - println(fastQuoteUrl): null
 
-2018-12-13 15:41:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2018-12-19 18:50:14 - [TEST_STEP][PASSED] - openBrowser(fastQuoteUrl): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=	30301&census[effective]=2019/1/10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=02/10/1980'
 
-2018-12-13 15:41:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2018-12-19 18:50:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
 
-2018-12-13 15:41:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+2018-12-19 18:50:18 - [MESSAGE][INFO] - Starting 'Android' driver
 
-2018-12-13 15:41:36 - [TEST_STEP][PASSED] - baseUrl = "https://praetemptatus.agilehealthinsurance.com/": null
+2018-12-19 18:50:21 - [MESSAGE][INFO] - Appium server started on port 57,796
 
-2018-12-13 15:41:37 - [TEST_STEP][PASSED] - fastQuoteUrl = "https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=" + zipcode + "&census[effective]=" + effectiveDate + "&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=" + dob: null
+2018-12-19 18:50:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=	30301&census[effective]=2019/1/10&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=02/10/1980'
 
-2018-12-13 15:41:37 - [TEST_STEP][PASSED] - println(fastQuoteUrl): null
+2018-12-19 18:50:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
 
-2018-12-13 15:41:37 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl): null
+2018-12-19 18:50:45 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, fastQuoteUrl): null
 
-2018-12-13 15:41:37 - [TEST_STEP][PASSED] - takeScreenshot("~/workplace/test/screenshort/capture.png"): Taking screenshot successfully
+2018-12-19 18:50:45 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
 
-2018-12-13 15:41:37 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|~/workplace/test/screenshort/capture.png]]
-
-2018-12-13 15:41:37 - [TEST_STEP][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended"): selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+2018-12-19 18:50:49 - [TEST_STEP][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended"): selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
 Reason:
-com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
-	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+java.lang.ClassCastException: java.util.HashMap cannot be cast to org.openqa.selenium.WebElement
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:74)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
 	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
@@ -268,7 +267,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -281,13 +280,13 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)
 
 
-2018-12-13 15:41:37 - [MESSAGE][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+2018-12-19 18:50:52 - [MESSAGE][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
 Reason:
-com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
-	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+java.lang.ClassCastException: java.util.HashMap cannot be cast to org.openqa.selenium.WebElement
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:74)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
 	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
@@ -296,7 +295,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -309,11 +308,11 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)]]></system-out>
-         <system-err><![CDATA[2018-12-13 15:41:35 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield - Copy: Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-19 18:50:14 - [TEST_CASE][ERROR] - Test Cases/Regression/Level 1/LifeShield: Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
-com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
-	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+java.lang.ClassCastException: java.util.HashMap cannot be cast to org.openqa.selenium.WebElement
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:74)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
 	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
 	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
@@ -322,7 +321,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -335,9 +334,9 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)]]></system-err>
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)]]></system-err>
       </testcase>
-      <system-out><![CDATA[2018-12-13 15:41:28 - [TEST_SUITE][ERROR] - Level 1: Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+      <system-out><![CDATA[2018-12-19 18:49:26 - [TEST_SUITE][ERROR] - Level 1: Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -349,7 +348,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -362,8 +361,8 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)]]></system-out>
-      <system-err><![CDATA[2018-12-13 15:41:28 - [TEST_SUITE][ERROR] - Level 1: Test Cases/Regression/Level 1/LifeShield - Copy FAILED.
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-19 18:49:26 - [TEST_SUITE][ERROR] - Level 1: Test Cases/Regression/Level 1/LifeShield FAILED.
 Reason:
 com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
 	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
@@ -375,7 +374,7 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
 	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
 	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
-	at LifeShield - Copy.run(LifeShield - Copy:46)
+	at LifeShield.run(LifeShield:46)
 	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
 	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
 	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
@@ -388,6 +387,6 @@ com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/
 	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
 	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
 	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
-	at TempTestSuite1544686886548.run(TempTestSuite1544686886548.groovy:36)]]></system-err>
+	at TempTestSuite1545216563532.run(TempTestSuite1545216563532.groovy:36)]]></system-err>
    </testsuite>
 </testsuites>

@@ -35,7 +35,7 @@ zipcode + '&census[effective]='+effectiveDate+'&census[member][0][role]=P&census
 
 println(fastQuoteUrl)
 
-WebUI.openBrowser(fastQuoteUrl)
+mobile.openBrowser(fastQuoteUrl)
 
 def driver = DriverFactory.getWebDriver()
 
@@ -92,7 +92,7 @@ FailureHandling.CONTINUE_ON_FAILURE
 
 'Take screenshot after logging in'
 
-WebUI.takeScreenshot()
+mobile.takeScreenshot()
 
 
 

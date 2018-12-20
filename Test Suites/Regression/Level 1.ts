@@ -4,11 +4,11 @@
    <name>Level 1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-13T15:41:16</lastRun>
+   <lastRun>2018-12-19T18:49:13</lastRun>
    <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <pageLoadTimeout>60</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
    <testSuiteGuid>3724ef24-0d33-4994-b5a1-93157467c1e7</testSuiteGuid>
    <testCaseLink>
@@ -24,7 +24,7 @@
       <testCaseId>Test Cases/Regression/Level 1/LifeShield</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>120e0c3b-6d67-410a-a209-df5beabf31fb</id>
+         <id>f88ebb9b-865a-4f75-ae66-9f46f4735659</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -32,22 +32,67 @@
          <testDataId>Data Files/Level 1/Lifeshield</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>120e0c3b-6d67-410a-a209-df5beabf31fb</testDataLinkId>
+         <testDataLinkId>f88ebb9b-865a-4f75-ae66-9f46f4735659</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>﻿zipcode</value>
+         <value>zipcode</value>
          <variableId>05673849-07a0-4ae5-8079-7ccc8e37c53b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>120e0c3b-6d67-410a-a209-df5beabf31fb</testDataLinkId>
+         <testDataLinkId>f88ebb9b-865a-4f75-ae66-9f46f4735659</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>effectiveDate</value>
          <variableId>51962a78-58b1-42d5-8657-f00b08fce272</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>120e0c3b-6d67-410a-a209-df5beabf31fb</testDataLinkId>
+         <testDataLinkId>f88ebb9b-865a-4f75-ae66-9f46f4735659</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>dob</value>
          <variableId>3e6e20b3-bf4d-4137-b457-f3b34df976f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>GlobalVariable.ENV</value>
+         <variableId>863a0281-44b2-41b5-b36e-aec631517b79</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c8a9de87-7805-4b38-b53b-91eb669de576</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Regression/Level 1/Mobile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f30be8e5-b55a-44c0-929d-a6537c9c74d9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Level 1/Lifeshield</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>05673849-07a0-4ae5-8079-7ccc8e37c53b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>51962a78-58b1-42d5-8657-f00b08fce272</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3e6e20b3-bf4d-4137-b457-f3b34df976f6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>863a0281-44b2-41b5-b36e-aec631517b79</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
