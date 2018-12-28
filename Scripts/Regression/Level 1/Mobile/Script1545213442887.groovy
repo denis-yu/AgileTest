@@ -28,12 +28,13 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-
-
-String fastQuoteUrl = (ENV+'/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=' +
-zipcode + '&census[effective]='+effectiveDate+'&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]='+dob)
+String fastQuoteUrl = (((((ENV + '/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=') + 
+zipcode) + '&census[effective]=') + effectiveDate) + '&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=') + 
+dob
 
 println(fastQuoteUrl)
+
+Mobile.startApplication('~/Downloads/com.android.chrome_71.0.3578.99-357809900.apk', true)
 
 mobile.openBrowser(fastQuoteUrl)
 
@@ -68,6 +69,7 @@ selenium.click('id=js-app-continue-link')
 Thread.sleep(4000)
 
 selenium.click('id=js-app-continue-link')
+
 Thread.sleep(4000)
 
 selenium.type('id=credit-card-cvv', '102')
@@ -83,16 +85,27 @@ selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Ter
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'*\'])[2]/following::p[1]')
 
 selenium.click('id=js-app-continue-link')
+
 Thread.sleep(6000)
+
 Thread.sleep(3000)
-
-
 
 FailureHandling.CONTINUE_ON_FAILURE
 
 'Take screenshot after logging in'
-
 mobile.takeScreenshot()
 
+Mobile.startApplication('/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk', true)
 
+Mobile.tap(findTestObject('Regression/STM/GeneralCensusPage/android.view.View24 - Quote  Save Today'), 0)
+
+Mobile.setText(findTestObject('Regression/STM/GeneralCensusPage/android.widget.EditText0 - 32099'), '60602', 0)
+
+Mobile.setText(findTestObject('Regression/STM/GeneralCensusPage/android.widget.EditText1 - 01011987'), '01/01/1985', 0)
+
+Mobile.tap(findTestObject('Regression/STM/GeneralCensusPage/android.widget.RadioButton0 - Male'), 0)
+
+Mobile.tapAndHold(findTestObject('Regression/STM/GeneralCensusPage/android.view.View62 - Compare Plans'), 0, 0)
+
+Mobile.closeApplication()
 

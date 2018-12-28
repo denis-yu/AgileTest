@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Level 1,,,2018-12-20 21:58:31,2018-12-20 22:00:04,1m - 32.241s,FAILED
+,,,,,,
+Test Cases/Regression/Level 1/LifeShield,,,2018-12-20 21:58:32,2018-12-20 21:59:32,59.721s,FAILED
+"fastQuoteUrl = ENV + ""/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]="" + zipcode + ""&census[effective]="" + effectiveDate + ""&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]="" + dob",,,2018-12-20 21:58:33,2018-12-20 21:58:33,0.014s,PASSED
+println(fastQuoteUrl),,,2018-12-20 21:58:33,2018-12-20 21:58:33,0.004s,PASSED
+openBrowser(fastQuoteUrl),,,2018-12-20 21:58:33,2018-12-20 21:59:30,56.743s,FAILED
+,,,,,,
+Test Cases/Regression/Level 1/LifeShield,,,2018-12-20 21:59:32,2018-12-20 22:00:04,31.857s,FAILED
+"fastQuoteUrl = ENV + ""/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]="" + zipcode + ""&census[effective]="" + effectiveDate + ""&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]="" + dob",,,2018-12-20 21:59:32,2018-12-20 21:59:32,0.002s,PASSED
+println(fastQuoteUrl),,,2018-12-20 21:59:32,2018-12-20 21:59:32,0.001s,PASSED
+openBrowser(fastQuoteUrl),,,2018-12-20 21:59:32,2018-12-20 22:00:01,29.755s,FAILED

@@ -28,10 +28,9 @@ import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-
-
-String fastQuoteUrl = (ENV+'/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=' +
-zipcode + '&census[effective]='+effectiveDate+'&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]='+dob)
+String fastQuoteUrl = (((((ENV + '/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=') + 
+zipcode) + '&census[effective]=') + effectiveDate) + '&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=') + 
+dob
 
 println(fastQuoteUrl)
 
@@ -41,10 +40,14 @@ def driver = DriverFactory.getWebDriver()
 
 selenium = new WebDriverBackedSelenium(driver, fastQuoteUrl)
 
-Thread.sleep(4000)
+Thread.sleep(6000)
+Thread.sleep(6000)
+//WebUI.click(findTestObject('Regression/STM/STMQuotePage/div_LifeShield Flex 5K209K750K'))
 
+//WebUI.click(findTestObject('STMQuotePage/a_LifeShield Flex 5K209K750K'))
+
+//selenium.click("//a[contains(text(),'LifeShield Flex 5K/20/9K/750K Extended')]")
 selenium.click('link=LifeShield Flex 5K/20/9K/750K Extended')
-
 selenium.click('id=plan-details-primary-apply')
 
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Coverage Option\'])[1]/following::span[1]')
@@ -68,6 +71,7 @@ selenium.click('id=js-app-continue-link')
 Thread.sleep(4000)
 
 selenium.click('id=js-app-continue-link')
+
 Thread.sleep(4000)
 
 selenium.type('id=credit-card-cvv', '102')
@@ -83,16 +87,46 @@ selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'Ter
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'*\'])[2]/following::p[1]')
 
 selenium.click('id=js-app-continue-link')
+
 Thread.sleep(6000)
+
 Thread.sleep(3000)
 
+WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
 
-FailureHandling.CONTINUE_ON_FAILURE
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Find Health Insurance for 2018/a_Quote  Save Today'))
 
-'Take screenshot after logging in'
+WebUI.setText(findTestObject('Object Repository/Regression/STM/Page_2018 Health Insurance Get a Sh/input_Location_zip-input'), 
+    '60602')
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_2018 Health Insurance Get a Sh/label_Male'))
 
+WebUI.setText(findTestObject('Object Repository/Regression/STM/Page_2018 Health Insurance Get a Sh/input_Date of Birth_dob-0'), 
+    '03/03/1987')
 
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_2018 Health Insurance Get a Sh/label_Compare Plans'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/button_filters'))
+
+WebUI.click(findTestObject('Regression/STM/STMQuotePage/a_Show Plans'))
+
+WebUI.click(findTestObject('Regression/STM/STMQuotePage/ul_1 applicant6 monthsfilters'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/div_1 applicant6 monthsfilters'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/td_101.36  feesper monthno app'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/li_5000 Deductible'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/a_LifeShield Flex 5K209K750K'))
+
+WebUI.click(findTestObject('Regression/STM/STMQuotePage/div_LifeShield Flex 5K209K750K'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/div_featuredEverest Prime 5K05_1'))
+
+WebUI.click(findTestObject('Object Repository/Regression/STM/Page_Short Term Health Insurance Qu/li_0 Coinsurance'))
+
+WebUI.click(findTestObject('Regression/STM/STMQuotePage/div_LifeShield Flex 5K209K750K'))
 

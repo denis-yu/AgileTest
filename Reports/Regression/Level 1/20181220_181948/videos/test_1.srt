@@ -1,0 +1,12 @@
+1
+00:00:00,245 --> 00:00:00,259
+1. fastQuoteUrl = ENV + "/term-health-insurance/quote?partners=1&redirect=1&utm_source=mediaalpha&utm_medium=ppc&utm_campaign=stm_quote&census[location][zip]=" + zipcode + "&census[effective]=" + effectiveDate + "&census[member][0][role]=P&census[member][0][gender]=F&census[member][0][dob]=" + dob
+
+2
+00:00:00,266 --> 00:00:00,268
+5. println(fastQuoteUrl)
+
+3
+00:00:00,281 --> 00:00:00,282
+9. openBrowser(fastQuoteUrl)
+
