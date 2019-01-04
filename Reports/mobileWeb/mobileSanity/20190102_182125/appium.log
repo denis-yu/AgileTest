@@ -1,0 +1,1539 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 61140
+[Appium]   chromeDriverPort: 61141
+[Appium]   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1546424512398
+[Appium]   webkitDebugProxyPort: 61138
+[Appium] Appium REST http interface listener started on 0.0.0.0:61140
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 28 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone 5s","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":61137},"capabilities":{"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone 5s","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":61137},"firstMatch":[{"browserName":"Safari","platformName":"ios"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone 5s","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":61137},null,{"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone 5s","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":61137},"firstMatch":[{"browserName":"Safari","platformName":"ios"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1546424518826 (18:21:58 GMT+0800 (China Standard Time))
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["automationName","browserName","deviceId","deviceName","newCommandTimeout","platform","platformName","platformVersion","realDeviceLogger","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.105.0) session
+[Appium] Capabilities:
+[Appium]   automationName: XCUITest
+[Appium]   browserName: Safari
+[Appium]   deviceId: 
+[Appium]   deviceName: iPhone 5s
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: IOS
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 12.1
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   wdaLocalPort: 61137
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"automationName":"XCUITest...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 7eef472f-ecfd-4180-8ae9-6172c816014e
+[debug] [XCUITest] Current user: 'denisyu'
+[iOSSim] Constructing iOS simulator for Xcode version 10.1 with udid 'E46E78E4-D43D-4A83-994D-806BCC948BC1'
+[XCUITest] Determining device to run tests on: udid: 'E46E78E4-D43D-4A83-994D-806BCC948BC1', real device: false
+[debug] [XCUITest] Xcode version set to '10.1' (tools v10.1.0.0.1.1539992718)
+[debug] [XCUITest] iOS SDK Version set to '12.1'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1546424519972 (18:21:59 GMT+0800 (China Standard Time))
+[XCUITest] Safari test requested
+[debug] [BaseDriver] Event 'appConfigured' logged at 1546424519973 (18:21:59 GMT+0800 (China Standard Time))
+[debug] [BaseDriver] Event 'resetStarted' logged at 1546424519973 (18:21:59 GMT+0800 (China Standard Time))
+[debug] [iOSSim] Cleaning mobile safari data files
+[debug] [iOSSim] Checking whether simulator has been run before: yes
+[debug] [iOSSim] Checking whether simulator has been run before: yes
+[debug] [iOSSim] Building bundle path map
+[debug] [BaseDriver] Event 'resetComplete' logged at 1546424520888 (18:22:00 GMT+0800 (China Standard Time))
+[XCUITest] Continuing without capturing device logs: iOS Simulator with udid E46E78E4-D43D-4A83-994D-806BCC948BC1 is not running
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] Setting preferences of E46E78E4-D43D-4A83-994D-806BCC948BC1 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Updated E46E78E4-D43D-4A83-994D-806BCC948BC1 Simulator preferences at '/Users/denisyu/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"E46E78E4-D43D-4A83-994D-806BCC948BC1":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+[iOSSim] Booting Simulator with UDID E46E78E4-D43D-4A83-994D-806BCC948BC1...
+[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID E46E78E4-D43D-4A83-994D-806BCC948BC1 -ConnectHardwareKeyboard 0
+[iOSSim] Simulator with UDID E46E78E4-D43D-4A83-994D-806BCC948BC1 booted in 19 seconds
+[debug] [BaseDriver] Event 'simStarted' logged at 1546424540700 (18:22:20 GMT+0800 (China Standard Time))
+[debug] [XCUITest] Starting log capture for iOS Simulator with udid 'E46E78E4-D43D-4A83-994D-806BCC948BC1', using 'xcrun simctl spawn E46E78E4-D43D-4A83-994D-806BCC948BC1 log stream --style compact'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1546424542737 (18:22:22 GMT+0800 (China Standard Time))
+[XCUITest] Using WDA path: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 61137 have been found
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [XCUITest] WDA is not listening at 'http://localhost:61137/'
+[debug] [XCUITest] WDA is currently not running. There is nothing to cache
+[debug] [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1546424542899 (18:22:22 GMT+0800 (China Standard Time))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/carthage/0.18.1/etc/bash_completion.d/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*E46E78E4-D43D-4A83-994D-806BCC948BC1, iproxy 61137, E46E78E4-D43D-4A83-994D-806BCC948BC1.*XCTRunner' for the device E46E78E4-D43D-4A83-994D-806BCC948BC1...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*E46E78E4-D43D-4A83-994D-806BCC948BC1' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 61137' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif E46E78E4-D43D-4A83-994D-806BCC948BC1.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=E46E78E4-D43D-4A83-994D-806BCC948BC1 IPHONEOS_DEPLOYMENT_TARGET=12.1' in directory '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [XCUITest] Log file for xcodebuild test: /Users/denisyu/Library/Developer/Xcode/DerivedData/WebDriverAgent-frwdvusaembonugqvhheibnhkgnp/Logs/Test/Test-WebDriverAgentRunner-2019.01.02_18-22-26-+0800.xcresult/2_Test/Diagnostics/WebDriverAgentRunner-56CF3A4E-0491-4E62-8E9B-8EF5EC9D2294/WebDriverAgentRunner-881933A3-E782-4278-891E-5C374F330326/Session-WebDriverAgentRunner-2019-01-02_182228-MTycEb.log
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":61137}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:61137/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"12.1\",\n      \"sdkVersion\" : \"12.0\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"12.1\",\n      \"ip\" : \"172.16.86.34\"\n    },\n    \"build\" : {\n      \"upgradedAt\" : \"1546396871985\",\n      \"time\" : \"Jan  2 2019 10:53:00\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"EDFAE1DA-01C7-406E-969C-D4E298963343\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] WebDriverAgent information:
+[debug] [XCUITest] {
+[debug] [XCUITest]   "state": "success",
+[debug] [XCUITest]   "os": {
+[debug] [XCUITest]     "name": "iOS",
+[debug] [XCUITest]     "version": "12.1",
+[debug] [XCUITest]     "sdkVersion": "12.0"
+[debug] [XCUITest]   },
+[debug] [XCUITest]   "ios": {
+[debug] [XCUITest]     "simulatorVersion": "12.1",
+[debug] [XCUITest]     "ip": "172.16.86.34"
+[debug] [XCUITest]   },
+[debug] [XCUITest]   "build": {
+[debug] [XCUITest]     "upgradedAt": "1546396871985",
+[debug] [XCUITest]     "time": "Jan  2 2019 10:53:00",
+[debug] [XCUITest]     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+[debug] [XCUITest]   }
+[debug] [XCUITest] }
+[debug] [XCUITest] WebDriverAgent successfully started after 17051ms
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1546424560093 (18:22:40 GMT+0800 (China Standard Time))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:61137/session] with body: {"desiredCapabilities":{"bundleId":"com.apple.mobilesafari","arguments":["-u","http://0.0.0.0:61140/welcome"],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[HTTP] --> GET /welcome
+[HTTP] {}
+[debug] [HTTP] Sending welcome response with params: {"message":"Let's browse!"}
+[HTTP] <-- GET /welcome 200 16 ms - 124
+[HTTP] 
+[HTTP] <-- GET /favicon.ico 200 2 ms - 1150
+[HTTP] 
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"FD541A77-736C-43CC-9E2C-A05E3DBDAB9E","capabilities":{"device":"iphone","browserName":"Safari","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari"}},"sessionId":"FD541A77-736C-43CC-9E2C-A05E3DBDAB9E","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1546424567874 (18:22:47 GMT+0800 (China Standard Time))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1546424567875 (18:22:47 GMT+0800 (China Standard Time))
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [BaseDriver] Event 'orientationSet' logged at 1546424567875 (18:22:47 GMT+0800 (China Standard Time))
+[debug] [XCUITest] Waiting for initial webview
+[debug] [iOS] Navigating to most recently opened webview
+[debug] [iOS] Retrieving contexts and views
+[debug] [iOS] Selecting by url: true (expected url: 'http://0.0.0.0:61140/welcome')
+[debug] [RemoteDebugger] useNewSafari --> false
+[debug] [RemoteDebugger] Connecting to remote debugger through unix domain socket: '/private/tmp/com.apple.launchd.wxTLjB577R/com.apple.webinspectord_sim.socket'
+[debug] [RemoteDebugger] Debugger socket connected
+[debug] [RemoteDebugger] Sending connection key request
+[debug] [RemoteDebugger] Sending '_rpc_reportIdentifier:' message to remote debugger
+[debug] [RemoteDebugger] Received no apps from remote debugger. Unable to connect.
+[debug] [RemoteDebugger] Notified of connected drivers: {}.
+[debug] [RemoteDebugger] Connected to application
+[debug] [RemoteDebugger] Selecting application
+[debug] [RemoteDebugger] No applications currently connected.
+[debug] [iOS] No web frames found.
+[debug] [iOS] Retrieving contexts and views
+[debug] [iOS] Selecting by url: true (expected url: 'http://0.0.0.0:61140/welcome')
+[debug] [RemoteDebugger] useNewSafari --> false
+[debug] [RemoteDebugger] Connecting to remote debugger through unix domain socket: '/private/tmp/com.apple.launchd.wxTLjB577R/com.apple.webinspectord_sim.socket'
+[debug] [RemoteDebugger] Notified that new application 'PID:77865' has connected
+[debug] [RemoteDebugger] Found app id key 'PID:77865' for bundle 'com.apple.mobilesafari'
+[debug] [RemoteDebugger] Notified that new application 'PID:77867' has connected
+[debug] [RemoteDebugger] Debugger socket connected
+[debug] [RemoteDebugger] Sending connection key request
+[debug] [RemoteDebugger] Sending '_rpc_reportIdentifier:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"77865","pageArray":[]}
+[debug] [iOS] No key id found. Choosing first id from page array
+[debug] [iOS] We do not appear to have window set yet, ignoring
+[debug] [RemoteDebugger] Notified that application 'PID:77865' has been updated.
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77867' but listening for 'PID:77865'. Ignoring.
+[debug] [RemoteDebugger] Notified that application 'PID:77867' has been updated.
+[debug] [RemoteDebugger] Connected to application
+[debug] [RemoteDebugger] Selecting application
+[debug] [RemoteDebugger] Current applications available:
+[debug] [RemoteDebugger]     Application: 'PID:77865'
+[debug] [RemoteDebugger]         id: "PID:77865"
+[debug] [RemoteDebugger]         isProxy: false
+[debug] [RemoteDebugger]         name: "Safari"
+[debug] [RemoteDebugger]         bundleId: "com.apple.mobilesafari"
+[debug] [RemoteDebugger]         hostId: undefined
+[debug] [RemoteDebugger]         isActive: 2
+[debug] [RemoteDebugger]         isAutomationEnabled: false
+[debug] [RemoteDebugger]     Application: 'PID:77867'
+[debug] [RemoteDebugger]         id: "PID:77867"
+[debug] [RemoteDebugger]         isProxy: true
+[debug] [RemoteDebugger]         name: "com.apple.WebKit.WebContent"
+[debug] [RemoteDebugger]         bundleId: "com.apple.WebKit.WebContent"
+[debug] [RemoteDebugger]         hostId: "PID:77865"
+[debug] [RemoteDebugger]         isActive: 1
+[debug] [RemoteDebugger]         isAutomationEnabled: false
+[debug] [RemoteDebugger] Found app id key 'PID:77865' for bundle 'com.apple.mobilesafari'
+[debug] [RemoteDebugger] Found separate bundleId 'com.apple.WebKit.WebContent' acting as proxy for 'com.apple.mobilesafari', with app id 'PID:77867'
+[debug] [RemoteDebugger] Trying out the possible app ids: PID:77867
+[debug] [RemoteDebugger] Selecting app PID:77867 (try #1 of 20)
+[debug] [RemoteDebugger] Sending '_rpc_forwardGetListing:' message to remote debugger
+[debug] [RemoteDebugger] Notified of connected drivers: {}.
+[debug] [RemoteDebugger] Received response from socket send: '["PID:77867",{"1":{"WIRTitleKey":"Appium/welcom...'
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77867' but listening for 'null'. Ignoring.
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77867' but listening for 'PID:77865'. Ignoring.
+[debug] [RemoteDebugger] Received altered app id, updating from 'null' to 'PID:77867'
+[debug] [RemoteDebugger] Finally selecting app PID:77867: [{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:61140/welcome","isKey":false}]
+[debug] [iOS] Picking webview 'WEBVIEW_77867.1'
+[debug] [iOS] Attempting to set context to 'WEBVIEW_77867.1'
+[debug] [RemoteDebugger] Selecting page '1' on app 'PID:77867' and forwarding socket setup
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketSetup:' message to remote debugger
+[debug] [RemoteDebugger] Sender key set
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: enablePage
+[debug] [RemoteDebugger] Enabled activity on page
+[debug] [RemoteDebugger] Checking document readyState
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77867' but listening for 'PID:77865'. Ignoring.
+[debug] [RemoteDebugger] Notified that application 'PID:77867' has been updated.
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://0.0.0.0:61140/welcome","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5def4ee6-e1b7-4da1-a519-b73ba607eb78"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"77867","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:61140/welcome","isKey":true}]}
+[debug] [iOS] We do not appear to have window set yet, ignoring
+[debug] [RemoteDebugger] Notified that application 'PID:77867' has been updated.
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://0.0.0.0:61140/welcome","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5def4ee6-e1b7-4da1-a519-b73ba607eb78"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"77867","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:61140/welcome","isKey":true}]}
+[debug] [iOS] We do not appear to have window set yet, ignoring
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77867' but listening for 'PID:77865'. Ignoring.
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: 'complete'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] readyState was "complete"
+[debug] [RemoteDebugger] Starting to listen for JavaScript console
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: startConsole
+[debug] [RemoteDebugger] Starting to listen for network events
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: startNetwork
+[debug] [RemoteDebugger] Unregistering from page readiness notifications
+[debug] [BaseDriver] Event 'initialWebviewNavigated' logged at 1546424606398 (18:23:26 GMT+0800 (China Standard Time))
+[Appium] New XCUITestDriver session created successfully, session 7eef472f-ecfd-4180-8ae9-6172c816014e added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1546424606403 (18:23:26 GMT+0800 (China Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"Safari","platform":"IOS","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"automationName":"XCUITest","deviceId":"","deviceName":"iPhone 5s","newCommandTimeout":1800,"platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":61137,"udid":"E46E78E4-D43D-4A83-994D-806BCC948BC1"}
+[HTTP] <-- POST /wd/hub/session 200 87578 ms - 609
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 48 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/timeouts 400 28 ms - 5641
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/timeouts
+[HTTP] {"type":"implicit","ms":0}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":0}
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/timeouts 400 3 ms - 5633
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/execute
+[HTTP] {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[debug] [W3C] Calling AppiumDriver.execute() with args: ["return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",[],"7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'execute'
+[debug] [RemoteDebugger] Executing 'execute_script' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var e=this;
+[debug] [RemoteDebugger] funct...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":"Safari 12"}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'execute_script' execution: "Safari 12"
+[debug] [MJSONWP] Responding to client with driver.execute() result: "Safari 12"
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/execute 200 1062 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/url
+[HTTP] {"url":"https://praetemptatus.agilehealthinsurance.com/"}
+[debug] [W3C] Calling AppiumDriver.setUrl() with args: ["https://praetemptatus.agilehealthinsurance.com/","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'setUrl'
+[debug] [iOS] Attempting to set url 'https://praetemptatus.agilehealthinsurance.com/'
+[debug] [RemoteDebugger] Navigating to new URL: https://praetemptatus.agilehealthinsurance.com/
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: setUrl
+[debug] [RemoteDebugger] Waiting for frame navigated message...
+[debug] [RemoteDebugger] Frame navigated in 0.503 sec from source: timeout
+[debug] [RemoteDebugger] Waiting for dom...
+[debug] [RemoteDebugger] Page loaded, verifying whether ready
+[debug] [RemoteDebugger] Checking document readyState
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: 'complete'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] readyState was "complete"
+[debug] [RemoteDebugger] Page is ready
+[debug] [MJSONWP] Responding to client with driver.setUrl() result: null
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/url 200 3556 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77865' but listening for 'PID:77867'. Ignoring.
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://0.0.0.0:61140/welcome","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5def4ee6-e1b7-4da1-a519-b73ba607eb78"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"77867","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:61140/welcome","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/' to 'http://0.0.0.0:61140/welcome'
+[debug] [RemoteDebugger] Page changed: {}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"77865","pageArray":[]}
+[debug] [iOS] No key id found. Choosing first id from page array
+[debug] [iOS] Page change not referring to currently selected app, ignoring.
+[debug] [RemoteDebugger] Received page change notice for app 'PID:77867' but listening for 'PID:77865'. Ignoring.
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1776 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 796 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1942 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1580 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1054 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 2737 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1734 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1652 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1240 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1298 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1337 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1344 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1986 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1398 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1588 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 836 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1233 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 996 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1050 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1291 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 393 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 444 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 897 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1033 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1146 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1387 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1447 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1043 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 789 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1187 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 2511 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 537 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 736 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 642 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1831 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1302 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 739 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 746 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1097 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1289 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 387 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 701 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 784 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 998 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 599 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 296 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 834 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 999 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 438 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 1444 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 745 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/elements 200 794 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/screenshot
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getScreenshot() with args: ["7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [XCUITest] Executing command 'getScreenshot'
+[debug] [XCUITest] Taking screenshot with WDA
+[debug] [JSONWP Proxy] Matched '/screenshot' to command name 'getScreenshot'
+[debug] [JSONWP Proxy] Proxying [GET /screenshot] to [GET http://localhost:61137/session/FD541A77-736C-43CC-9E2C-A05E3DBDAB9E/screenshot] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : \"iVBORw0KGgoAAAANSUhEUgAAAoAAAARwCAIAAAD17XJXAAAAAXNSR0IArs4c6QAA\\r\\nABxpRE9UAAAAAgAAAAAAAAI4AAAAKAAAAjgAAAI4AACvMdT\\/eCgAAEAASURBVHgB\\r\\n7N0HmF5F1QfwFJqIBVGRomJH7A0\\/O9J7kyotdCIgSJeiSBEQpKUQEppSFBEQRaSI\\r\\nSO9FahotlBAIPb2w3+++\\/+S6T7Lvsu+yIOjc5z6TuWdOnzNzZubed9NrarmKB4oH\\r\\nigeKB4oH3gQeePGVyS\\/NnDxxxsQp0yZOnTZhxtTqnjll4ozqnjxtytT69uieMm1q\\r\\nS3eoaiYqgcycQsqEaVMnEEo0BahBmdfbJb1ebwGFf\\/FA8UDxQPFA8UBXPPDyjKkT\\r\\np0+dNF3mmzxtavJulXrdkuXUqdMbdyMNT62AXeHZHqfig3PFyjV92hS3HOyeJYtQ\\r\\noilADcq83ldJwK+3hwv\\/4oHigeKB4oGueWDKzKlTZjby4vRGXqyyo8cq706ZOWVq\\r\\nbo9TqzwqB0+e3tIdKuRTpk6fzS0Sk4ZniaskNjTpmtLdxyoJuPu+K5TFA8UDxQPF\\r\\nAz3ogRmTX2ncM2dMdmeHmtT7yqSpjXvazEnTpjt2tk91w5nZyMFdLKc62Z5aHVxj\\r\\nMgmrBs8pU1\\/5d9avuEX6zJmTXulB0zpkVRJwh24pwOKB4oHigeKBN9oDMydJezOT\\r\\nTbPxtU+VKSdOe6Vxq8ycOF3udExdvSfOAXLXyynTJyBEjknFajZnIgjKoXSV1Btq\\r\\ntE0EeX2vkoBfX\\/8W7sUDxQPFA8UDXfSA1Ftl38bHVkiqD6ymVlvV2cmyyr55SVzl\\r\\n0ekTusi2RkPSIKxe8bbLwVWOrw6lq4119YK5Ov1uaFITvk6VkoBfJ8cWtsUDxQPF\\r\\nA8UDr...
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAoAAAARwCAIAAAD17XJXAAAAAXNSR0IArs4c6QAA\r\nABxpRE9UAAAAAgAAAAAAAAI4AAAAKAAAAjgAAAI4AACvMdT/eCgAAEAASURBVHgB\r\n7N0HmF5F1QfwFJqIBVGRomJH7A0/O9J7kyotdCIgSJeiSBEQpKUQEppSFBEQRaSI\r\nSO9FahotlBAIPb2w3+++/+S6T7Lvsu+yIOjc5z6TuWdOnzNzZubed9NrarmKB4oH\r\nigeKB4oH3gQeePGVyS/NnDxxxsQp0yZOnTZhxtTqnjll4ozqnjxtytT69uieMm1q\r\nS3eoaiYqgcycQsqEaVMnEEo0BahBmdfbJb1ebwGFf/FA8UDxQPFA8UBXPPDyjKkT\r\np0+dNF3mmzxtavJulXrdkuXUqdMbdyMNT62AXeHZHqfig3PFyjV92hS3HOyeJYtQ\r\noilADcq83ldJwK+3hwv/4oHigeKB4oGueWDKzKlTZjby4vRGXqyyo8cq706ZOWVq\r\nbo9TqzwqB0+e3tIdKuRTpk6fzS0Sk4ZniaskNjTpmtLdxyoJuPu+K5TFA8UDxQPF\r\nAz3ogRmTX2ncM2dMdmeHmtT7yqSpjXvazEnTpjt2tk91w5nZyMFdLKc62Z5aHVxj\r\nMgmrBs8pU1/5d9avuEX6zJmTXulB0zpkVRJwh24pwOKB4oHigeKBN9oDMydJezOT\r\nTbPxtU+VKSdOe6Vxq8ycOF3udExdvSfOAXLXyynTJyBEjknFajZnIgjKoXSV1Btq\r\ntE0EeX2vkoBfX/8W7sUDxQPFA8UDXfSA1Ftl38bHVkiqD6ymVlvV2cmyyr55SVzl\r\n0ekTusi2RkPSIKxe8bbLwVWOrw6lq4119YK5Ov1uaFITvk6VkoBfJ8cWtsUDxQPF\r\nA8UDrXqgOli2tW13Nz51rl7Zzr6r7a/vpKoE3KhU30x1+Z6VgJPa2/OcMu3fcnNS\r\n...
+[HTTP] <-- GET /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e/screenshot 200 184 ms - 106322
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["7eef472f-ecfd-4180-8ae9-6172c816014e"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1546424697522 (18:24:57 GMT+0800 (China Standard Time))
+[Appium] Removing session 7eef472f-ecfd-4180-8ae9-6172c816014e from our master session list
+[debug] [JSONWP Proxy] Matched '/session/7eef472f-ecfd-4180-8ae9-6172c816014e' to command name 'deleteSession'
+[debug] [JSONWP Proxy] Proxying [DELETE /session/7eef472f-ecfd-4180-8ae9-6172c816014e] to [DELETE http://localhost:61137/session/FD541A77-736C-43CC-9E2C-A05E3DBDAB9E] with no body
+[debug] [RemoteDebugger] Application 'PID:77865' disconnected. Removing from app dictionary.
+[debug] [RemoteDebugger] Current app is PID:77867
+[debug] [RemoteDebugger] Application 'PID:77865' disconnected. Removing from app dictionary.
+[debug] [RemoteDebugger] Current app is PID:77865
+[debug] [RemoteDebugger] No longer have app id. Attempting to find new one.
+[debug] [RemoteDebugger] Application 'PID:77867' disconnected. Removing from app dictionary.
+[debug] [RemoteDebugger] Current app is PID:77867
+[debug] [RemoteDebugger] No longer have app id. Attempting to find new one.
+[debug] [RemoteDebugger] Application 'PID:77867' disconnected. Removing from app dictionary.
+[debug] [RemoteDebugger] Current app is undefined
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"9D9A463B-E90A-460A-8614-AB81841F3A2B\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [XCUITest] In a web session. Removing remote debugger
+[debug] [RemoteDebugger] Disconnecting from remote debugger
+[debug] [RemoteDebugger] Cleaning up listeners
+[debug] [iOSLog] Stopping iOS log capture
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1546424703615 (18:25:03 GMT+0800 (China Standard Time))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/7eef472f-ecfd-4180-8ae9-6172c816014e 200 6094 ms - 76
+[HTTP] 

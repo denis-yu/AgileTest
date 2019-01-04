@@ -1,0 +1,52 @@
+1
+00:00:00,579 --> 00:00:00,586
+1. openBrowser("")
+
+2
+00:00:25,081 --> 00:00:25,082
+5. navigateToUrl("https://praetemptatus.agilehealthinsurance.com/")
+
+3
+00:00:30,868 --> 00:00:30,869
+9. click(findTestObject("Object Repository/mobileSanity/STM/Page_Find Health Insurance for 2018/a_Quote  Save Today"))
+
+4
+00:00:36,719 --> 00:00:36,720
+13. setText(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Location_zip-input"), "60602")
+
+5
+00:00:42,447 --> 00:00:42,448
+17. setText(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Date of Birth_dob-0"), "03/03/1987")
+
+6
+00:00:43,751 --> 00:00:43,752
+21. click(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Male"))
+
+7
+00:00:44,467 --> 00:00:44,468
+25. click(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Compare Plans"))
+
+8
+00:00:45,043 --> 00:00:45,045
+29. Thread.sleep(2000)
+
+9
+00:00:47,052 --> 00:00:47,052
+33. Thread.sleep(2000)
+
+10
+00:00:49,059 --> 00:00:49,060
+37. scrollToElement(findTestObject("mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla"), 1000)
+
+11
+00:01:03,567 --> 00:01:03,569
+41. click(findTestObject("Object Repository/mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla"))
+
+12
+00:01:04,054 --> 00:01:04,055
+45. Thread.sleep(2000)
+
+13
+00:01:06,056 --> 00:01:06,057
+49. click(findTestObject("Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Apply for This Plan"))
+

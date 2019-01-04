@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_featuredEverest Prime 5K05</name>
+   <tag></tag>
+   <elementGuidId>3d9bdbf5-b77f-4def-8d85-4e9136cc3b17</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>js-quote-plans-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>featuredEverest Prime 5K/0/5K/750K$5,000 Deductible0% Coinsurance$5,000 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$101.36 + feesper monthno application fee$50 Annual Exam Available No Network Restrictions Unlimited Office Visits Physical Therapy Benefits SelectLifeShield Flex 5K/20/9K/750K$5,000 Deductible20% Coinsurance$9,000 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$42.79 + feesper monthBest Sellerno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/20/8K/750K$5,000 Deductible20% Coinsurance$8,000 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$43.97 + feesper monthBest Sellerno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/20/9K/1M$5,000 Deductible20% Coinsurance$9,000 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$44.32 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/20/7K/750K$5,000 Deductible20% Coinsurance$7,000 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$45.24 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/20/8K/1M$5,000 Deductible20% Coinsurance$8,000 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$45.54 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/20/7K/1M$5,000 Deductible20% Coinsurance$7,000 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$46.85 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/0/5K/750K$5,000 Deductible0% Coinsurance$5,000 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$52.57 + feesper monthBest Sellerno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 2.5K/20/6.5K/750K$2,500 Deductible20% Coinsurance$6,500 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$54.35 + feesper monthBest Sellerno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 5K/0/5K/1M$5,000 Deductible0% Coinsurance$5,000 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$54.44 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 2.5K/20/5.5K/750K$2,500 Deductible20% Coinsurance$5,500 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$55.79 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 2.5K/20/6.5K/1M$2,500 Deductible20% Coinsurance$6,500 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$56.30 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectStandard Life Select STM Plan 2 10K/30/250K$10,000 Deductible30% Coinsurance$16,000 Out of Pocket Max$250,000 Coverage Max6 Months Coverage Duration$57.30 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectLifeShield Flex 2.5K/20/4.5K/750K$2,500 Deductible20% Coinsurance$4,500 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$57.46 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 2.5K/20/5.5K/1M$2,500 Deductible20% Coinsurance$5,500 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$57.78 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectStandard Life Select STM Plan 2 10K/30/1M$10,000 Deductible30% Coinsurance$16,000 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$59.26 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectStandard Life Select STM Plan 2 10K/20/250K$10,000 Deductible20% Coinsurance$14,000 Out of Pocket Max$250,000 Coverage Max6 Months Coverage Duration$59.42 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectLifeShield Flex 2.5K/20/4.5K/1M$2,500 Deductible20% Coinsurance$4,500 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$59.51 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectStandard Life Select STM Plan 2 7.5K/30/250K$7,500 Deductible30% Coinsurance$13,500 Out of Pocket Max$250,000 Coverage Max6 Months Coverage Duration$60.95 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectStandard Life Select STM Plan 2 10K/20/1M$10,000 Deductible20% Coinsurance$14,000 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$61.48 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectStandard Life Select STM Plan 2 7.5K/30/1M$7,500 Deductible30% Coinsurance$13,500 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$63.08 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectStandard Life Select STM Plan 2 7.5K/20/250K$7,500 Deductible20% Coinsurance$11,500 Out of Pocket Max$250,000 Coverage Max6 Months Coverage Duration$63.33 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectStandard Life Select STM Plan 2 7.5K/20/1M$7,500 Deductible20% Coinsurance$11,500 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$65.58 + feesper monthno application feeUnlimited Office Visits Access to 900,000 providers Physical Therapy Benefits SelectLifeShield Flex 2.5K/0/2.5K/750K$2,500 Deductible0% Coinsurance$2,500 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$68.83 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 2.5K/0/2.5K/1M$2,500 Deductible0% Coinsurance$2,500 Out of Pocket Max$1,000,000 Coverage Max6 Months Coverage Duration$71.29 + feesper monthBest Sellerno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit SelectLifeShield Flex 1K/20/5K/750K$1,000 Deductible20% Coinsurance$5,000 Out of Pocket Max$750,000 Coverage Max6 Months Coverage Duration$72.70 + feesper monthno application feeA Wellness Visit Physical Therapy Benefit Mental Health Benefit Select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-quote-plans-container&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//div[@id='js-quote-plans-container']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//body[@id='agile-quote']/main/div/div[2]/div/div[2]/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Maximum Benefit'])[2]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monthly Premium'])[3]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/div/div[2]/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

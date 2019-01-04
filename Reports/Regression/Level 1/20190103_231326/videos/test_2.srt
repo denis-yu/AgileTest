@@ -1,0 +1,76 @@
+1
+00:00:00,004 --> 00:00:00,004
+1. openBrowser("https://praetemptatus.agilehealthinsurance.com/")
+
+2
+00:00:17,222 --> 00:00:17,223
+5. driver = getWebDriver()
+
+3
+00:00:17,223 --> 00:00:17,224
+9. baseUrl = "https://praetemptatus.agilehealthinsurance.com/"
+
+4
+00:00:17,224 --> 00:00:17,225
+13. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+5
+00:00:17,258 --> 00:00:17,259
+17. selenium.click("id=primaryCTA")
+
+6
+00:00:23,911 --> 00:00:23,912
+21. selenium.click("id=js-see-plans")
+
+7
+00:00:25,953 --> 00:00:25,954
+25. Thread.sleep(2000)
+
+8
+00:00:27,956 --> 00:00:27,957
+29. selenium.click("id=zip-input")
+
+9
+00:00:28,076 --> 00:00:28,077
+33. selenium.type("id=zip-input", "60602")
+
+10
+00:00:28,146 --> 00:00:28,147
+37. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::label[1]")
+
+11
+00:00:28,366 --> 00:00:28,367
+41. selenium.click("id=dob-0")
+
+12
+00:00:28,477 --> 00:00:28,478
+45. selenium.type("id=dob-0", "04/04/1980")
+
+13
+00:00:28,617 --> 00:00:28,618
+49. selenium.fireEvent("id=dob-0", "blur")
+
+14
+00:00:28,706 --> 00:00:28,707
+53. selenium.click("id=census-buttons-section")
+
+15
+00:00:28,931 --> 00:00:28,932
+57. Thread.sleep(1000)
+
+16
+00:00:29,934 --> 00:00:29,935
+61. selenium.click("id=js-see-plans")
+
+17
+00:00:30,007 --> 00:00:30,008
+67. Take screenshot after logging in
+
+18
+00:00:30,643 --> 00:00:30,644
+71. selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended")
+
+19
+00:00:32,787 --> 00:00:32,788
+3. Close browser
+

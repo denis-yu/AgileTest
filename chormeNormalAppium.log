@@ -1,0 +1,245 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Non-default server args:
+[Appium]   port: 53435
+[Appium]   chromeDriverPort: 53436
+[Appium]   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1545902225328
+[Appium] Appium REST http interface listener started on 0.0.0.0:53435
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 17 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"capabilities":{"desiredCapabilities":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"firstMatch":[{"platformName":"android"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},null,{"desiredCapabilities":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1545902228739 (17:17:08 GMT+0800 (China Standard Time))
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"/Users/denisyu/D... into desiredCapabilities object {"app":"/Users/denisyu/Downloads/com.android.ch...
+[Appium] Creating new AndroidDriver (v1.40.1) session
+[Appium] Capabilities:
+[Appium]   app: /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk
+[Appium]   appActivity: org.chromium.chrome.browser.document.ChromeLauncherActivity
+[Appium]   appPackage: com.android.chrome
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceId: 
+[Appium]   deviceName: HUAWEI ATH-AL00 (Android 6.0.1)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: android
+[Appium]   udid: 69T7N15915029735
+[debug] [BaseDriver] W3C capabilities [] and MJSONWP desired capabilities  were provided
+[BaseDriver] Falling back to MJSONWP desired capabilities
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 2bd82fd6-be90-45e1-89d8-891b306118e4
+[debug] [AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/denisyu/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/denisyu/.katalon/tools/android_sdk/build-tools/28.0.3
+[ADB] Using adb from /Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: 69T7N15915029735
+[debug] [ADB] Setting device id to 69T7N15915029735
+[BaseDriver] Using local app '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk'
+[debug] [AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Starting Android session
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 wait-for-device'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.settings'
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/denisyu/.katalon/tools/android_sdk/platform-tools/aapt
+[ADB] Error "Command '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/aapt d badging /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings\@2.11.0\@io.appium.settings/apks/settings_apk-debug.apk' exited with code null" while getting badging info
+[ADB] Cannot read version codes of '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings@2.11.0@io.appium.settings/apks/settings_apk-debug.apk' and/or 'io.appium.settings'
+[ADB] Cannot read version names of '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings@2.11.0@io.appium.settings/apks/settings_apk-debug.apk' and/or 'io.appium.settings'
+[debug] [ADB] The current install state of '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings@2.11.0@io.appium.settings/apks/settings_apk-debug.apk' is unknown. Installing anyway
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 23
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 install -r -g /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings\@2.11.0\@io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [ADB] Install command stdout: [100%] /data/local/tmp/settings_apk-debug.apk
+[debug] [ADB] /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings@2.11.0@io.appium.settings/apks/settings_apk-debug.apk: 1 file pushed. 3.5 MB/s (58640 bytes in 0.016s)
+[debug] [ADB] 	pkg: /data/local/tmp/settings_apk-debug.apk
+[debug] [ADB] Success
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell appops set io.appium.settings android\:mock_location allow'
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[debug] [Logcat] Starting logcat capture
+[debug] [AndroidDriver] Pushing unlock helper app to device...
+[debug] [ADB] Getting install status for io.appium.unlock
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.unlock'
+[debug] [ADB] 'io.appium.unlock' is installed
+[debug] [ADB] Getting package info for 'io.appium.unlock'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.unlock'
+[ADB] Error "Command '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/aapt d badging /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock\@2.0.0\@appium-unlock/bin/unlock_apk-debug.apk' exited with code null" while getting badging info
+[ADB] Cannot read version codes of '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk' and/or 'io.appium.unlock'
+[ADB] Cannot read version names of '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk' and/or 'io.appium.unlock'
+[debug] [ADB] The current install state of '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk' is unknown. Installing anyway
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 install -r -g /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock\@2.0.0\@appium-unlock/bin/unlock_apk-debug.apk'
+[debug] [ADB] Install command stdout: [100%] /data/local/tmp/unlock_apk-debug.apk
+[debug] [ADB] /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk: 1 file pushed. 4.2 MB/s (34611 bytes in 0.008s)
+[debug] [ADB] 	pkg: /data/local/tmp/unlock_apk-debug.apk
+[debug] [ADB] Success
+[ADB] Getting device platform version
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 6.0.1
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell wm size'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.product.model'
+[debug] [ADB] Current device property 'ro.product.model': ATH-AL00
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.product.manufacturer'
+[debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
+[debug] [ADB] Getting install status for com.android.chrome
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package com.android.chrome'
+[debug] [ADB] 'com.android.chrome' is installed
+[debug] [ADB] Getting package info for 'com.android.chrome'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package com.android.chrome'
+[ADB] Error "Command '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/aapt d badging /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk' exited with code null" while getting badging info
+[ADB] Cannot read version codes of '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk' and/or 'com.android.chrome'
+[ADB] Cannot read version names of '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk' and/or 'com.android.chrome'
+[debug] [ADB] The current install state of '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk' is unknown. Installing anyway
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 install -r -g /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk'
+[debug] [ADB] Install command stdout: [  0%] /data/local/tmp/com.android.chrome_71.0.3578.99-357809900.apk
+[debug] [ADB] [  0%] /data/local/tmp/com.android.chrome_71.0.3578.99-357809900.apk
+[debug] [ADB] [  0%] /data...578.99-357809900.apk: 1 file pushed. 3.3 MB/s (45603065 bytes in 13.366s)
+[debug] [ADB] 	pkg: /data/local/tmp/com.android.chrome_71.0.3578.99-357809900.apk
+[debug] [ADB] Success
+[debug] [AndroidDriver] Extracting strings from apk
+[debug] [AndroidDriver] /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk
+[debug] [AndroidDriver] null
+[debug] [AndroidDriver] /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Appium/Temp1545902225328/com.android.chrome
+[debug] [ADB] Extracting strings from for language: default
+[AndroidDriver] Could not get strings, continuing anyway
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell echo'
+[debug] [AndroidBootstrap] Watching for bootstrap disconnect
+[debug] [ADB] Forwarding system: 4724 to device: 4724
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 forward tcp\:4724 tcp\:4724'
+[debug] [UiAutomator] Starting UiAutomator
+[debug] [UiAutomator] Moving to state 'starting'
+[debug] [UiAutomator] Parsing uiautomator jar
+[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 push /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-android-bootstrap\@2.13.1\@appium-android-bootstrap/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
+[debug] [ADB] Attempting to kill process 12849
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell kill -0 12849'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell kill 12849'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell kill 12849'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell kill 12849'
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell kill 12849'
+[ADB] Cannot kill process 12849 in 1000 ms. Trying to force kill...
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell kill -9 12849'
+[debug] [UiAutomator] Starting UIAutomator
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","69T7N15915029735","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.android.chrome","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [UiAutomator] Moving to state 'online'
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys window'
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[debug] [ADB] Device API level: 23
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am start -W -n com.android.chrome/org.chromium.chrome.browser.document.ChromeLauncherActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[Appium] New AndroidDriver session created successfully, session 2bd82fd6-be90-45e1-89d8-891b306118e4 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1545902274577 (17:17:54 GMT+0800 (China Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"android","udid":"69T7N15915029735"},"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"","deviceName":"69T7N15915029735","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"android","udid":"69T7N15915029735","deviceUDID":"69T7N15915029735",...
+[HTTP] <-- POST /wd/hub/session 200 45840 ms - 1205
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.7.2","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 17 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[debug] [MJSONWP] Calling AppiumDriver.timeouts() with args: [{"protocol":"MJSONWP","type":"implicit","ms":60000},"2bd82fd6-be90-45e1-89d8-891b306118e4"]
+[debug] [BaseDriver] type: implicit, ms: 60000
+[debug] [BaseDriver] Set implicit wait to 60000ms
+[debug] [MJSONWP] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4/timeouts 200 17 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4/source
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getPageSource() with args: ["2bd82fd6-be90-45e1-89d8-891b306118e4"]
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"source","params":{}}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] [APPIUM-UIAUTO] [debug] Returning result: {"status":0,"value":"<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1776]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1776]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"\" instance=\"1\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"com.android.chrome:id\/action_bar_root\" instance=\"2\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"android:id\/content\" instance=\"3\"><android.view.ViewGroup index=\"0\" text=\"\" class=\"android.view.ViewGroup\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"com.android.chrome:id\/coordinator\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"com.android.chrome:id\/compositor_view_holder\" instance=\"4\"><android.widget.FrameLayout index=\"0\" text=\"\" class
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] =\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"\" instance=\"5\"><android.view.View index=\"0\" text=\"\" class=\"android.view.View\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,1776]\" resource-id=\"\" instance=\"0\"\/><\/android.widget.FrameLayout><\/android.widget.FrameLayout><android.widget.FrameLayout index=\"1\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [AndroidBootstrap] Stream still not complete, waiting up to 60000ms for the data to arrive
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] " scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,264]\" resource-id=\"com.android.chrome:id\/control_container\" instance=\"6\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,264]\" resource-id=\"com.android.chrome:id\/toolbar_container\" instance=\"7\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,72][1080,240]\" resource-id=\"com.android.chrome:id\/toolbar\" instance=\"8\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[24,72][792,240]\" resource-id=\"com.android.chrome:id\/location_bar\" instance=\"9\"><android.widget.EditText index=\"0\" text=\"搜索或输入网址\" class=\"android.widget.EditText\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"true\" password=\"false\" selected=\"false\" bounds=\"[54,81][762,231]\" resource-id=\"com.android.chrome:id\/url_bar\" instance=\"0\"\/><\/android.widget.FrameLayout><android.widget.LinearLayout index=\"1\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[792,72][1080,240]\" resource-id=\"com.android.chrome:id\/toolbar_buttons\" instance=\"1\"><android.widget.ImageButton index=\"0\" text=\"\" class=\"android.widget.ImageButton\" package=\"com.android.chrome\" content-desc=\"打开的标签页\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[792,72][936,240]\" resource-id=\"com.android.chrome:id\/tab_switcher_button\" instance=\"0\"\/><android.widget.FrameLayout index=\"1\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[936,72][1080,240]\" resource-id=\"com.android.chrome:id\/menu_button_wrapper\" instance=\"10\"><android.widget.ImageButton index=\"0\" text=\"\" class=\"android.widget.ImageButton\" package=\"com.android.chrome\" content-desc=\"更多选项\" checkable=\"false\" checked=\"false\" clickable=\"true\" enabled=\"true\" focusable=\"true\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[936,72][1080,240]\" resource-id=\"com.android.chrome:id\/menu_button\" instance=\"1\"\/><\/android.widget.FrameLayout><\/android.widget.LinearLayout><\/android.widget.FrameLayout><android.widget.ImageView index=\"1\" text=\"\" class=\"android.widget.ImageView\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,240][1080,264]\" resource-id=\"com.android.chrome:id\/toolbar_shadow\" instance=\"0\"\/><\/android.widget.FrameLayout><\/android.widget.FrameLayout><\/android.view.ViewGroup><\/android.widget.FrameLayout><\/android.widget.FrameLayout><\/android.widget.FrameLayout><\/android.widget.LinearLayout><android.view.View index=\"1\" text=\"\" class=\"android.view.View\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,72]\" resource-id=\"android:id\/statusBarBackground\" instance=\"1\"\/><android.view.View index=\"2\" text=\"\" class=\"android.view.View\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,1776][1080,1920]\" resource-id=\"android:id\/navigationBarBackground\" instance=\"2\"\/><\/android.widget.FrameLayout><\/hierarchy>"}[/APPIUM-UIAUTO]
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [MJSONWP] Responding to client with driver.getPageSource() result: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><hierarchy rotation=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1776]\" resource-id=\"\" instance=\"0\"><android.widget.LinearLayout index=\"0\" text=\"\" class=\"android.widget.LinearLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" scrollable=\"false\" long-clickable=\"false\" password=\"false\" selected=\"false\" bounds=\"[0,0][1080,1776]\" resource-id=\"\" instance=\"0\"><android.widget.FrameLayout index=\"0\" text=\"\" class=\"android.widget.FrameLayout\" package=\"com.android.chrome\" content-desc=\"\" checkable=\"false\" checked=...
+[HTTP] <-- GET /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4/source 200 346 ms - 9366
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4/screenshot
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getScreenshot() with args: ["2bd82fd6-be90-45e1-89d8-891b306118e4"]
+[debug] [ADB] Device API level: 23
+[debug] [MJSONWP] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAACAAElEQVR4AezBC3TUdYLo+e+vqlKpJFV5kRCSkBAgCeEREl6Rd0BaERRsbGwUZKaZ6ZlZ7Lnebe5O77V7584ZZ869s2e3Z3ambTm2tsIoCDYtCAqKqDw1D5BHggQIkBDI+1mpVKUe/99vp6ZP7Wa4AQIkgeDv8xHq36BpmqZpmqZpmqZpmjaEmdA0TdM0TdM0TdM0TRviTGiapmmapmmapmmapg1xJjRN0zRN0zRN0zRN04Y4E5qmaZqmaZqmaZqmaUOcCU3TNE3TNE3TNE3TtCHOhKZpmqZpmqZpmqZp2hBnQtM0TdM0TdM0TdM0bYgzoWmapmmapmmapmmaNsSZ0DRN0zRN0zRN0zRNG+JMaJqmaZqmaZqmaZqmDXEmNE3TNE3TNE3TNE3ThjgTmqZpmqZpmqZpmqZpQ5wJTdM0TdM0TdM0TdO0Ic6EpmmapmmapmmapmnaEGdC0zRN0zRN0zRN0zRtiDOhaZqmaZqmaZqmaZo2xFnQNE3TNE3TNE17iHV0dLBlyxYqKyu5V5GRkaxfv57U1FQ0TXuwWNA0TdM0TdM0rVdut5tPP/2U06dP43Q6uRsOh4NJkyaxePFioqOjedAZhsG1a9eoq6ujsbGRpqYmWltb8Xq9eDwevF4vFouF8PBwwsPDsdvtJCYmMnz4cIYPH056ejoxMTE8SLZv305lZSX9we12s3HjRtavX09qaiqapj04LGjaIPEYkjfqGqnz+hkIyeFWfjwigUiLmcHU5b5Gh3qLLnkWT7eLgAqgAKVAAgqBVKAQSAUKUIAEJAIFSAUKgVSgAAkozJjMYUTIseQ6XiTBkYGmaZqmaYPH5XLxz//8z7S0tHAvOjs7+frrrykvL+ell15i2LBhPGicTidnzpzh3LlzVFZW4vf7uRWfz4fP56Ozs5Pm5maqqqroadiwYYwfP56JEyeSlZWFyWTifrp48SL9ye12s3HjRtavX09q...
+[HTTP] <-- GET /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4/screenshot 200 1108 ms - 69138
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["2bd82fd6-be90-45e1-89d8-891b306118e4"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1545902362652 (17:19:22 GMT+0800 (China Standard Time))
+[Appium] Removing session 2bd82fd6-be90-45e1-89d8-891b306118e4 from our master session list
+[debug] [AndroidDriver] Shutting down Android driver
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am force-stop com.android.chrome'
+[debug] [ADB] Pressing the HOME button
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell input keyevent 3'
+[debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [AndroidBootstrap] Received command result from bootstrap
+[debug] [UiAutomator] Shutting down UiAutomator
+[debug] [UiAutomator] Moving to state 'stopping'
+[debug] [UiAutomator] UiAutomator shut down normally
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [ADB] Attempting to kill all uiautomator processes
+[debug] [ADB] Getting all processes with uiautomator
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
+[ADB] No 'uiautomator' process has been found
+[debug] [UiAutomator] Moving to state 'stopped'
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am force-stop io.appium.unlock'
+[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1545902366084 (17:19:26 GMT+0800 (China Standard Time))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/2bd82fd6-be90-45e1-89d8-891b306118e4 200 3434 ms - 76
+[HTTP] 

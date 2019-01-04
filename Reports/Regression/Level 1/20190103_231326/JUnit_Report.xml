@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Level 1" time="65" tests="0" failures="0" errors="2">
+   <testsuite name="Level 1" tests="0" failures="0" errors="2" time="65" timestamp="2019-01-03 23:14:10" hostname="denisyu - 192.168.3.23" id="Test Suites/Regression/Level 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20190103_231326"/>
+         <property name="logFiles" value="/Users/denisyu/workplace/test/AgileTest/Reports/Regression/Level 1/20190103_231326/execution0.log"/>
+         <property name="attachments" value="~/workplace/test/screenshort/capture.png, ~/workplace/test/screenshort/capture.png"/>
+         <property name="hostName" value="denisyu - 192.168.3.23"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.23"/>
+         <property name="sessionId" value="e88e803176d7a52f2d446d4cb916d302"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web/Level 1/Everest" classname="Test Cases/Web/Level 1/Everest" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-03 23:14:11 - [TEST_CASE][ERROR] - Test Cases/Web/Level 1/Everest: Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)
+
+
+2019-01-03 23:14:13 - [TEST_STEP][PASSED] - openBrowser("https://praetemptatus.agilehealthinsurance.com/"): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/'
+
+2019-01-03 23:14:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-03 23:14:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-03 23:14:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/'
+
+2019-01-03 23:14:24 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-03 23:14:24 - [TEST_STEP][PASSED] - baseUrl = "https://praetemptatus.agilehealthinsurance.com/": null
+
+2019-01-03 23:14:24 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-01-03 23:14:25 - [TEST_STEP][PASSED] - selenium.click("id=primaryCTA"): null
+
+2019-01-03 23:14:31 - [TEST_STEP][PASSED] - selenium.click("id=js-see-plans"): null
+
+2019-01-03 23:14:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-01-03 23:14:37 - [TEST_STEP][PASSED] - selenium.click("id=zip-input"): null
+
+2019-01-03 23:14:37 - [TEST_STEP][PASSED] - selenium.type("id=zip-input", "60602"): null
+
+2019-01-03 23:14:37 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::label[1]"): null
+
+2019-01-03 23:14:37 - [TEST_STEP][PASSED] - selenium.click("id=dob-0"): null
+
+2019-01-03 23:14:37 - [TEST_STEP][PASSED] - selenium.type("id=dob-0", "04/04/1980"): null
+
+2019-01-03 23:14:37 - [TEST_STEP][PASSED] - selenium.fireEvent("id=dob-0", "blur"): null
+
+2019-01-03 23:14:38 - [TEST_STEP][PASSED] - selenium.click("id=census-buttons-section"): null
+
+2019-01-03 23:14:38 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-03 23:14:39 - [TEST_STEP][PASSED] - selenium.click("id=js-see-plans"): null
+
+2019-01-03 23:14:39 - [TEST_STEP][PASSED] - takeScreenshot("~/workplace/test/screenshort/capture.png"): Taking screenshot successfully
+
+2019-01-03 23:14:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|~/workplace/test/screenshort/capture.png]]
+
+2019-01-03 23:14:40 - [TEST_STEP][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended"): selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)
+
+
+2019-01-03 23:14:40 - [MESSAGE][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-03 23:14:11 - [TEST_CASE][ERROR] - Test Cases/Web/Level 1/Everest: Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web/Level 1/Everest" classname="Test Cases/Web/Level 1/Everest" status="ERROR">
+         <error type="ERROR" message="Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-03 23:14:42 - [TEST_CASE][ERROR] - Test Cases/Web/Level 1/Everest: Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)
+
+
+2019-01-03 23:14:42 - [TEST_STEP][PASSED] - openBrowser("https://praetemptatus.agilehealthinsurance.com/"): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/'
+
+2019-01-03 23:14:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-03 23:14:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-03 23:14:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com/'
+
+2019-01-03 23:14:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-03 23:14:59 - [TEST_STEP][PASSED] - baseUrl = "https://praetemptatus.agilehealthinsurance.com/": null
+
+2019-01-03 23:14:59 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-01-03 23:14:59 - [TEST_STEP][PASSED] - selenium.click("id=primaryCTA"): null
+
+2019-01-03 23:15:06 - [TEST_STEP][PASSED] - selenium.click("id=js-see-plans"): null
+
+2019-01-03 23:15:08 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-01-03 23:15:10 - [TEST_STEP][PASSED] - selenium.click("id=zip-input"): null
+
+2019-01-03 23:15:10 - [TEST_STEP][PASSED] - selenium.type("id=zip-input", "60602"): null
+
+2019-01-03 23:15:10 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Gender'])[1]/following::label[1]"): null
+
+2019-01-03 23:15:10 - [TEST_STEP][PASSED] - selenium.click("id=dob-0"): null
+
+2019-01-03 23:15:11 - [TEST_STEP][PASSED] - selenium.type("id=dob-0", "04/04/1980"): null
+
+2019-01-03 23:15:11 - [TEST_STEP][PASSED] - selenium.fireEvent("id=dob-0", "blur"): null
+
+2019-01-03 23:15:11 - [TEST_STEP][PASSED] - selenium.click("id=census-buttons-section"): null
+
+2019-01-03 23:15:11 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-03 23:15:12 - [TEST_STEP][PASSED] - selenium.click("id=js-see-plans"): null
+
+2019-01-03 23:15:12 - [TEST_STEP][PASSED] - takeScreenshot("~/workplace/test/screenshort/capture.png"): Taking screenshot successfully
+
+2019-01-03 23:15:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|~/workplace/test/screenshort/capture.png]]
+
+2019-01-03 23:15:13 - [TEST_STEP][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended"): selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)
+
+
+2019-01-03 23:15:13 - [MESSAGE][ERROR] - selenium.click("link=LifeShield Flex 5K/20/9K/750K Extended") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-03 23:14:42 - [TEST_CASE][ERROR] - Test Cases/Web/Level 1/Everest: Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-03 23:14:10 - [TEST_SUITE][ERROR] - Level 1: Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-03 23:14:10 - [TEST_SUITE][ERROR] - Level 1: Test Cases/Web/Level 1/Everest FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element link=LifeShield Flex 5K/20/9K/750K Extended not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Everest.run(Everest:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546528446176.run(TempTestSuite1546528446176.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
