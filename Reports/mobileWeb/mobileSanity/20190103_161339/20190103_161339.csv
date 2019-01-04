@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Chrome 71.0.3578.98,,2019-01-03 16:13:55,2019-01-03 16:15:22,1m - 26.682s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Chrome 71.0.3578.98,,2019-01-03 16:13:55,2019-01-03 16:15:21,1m - 25.963s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-03 16:13:57,2019-01-03 16:14:02,5.141s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Chrome 71.0.3578.98,,2019-01-03 16:14:02,2019-01-03 16:14:38,36.699s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_Find Health Insurance for 2018/a_Quote  Save Today""))",Chrome 71.0.3578.98,,2019-01-03 16:14:38,2019-01-03 16:14:40,1.910s,PASSED
+"setText(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Location_zip-input""), ""60602"")",Chrome 71.0.3578.98,,2019-01-03 16:14:40,2019-01-03 16:14:41,0.299s,PASSED
+"setText(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Date of Birth_dob-0""), ""03/03/1987"")",Chrome 71.0.3578.98,,2019-01-03 16:14:41,2019-01-03 16:14:41,0.206s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Male""))",Chrome 71.0.3578.98,,2019-01-03 16:14:41,2019-01-03 16:14:41,0.092s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Compare Plans""))",Chrome 71.0.3578.98,,2019-01-03 16:14:41,2019-01-03 16:14:41,0.297s,PASSED
+Thread.sleep(4000),Chrome 71.0.3578.98,,2019-01-03 16:14:41,2019-01-03 16:14:45,4.010s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla""), 1000)",Chrome 71.0.3578.98,,2019-01-03 16:14:45,2019-01-03 16:14:59,13.739s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla""))",Chrome 71.0.3578.98,,2019-01-03 16:14:59,2019-01-03 16:15:03,3.970s,PASSED
+Thread.sleep(2000),Chrome 71.0.3578.98,,2019-01-03 16:15:03,2019-01-03 16:15:05,2.005s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Apply for This Plan""), 0)",Chrome 71.0.3578.98,,2019-01-03 16:15:05,2019-01-03 16:15:05,0.083s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Apply for This Plan""))",Chrome 71.0.3578.98,,2019-01-03 16:15:05,2019-01-03 16:15:07,2.098s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Start Secure Application""), 0)",Chrome 71.0.3578.98,,2019-01-03 16:15:07,2019-01-03 16:15:07,0.179s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Start Secure Application""))",Chrome 71.0.3578.98,,2019-01-03 16:15:07,2019-01-03 16:15:09,1.783s,PASSED
+waitForPageLoad(0),Chrome 71.0.3578.98,,2019-01-03 16:15:09,2019-01-03 16:15:20,10.627s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/a_Autofill App Info""))",Chrome 71.0.3578.98,,2019-01-03 16:15:20,2019-01-03 16:15:20,0.097s,PASSED
+Thread.sleep(1000),Chrome 71.0.3578.98,,2019-01-03 16:15:20,2019-01-03 16:15:21,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_App Page 1 - Standard Life Sel/button_No""))",Chrome 71.0.3578.98,,2019-01-03 16:15:21,2019-01-03 16:15:21,0.591s,FAILED

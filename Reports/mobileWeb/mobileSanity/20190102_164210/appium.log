@@ -1,0 +1,1832 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 50255
+[Appium]   chromeDriverPort: 50256
+[Appium]   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1546418558229
+[Appium]   webkitDebugProxyPort: 50253
+[Appium] Appium REST http interface listener started on 0.0.0.0:50255
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
+[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 26 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252},"capabilities":{"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252},"firstMatch":[{"browserName":"Safari","platformName":"ios"}]}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252},null,{"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252},"firstMatch":[{"browserName":"Safari","platformName":"ios"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1546418563821 (16:42:43 GMT+0800 (China Standard Time))
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["automationName","browserName","deviceId","deviceName","newCommandTimeout","platform","platformName","platformVersion","realDeviceLogger","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.105.0) session
+[Appium] Capabilities:
+[Appium]   automationName: XCUITest
+[Appium]   browserName: Safari
+[Appium]   deviceId: 
+[Appium]   deviceName: iPhone X
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: IOS
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 12.1
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   wdaLocalPort: 50252
+[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"automationName":"XCUITest...
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[debug] [XCUITest] Current user: 'denisyu'
+[iOSSim] Constructing iOS simulator for Xcode version 10.1 with udid '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37'
+[XCUITest] Determining device to run tests on: udid: '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37', real device: false
+[debug] [XCUITest] Xcode version set to '10.1' (tools v10.1.0.0.1.1539992718)
+[debug] [XCUITest] iOS SDK Version set to '12.1'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1546418565733 (16:42:45 GMT+0800 (China Standard Time))
+[XCUITest] Safari test requested
+[debug] [BaseDriver] Event 'appConfigured' logged at 1546418565734 (16:42:45 GMT+0800 (China Standard Time))
+[debug] [BaseDriver] Event 'resetStarted' logged at 1546418565734 (16:42:45 GMT+0800 (China Standard Time))
+[debug] [iOSSim] Cleaning mobile safari data files
+[debug] [iOSSim] Checking whether simulator has been run before: yes
+[debug] [iOSSim] Checking whether simulator has been run before: yes
+[debug] [iOSSim] Building bundle path map
+[debug] [BaseDriver] Event 'resetComplete' logged at 1546418567340 (16:42:47 GMT+0800 (China Standard Time))
+[debug] [XCUITest] Starting log capture for iOS Simulator with udid '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37', using 'xcrun simctl spawn 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 log stream --style compact'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1546418568164 (16:42:48 GMT+0800 (China Standard Time))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] Setting preferences of 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Updated 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 Simulator preferences at '/Users/denisyu/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Got Simulator UI client PID: 71780
+[iOSSim] Both Simulator with UDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 and the UI client are currently running
+[debug] [BaseDriver] Event 'simStarted' logged at 1546418569406 (16:42:49 GMT+0800 (China Standard Time))
+[XCUITest] Using WDA path: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 50252 have been found
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [XCUITest] WDA is not listening at 'http://localhost:50252/'
+[debug] [XCUITest] WDA is currently not running. There is nothing to cache
+[debug] [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1546418569565 (16:42:49 GMT+0800 (China Standard Time))
+[XCUITest] Launching WebDriverAgent on the device
+[debug] [XCUITest] Carthage found: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/carthage/0.18.1/etc/bash_completion.d/carthage'
+[debug] [XCUITest] Killing running processes 'xcodebuild.*1FBC48CC-4B26-4899-AB2C-0FDD67CACB37, iproxy 50252, 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37.*XCTRunner' for the device 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37...
+[debug] [XCUITest] 'pgrep -nif xcodebuild.*1FBC48CC-4B26-4899-AB2C-0FDD67CACB37' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif iproxy 50252' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] 'pgrep -nif 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37.*XCTRunner' didn't detect any matching processes. Return code: 1
+[debug] [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 IPHONEOS_DEPLOYMENT_TARGET=12.1' in directory '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent'
+[debug] [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+[debug] [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [XCUITest] Log file for xcodebuild test: /Users/denisyu/Library/Developer/Xcode/DerivedData/WebDriverAgent-frwdvusaembonugqvhheibnhkgnp/Logs/Test/Test-WebDriverAgentRunner-2019.01.02_16-42-53-+0800.xcresult/2_Test/Diagnostics/WebDriverAgentRunner-ADF11BC5-38F9-4EED-BD08-0C72B03A490B/WebDriverAgentRunner-00A41B4E-6DDC-45B0-A3F7-BE3C448D1535/Session-WebDriverAgentRunner-2019-01-02_164259-zSHXmS.log
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":50252}
+[debug] [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:50252/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"12.1\",\n      \"sdkVersion\" : \"12.0\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"12.1\",\n      \"ip\" : \"172.16.86.34\"\n    },\n    \"build\" : {\n      \"upgradedAt\" : \"1546396871985\",\n      \"time\" : \"Jan  2 2019 10:53:00\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"1C768EBF-B9EA-41FC-8FB1-10C63F06C90E\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] WebDriverAgent information:
+[debug] [XCUITest] {
+[debug] [XCUITest]   "state": "success",
+[debug] [XCUITest]   "os": {
+[debug] [XCUITest]     "name": "iOS",
+[debug] [XCUITest]     "version": "12.1",
+[debug] [XCUITest]     "sdkVersion": "12.0"
+[debug] [XCUITest]   },
+[debug] [XCUITest]   "ios": {
+[debug] [XCUITest]     "simulatorVersion": "12.1",
+[debug] [XCUITest]     "ip": "172.16.86.34"
+[debug] [XCUITest]   },
+[debug] [XCUITest]   "build": {
+[debug] [XCUITest]     "upgradedAt": "1546396871985",
+[debug] [XCUITest]     "time": "Jan  2 2019 10:53:00",
+[debug] [XCUITest]     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+[debug] [XCUITest]   }
+[debug] [XCUITest] }
+[debug] [XCUITest] WebDriverAgent successfully started after 18272ms
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1546418588274 (16:43:08 GMT+0800 (China Standard Time))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Matched '/session' to command name 'createSession'
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:50252/session] with body: {"desiredCapabilities":{"bundleId":"com.apple.mobilesafari","arguments":["-u","http://0.0.0.0:50255/welcome"],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[HTTP] --> GET /welcome
+[HTTP] {}
+[debug] [HTTP] Sending welcome response with params: {"message":"Let's browse!"}
+[HTTP] <-- GET /welcome 200 21 ms - 124
+[HTTP] 
+[HTTP] <-- GET /favicon.ico 200 3 ms - 1150
+[HTTP] 
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"9C693561-4689-4DC6-93B5-D3274B95796F","capabilities":{"device":"iphone","browserName":"Safari","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari"}},"sessionId":"9C693561-4689-4DC6-93B5-D3274B95796F","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1546418593675 (16:43:13 GMT+0800 (China Standard Time))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1546418593785 (16:43:13 GMT+0800 (China Standard Time))
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [BaseDriver] Event 'orientationSet' logged at 1546418593794 (16:43:13 GMT+0800 (China Standard Time))
+[debug] [XCUITest] Waiting for initial webview
+[debug] [iOS] Navigating to most recently opened webview
+[debug] [iOS] Retrieving contexts and views
+[debug] [iOS] Selecting by url: true (expected url: 'http://0.0.0.0:50255/welcome')
+[debug] [RemoteDebugger] useNewSafari --> false
+[debug] [RemoteDebugger] Connecting to remote debugger through unix domain socket: '/private/tmp/com.apple.launchd.fDUxVKhPhO/com.apple.webinspectord_sim.socket'
+[debug] [RemoteDebugger] Debugger socket connected
+[debug] [RemoteDebugger] Sending connection key request
+[debug] [RemoteDebugger] Sending '_rpc_reportIdentifier:' message to remote debugger
+[debug] [RemoteDebugger] Notified of connected drivers: {}.
+[debug] [RemoteDebugger] Connected to application
+[debug] [RemoteDebugger] Selecting application
+[debug] [RemoteDebugger] Current applications available:
+[debug] [RemoteDebugger]     Application: 'PID:72172'
+[debug] [RemoteDebugger]         id: "PID:72172"
+[debug] [RemoteDebugger]         isProxy: false
+[debug] [RemoteDebugger]         name: "Safari"
+[debug] [RemoteDebugger]         bundleId: "com.apple.mobilesafari"
+[debug] [RemoteDebugger]         hostId: undefined
+[debug] [RemoteDebugger]         isActive: 2
+[debug] [RemoteDebugger]         isAutomationEnabled: false
+[debug] [RemoteDebugger]     Application: 'PID:72174'
+[debug] [RemoteDebugger]         id: "PID:72174"
+[debug] [RemoteDebugger]         isProxy: true
+[debug] [RemoteDebugger]         name: "com.apple.WebKit.WebContent"
+[debug] [RemoteDebugger]         bundleId: "com.apple.WebKit.WebContent"
+[debug] [RemoteDebugger]         hostId: "PID:72172"
+[debug] [RemoteDebugger]         isActive: 1
+[debug] [RemoteDebugger]         isAutomationEnabled: false
+[debug] [RemoteDebugger] Found app id key 'PID:72172' for bundle 'com.apple.mobilesafari'
+[debug] [RemoteDebugger] Found separate bundleId 'com.apple.WebKit.WebContent' acting as proxy for 'com.apple.mobilesafari', with app id 'PID:72174'
+[debug] [RemoteDebugger] Trying out the possible app ids: PID:72174
+[debug] [RemoteDebugger] Selecting app PID:72174 (try #1 of 20)
+[debug] [RemoteDebugger] Sending '_rpc_forwardGetListing:' message to remote debugger
+[debug] [RemoteDebugger] Received response from socket send: '["PID:72174",{"1":{"WIRTitleKey":"Appium/welcom...'
+[debug] [RemoteDebugger] Received page change notice for app 'PID:72174' but listening for 'null'. Ignoring.
+[debug] [RemoteDebugger] Received altered app id, updating from 'null' to 'PID:72174'
+[debug] [RemoteDebugger] Finally selecting app PID:72174: [{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:50255/welcome","isKey":false}]
+[debug] [iOS] Picking webview 'WEBVIEW_72174.1'
+[debug] [iOS] Attempting to set context to 'WEBVIEW_72174.1'
+[debug] [RemoteDebugger] Selecting page '1' on app 'PID:72174' and forwarding socket setup
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketSetup:' message to remote debugger
+[debug] [RemoteDebugger] Sender key set
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://0.0.0.0:50255/welcome","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:50255/welcome","isKey":true}]}
+[debug] [iOS] We do not appear to have window set yet, ignoring
+[debug] [RemoteDebugger] Notified that application 'PID:72174' has been updated.
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: enablePage
+[debug] [RemoteDebugger] Enabled activity on page
+[debug] [RemoteDebugger] Checking document readyState
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: 'complete'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] readyState was "complete"
+[debug] [RemoteDebugger] Starting to listen for JavaScript console
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://0.0.0.0:50255/welcome","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:50255/welcome","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: startConsole
+[debug] [RemoteDebugger] Starting to listen for network events
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: startNetwork
+[debug] [RemoteDebugger] Unregistering from page readiness notifications
+[debug] [BaseDriver] Event 'initialWebviewNavigated' logged at 1546418595343 (16:43:15 GMT+0800 (China Standard Time))
+[Appium] New XCUITestDriver session created successfully, session 83c90bf4-c0c1-4810-aeca-def3dd2d5391 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1546418595346 (16:43:15 GMT+0800 (China Standard Time))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"Safari","platform":"IOS","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"automationName":"XCUITest","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37"}
+[HTTP] <-- POST /wd/hub/session 200 31532 ms - 608
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
+[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
+[HTTP] <-- GET /wd/hub/status 200 45 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/timeouts 400 23 ms - 5641
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/timeouts
+[HTTP] {"type":"implicit","ms":0}
+[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":0}
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/timeouts 400 3 ms - 5633
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/execute
+[HTTP] {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[debug] [W3C] Calling AppiumDriver.execute() with args: ["return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();",[],"83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'execute'
+[debug] [RemoteDebugger] Executing 'execute_script' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var e=this;
+[debug] [RemoteDebugger] funct...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":"Safari 12"}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'execute_script' execution: "Safari 12"
+[debug] [MJSONWP] Responding to client with driver.execute() result: "Safari 12"
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/execute 200 639 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/url
+[HTTP] {"url":"https://praetemptatus.agilehealthinsurance.com/"}
+[debug] [W3C] Calling AppiumDriver.setUrl() with args: ["https://praetemptatus.agilehealthinsurance.com/","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'setUrl'
+[debug] [iOS] Attempting to set url 'https://praetemptatus.agilehealthinsurance.com/'
+[debug] [RemoteDebugger] Navigating to new URL: https://praetemptatus.agilehealthinsurance.com/
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: setUrl
+[debug] [RemoteDebugger] Waiting for frame navigated message...
+[debug] [RemoteDebugger] Frame navigated in 0.504 sec from source: timeout
+[debug] [RemoteDebugger] Waiting for dom...
+[debug] [RemoteDebugger] Page loaded, verifying whether ready
+[debug] [RemoteDebugger] Checking document readyState
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Appium/welcome","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"http://0.0.0.0:50255/welcome","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Appium/welcome","url":"http://0.0.0.0:50255/welcome","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/' to 'http://0.0.0.0:50255/welcome'
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: 'complete'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] readyState was "complete"
+[debug] [RemoteDebugger] Page is ready
+[debug] [MJSONWP] Responding to client with driver.setUrl() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/url 200 2723 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 853 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 190 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 346 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 540 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 346 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 2991 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 488 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 629 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 493 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 259 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 179 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 143 ms - 74
+[HTTP] 
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Frame navigated in 14.816 sec from source: remote-debugger
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Find Health Insurance for 2018: Free Online Health Insurance Quotes","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Find Health Insurance for 2018: Free Online Health Insurance Quotes","url":"https://praetemptatus.agilehealthinsurance.com/","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'http://0.0.0.0:50255/welcome' to 'https://praetemptatus.agilehealthinsurance.com/'
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418614987"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5000"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 1967 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Matched '/' to command name 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:50252/session/9C693561-4689-4DC6-93B5-D3274B95796F] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"9C693561-4689-4DC6-93B5-D3274B95796F\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"Safari\",\n      \"sdkVersion\" : \"12.1\",\n      \"CFBundleIdentifier\" : \"com.apple.mobilesafari\"\n    }\n  },\n  \"sessionId\" : \"9C693561-4689-4DC6-93B5-D3274B95796F\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [GET /wda/screen] to [GET http://localhost:50252/session/9C693561-4689-4DC6-93B5-D3274B95796F/wda/screen] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"statusBarSize\" : {\n      \"width\" : 375,\n      \"height\" : 44\n    },\n    \"scale\" : 3\n  },\n  \"sessionId\" : \"9C693561-4689-4DC6-93B5-D3274B95796F\",\n  \"status\" : 0\n}"
+[debug] [RemoteDebugger] Executing 'get_window_size' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Find Health Insurance for 2018: Free Online Health Insurance Quotes","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Find Health Insurance for 2018: Free Online Health Insurance Quotes","url":"https://praetemptatus.agilehealthinsurance.com/","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var c=this;var aa...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"width":375,"height":635}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'get_window_size' execution: {"width":375,"height":635}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 1913 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 6 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5000/click
+[HTTP] {"id":"5000"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5000","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5000/click 200 1040 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","url":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/' to 'https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes'
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418618906"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5001"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 861 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 7 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 5 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 4 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5001/clear
+[HTTP] {"id":"5001"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["5001","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'clear'
+[debug] [RemoteDebugger] Executing 'clear' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","url":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'clear' execution: null
+[debug] [MJSONWP] Responding to client with driver.clear() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5001/clear 200 737 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","url":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418618906"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5002"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 664 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 5 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5002/value
+[HTTP] {"id":"5002","value":["60602"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["60602"],"5002","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'setValue'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page loaded, verifying whether ready
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [RemoteDebugger] Executing 'type' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Checking document readyState
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'type' execution: null
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","url":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [MJSONWP] Responding to client with driver.setValue() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5002/value 200 1451 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'dob-0' and @type = 'tel' and @placeholder = 'mm/dd/yyyy']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//input[@id = 'dob-0' and @type = 'tel' and @placeholder = 'mm/dd/yyyy']","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function (){ return document.readyState; })()
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","url":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: 'complete'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] readyState was "complete"
+[debug] [RemoteDebugger] Page is ready
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418618907"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5003"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 521 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 7 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5003/clear
+[HTTP] {"id":"5003"}
+[debug] [W3C] Calling AppiumDriver.clear() with args: ["5003","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'clear'
+[debug] [RemoteDebugger] Executing 'clear' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'clear' execution: null
+[debug] [MJSONWP] Responding to client with driver.clear() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5003/clear 200 285 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'dob-0' and @type = 'tel' and @placeholder = 'mm/dd/yyyy']"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//input[@id = 'dob-0' and @type = 'tel' and @placeholder = 'mm/dd/yyyy']","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418618907"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5004"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 302 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 9 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 16 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 5 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5004/value
+[HTTP] {"id":"5004","value":["03/03/1987"]}
+[debug] [W3C] Calling AppiumDriver.setValue() with args: [["03/03/1987"],"5004","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'setValue'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [RemoteDebugger] Executing 'type' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'type' execution: null
+[debug] [MJSONWP] Responding to client with driver.setValue() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5004/value 200 1199 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//label[(text() = 'Male' or . = 'Male')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//label[(text() = 'Male' or . = 'Male')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418618908"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5005"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 918 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5005/click
+[HTTP] {"id":"5005"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5005","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5005/click 200 309 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//label[@id = 'js-see-plans' and @href = '#' and (text() = 'Compare Plans ' or . = 'Compare Plans ')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//label[@id = 'js-see-plans' and @href = '#' and (text() = 'Compare Plans ' or . = 'Compare Plans ')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641861...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418618909"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5006"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 148 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 9 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5006/click
+[HTTP] {"id":"5006"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5006","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"2018 Health Insurance: Get a Short Term Plan / Health Benefit Plan Now","url":"https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5006/click 200 886 ms - 76
+[HTTP] 
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Short Term Health Insurance Quotes, Affordable Health Plans, Affordable Obamacare Supplemental Insurance - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?redirect=1","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Short Term Health Insurance Quotes, Affordable Health Plans, Affordable Obamacare Supplemental Insurance - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?redirect=1","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/health-insurance-quotes' to 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?redirect=1'
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418631651"}]
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Short Term Health Insurance Quotes, Affordable Health Plans, Affordable Obamacare Supplemental Insurance - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?redirect=1","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Short Term Health Insurance Quotes, Affordable Health Plans, Affordable Obamacare Supplemental Insurance - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?redirect=1","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5007"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 829 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/execute
+[HTTP] {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"5007","element-6066-11e4-a52e-4f735466cecf":"5007"}]}
+[debug] [W3C] Calling AppiumDriver.execute() with args: ["arguments[0].scrollIntoView();",[{"ELEMENT":"5007","element-6066-11e4-a52e-4f735466cecf":"5007"}],"83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'execute'
+[debug] [RemoteDebugger] Executing 'execute_script' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var e=this;
+[debug] [RemoteDebugger] funct...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'execute_script' execution: null
+[debug] [MJSONWP] Responding to client with driver.execute() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/execute 200 894 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418631651"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5008"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 493 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5008/click
+[HTTP] {"id":"5008"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5008","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5008/click 200 167 ms - 76
+[HTTP] 
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M - Short Term Plan Benefit Details - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M - Short Term Plan Benefit Details - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/quote?redirect=1' to 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000'
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M - Short Term Plan Benefit Details - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M - Short Term Plan Benefit Details - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418635674"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5009"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 222 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5009/displayed
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["5009","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'elementDisplayed'
+[debug] [RemoteDebugger] Executing 'is_displayed' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M - Short Term Plan Benefit Details - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M - Short Term Plan Benefit Details - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,l=this;func...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":true}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'is_displayed' execution: true
+[debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5009/displayed 200 236 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"//a[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","//a[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418635674"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5010"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 250 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5010/click
+[HTTP] {"id":"5010"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5010","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5010/click 200 194 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"id(\"applyButton\")[count(. | //a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","id(\"applyButton\")[count(. | //a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418637020"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5011"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 542 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' to 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000'
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5011/displayed
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["5011","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'elementDisplayed'
+[debug] [RemoteDebugger] Executing 'is_displayed' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,l=this;func...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":true}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'is_displayed' execution: true
+[debug] [MJSONWP] Responding to client with driver.elementDisplayed() result: true
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5011/displayed 200 773 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"id(\"applyButton\")[count(. | //a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","id(\"applyButton\")[count(. | //a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418637020"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5012"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 245 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5012/click
+[HTTP] {"id":"5012"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5012","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"Standard Life Select STM Plan 2 10000/30/1M Short Term Health Insurance - AgileHealthInsurance.com","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5012/click 200 388 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"id(\"fillApp\")[count(. | //a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","id(\"fillApp\")[count(. | //a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[]}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: []
+[debug] [MJSONWP] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 127 ms - 74
+[HTTP] 
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements
+[HTTP] {"using":"xpath","value":"id(\"fillApp\")[count(. | //a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]"}
+[debug] [W3C] Calling AppiumDriver.findElements() with args: ["xpath","id(\"fillApp\")[count(. | //a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'findElements'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [RemoteDebugger] Executing 'find_elements' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var k=this;functi...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":[{"ELEMENT":":wdc:154641863...'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1546418639260"}]
+[debug] [MJSONWP] Responding to client with driver.findElements() result: [{"ELEMENT":"5013"}]
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/elements 200 104 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.getSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'getSession'
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"1FBC48CC-4B26-4899-AB2C-0FDD67CACB37","automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":50252,"device":"iphone","sdkVersion":"12.1","CFBundleIdentifier":"com.apple.mobilesafari","pixelRatio":3,"statBarHeight":44,"viewportRect":{"left":0,"top":132,"width":1125,"height":1773}}
+[HTTP] <-- GET /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5013/click
+[HTTP] {"id":"5013"}
+[debug] [W3C] Calling AppiumDriver.click() with args: ["5013","83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [XCUITest] Executing command 'click'
+[debug] [RemoteDebugger] Executing 'click' atom in default context
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"App Page 1 - Standard Life Select STM Plan 2 10000/30/1M Application","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"App Page 1 - Standard Life Select STM Plan 2 10000/30/1M Application","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [iOS] Redirected from 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' to 'https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0'
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{}'
+[debug] [RemoteDebugger] Original command: garbageCollect
+[debug] [RemoteDebugger] Garbage collection successful
+[debug] [RemoteDebugger] Sending javascript command (function(){return function(){var h,aa=this;fun...
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Found data handler for response
+[debug] [RemoteDebugger] Received data response from socket send: '{"status":0,"value":null}'
+[debug] [RemoteDebugger] Original command: sendJSCommand
+[debug] [RemoteDebugger] Received result for atom 'click' execution: null
+[debug] [MJSONWP] Responding to client with driver.click() result: null
+[HTTP] <-- POST /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391/element/5013/click 200 666 ms - 76
+[HTTP] 
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"App Page 1 - Standard Life Select STM Plan 2 10000/30/1M Application","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"App Page 1 - Standard Life Select STM Plan 2 10000/30/1M Application","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[debug] [RemoteDebugger] Page loaded, verifying whether ready
+[debug] [RemoteDebugger] Frame navigated, unloading page
+[debug] [RemoteDebugger] Checking document readyState
+[debug] [RemoteDebugger] Garbage collecting with 5000ms timeout
+[debug] [RemoteDebugger] Sending '_rpc_forwardSocketData:' message to remote debugger
+[debug] [RemoteDebugger] Page changed: {"1":{"WIRTitleKey":"App Page 1 - Standard Life Select STM Plan 2 10000/30/1M Application","WIRTypeKey":"WIRTypeWeb","WIRURLKey":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0","WIRPageIdentifierKey":1,"WIRConnectionIdentifierKey":"5d87ce69-d0ac-4b0e-9bb2-9c05550301eb"}}
+[debug] [iOS] Remote debugger notified us of a new page listing: {"appIdKey":"72174","pageArray":[{"id":1,"title":"App Page 1 - Standard Life Select STM Plan 2 10000/30/1M Application","url":"https://praetemptatus.agilehealthinsurance.com/term-health-insurance/application/test-slaico-il-rqxrr4c3v0","isKey":true}]}
+[debug] [iOS] Checking if page needs to load
+[debug] [iOS] New page listing is same as old, doing nothing
+[HTTP] --> DELETE /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391
+[HTTP] {}
+[debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["83c90bf4-c0c1-4810-aeca-def3dd2d5391"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1546418642249 (16:44:02 GMT+0800 (China Standard Time))
+[Appium] Removing session 83c90bf4-c0c1-4810-aeca-def3dd2d5391 from our master session list
+[debug] [JSONWP Proxy] Matched '/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391' to command name 'deleteSession'
+[debug] [JSONWP Proxy] Proxying [DELETE /session/83c90bf4-c0c1-4810-aeca-def3dd2d5391] to [DELETE http://localhost:50252/session/9C693561-4689-4DC6-93B5-D3274B95796F] with no body
+[debug] [RemoteDebugger] Application 'PID:72172' disconnected. Removing from app dictionary.
+[debug] [RemoteDebugger] Current app is PID:72174
+[debug] [RemoteDebugger] Application 'PID:72174' disconnected. Removing from app dictionary.
+[debug] [RemoteDebugger] Current app is PID:72174
+[debug] [RemoteDebugger] No longer have app id. Attempting to find new one.
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"5D44C565-4D76-4A2C-823A-4835E339365C\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [XCUITest] In a web session. Removing remote debugger
+[debug] [RemoteDebugger] Disconnecting from remote debugger
+[debug] [RemoteDebugger] Cleaning up listeners
+[debug] [iOSLog] Stopping iOS log capture
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1546418643309 (16:44:03 GMT+0800 (China Standard Time))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/83c90bf4-c0c1-4810-aeca-def3dd2d5391 200 1062 ms - 76
+[HTTP] 

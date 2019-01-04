@@ -1,0 +1,72 @@
+1
+00:00:00,784 --> 00:00:00,803
+1. openBrowser("")
+
+2
+00:00:26,368 --> 00:00:26,372
+5. navigateToUrl("https://praetemptatus.agilehealthinsurance.com/")
+
+3
+00:00:33,986 --> 00:00:33,987
+9. click(findTestObject("Object Repository/mobileSanity/STM/Page_Find Health Insurance for 2018/a_Quote  Save Today"))
+
+4
+00:00:35,941 --> 00:00:35,942
+13. setText(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Location_zip-input"), "60602")
+
+5
+00:00:38,335 --> 00:00:38,336
+17. setText(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Date of Birth_dob-0"), "03/03/1987")
+
+6
+00:00:39,769 --> 00:00:39,770
+21. click(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Male"))
+
+7
+00:00:40,339 --> 00:00:40,340
+25. click(findTestObject("Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Compare Plans"))
+
+8
+00:00:41,178 --> 00:00:41,180
+29. Thread.sleep(2000)
+
+9
+00:00:43,190 --> 00:00:43,191
+33. Thread.sleep(2000)
+
+10
+00:00:45,192 --> 00:00:45,194
+37. scrollToElement(findTestObject("mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla"), 1000)
+
+11
+00:00:45,610 --> 00:00:45,612
+41. click(findTestObject("Object Repository/mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla"))
+
+12
+00:00:46,279 --> 00:00:46,280
+45. Thread.sleep(2000)
+
+13
+00:00:48,282 --> 00:00:48,283
+49. click(findTestObject("Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Apply for This Plan"))
+
+14
+00:00:49,117 --> 00:00:49,118
+53. Thread.sleep(1000)
+
+15
+00:00:50,121 --> 00:00:50,123
+57. click(findTestObject("Object Repository/mobileSanity/STM/Page_Standard Life Select STM Plan/a_Start Secure Application"))
+
+16
+00:00:50,491 --> 00:00:50,492
+61. Thread.sleep(2000)
+
+17
+00:00:52,495 --> 00:00:52,496
+65. click(findTestObject("Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/a_Autofill App Info"))
+
+18
+00:00:54,133 --> 00:00:54,133
+69. scrollToElement(findTestObject("Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/a_Continue"))
+
