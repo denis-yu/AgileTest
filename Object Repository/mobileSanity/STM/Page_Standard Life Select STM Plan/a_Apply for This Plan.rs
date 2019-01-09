@@ -4,10 +4,16 @@
    <name>a_Apply for This Plan</name>
    <tag></tag>
    <elementGuidId>c54b9765-3317-4c38-9c2b-648a5e775773</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
