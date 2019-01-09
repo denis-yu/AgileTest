@@ -60,36 +60,41 @@ WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_Standard Lif
 
 WebUI.waitForPageLoad(0)
 
-WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/a_Autofill App Info'))
-
 Thread.sleep(1000)
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+//WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/a_Autofill App Info'))
+//
+//Thread.sleep(1000)
+WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
 
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No2'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No2'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No3'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No3'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No4'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No4'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No5'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No5'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No6'), 
+    0)
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No6'))
 
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-
+//WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No7'), 0)
+//
+//WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No7'))
 WebUI.waitForElementVisible(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 1 - Standard Life Sel/a_Continue'), 
     0)
 
@@ -104,7 +109,8 @@ WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 2 -
 
 Thread.sleep(2000)
 
-WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 3 - Standard Life Sel/div_Credit Card Number (no das'))
+WebUI.setText(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 3 - Standard Life Sel/div_Credit Card Number (no das'), 
+    '123')
 
 WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 3 - Standard Life Sel/label_I Accept Authorization f'))
 

@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;applyButton&quot;)[count(. | //a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//a[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]</value>
+         <value>id(&quot;applyButton&quot;)[count(. | //*[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//*[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

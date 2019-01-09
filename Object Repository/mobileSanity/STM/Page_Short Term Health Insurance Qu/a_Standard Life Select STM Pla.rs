@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]</value>
+         <value>//*[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

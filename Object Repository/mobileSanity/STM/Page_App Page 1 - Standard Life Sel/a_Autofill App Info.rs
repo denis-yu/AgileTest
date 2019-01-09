@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;fillApp&quot;)[count(. | //a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//a[@id = 'fillApp' and @href = '#' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]</value>
+         <value>id(&quot;fillApp&quot;)[count(. | //*[@id = 'fillApp' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//*[@id = 'fillApp' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>fillApp</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

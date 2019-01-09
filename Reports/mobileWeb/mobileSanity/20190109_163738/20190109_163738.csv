@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Safari 12,,2019-01-09 16:37:57,2019-01-09 16:41:49,3m - 52.657s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 12,,2019-01-09 16:37:57,2019-01-09 16:41:47,3m - 50.039s,FAILED
+"openBrowser("""")",Safari 12,,2019-01-09 16:37:59,2019-01-09 16:39:23,1m - 23.809s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-09 16:39:23,2019-01-09 16:39:32,9.208s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_Find Health Insurance for 2018/a_Quote  Save Today""))",Safari 12,,2019-01-09 16:39:32,2019-01-09 16:39:39,6.622s,PASSED
+"setText(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-09 16:39:39,2019-01-09 16:39:43,4.467s,PASSED
+"setText(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-09 16:39:43,2019-01-09 16:39:46,2.520s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Male""))",Safari 12,,2019-01-09 16:39:46,2019-01-09 16:40:05,19.666s,PASSED
+"click(findTestObject(""Object Repository/mobileSanity/STM/Page_2018 Health Insurance Get a Sh/label_Compare Plans""))",Safari 12,,2019-01-09 16:40:05,2019-01-09 16:40:22,16.366s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-09 16:40:22,2019-01-09 16:40:26,4.235s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla""), 1000)",Safari 12,,2019-01-09 16:40:26,2019-01-09 16:41:45,1m - 18.617s,FAILED
