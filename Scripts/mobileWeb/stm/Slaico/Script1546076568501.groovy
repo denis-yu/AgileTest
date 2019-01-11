@@ -109,8 +109,7 @@ WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 2 -
 
 Thread.sleep(2000)
 
-WebUI.setText(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 3 - Standard Life Sel/div_Credit Card Number (no das'), 
-    '123')
+WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/input__credit-card-cvv'), '123')
 
 WebUI.click(findTestObject('Object Repository/mobileSanity/STM/Page_App Page 3 - Standard Life Sel/label_I Accept Authorization f'))
 
