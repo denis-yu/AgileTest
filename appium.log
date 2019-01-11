@@ -1,169 +1,43 @@
-[Appium] Welcome to Appium v1.8.1
+[Appium] Welcome to Appium v1.7.2
 [Appium] Non-default server args:
-[Appium]   port: 61389
-[Appium]   chromeDriverPort: 61392
-[Appium]   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1546424750075
-[Appium] Appium REST http interface listener started on 0.0.0.0:61389
-[HTTP] --> GET /wd/hub/status
-[HTTP] {}
-[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
-[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 29 ms - 83
-[HTTP] 
-[HTTP] --> GET /wd/hub/status
-[HTTP] {}
-[debug] [MJSONWP] Calling AppiumDriver.getStatus() with args: []
-[debug] [MJSONWP] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 19 ms - 83
-[HTTP] 
-[HTTP] --> POST /wd/hub/session
-[HTTP] {"desiredCapabilities":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"69T7N15915029735","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"capabilities":{"desiredCapabilities":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"69T7N15915029735","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"firstMatch":[{"platformName":"android"}]}}
-[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"69T7N15915029735","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},null,{"desiredCapabilities":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"69T7N15915029735","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"firstMatch":[{"platformName":"android"}]}]
-[debug] [BaseDriver] Event 'newSessionRequested' logged at 1546424753890 (18:25:53 GMT+0800 (China Standard Time))
-[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
-[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","appActivity","appPackage","autoGrantPermissions","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
-[Appium] Creating new AndroidDriver (v2.7.0) session
+[Appium]   port: 62346
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 62365
+[Appium]   tmpDir: C:\Users\sofee.yu\AppData\Local\Temp\\Katalon\Appium\Temp1547197823529
+[Appium] Appium REST http interface listener started on 0.0.0.0:62346
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 50 ms - 72 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 25 ms - 72 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"C:\\Users\\sofee.yu\\Desktop\\com.android.chrome_71.0.3578.99-357809900.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung SM-G955F (Android 5.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"127.0.0.1:62025"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\sofee.yu\\Desktop\\com.android.chrome_71.0.3578.99-357809900.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung SM-G955F (Android 5.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"127.0.0.1:62025"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Merged W3C capabilities {"desiredCapabilities":{"app":"C:\\Users\\sofee... into desiredCapabilities object {"app":"C:\\Users\\sofee.yu\\Desktop\\com.andro...
+[Appium] Creating new AndroidDriver (v1.37.0) session
 [Appium] Capabilities:
-[Appium]   app: /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk
-[Appium]   appActivity: org.chromium.chrome.browser.document.ChromeLauncherActivity
-[Appium]   appPackage: com.android.chrome
+[Appium]   app: C:\Users\sofee.yu\Desktop\com.android.chrome_71.0.3578.99-357809900.apk
 [Appium]   autoGrantPermissions: true
-[Appium]   deviceId: 69T7N15915029735
-[Appium]   deviceName: HUAWEI ATH-AL00 (Android 6.0.1)
+[Appium]   deviceId: 
+[Appium]   deviceName: samsung SM-G955F (Android 5.1.1)
 [Appium]   fullReset: false
 [Appium]   newCommandTimeout: 1800
 [Appium]   noReset: true
 [Appium]   platform: ANDROID
-[Appium]   platformName: Android
-[Appium]   udid: 69T7N15915029735
-[debug] [BaseDriver] Creating session with MJSONWP desired capabilities: {"app":"/Users/denisyu/Down...
+[Appium]   platformName: android
+[Appium]   udid: 127.0.0.1:62025
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
-[BaseDriver] Session created with session id: 9be6f545-df7c-4824-bb43-baf33f4e366e
-[debug] [AndroidDriver] Getting Java version
-[AndroidDriver] Java version is: 1.8.0_181
+[BaseDriver] Session created with session id: df164a16-cdf2-4ed9-a7b3-c5a7d170ef96
+[AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
-[ADB] Found 1 'build-tools' folders under '/Users/denisyu/.katalon/tools/android_sdk' (newest first):
-[ADB]     /Users/denisyu/.katalon/tools/android_sdk/build-tools/28.0.3
-[ADB] Using adb from /Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb
+[ADB] Using adb.exe from C:\Users\sofee.yu\.katalon\tools\android_sdk\platform-tools\adb.exe
 [AndroidDriver] Retrieving device list
-[debug] [ADB] Trying to find a connected android device
-[debug] [ADB] Getting connected devices...
-[debug] [ADB] 1 device(s) connected
-[AndroidDriver] Using device: 69T7N15915029735
-[debug] [ADB] Setting device id to 69T7N15915029735
-[BaseDriver] Using local app '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk'
-[debug] [AndroidDriver] Checking whether app is actually present
+[AndroidDriver] Using device: 127.0.0.1:62025
+[ADB] Checking whether adb is present
+[BaseDriver] Using local app 'C:\Users\sofee.yu\Desktop\com.android.chrome_71.0.3578.99-357809900.apk'
 [AndroidDriver] Starting Android session
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 wait-for-device'
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell echo ping'
-[debug] [AndroidDriver] Pushing settings apk to device...
-[debug] [ADB] Getting install status for io.appium.settings
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.settings'
-[debug] [ADB] 'io.appium.settings' is installed
-[debug] [ADB] Getting package info for 'io.appium.settings'
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.settings'
-[ADB] Checking whether aapt is present
-[ADB] Using aapt from /Users/denisyu/.katalon/tools/android_sdk/platform-tools/aapt
-[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
-[debug] [ADB] There is no need to install/upgrade '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_io.appium.settings@2.11.0@io.appium.settings/apks/settings_apk-debug.apk'
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
-[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.build.version.sdk'
-[debug] [ADB] Current device property 'ro.build.version.sdk': 23
-[debug] [ADB] Device API level: 23
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell appops set io.appium.settings android\:mock_location allow'
 [AndroidDriver] setDeviceLanguageCountry requires language or country.
 [AndroidDriver] Got language: 'null' and country: 'null'
-[debug] [Logcat] Starting logcat capture
-[debug] [AndroidDriver] Pushing unlock helper app to device...
-[debug] [ADB] Getting install status for io.appium.unlock
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package io.appium.unlock'
-[debug] [ADB] 'io.appium.unlock' is not installed
-[debug] [ADB] App '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk' is not installed
-[debug] [ADB] Installing '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk'
-[debug] [ADB] Device API level: 23
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 install -g /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock\@2.0.0\@appium-unlock/bin/unlock_apk-debug.apk'
-[debug] [ADB] Install command stdout: [100%] /data/local/tmp/unlock_apk-debug.apk
-[debug] [ADB] /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-unlock@2.0.0@appium-unlock/bin/unlock_apk-debug.apk: 1 file pushed. 4.1 MB/s (34611 bytes in 0.008s)
-[debug] [ADB] 	pkg: /data/local/tmp/unlock_apk-debug.apk
-[debug] [ADB] Success
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\Users\sofee.yu\.katalon\tools\android_sdk\build-tools\android-4.4W\aapt.exe
+[ADB] Checking whether aapt is present
 [ADB] Getting device platform version
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.build.version.release'
-[debug] [ADB] Current device property 'ro.build.version.release': 6.0.1
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell wm size'
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.product.model'
-[debug] [ADB] Current device property 'ro.product.model': ATH-AL00
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell getprop ro.product.manufacturer'
-[debug] [ADB] Current device property 'ro.product.manufacturer': HUAWEI
-[debug] [ADB] Getting install status for com.android.chrome
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys package com.android.chrome'
-[debug] [ADB] 'com.android.chrome' is not installed
-[debug] [ADB] App '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk' is not installed
-[debug] [ADB] Installing '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk'
-[debug] [ADB] Device API level: 23
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 install -g /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk'
-[debug] [ADB] Install command stdout: [  0%] /data/local/tmp/com.android.chrome_71.0.3578.99-357809900.apk
-[debug] [ADB] [  0%] /data/local/tmp/com.android.chrome_71.0.3578.99-357809900.apk
-[debug] [ADB] [  0%] /data...3578.99-357809900.apk: 1 file pushed. 5.6 MB/s (45603065 bytes in 7.704s)
-[debug] [ADB] 	pkg: /data/local/tmp/com.android.chrome_71.0.3578.99-357809900.apk
-[debug] [ADB] Success
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell rm -rf /data/local/tmp/strings.json'
-[debug] [AndroidDriver] Extracting strings from apk
-[debug] [AndroidDriver] /Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk
-[debug] [AndroidDriver] null
-[debug] [AndroidDriver] /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Appium/Temp1546424750075/com.android.chrome
-[debug] [ADB] Extracting strings from for language: default
-[ADB] Successfully extracted 1564 strings from '/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk' resources for '(default)' configuration
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 push /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Appium/Temp1546424750075/com.android.chrome/strings.json /data/local/tmp'
-[debug] [AndroidBootstrap] Watching for bootstrap disconnect
-[debug] [ADB] Forwarding system: 4724 to device: 4724
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 forward tcp\:4724 tcp\:4724'
-[debug] [UiAutomator] Starting UiAutomator
-[debug] [UiAutomator] Moving to state 'starting'
-[debug] [UiAutomator] Parsing uiautomator jar
-[debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 push /Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-android-bootstrap\@2.13.1\@appium-android-bootstrap/bootstrap/bin/AppiumBootstrap.jar /data/local/tmp/'
-[debug] [ADB] Attempting to kill all uiautomator processes
-[debug] [ADB] Getting all processes with uiautomator
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell ps'
-[ADB] No 'uiautomator' process has been found
-[debug] [UiAutomator] Starting UIAutomator
-[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","69T7N15915029735","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.android.chrome","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
-[debug] [UiAutomator] Moving to state 'online'
-[AndroidBootstrap] Android bootstrap socket is now connected
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell dumpsys window'
-[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
-[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
-[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
-[AndroidDriver] Screen already unlocked, doing nothing
-[debug] [ADB] Device API level: 23
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am start -W -n com.android.chrome/org.chromium.chrome.browser.document.ChromeLauncherActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
-[Appium] New AndroidDriver session created successfully, session 9be6f545-df7c-4824-bb43-baf33f4e366e added to master session list
-[debug] [BaseDriver] Event 'newSessionStarted' logged at 1546424787400 (18:26:27 GMT+0800 (China Standard Time))
-[debug] [MJSONWP] Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"69T7N15915029735","deviceName":"HUAWEI ATH-AL00 (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"69T7N15915029735"},"app":"/Users/denisyu/Downloads/com.android.chrome_71.0.3578.99-357809900.apk","appActivity":"org.chromium.chrome.browser.document.ChromeLauncherActivity","appPackage":"com.android.chrome","autoGrantPermissions":true,"deviceId":"69T7N15915029735","deviceName":"69T7N15915029735","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"69T7N15915029735",...
-[HTTP] <-- POST /wd/hub/session 200 33513 ms - 1237
-[HTTP] 
-[HTTP] --> GET /wd/hub/status
-[HTTP] {}
-[debug] [W3C] Calling AppiumDriver.getStatus() with args: []
-[debug] [W3C] Responding to client with driver.getStatus() result: {"build":{"version":"1.8.1","revision":null}}
-[HTTP] <-- GET /wd/hub/status 200 20 ms - 55
-[HTTP] 
-[HTTP] --> POST /wd/hub/session/9be6f545-df7c-4824-bb43-baf33f4e366e/timeouts
-[HTTP] {"type":"implicit","ms":60000}
-[debug] [W3C] Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/9be6f545-df7c-4824-bb43-baf33f4e366e/timeouts 400 15 ms - 5641
-[HTTP] 
-[debug] [AndroidBootstrap] Emitting alert message...
-[debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Emitting system alert message
-[debug] [UiAutomator] Moving to state 'stopped'
-[debug] [AndroidDriver] Shutting down Android driver
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am force-stop com.android.chrome'
-[Appium] Closing session, cause was 'UiAUtomator shut down unexpectedly'
-[Appium] Removing session 9be6f545-df7c-4824-bb43-baf33f4e366e from our master session list
-[debug] [ADB] Pressing the HOME button
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell input keyevent 3'
-[AndroidBootstrap] Cannot shut down Android bootstrap; it has already shut down
-[debug] [Logcat] Stopping logcat capture
-[debug] [ADB] Running '/Users/denisyu/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 69T7N15915029735 shell am force-stop io.appium.unlock'
-[debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[ADB] Checking whether aapt is present
+[ADB] Extracting package and launch activity from manifest

@@ -69,24 +69,24 @@ WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Se
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
 
 WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
 
