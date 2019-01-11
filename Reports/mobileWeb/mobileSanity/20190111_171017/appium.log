@@ -1,0 +1,61 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 56266
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 56267
+[Appium]   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1547197826180
+[Appium]   webkitDebugProxyPort: 56264
+[Appium] Appium REST http interface listener started on 0.0.0.0:56266
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 41 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":56263},"capabilities":{"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":56263},"firstMatch":[{"browserName":"Safari","platformName":"ios"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["automationName","browserName","deviceId","deviceName","newCommandTimeout","platform","platformName","platformVersion","realDeviceLogger","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.105.0) session
+[Appium] Capabilities:
+[Appium]   automationName: XCUITest
+[Appium]   browserName: Safari
+[Appium]   deviceId: 
+[Appium]   deviceName: iPhone X
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: IOS
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 12.1
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   wdaLocalPort: 56263
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: c65015ab-b603-4e76-b40c-a8193947451b
+[iOSSim] Constructing iOS simulator for Xcode version 10.1 with udid '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37'
+[XCUITest] Determining device to run tests on: udid: '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37', real device: false
+[XCUITest] Safari test requested
+[XCUITest] Setting up simulator
+[iOSSim] Booting Simulator with UDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37...
+[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 -ConnectHardwareKeyboard 0
+[iOSSim] Simulator with UDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 booted in 2 seconds
+[XCUITest] Using WDA path: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[XCUITest] Launching WebDriverAgent on the device
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
