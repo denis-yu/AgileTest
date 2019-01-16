@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[text()='Dental Insurance']</value>
+         <value>//ul[@class='global-side-nav-list']/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[text()='Dental Insurance']</value>
+      <value>//ul[@class='global-side-nav-list']/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

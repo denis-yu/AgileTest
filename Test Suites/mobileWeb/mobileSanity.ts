@@ -4,7 +4,6 @@
    <name>mobileSanity</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-08T17:56:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +13,7 @@
    <testCaseLink>
       <guid>447ba290-aa54-4686-9aba-01a416f0f6fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -49,5 +48,11 @@
          <value></value>
          <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>148ddc73-592f-4fe9-a7e7-5c19e5187a6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

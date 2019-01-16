@@ -13,3 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
+
+WebUI.waitForPageLoad(10)
+
+WebUI.takeScreenshot('//screenshots/test.png')
+
