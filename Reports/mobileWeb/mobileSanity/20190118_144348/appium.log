@@ -1,0 +1,207 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 54913
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 54914
+[Appium]   tmpDir: /var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T//Katalon/Appium/Temp1547793839753
+[Appium]   webkitDebugProxyPort: 54911
+[Appium] Appium REST http interface listener started on 0.0.0.0:54913
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 39 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":54910},"capabilities":{"desiredCapabilities":{"automationName":"XCUITest","browserName":"Safari","deviceId":"","deviceName":"iPhone X","newCommandTimeout":1800,"platform":"IOS","platformName":"iOS","platformVersion":"12.1","realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","wdaLocalPort":54910},"firstMatch":[{"browserName":"Safari","platformName":"ios"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["automationName","browserName","deviceId","deviceName","newCommandTimeout","platform","platformName","platformVersion","realDeviceLogger","wdaLocalPort"]. Falling back to JSONWP protocol.
+[Appium] Creating new XCUITestDriver (v2.105.0) session
+[Appium] Capabilities:
+[Appium]   automationName: XCUITest
+[Appium]   browserName: Safari
+[Appium]   deviceId: 
+[Appium]   deviceName: iPhone X
+[Appium]   newCommandTimeout: 1800
+[Appium]   platform: IOS
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 12.1
+[Appium]   realDeviceLogger: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole
+[Appium]   wdaLocalPort: 54910
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe
+[iOSSim] Constructing iOS simulator for Xcode version 10.1 with udid '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37'
+[XCUITest] Determining device to run tests on: udid: '1FBC48CC-4B26-4899-AB2C-0FDD67CACB37', real device: false
+[XCUITest] Safari test requested
+[XCUITest] Setting up simulator
+[iOSSim] Booting Simulator with UDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37...
+[iOSSim] Starting Simulator UI with command: open -Fn /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app --args -CurrentDeviceUDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 -ConnectHardwareKeyboard 0
+[iOSSim] Simulator with UDID 1FBC48CC-4B26-4899-AB2C-0FDD67CACB37 booted in 3 seconds
+[XCUITest] Using WDA path: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Users/denisyu/.nvm/versions/node/v8.1.4/lib/node_modules/appium/node_modules/_appium-xcuitest-driver@2.105.0@appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[XCUITest] Launching WebDriverAgent on the device
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":54910}
+[HTTP] --> GET /welcome
+[HTTP] {}
+[HTTP] <-- GET /welcome 200 56 ms - 124
+[HTTP] 
+[HTTP] <-- GET /favicon.ico 200 4 ms - 1150
+[HTTP] 
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[Appium] New XCUITestDriver session created successfully, session 3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe added to master session list
+[HTTP] <-- POST /wd/hub/session 200 73107 ms - 608
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 54 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/timeouts 400 20 ms - 5641
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/timeouts
+[HTTP] {"type":"implicit","ms":0}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/timeouts 400 4 ms - 5633
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/execute
+[HTTP] {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/execute 200 3122 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/url
+[HTTP] {"url":"https://praetemptatus.agilehealthinsurance.com/"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/url 200 5581 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2467 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 1854 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2750 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2696 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2435 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 3354 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2477 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2598 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 1381 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 3642 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2391 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2201 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2184 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 1598 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 1395 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2894 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 4222 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 5980 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 3746 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 3485 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 1097 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 2235 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/elements 200 1044 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe/screenshot 200 466 ms - 214594
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe
+[HTTP] {}
+[Appium] Removing session 3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe from our master session list
+[HTTP] <-- DELETE /wd/hub/session/3d5fb0ea-6bca-4e6a-9c6a-d8e3bd150dfe 200 1094 ms - 76
+[HTTP] 

@@ -49,4 +49,34 @@
          <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4522afc5-84c5-4367-b03a-b64aeb00c678</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8337adbb-f040-4173-98b9-c603d302eebd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>adeccc1d-a1cd-4e5e-96ea-d7cf567f777c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81f33728-f684-4c4d-8b8a-38d716b13e88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a177220-6d58-4ef2-a0e4-ef64f2d94914</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

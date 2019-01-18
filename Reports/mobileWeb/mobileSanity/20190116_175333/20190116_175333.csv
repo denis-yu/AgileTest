@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Safari 12,,2019-01-16 17:53:37,2019-01-16 17:58:28,4m - 50.463s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 12,,2019-01-16 17:53:38,2019-01-16 17:58:26,4m - 47.924s,FAILED
+"openBrowser("""")",Safari 12,,2019-01-16 17:53:39,2019-01-16 17:56:34,2m - 54.666s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-16 17:56:34,2019-01-16 17:56:41,6.820s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 12,,2019-01-16 17:56:41,2019-01-16 17:56:50,9.255s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-16 17:56:50,2019-01-16 17:56:55,4.368s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-16 17:56:55,2019-01-16 17:57:01,5.992s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 12,,2019-01-16 17:57:01,2019-01-16 17:57:02,1.574s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 12,,2019-01-16 17:57:02,2019-01-16 17:57:03,0.434s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-16 17:57:03,2019-01-16 17:57:07,4.037s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 12,,2019-01-16 17:57:07,2019-01-16 17:57:09,2.451s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-16 17:57:09,2019-01-16 17:57:10,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_Short Term Health Insurance Qu/i_Insurance company_fa fa-chev""))",Safari 12,,2019-01-16 17:57:10,2019-01-16 17:58:23,1m - 12.867s,FAILED

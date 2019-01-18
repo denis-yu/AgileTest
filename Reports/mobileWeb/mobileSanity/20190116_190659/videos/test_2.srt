@@ -1,0 +1,140 @@
+1
+00:00:00,350 --> 00:00:00,351
+1. openBrowser("")
+
+2
+00:00:43,289 --> 00:00:43,291
+5. navigateToUrl("https://praetemptatus.agilehealthinsurance.com/")
+
+3
+00:00:49,371 --> 00:00:49,371
+9. click(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today"))
+
+4
+00:00:57,980 --> 00:00:57,981
+13. setText(findTestObject("mobileSanity/STM/STM Census Page/input_Location_zip-input"), "60602")
+
+5
+00:01:04,938 --> 00:01:04,939
+17. setText(findTestObject("mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0"), "03/03/1987")
+
+6
+00:01:13,229 --> 00:01:13,232
+21. click(findTestObject("mobileSanity/STM/STM Census Page/label_Male"))
+
+7
+00:01:17,277 --> 00:01:17,278
+25. click(findTestObject("mobileSanity/STM/STM Census Page/label_Compare Plans"))
+
+8
+00:01:21,162 --> 00:01:21,162
+29. Thread.sleep(4000)
+
+9
+00:01:25,097 --> 00:01:25,099
+33. scrollToElement(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla"), 1000)
+
+10
+00:01:26,841 --> 00:01:26,842
+37. click(findTestObject("mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)"))
+
+11
+00:01:27,753 --> 00:01:27,755
+41. Thread.sleep(2000)
+
+12
+00:01:29,764 --> 00:01:29,765
+45. waitForElementVisible(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan"), 0)
+
+13
+00:01:30,951 --> 00:01:30,952
+49. click(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan"))
+
+14
+00:01:32,431 --> 00:01:32,432
+53. click(findTestObject("mobileSanity/STM/STM Apply Page/span_ Add"))
+
+15
+00:01:35,566 --> 00:01:35,567
+57. waitForElementVisible(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application"), 0)
+
+16
+00:01:36,629 --> 00:01:36,630
+61. click(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application"))
+
+17
+00:01:37,420 --> 00:01:37,421
+65. waitForPageLoad(0)
+
+18
+00:01:39,483 --> 00:01:39,483
+69. Thread.sleep(1000)
+
+19
+00:01:40,492 --> 00:01:40,493
+73. click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No"))
+
+20
+00:01:44,783 --> 00:01:44,785
+77. waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No2"), 0)
+
+21
+00:01:46,953 --> 00:01:46,954
+81. click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No2"))
+
+22
+00:01:49,148 --> 00:01:49,149
+85. waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No3"), 0)
+
+23
+00:01:50,309 --> 00:01:50,310
+89. click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No3"))
+
+24
+01:34:04,968 --> 01:34:04,970
+93. waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No4"), 0)
+
+25
+13:46:15,094 --> 13:46:15,096
+97. click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No4"))
+
+26
+13:46:21,502 --> 13:46:21,503
+101. waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No5"), 0)
+
+27
+13:46:22,352 --> 13:46:22,353
+105. click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No5"))
+
+28
+13:46:26,952 --> 13:46:26,954
+109. waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No6"), 0)
+
+29
+13:46:29,728 --> 13:46:29,730
+113. click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No6"))
+
+30
+13:46:31,201 --> 13:46:31,202
+117. waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue"), 0)
+
+31
+13:46:34,714 --> 13:46:34,716
+121. click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue"))
+
+32
+13:46:37,258 --> 13:46:37,259
+125. Thread.sleep(1000)
+
+33
+13:46:38,261 --> 13:46:38,262
+129. click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info"))
+
+34
+13:46:40,189 --> 13:46:40,190
+133. Thread.sleep(1000)
+
+35
+13:46:41,199 --> 13:46:41,200
+137. click(findTestObject("mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment"))
+

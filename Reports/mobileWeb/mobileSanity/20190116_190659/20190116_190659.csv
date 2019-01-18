@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Safari 12,,2019-01-16 19:07:15,2019-01-17 08:59:45,13h - 52m - 30.239s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 12,,2019-01-16 19:07:15,2019-01-16 19:11:35,4m - 19.608s,FAILED
+"openBrowser("""")",Safari 12,,2019-01-16 19:07:17,2019-01-16 19:08:14,56.873s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-16 19:08:14,2019-01-16 19:08:19,4.669s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 12,,2019-01-16 19:08:19,2019-01-16 19:08:31,12.172s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-16 19:08:31,2019-01-16 19:08:35,4.217s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-16 19:08:35,2019-01-16 19:08:40,5.456s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 12,,2019-01-16 19:08:40,2019-01-16 19:08:42,1.994s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 12,,2019-01-16 19:08:42,2019-01-16 19:08:46,3.045s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-16 19:08:46,2019-01-16 19:08:50,4.022s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""), 1000)",Safari 12,,2019-01-16 19:08:50,2019-01-16 19:08:57,7.834s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""))",Safari 12,,2019-01-16 19:08:57,2019-01-16 19:09:00,3.032s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-16 19:09:00,2019-01-16 19:09:02,2.009s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""), 0)",Safari 12,,2019-01-16 19:09:02,2019-01-16 19:09:04,1.709s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Safari 12,,2019-01-16 19:09:04,2019-01-16 19:09:09,5.192s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Safari 12,,2019-01-16 19:09:09,2019-01-16 19:09:11,1.372s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Safari 12,,2019-01-16 19:09:11,2019-01-16 19:09:12,1.586s,PASSED
+waitForPageLoad(0),Safari 12,,2019-01-16 19:09:12,2019-01-16 19:09:16,3.671s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-16 19:09:16,2019-01-16 19:09:17,1.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No""))",Safari 12,,2019-01-16 19:09:17,2019-01-16 19:09:20,3.286s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""), 0)",Safari 12,,2019-01-16 19:09:20,2019-01-16 19:09:23,2.731s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""))",Safari 12,,2019-01-16 19:09:23,2019-01-16 19:09:26,3.194s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""), 0)",Safari 12,,2019-01-16 19:09:26,2019-01-16 19:09:29,3.140s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""))",Safari 12,,2019-01-16 19:09:29,2019-01-16 19:09:32,2.431s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""), 0)",Safari 12,,2019-01-16 19:09:32,2019-01-16 19:09:35,3.597s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""))",Safari 12,,2019-01-16 19:09:35,2019-01-16 19:09:38,2.264s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""), 0)",Safari 12,,2019-01-16 19:09:38,2019-01-16 19:09:40,2.471s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""))",Safari 12,,2019-01-16 19:09:40,2019-01-16 19:09:45,4.833s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""), 0)",Safari 12,,2019-01-16 19:09:45,2019-01-16 19:09:47,1.772s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""))",Safari 12,,2019-01-16 19:09:47,2019-01-16 19:09:49,2.555s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""), 0)",Safari 12,,2019-01-16 19:09:49,2019-01-16 19:09:51,1.489s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""))",Safari 12,,2019-01-16 19:09:51,2019-01-16 19:09:55,4.604s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-16 19:09:55,2019-01-16 19:09:56,1.003s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Autofill App Info""))",Safari 12,,2019-01-16 19:09:56,2019-01-16 19:09:59,3.127s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-16 19:09:59,2019-01-16 19:10:00,1.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment""))",Safari 12,,2019-01-16 19:10:00,2019-01-16 19:10:05,4.895s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-16 19:10:05,2019-01-16 19:10:07,2.005s,PASSED
+"setText(findTestObject(""mobileSanity/STM/Page_App Page 3/input__credit-card-cvv""), ""123"")",Safari 12,,2019-01-16 19:10:07,2019-01-16 19:11:32,1m - 24.803s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 12,,2019-01-16 19:11:35,2019-01-17 08:59:44,13h - 48m - 8.815s,FAILED
+"openBrowser("""")",Safari 12,,2019-01-16 19:11:35,2019-01-16 19:12:18,42.940s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-16 19:12:18,2019-01-16 19:12:24,6.081s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 12,,2019-01-16 19:12:24,2019-01-16 19:12:33,8.610s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-16 19:12:33,2019-01-16 19:12:40,6.957s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-16 19:12:40,2019-01-16 19:12:48,8.292s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 12,,2019-01-16 19:12:48,2019-01-16 19:12:52,4.046s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 12,,2019-01-16 19:12:52,2019-01-16 19:12:56,3.884s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-16 19:12:56,2019-01-16 19:13:00,3.936s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""), 1000)",Safari 12,,2019-01-16 19:13:00,2019-01-16 19:13:02,1.743s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)""))",Safari 12,,2019-01-16 19:13:02,2019-01-16 19:13:03,0.913s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-16 19:13:03,2019-01-16 19:13:05,2.010s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""), 0)",Safari 12,,2019-01-16 19:13:05,2019-01-16 19:13:06,1.186s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Safari 12,,2019-01-16 19:13:06,2019-01-16 19:13:07,1.480s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/span_ Add""))",Safari 12,,2019-01-16 19:13:07,2019-01-16 19:13:11,3.135s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Safari 12,,2019-01-16 19:13:11,2019-01-16 19:13:12,1.063s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Safari 12,,2019-01-16 19:13:12,2019-01-16 19:13:12,0.791s,PASSED
+waitForPageLoad(0),Safari 12,,2019-01-16 19:13:12,2019-01-16 19:13:14,2.062s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-16 19:13:14,2019-01-16 19:13:15,1.009s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No""))",Safari 12,,2019-01-16 19:13:15,2019-01-16 19:13:20,4.290s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""), 0)",Safari 12,,2019-01-16 19:13:20,2019-01-16 19:13:22,2.171s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""))",Safari 12,,2019-01-16 19:13:22,2019-01-16 19:13:24,2.195s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""), 0)",Safari 12,,2019-01-16 19:13:24,2019-01-16 19:13:25,1.160s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""))",Safari 12,,2019-01-16 19:13:25,2019-01-16 20:45:40,1h - 32m - 14.660s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""), 0)",Safari 12,,2019-01-16 20:45:40,2019-01-17 08:57:50,12h - 12m - 10.126s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""))",Safari 12,,2019-01-17 08:57:50,2019-01-17 08:57:56,6.407s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""), 0)",Safari 12,,2019-01-17 08:57:56,2019-01-17 08:57:57,0.851s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""))",Safari 12,,2019-01-17 08:57:57,2019-01-17 08:58:02,4.600s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""), 0)",Safari 12,,2019-01-17 08:58:02,2019-01-17 08:58:05,2.775s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""))",Safari 12,,2019-01-17 08:58:05,2019-01-17 08:58:06,1.472s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""), 0)",Safari 12,,2019-01-17 08:58:06,2019-01-17 08:58:10,3.514s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""))",Safari 12,,2019-01-17 08:58:10,2019-01-17 08:58:12,2.543s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-17 08:58:12,2019-01-17 08:58:13,1.002s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Autofill App Info""))",Safari 12,,2019-01-17 08:58:13,2019-01-17 08:58:15,1.928s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-17 08:58:15,2019-01-17 08:58:16,1.009s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment""))",Safari 12,,2019-01-17 08:58:16,2019-01-17 08:59:38,1m - 22.249s,FAILED
