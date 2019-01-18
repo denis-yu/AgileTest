@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Safari 12,,2019-01-17 18:32:47,2019-01-17 18:47:38,14m - 50.156s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 12,,2019-01-17 18:32:48,2019-01-17 18:41:32,8m - 44.065s,FAILED
+"openBrowser("""")",Safari 12,,2019-01-17 18:32:49,2019-01-17 18:38:20,5m - 30.543s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-17 18:38:20,2019-01-17 18:38:24,3.980s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 12,,2019-01-17 18:38:24,2019-01-17 18:38:46,21.627s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-17 18:38:46,2019-01-17 18:38:53,7.411s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-17 18:38:53,2019-01-17 18:39:40,47.331s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 12,,2019-01-17 18:39:40,2019-01-17 18:39:53,12.463s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 12,,2019-01-17 18:39:53,2019-01-17 18:40:12,19.597s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-17 18:40:12,2019-01-17 18:40:16,4.028s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""), 1000)",Safari 12,,2019-01-17 18:40:16,2019-01-17 18:41:29,1m - 12.363s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 12,,2019-01-17 18:41:32,2019-01-17 18:47:35,6m - 3.523s,PASSED
+"openBrowser("""")",Safari 12,,2019-01-17 18:41:33,2019-01-17 18:45:20,3m - 47.245s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-17 18:45:20,2019-01-17 18:45:23,3.070s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 12,,2019-01-17 18:45:23,2019-01-17 18:45:38,14.711s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-17 18:45:38,2019-01-17 18:45:43,5.144s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-17 18:45:43,2019-01-17 18:45:48,5.445s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 12,,2019-01-17 18:45:48,2019-01-17 18:45:51,2.613s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 12,,2019-01-17 18:45:51,2019-01-17 18:45:53,1.730s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-17 18:45:53,2019-01-17 18:45:57,4.008s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""), 1000)",Safari 12,,2019-01-17 18:45:57,2019-01-17 18:45:58,1.714s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)""))",Safari 12,,2019-01-17 18:45:58,2019-01-17 18:46:02,3.257s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-17 18:46:02,2019-01-17 18:46:04,2.003s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""), 0)",Safari 12,,2019-01-17 18:46:04,2019-01-17 18:46:06,2.949s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Safari 12,,2019-01-17 18:46:06,2019-01-17 18:46:08,1.679s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/span_ Add""))",Safari 12,,2019-01-17 18:46:08,2019-01-17 18:46:11,3.169s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Safari 12,,2019-01-17 18:46:11,2019-01-17 18:46:12,1.023s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Safari 12,,2019-01-17 18:46:12,2019-01-17 18:46:15,2.281s,PASSED
+waitForPageLoad(0),Safari 12,,2019-01-17 18:46:15,2019-01-17 18:46:16,1.738s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-17 18:46:16,2019-01-17 18:46:17,1.004s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No""))",Safari 12,,2019-01-17 18:46:17,2019-01-17 18:46:21,3.466s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""), 0)",Safari 12,,2019-01-17 18:46:21,2019-01-17 18:46:23,1.980s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""))",Safari 12,,2019-01-17 18:46:23,2019-01-17 18:46:25,1.938s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""), 0)",Safari 12,,2019-01-17 18:46:25,2019-01-17 18:46:26,1.280s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""))",Safari 12,,2019-01-17 18:46:26,2019-01-17 18:46:27,1.394s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""), 0)",Safari 12,,2019-01-17 18:46:27,2019-01-17 18:46:30,2.136s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""))",Safari 12,,2019-01-17 18:46:30,2019-01-17 18:46:32,2.680s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""), 0)",Safari 12,,2019-01-17 18:46:32,2019-01-17 18:46:34,1.356s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""))",Safari 12,,2019-01-17 18:46:34,2019-01-17 18:46:35,1.803s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""), 0)",Safari 12,,2019-01-17 18:46:35,2019-01-17 18:46:38,2.544s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""))",Safari 12,,2019-01-17 18:46:38,2019-01-17 18:46:39,1.235s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""), 0)",Safari 12,,2019-01-17 18:46:39,2019-01-17 18:46:41,1.538s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""))",Safari 12,,2019-01-17 18:46:41,2019-01-17 18:46:43,2.702s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-17 18:46:43,2019-01-17 18:46:44,1.002s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Autofill App Info""), 0)",Safari 12,,2019-01-17 18:46:44,2019-01-17 18:46:46,1.427s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Autofill App Info""))",Safari 12,,2019-01-17 18:46:46,2019-01-17 18:46:48,2.091s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-17 18:46:48,2019-01-17 18:46:49,1.007s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment""))",Safari 12,,2019-01-17 18:46:49,2019-01-17 18:46:51,1.618s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-17 18:46:51,2019-01-17 18:46:53,2.003s,PASSED
+"setText(findTestObject(""mobileSanity/STM/Page_App Page 3/input__credit-card-cvv""), ""123"")",Safari 12,,2019-01-17 18:46:53,2019-01-17 18:46:59,6.037s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f""))",Safari 12,,2019-01-17 18:46:59,2019-01-17 18:47:00,1.761s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review""))",Safari 12,,2019-01-17 18:47:00,2019-01-17 18:47:02,1.842s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 4/label""))",Safari 12,,2019-01-17 18:47:02,2019-01-17 18:47:06,4.156s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN""))",Safari 12,,2019-01-17 18:47:06,2019-01-17 18:47:09,2.286s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 4/a_Submit Your Application""))",Safari 12,,2019-01-17 18:47:09,2019-01-17 18:47:12,2.955s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-17 18:47:12,2019-01-17 18:47:14,2.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 6/span_planName""))",Safari 12,,2019-01-17 18:47:14,2019-01-17 18:47:32,18.317s,PASSED
+"verifyElementPresent(findTestObject(""mobileSanity/STM/Page_App Page 6/span_approved""), 0)",Safari 12,,2019-01-17 18:47:32,2019-01-17 18:47:33,0.816s,PASSED

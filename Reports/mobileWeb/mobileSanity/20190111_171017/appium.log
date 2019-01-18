@@ -59,3 +59,1525 @@
 [JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
 [JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
 [JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[JSONWP Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":56263}
+[HTTP] --> GET /welcome
+[HTTP] {}
+[HTTP] <-- GET /welcome 200 13 ms - 124
+[HTTP] 
+[HTTP] <-- GET /favicon.ico 200 1 ms - 1150
+[HTTP] 
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[Appium] New XCUITestDriver session created successfully, session c65015ab-b603-4e76-b40c-a8193947451b added to master session list
+[HTTP] <-- POST /wd/hub/session 200 252332 ms - 608
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 29 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/timeouts 400 24 ms - 5641
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/timeouts
+[HTTP] {"type":"implicit","ms":0}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/timeouts 400 3 ms - 5633
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute
+[HTTP] {"script":"return navigator.sayswho= (function() { var ua= navigator.userAgent, tem, M= ua.match(/(opera|chrome|safari|firefox|msie|trident)\\/?\\s*(\\.?\\d+(\\.\\d+)*)/i) || []; if (/trident/i.test(M[1])) {     tem=  /\\brv[ :]+(\\d+)/g.exec(ua) || [];     return 'IE '+(tem[1] || ''); } if(M[1]=== 'Chrome') {     tem= ua.match(/\\b(OPR|Edge)\\/(\\d+)/);     if(tem!= null) return tem.slice(1).join(' ').replace('OPR', 'Opera'); } M= M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?']; if((tem= ua.match(/version\\/(\\d+)/i))!= null) M.splice(1, 1, tem[1]); return M.join(' ').replace('MSIE', 'IE');})();","args":[]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute 200 2274 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/url
+[HTTP] {"url":"https://praetemptatus.agilehealthinsurance.com/"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/url 200 11469 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 5144 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 4962 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//a[@href = '/health-insurance-quotes' and @id = 'primaryCTA' and @title = 'Get Health Insurance Quotes' and (text() = 'Quote & Save Today' or . = 'Quote & Save Today')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1161 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 8597 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5000/click
+[HTTP] {"id":"5000"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5000/click 200 3915 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2867 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 322 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 5 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 7 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5001/clear
+[HTTP] {"id":"5001"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5001/clear 200 1442 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1386 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5002/value
+[HTTP] {"id":"5002","value":["60602"]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5002/value 200 2655 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'dob-0' and @type = 'tel' and @placeholder = 'mm/dd/yyyy']"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 620 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5003/clear
+[HTTP] {"id":"5003"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5003/clear 200 1996 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//input[@id = 'dob-0' and @type = 'tel' and @placeholder = 'mm/dd/yyyy']"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2335 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5004/value
+[HTTP] {"id":"5004","value":["03/03/1987"]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5004/value 200 5229 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//label[(text() = 'Male' or . = 'Male')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 654 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5005/click
+[HTTP] {"id":"5005"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5005/click 200 1142 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//label[@id = 'js-see-plans' and @href = '#' and (text() = 'Compare Plans ' or . = 'Compare Plans ')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 635 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5006/click
+[HTTP] {"id":"5006"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5006/click 200 1015 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//*[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1281 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute
+[HTTP] {"script":"arguments[0].scrollIntoView();","args":[{"ELEMENT":"5007","element-6066-11e4-a52e-4f735466cecf":"5007"}]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute 200 1691 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//*[@href = '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Standard Life Select STM Plan 2 10K/30/1M' or . = 'Standard Life Select STM Plan 2 10K/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 5151 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5008/click
+[HTTP] {"id":"5008"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5008/click 200 2966 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//*[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 394 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5009/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5009/displayed 200 663 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//*[@id = 'plan-details-primary-apply' and @href = '/term-health-insurance/apply/slaico-il-plan-2-10000-30-20000-1000000' and (text() = 'Apply for This Plan' or . = 'Apply for This Plan')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 234 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5010/click
+[HTTP] {"id":"5010"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5010/click 200 768 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"applyButton\")[count(. | //*[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//*[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 576 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5011/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5011/displayed 200 521 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"applyButton\")[count(. | //*[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')]) = count(//*[@id = 'applyButton' and (text() = ' Start Secure Application' or . = ' Start Secure Application')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 240 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5012/click
+[HTTP] {"id":"5012"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5012/click 200 420 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute
+[HTTP] {"script":"return document.readyState","args":[]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute 200 933 ms - 81
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute
+[HTTP] {"script":"return document.readyState","args":[]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute 200 236 ms - 85
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute
+[HTTP] {"script":"return document.readyState","args":[]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/execute 200 1181 ms - 82
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//button[(text() = 'No' or . = 'No')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 118 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//button[(text() = 'No' or . = 'No')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 303 ms - 187
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5013/click
+[HTTP] {"id":"5013"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5013/click 200 1228 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[2]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 387 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5019/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5019/displayed 200 1569 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[2]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 663 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5021/click
+[HTTP] {"id":"5021"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5021/click 200 725 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[3]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2057 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5023/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5023/displayed 200 3718 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[3]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1289 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5025/click
+[HTTP] {"id":"5025"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5025/click 200 2544 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[4]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 826 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5027/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5027/displayed 200 747 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[4]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1067 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5029/click
+[HTTP] {"id":"5029"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5029/click 200 350 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[5]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 340 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5031/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5031/displayed 200 451 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[5]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 930 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5033/click
+[HTTP] {"id":"5033"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5033/click 200 2843 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[6]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 946 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5035/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5035/displayed 200 3933 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//li[6]/div/button"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1326 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5037/click
+[HTTP] {"id":"5037"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5037/click 200 1877 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-app-continue-link\")[count(. | //a[@id = 'js-app-continue-link' and (text() = 'Continue' or . = 'Continue')]) = count(//a[@id = 'js-app-continue-link' and (text() = 'Continue' or . = 'Continue')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1168 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5039/displayed
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5039/displayed 200 3065 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-app-continue-link\")[count(. | //a[@id = 'js-app-continue-link' and (text() = 'Continue' or . = 'Continue')]) = count(//a[@id = 'js-app-continue-link' and (text() = 'Continue' or . = 'Continue')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1279 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 5 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5040/click
+[HTTP] {"id":"5040"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5040/click 200 277 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"fillApp\")[count(. | //*[@id = 'fillApp' and (text() = 'Autofill App Info' or . = 'Autofill App Info')]) = count(//*[@id = 'fillApp' and (text() = 'Autofill App Info' or . = 'Autofill App Info')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 877 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5041/click
+[HTTP] {"id":"5041"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5041/click 200 452 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-app-continue-link\")[count(. | //a[@id = 'js-app-continue-link' and @type = 'submit' and (text() = 'Continue to Step 3 - Payment & Billing >' or . = 'Continue to Step 3 - Payment & Billing >')]) = count(//a[@id = 'js-app-continue-link' and @type = 'submit' and (text() = 'Continue to Step 3 - Payment & Billing >' or . = 'Continue to Step 3 - Payment & Billing >')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2381 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5042/click
+[HTTP] {"id":"5042"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5042/click 200 684 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"credit-card-cvv\")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1017 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5043/clear
+[HTTP] {"id":"5043"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5043/clear 200 3038 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"credit-card-cvv\")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1448 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5044/value
+[HTTP] {"id":"5044","value":["123"]}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5044/value 200 1906 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//label[(text() = 'I Accept Authorization for Automatic Credit Card Payment*' or . = 'I Accept Authorization for Automatic Credit Card Payment*')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2222 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5045/click
+[HTTP] {"id":"5045"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5045/click 200 1132 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-app-continue-link\")[count(. | //a[@id = 'js-app-continue-link' and @type = 'submit' and (text() = 'Continue to Step 4 - Review & Submit Your Application > Validating...' or . = 'Continue to Step 4 - Review & Submit Your Application > Validating...')]) = count(//a[@id = 'js-app-continue-link' and @type = 'submit' and (text() = 'Continue to Step 4 - Review & Submit Your Application > Validating...' or . = 'Continue to Step 4 - Review & Submit Your Application > Validating...')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2234 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5046/click
+[HTTP] {"id":"5046"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5046/click 200 2113 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 340 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 293 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 456 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 637 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 470 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 78 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-consent-review\")/div[@class=\"js-error-container\"]/div[@class=\"terms-wrapper row\"]/div[@class=\"col-md-1 terms-cell\"]/div[@class=\"js-form-group\"]/div[@class=\"checkbox\"]/label[1]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 929 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5047/click
+[HTTP] {"id":"5047"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5047/click 200 2329 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//div[@id = 'js-signature-tab' and (text() = 'CLICK TO SIGN↓' or . = 'CLICK TO SIGN↓')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2947 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5048/click
+[HTTP] {"id":"5048"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5048/click 200 1572 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"id(\"js-app-continue-link\")[count(. | //a[@id = 'js-app-continue-link' and @type = 'submit' and (text() = '  Submit Your Application' or . = '  Submit Your Application')]) = count(//a[@id = 'js-app-continue-link' and @type = 'submit' and (text() = '  Submit Your Application' or . = '  Submit Your Application')])]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2749 ms - 92
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 4 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5049/click
+[HTTP] {"id":"5049"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5049/click 200 578 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 141 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 233 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2407 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2191 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1087 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 2131 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 930 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 271 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 300 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 773 ms - 74
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'Standard Life Select STM Plan 2 10000/30/1M' or . = 'Standard Life Select STM Plan 2 10000/30/1M')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 860 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5050/click
+[HTTP] {"id":"5050"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5050/click 200 2189 ms - 76
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements
+[HTTP] {"using":"xpath","value":"//span[(text() = 'approved' or . = 'approved')]"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/elements 200 1035 ms - 111
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 3 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 2 ms - 627
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[HTTP] <-- GET /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1 ms - 627
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5052/click
+[HTTP] {"id":"5052"}
+[HTTP] <-- POST /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b/element/5052/click 200 1360 ms - 76
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b
+[HTTP] {}
+[Appium] Removing session c65015ab-b603-4e76-b40c-a8193947451b from our master session list
+[HTTP] <-- DELETE /wd/hub/session/c65015ab-b603-4e76-b40c-a8193947451b 200 1032 ms - 76
+[HTTP] 

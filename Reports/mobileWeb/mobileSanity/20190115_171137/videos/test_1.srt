@@ -1,0 +1,52 @@
+1
+00:00:01,019 --> 00:00:01,043
+1. openBrowser("")
+
+2
+00:00:29,459 --> 00:00:29,459
+5. navigateToUrl("https://praetemptatus.agilehealthinsurance.com/")
+
+3
+00:00:35,570 --> 00:00:35,571
+9. click(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today"))
+
+4
+00:00:40,745 --> 00:00:40,747
+13. setText(findTestObject("mobileSanity/STM/STM Census Page/input_Location_zip-input"), "60602")
+
+5
+00:00:41,923 --> 00:00:41,925
+17. setText(findTestObject("mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0"), "03/03/1987")
+
+6
+00:00:43,790 --> 00:00:43,791
+21. click(findTestObject("mobileSanity/STM/STM Census Page/label_Male"))
+
+7
+00:00:44,646 --> 00:00:44,646
+25. click(findTestObject("mobileSanity/STM/STM Census Page/label_Compare Plans"))
+
+8
+00:01:06,609 --> 00:01:06,610
+29. Thread.sleep(4000)
+
+9
+00:01:10,618 --> 00:01:10,620
+33. scrollToElement(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla"), 1000)
+
+10
+00:01:12,356 --> 00:01:12,357
+37. click(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla"))
+
+11
+00:01:13,005 --> 00:01:13,006
+41. Thread.sleep(2000)
+
+12
+00:01:15,010 --> 00:01:15,011
+45. waitForElementVisible(findTestObject("mobileSanity/STM/STM Apply Page/a_Apply for This Plan"), 0)
+
+13
+00:02:24,977 --> 00:02:24,978
+49. click(findTestObject("mobileSanity/STM/STM Apply Page/a_Apply for This Plan"))
+

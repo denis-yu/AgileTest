@@ -72,57 +72,37 @@ WebUI.click(findTestObject('Page_App Page 3 - Standard Life Sel/label_I Accept A
 
 WebUI.click(findTestObject('Page_App Page 3 - Standard Life Sel/a_Continue to Step 4 - Review'))
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 4 - Standard Life Sel/label'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 4 - Standard Life Sel/p_CLICK TO SIGN'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 4 - Standard Life Sel/a_Submit Your Application'))
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Find Health Insurance for 2019/a_Quote  Save Today'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Page_2019 Health Insurance Get a Sh/input_Location_zip-input'), '60602')
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Page_2019 Health Insurance Get a Sh/input_Date of Birth_dob-0'), '04/04/1987')
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_2019 Health Insurance Get a Sh/label_Male'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_2019 Health Insurance Get a Sh/label_Compare Plans'))
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Short Term Health Insurance Qu/button_filters'))
+WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/span_ Add'))
 
-WebUI.click(findTestObject('Object Repository/Page_Short Term Health Insurance Qu/i_Insurance company_fa fa-chev'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Short Term Health Insurance Qu/label_National General_c-faux-'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Short Term Health Insurance Qu/a_Show Plans'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Short Term Health Insurance Qu/a_Standard Life Select STM Pla'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Standard Life Select STM Plan/a_Apply for This Plan'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Standard Life Select STM Plan/span_Start Secure Application'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Standard Life Select STM Plan/span_Start Secure Application'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/a_Autofill App Info'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/a_Autofill App Info'))
-
-WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/a_Continue'))
+WebUI.click(findTestObject('null'))
 
