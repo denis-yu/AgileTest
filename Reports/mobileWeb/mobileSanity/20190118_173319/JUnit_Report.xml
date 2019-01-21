@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="mobileSanity" time="646" tests="2" failures="1" errors="0">
+   <testsuite name="mobileSanity" tests="2" failures="1" errors="0" time="646" timestamp="2019-01-18 17:33:29" hostname="sofee.yu - windows10.microdone.cn" id="Test Suites/mobileWeb/mobileSanity">
+      <properties>
+         <property name="deviceName" value="samsung SM-G955F (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\appium.log, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804111926.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804123211.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804132956.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804148897.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804163238.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804176448.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804192892.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804226038.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804262616.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804265851.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804483746.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804491478.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804503590.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804528366.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804546865.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804558494.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804573376.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804619978.png, D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804647692.png"/>
+         <property name="hostName" value="sofee.yu - windows10.microdone.cn"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="sessionId" value="5330cd9c-3745-467f-9ee8-f49b58d5b06c"/>
+         <property name="deviceId" value="127.0.0.1:62025"/>
+         <property name="deviceName" value="samsung SM-G955F (Android 5.1.1)"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+         <property name="platform" value="Windows 7"/>
+         <property name="browser" value="Chrome 71.0.3578.99"/>
+         <property name="deviceModel" value="SM-G955F"/>
+         <property name="hostAddress" value="172.16.86.47"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+      </properties>
+      <testcase name="Test Cases/mobileWeb/Dental/Nationwide" classname="Test Cases/mobileWeb/Dental/Nationwide" status="FAILED">
+         <failure type="FAILED" message="Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-18 17:33:30 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Dental/Nationwide: Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)
+
+
+2019-01-18 17:33:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-18 17:33:32 - [MESSAGE][INFO] - Starting 'Android' driver
+
+2019-01-18 17:33:32 - [MESSAGE][INFO] - User set preference: ['deviceName', 'HUAWEI ATH-AL00 (Android 6.0.1)']
+
+2019-01-18 17:33:32 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-18 17:33:32 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-18 17:33:32 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2019-01-18 17:34:32 - [MESSAGE][INFO] - Appium server started on port 57,289
+
+2019-01-18 17:35:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-18 17:35:06 - [TEST_STEP][PASSED] - navigateToUrl("https://praetemptatus.agilehealthinsurance.com/"): Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-18 17:35:10 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-18 17:35:10 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:35:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:35:11 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:35:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804111926.png]]
+
+2019-01-18 17:35:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/side_nav/menu")): Object: 'Object Repository/mobileSanity/Dental/side_nav/menu' is clicked on
+
+2019-01-18 17:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/side_nav/menu' is clicked on
+
+2019-01-18 17:35:20 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-18 17:35:23 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:35:25 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804123211.png]]
+
+2019-01-18 17:35:25 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/side_nav/nav_dental")): Object: 'Object Repository/mobileSanity/Dental/side_nav/nav_dental' is clicked on
+
+2019-01-18 17:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/side_nav/nav_dental' is clicked on
+
+2019-01-18 17:35:28 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-18 17:35:28 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:35:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:35:32 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:35:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804132956.png]]
+
+2019-01-18 17:35:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), "35215"): Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-01-18 17:35:36 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-01-18 17:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), "12/12/1985"): Text '12/12/1985' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-01-18 17:35:37 - [MESSAGE][PASSED] - Text '12/12/1985' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-01-18 17:35:37 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Male")): Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-01-18 17:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-01-18 17:35:38 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance")): Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-01-18 17:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-01-18 17:35:45 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:35:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:35:48 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:35:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804148897.png]]
+
+2019-01-18 17:35:51 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:35:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10): Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-01-18 17:35:52 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-01-18 17:35:52 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_company")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-01-18 17:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-01-18 17:35:53 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_nationwide")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_nationwide' is clicked on
+
+2019-01-18 17:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_nationwide' is clicked on
+
+2019-01-18 17:35:54 - [TEST_STEP][PASSED] - waitForJQueryLoad(20, STOP_ON_FAILURE): jQuery is ready.
+
+2019-01-18 17:35:58 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-01-18 17:35:58 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:35:58 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan")): Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-01-18 17:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-01-18 17:36:02 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:36:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:36:03 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:36:05 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804163238.png]]
+
+2019-01-18 17:36:07 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application")): Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-01-18 17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-01-18 17:36:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:36:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:36:13 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-18 17:36:16 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:36:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804176448.png]]
+
+2019-01-18 17:36:18 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), "Test-123"): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-01-18 17:36:21 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-01-18 17:36:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), "ZZ11-qwerty"): Text 'ZZ11-qwerty' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-01-18 17:36:23 - [MESSAGE][PASSED] - Text 'ZZ11-qwerty' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-01-18 17:36:23 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), "test test"): Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-01-18 17:36:26 - [MESSAGE][PASSED] - Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-01-18 17:36:26 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), "test test"): Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-01-18 17:36:27 - [MESSAGE][PASSED] - Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-01-18 17:36:27 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), "test.test123@suryani.cn"): Text 'test.test123@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-01-18 17:36:30 - [MESSAGE][PASSED] - Text 'test.test123@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-01-18 17:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), "5214566589"): Text '5214566589' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-01-18 17:36:32 - [MESSAGE][PASSED] - Text '5214566589' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-01-18 17:36:32 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment")): Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-01-18 17:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-01-18 17:36:32 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:36:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:36:32 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:36:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804192892.png]]
+
+2019-01-18 17:36:35 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), "test"): Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-01-18 17:36:38 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-01-18 17:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), "test"): Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-01-18 17:36:39 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-01-18 17:36:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true): All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-01-18 17:36:50 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-01-18 17:36:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true): All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-01-18 17:36:58 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-01-18 17:36:58 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-01-18 17:37:01 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-01-18 17:37:01 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123"): Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-01-18 17:37:02 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-01-18 17:37:02 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-01-18 17:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-01-18 17:37:03 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-01-18 17:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-01-18 17:37:04 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review")): Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-01-18 17:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-01-18 17:37:05 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:37:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:37:06 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:37:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804226038.png]]
+
+2019-01-18 17:37:11 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/label")): Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-01-18 17:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-01-18 17:37:20 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN")): Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-01-18 17:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-01-18 17:37:21 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-01-18 17:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-01-18 17:37:22 - [TEST_STEP][PASSED] - Thread.sleep(20000): null
+
+2019-01-18 17:37:42 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:37:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804262616.png]]
+
+2019-01-18 17:37:44 - [TEST_STEP][FAILED] - verifyTextPresent("Congratulations", false): verifyTextPresent("Congratulations", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)
+
+
+2019-01-18 17:37:45 - [MESSAGE][FAILED] - Text 'Congratulations' is not present on page 
+
+2019-01-18 17:37:46 - [MESSAGE][FAILED] - Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804265851.png]]
+
+2019-01-18 17:37:46 - [MESSAGE][FAILED] - verifyTextPresent("Congratulations", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-18 17:33:30 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Dental/Nationwide: Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/mobileWeb/Dental/USA Access" classname="Test Cases/mobileWeb/Dental/USA Access" status="PASSED">
+         <system-out><![CDATA[2019-01-18 17:37:48 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/Dental/USA Access: Test Cases/mobileWeb/Dental/USA Access
+
+2019-01-18 17:37:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-18 17:37:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-18 17:37:53 - [MESSAGE][INFO] - Starting 'Android' driver
+
+2019-01-18 17:37:53 - [MESSAGE][INFO] - User set preference: ['deviceName', 'HUAWEI ATH-AL00 (Android 6.0.1)']
+
+2019-01-18 17:37:53 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-18 17:37:53 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-18 17:37:53 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2019-01-18 17:38:00 - [MESSAGE][INFO] - Appium server started on port 56,938
+
+2019-01-18 17:38:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-18 17:38:25 - [TEST_STEP][PASSED] - navigateToUrl("https://praetemptatus.agilehealthinsurance.com/api/context/clear"): Navigate to 'https://praetemptatus.agilehealthinsurance.com/api/context/clear' successfully
+
+2019-01-18 17:38:26 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com/api/context/clear' successfully
+
+2019-01-18 17:38:26 - [TEST_STEP][PASSED] - navigateToUrl("https://praetemptatus.agilehealthinsurance.com/"): Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-18 17:38:29 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-18 17:38:29 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/side_nav/menu")): Object: 'Object Repository/mobileSanity/Dental/side_nav/menu' is clicked on
+
+2019-01-18 17:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/side_nav/menu' is clicked on
+
+2019-01-18 17:38:30 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-18 17:38:33 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/side_nav/nav_dental")): Object: 'Object Repository/mobileSanity/Dental/side_nav/nav_dental' is clicked on
+
+2019-01-18 17:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/side_nav/nav_dental' is clicked on
+
+2019-01-18 17:38:37 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-18 17:38:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), "35215"): Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-01-18 17:38:41 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-01-18 17:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), "12/12/1985"): Text '12/12/1985' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-01-18 17:38:53 - [MESSAGE][PASSED] - Text '12/12/1985' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-01-18 17:38:53 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Male")): Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-01-18 17:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-01-18 17:38:54 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance")): Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-01-18 17:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-01-18 17:39:02 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:39:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10): Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-01-18 17:39:08 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-01-18 17:39:08 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_company")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-01-18 17:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-01-18 17:39:09 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_usa")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_usa' is clicked on
+
+2019-01-18 17:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_usa' is clicked on
+
+2019-01-18 17:39:10 - [TEST_STEP][PASSED] - waitForJQueryLoad(20, STOP_ON_FAILURE): jQuery is ready.
+
+2019-01-18 17:39:13 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-01-18 17:39:13 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:39:13 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan")): Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-01-18 17:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-01-18 17:39:17 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application")): Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-01-18 17:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-01-18 17:39:20 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:39:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:39:21 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-18 17:39:24 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), "Test-123"): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-01-18 17:39:27 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-01-18 17:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), "ZZ11-qwerty"): Text 'ZZ11-qwerty' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-01-18 17:39:29 - [MESSAGE][PASSED] - Text 'ZZ11-qwerty' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-01-18 17:39:29 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), "test test"): Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-01-18 17:39:30 - [MESSAGE][PASSED] - Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-01-18 17:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), "test test"): Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-01-18 17:39:32 - [MESSAGE][PASSED] - Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-01-18 17:39:32 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), "test.test123@suryani.cn"): Text 'test.test123@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-01-18 17:39:35 - [MESSAGE][PASSED] - Text 'test.test123@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-01-18 17:39:35 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), "5214566589"): Text '5214566589' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-01-18 17:39:37 - [MESSAGE][PASSED] - Text '5214566589' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-01-18 17:39:37 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment")): Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-01-18 17:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-01-18 17:39:38 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/membership/label_ihaveread")): Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/label_ihaveread' is clicked on
+
+2019-01-18 17:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/label_ihaveread' is clicked on
+
+2019-01-18 17:39:42 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/membership/a_ok")): Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/a_ok' is clicked on
+
+2019-01-18 17:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/a_ok' is clicked on
+
+2019-01-18 17:39:43 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), "test"): Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-01-18 17:39:45 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-01-18 17:39:45 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), "test"): Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-01-18 17:39:46 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-01-18 17:39:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true): All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-01-18 17:39:53 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-01-18 17:39:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true): All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-01-18 17:39:58 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-01-18 17:39:58 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-01-18 17:40:01 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-01-18 17:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123"): Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-01-18 17:40:02 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-01-18 17:40:02 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-01-18 17:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-01-18 17:40:02 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-01-18 17:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-01-18 17:40:03 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review")): Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-01-18 17:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-01-18 17:40:03 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/label")): Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-01-18 17:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-01-18 17:40:18 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN")): Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-01-18 17:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-01-18 17:40:18 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-01-18 17:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-01-18 17:40:19 - [TEST_STEP][PASSED] - Thread.sleep(20000): null
+
+2019-01-18 17:40:39 - [TEST_STEP][PASSED] - verifyTextPresent("Congratulations", false): Text 'Congratulations' is present on page 
+
+2019-01-18 17:40:40 - [MESSAGE][PASSED] - Text 'Congratulations' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/mobileWeb/Dental/National General" classname="Test Cases/mobileWeb/Dental/National General" status="PASSED">
+         <system-out><![CDATA[2019-01-18 17:40:42 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/Dental/National General: Test Cases/mobileWeb/Dental/National General
+
+2019-01-18 17:40:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-18 17:40:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-18 17:40:46 - [MESSAGE][INFO] - Starting 'Android' driver
+
+2019-01-18 17:40:46 - [MESSAGE][INFO] - User set preference: ['deviceName', 'HUAWEI ATH-AL00 (Android 6.0.1)']
+
+2019-01-18 17:40:46 - [MESSAGE][INFO] - User set preference: ['platformName', 'Android']
+
+2019-01-18 17:40:46 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2019-01-18 17:40:46 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2019-01-18 17:40:54 - [MESSAGE][INFO] - Appium server started on port 62,283
+
+2019-01-18 17:41:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-18 17:41:18 - [TEST_STEP][PASSED] - navigateToUrl("https://praetemptatus.agilehealthinsurance.com/"): Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-18 17:41:23 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-18 17:41:23 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:41:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:41:23 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:41:26 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804483746.png]]
+
+2019-01-18 17:41:27 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/side_nav/menu")): Object: 'Object Repository/mobileSanity/Dental/side_nav/menu' is clicked on
+
+2019-01-18 17:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/side_nav/menu' is clicked on
+
+2019-01-18 17:41:28 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-18 17:41:31 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:41:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804491478.png]]
+
+2019-01-18 17:41:35 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/side_nav/nav_dental")): Object: 'Object Repository/mobileSanity/Dental/side_nav/nav_dental' is clicked on
+
+2019-01-18 17:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/side_nav/nav_dental' is clicked on
+
+2019-01-18 17:41:39 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-18 17:41:39 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:41:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:41:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:41:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804503590.png]]
+
+2019-01-18 17:41:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), "35215"): Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-01-18 17:41:46 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-01-18 17:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), "12/12/1985"): Text '12/12/1985' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-01-18 17:41:55 - [MESSAGE][PASSED] - Text '12/12/1985' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-01-18 17:41:55 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Male")): Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-01-18 17:41:56 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-01-18 17:41:56 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance")): Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-01-18 17:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-01-18 17:42:07 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:42:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:42:08 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:42:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804528366.png]]
+
+2019-01-18 17:42:12 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:42:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10): Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-01-18 17:42:13 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-01-18 17:42:13 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_company")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-01-18 17:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-01-18 17:42:14 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_ng")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_ng' is clicked on
+
+2019-01-18 17:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_ng' is clicked on
+
+2019-01-18 17:42:18 - [TEST_STEP][PASSED] - waitForJQueryLoad(20, STOP_ON_FAILURE): jQuery is ready.
+
+2019-01-18 17:42:20 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-01-18 17:42:20 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-01-18 17:42:20 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan")): Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-01-18 17:42:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-01-18 17:42:24 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:42:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:42:26 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:42:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804546865.png]]
+
+2019-01-18 17:42:30 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application")): Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-01-18 17:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-01-18 17:42:34 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:42:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:42:35 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-01-18 17:42:38 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:42:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804558494.png]]
+
+2019-01-18 17:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), "Test-123"): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-01-18 17:42:42 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-01-18 17:42:42 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), "ZZ11-qwerty"): Text 'ZZ11-qwerty' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-01-18 17:42:44 - [MESSAGE][PASSED] - Text 'ZZ11-qwerty' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-01-18 17:42:44 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), "test test"): Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-01-18 17:42:46 - [MESSAGE][PASSED] - Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-01-18 17:42:46 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), "test test"): Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-01-18 17:42:48 - [MESSAGE][PASSED] - Text 'test test' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-01-18 17:42:48 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), "test.test123@suryani.cn"): Text 'test.test123@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-01-18 17:42:51 - [MESSAGE][PASSED] - Text 'test.test123@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-01-18 17:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), "5214566589"): Text '5214566589' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-01-18 17:42:52 - [MESSAGE][PASSED] - Text '5214566589' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-01-18 17:42:52 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment")): Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-01-18 17:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-01-18 17:42:53 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:42:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:42:53 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:42:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804573376.png]]
+
+2019-01-18 17:42:57 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), "test"): Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-01-18 17:43:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-01-18 17:43:04 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), "test"): Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-01-18 17:43:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-01-18 17:43:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true): All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-01-18 17:43:14 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-01-18 17:43:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true): All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-01-18 17:43:21 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-01-18 17:43:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-01-18 17:43:23 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-01-18 17:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123"): Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-01-18 17:43:24 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-01-18 17:43:24 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-01-18 17:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-01-18 17:43:25 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-01-18 17:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-01-18 17:43:26 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review")): Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-01-18 17:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-01-18 17:43:39 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-01-18 17:43:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-18 17:43:39 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:43:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804619978.png]]
+
+2019-01-18 17:43:43 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/label")): Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-01-18 17:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-01-18 17:43:44 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN")): Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-01-18 17:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-01-18 17:43:47 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-01-18 17:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-01-18 17:43:47 - [TEST_STEP][PASSED] - Thread.sleep(20000): null
+
+2019-01-18 17:44:07 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+2019-01-18 17:44:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\AgileTest\\AgileTest\\Reports\\mobileWeb\\mobileSanity\\20190118_173319\\1547804647692.png]]
+
+2019-01-18 17:44:09 - [TEST_STEP][PASSED] - verifyTextPresent("Congratulations", false): Text 'Congratulations' is present on page 
+
+2019-01-18 17:44:10 - [MESSAGE][PASSED] - Text 'Congratulations' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-18 17:33:29 - [TEST_SUITE][FAILED] - mobileSanity: Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-18 17:33:29 - [TEST_SUITE][FAILED] - mobileSanity: Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Congratulations' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Congratulations' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at Nationwide.run(Nationwide:129)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547803999892.run(TempTestSuite1547803999892.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

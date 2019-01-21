@@ -22,13 +22,13 @@ WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
 
 WebUI.waitForPageLoad(10)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/1-home.png')
+Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/side_nav/menu'))
 
 Thread.sleep(3000)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/2-nav.png')
+Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/side_nav/nav_dental'))
 
@@ -36,7 +36,7 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 WebUI.waitForPageLoad(10)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/3-census.png')
+Mobile.takeScreenshot()
 
 WebUI.sendKeys(findTestObject('mobileSanity/Dental/census/input_Location_zip-input'), '35215')
 
@@ -48,7 +48,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/census/label_Compare Dental Insu
 
 WebUI.waitForPageLoad(10)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/4-quote.png')
+Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
@@ -66,7 +66,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/quote/a_Select This Plan'))
 
 WebUI.waitForPageLoad(10)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/5-apply.png')
+Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
 
@@ -74,7 +74,7 @@ WebUI.waitForPageLoad(10)
 
 Thread.sleep(3000)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/6-app1.png')
+Mobile.takeScreenshot()
 
 WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__member-P-1-firstName'), 'Test-123')
 
@@ -92,7 +92,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page1/a_Continue to Step 2 -
 
 WebUI.waitForPageLoad(10)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/7-app2.png')
+Mobile.takeScreenshot()
 
 WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-first'), 'test')
 
@@ -114,7 +114,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 -
 
 WebUI.waitForPageLoad(10)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/8-app3.png')
+Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/label'))
 
@@ -124,7 +124,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Applicat
 
 Thread.sleep(20000)
 
-Mobile.takeScreenshot('Reports/screenshots/nationwide/9-confirmation.png')
+Mobile.takeScreenshot()
 
 WebUI.verifyTextPresent('Congratulations', false)
 

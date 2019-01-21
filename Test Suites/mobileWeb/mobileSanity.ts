@@ -55,4 +55,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>46a7ddf9-c889-4dac-bbd6-51ddd9b54b37</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/Dental/USA Access</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39eff333-e2a2-442a-aadb-9f343cae9e61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/Dental/National General</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

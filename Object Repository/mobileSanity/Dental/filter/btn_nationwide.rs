@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@for = 'carrier-nationalgeneral-1' and @class = 'quote-filter-faux-input']</value>
+         <value>//*[@for = 'carrier-nationwide-1' and @class = 'quote-filter-faux-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>carrier-nationalgeneral-1</value>
+      <value>carrier-nationwide-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
