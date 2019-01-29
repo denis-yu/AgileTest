@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>447ba290-aa54-4686-9aba-01a416f0f6fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -52,7 +52,7 @@
    <testCaseLink>
       <guid>148ddc73-592f-4fe9-a7e7-5c19e5187a6e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
    </testCaseLink>
    <testCaseLink>

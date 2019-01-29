@@ -29,105 +29,80 @@ WebUI.click(findTestObject('Page_2018 Health Insurance Get a Sh/label_Male'))
 
 WebUI.click(findTestObject('Page_2018 Health Insurance Get a Sh/label_Compare Plans'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/input__member-P-1-firstName'), 'Test-123')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/input__member-P-1-lastName'), 'ZZ11-0344ii')
 
-WebUI.click(findTestObject('null'))
+WebUI.selectOptionByValue(findTestObject('Page_App Page 2 - Standard Life Sel/select_01020304050607'), '06', true)
 
-WebUI.click(findTestObject('null'))
+WebUI.selectOptionByValue(findTestObject('Page_App Page 2 - Standard Life Sel/select_00102030405060708091011'), '06', true)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_App Page 2 - Standard Life Sel/div_First Name MiddleLast Name'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/input__occupation'), 'test occupation')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_App Page 2 - Standard Life Sel/div_Best Time to Call MorningA'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/input__address'), 'test address 33434#')
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/input__city'), 'test city')
 
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/input__member-P-1-firstName'), 'Test-123')
-
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/input__member-P-1-lastName'), 'ZZ11-0344ii')
-
-WebUI.selectOptionByValue(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/select_01020304050607'), 
-    '06', true)
-
-WebUI.selectOptionByValue(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/select_00102030405060708091011'), 
-    '06', true)
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/div_First Name MiddleLast Name'))
-
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/input__occupation'), 'test occupation')
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/div_Best Time to Call MorningA'))
-
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/input__address'), 'test address 33434#')
-
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/input__city'), 'test city')
-
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/input__email'), 'test.34434@suryani.cn')
+WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/input__email'), 'test.34434@suryani.cn')
 
 WebUI.setText(findTestObject('Page_App Page 2 - Standard Life Sel/div_Phone Number '), '2342343333')
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/label_Yes I would like to rece'))
+WebUI.click(findTestObject('Page_App Page 2 - Standard Life Sel/label_Yes I would like to rece'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2 - Standard Life Sel/Page_App Page 2 - Standard Life Sel/a_Continue to Step 3 - Payment'))
+WebUI.click(findTestObject('Page_App Page 2 - Standard Life Sel/a_Continue to Step 3 - Payment'))
 
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/input__credit-card-first'), 'test first')
+WebUI.setText(findTestObject('Page_App Page 3 - Standard Life Sel/input__credit-card-first'), 'test first')
 
-WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/input__credit-card-last'), 'test last')
+WebUI.setText(findTestObject('Page_App Page 3 - Standard Life Sel/input__credit-card-last'), 'test last')
 
-WebUI.selectOptionByValue(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/select_MM010203040506070809101'), 
-    '12', true)
+WebUI.selectOptionByValue(findTestObject('Page_App Page 3 - Standard Life Sel/select_MM010203040506070809101'), '12', true)
 
-WebUI.selectOptionByValue(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/select_YYYY2019202020212022202'), 
-    '2026', true)
+WebUI.selectOptionByValue(findTestObject('Page_App Page 3 - Standard Life Sel/select_YYYY2019202020212022202'), '2026', 
+    true)
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/div_Credit Card Number (no das'))
+WebUI.click(findTestObject('Page_App Page 3 - Standard Life Sel/div_Credit Card Number (no das'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/label_My billing address is th'))
+WebUI.click(findTestObject('Page_App Page 3 - Standard Life Sel/label_My billing address is th'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/label_I Accept Authorization f'))
+WebUI.click(findTestObject('Page_App Page 3 - Standard Life Sel/label_I Accept Authorization f'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3 - Standard Life Sel/Page_App Page 3 - Standard Life Sel/a_Continue to Step 4 - Review'))
+WebUI.click(findTestObject('Page_App Page 3 - Standard Life Sel/a_Continue to Step 4 - Review'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4 - Standard Life Sel/Page_App Page 4 - Standard Life Sel/label'))
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4 - Standard Life Sel/Page_App Page 4 - Standard Life Sel/p_CLICK TO SIGN'))
+WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4 - Standard Life Sel/Page_App Page 4 - Standard Life Sel/a_Submit Your Application'))
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)'))
+
+WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/span_ Add'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
 
