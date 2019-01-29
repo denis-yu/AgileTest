@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Safari 12,,2019-01-28 16:16:56,2019-01-28 16:20:27,3m - 31.215s,ERROR
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 12,,2019-01-28 16:16:56,2019-01-28 16:20:26,3m - 29.733s,ERROR
+"openBrowser("""")",Safari 12,,2019-01-28 16:16:58,2019-01-28 16:18:01,1m - 3.430s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Safari 12,,2019-01-28 16:18:01,2019-01-28 16:18:09,7.344s,PASSED
+takeScreenshot(),Safari 12,,2019-01-28 16:18:09,2019-01-28 16:18:09,0.438s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 12,,2019-01-28 16:18:09,2019-01-28 16:18:16,6.584s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 12,,2019-01-28 16:18:16,2019-01-28 16:18:24,8.014s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 12,,2019-01-28 16:18:24,2019-01-28 16:18:25,1.821s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 12,,2019-01-28 16:18:25,2019-01-28 16:18:31,5.187s,PASSED
+takeScreenshot(),Safari 12,,2019-01-28 16:18:31,2019-01-28 16:18:31,0.279s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 12,,2019-01-28 16:18:31,2019-01-28 16:18:41,9.671s,PASSED
+Thread.sleep(4000),Safari 12,,2019-01-28 16:18:41,2019-01-28 16:18:45,4.013s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""), 1000)",Safari 12,,2019-01-28 16:18:45,2019-01-28 16:18:45,0.650s,PASSED
+takeScreenshot(),Safari 12,,2019-01-28 16:18:45,2019-01-28 16:18:46,0.406s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""))",Safari 12,,2019-01-28 16:18:46,2019-01-28 16:18:46,0.699s,PASSED
+Thread.sleep(2000),Safari 12,,2019-01-28 16:18:46,2019-01-28 16:18:48,2.002s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""), 0)",Safari 12,,2019-01-28 16:18:48,2019-01-28 16:18:50,1.163s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Safari 12,,2019-01-28 16:18:50,2019-01-28 16:18:57,7.702s,PASSED
+takeScreenshot(),Safari 12,,2019-01-28 16:18:57,2019-01-28 16:18:58,0.306s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Safari 12,,2019-01-28 16:18:58,2019-01-28 16:18:58,0.705s,PASSED
+takeScreenshot(),Safari 12,,2019-01-28 16:18:58,2019-01-28 16:18:59,0.322s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Safari 12,,2019-01-28 16:18:59,2019-01-28 16:19:00,1.446s,PASSED
+waitForPageLoad(0),Safari 12,,2019-01-28 16:19:00,2019-01-28 16:19:04,3.704s,PASSED
+Thread.sleep(1000),Safari 12,,2019-01-28 16:19:04,2019-01-28 16:19:05,1.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No""))",Safari 12,,2019-01-28 16:19:05,2019-01-28 16:19:15,10.698s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""), 0)",Safari 12,,2019-01-28 16:19:15,2019-01-28 16:19:22,6.175s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No2""))",Safari 12,,2019-01-28 16:19:22,2019-01-28 16:19:27,5.756s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""), 0)",Safari 12,,2019-01-28 16:19:27,2019-01-28 16:19:33,6.060s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No3""))",Safari 12,,2019-01-28 16:19:33,2019-01-28 16:19:41,7.436s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""), 0)",Safari 12,,2019-01-28 16:19:41,2019-01-28 16:19:45,4.447s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No4""))",Safari 12,,2019-01-28 16:19:45,2019-01-28 16:19:55,9.356s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""), 0)",Safari 12,,2019-01-28 16:19:55,2019-01-28 16:20:04,9.796s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No5""))",Safari 12,,2019-01-28 16:20:04,2019-01-28 16:20:10,5.109s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""), 0)",Safari 12,,2019-01-28 16:20:10,2019-01-28 16:20:11,1.736s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No6""))",Safari 12,,2019-01-28 16:20:11,2019-01-28 16:20:17,5.423s,PASSED
+takeScreenshot(),Safari 12,,2019-01-28 16:20:17,2019-01-28 16:20:17,0.272s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""), 0)",Safari 12,,2019-01-28 16:20:17,2019-01-28 16:20:21,4.352s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Continue""))",Safari 12,,2019-01-28 16:20:21,2019-01-28 16:20:22,0.948s,PASSED
+"WebUI.waitForElementVisible(findTestObject(""mobileSanity/STM/Page_App Page 1/a_Autofill App Info""), 0)",Safari 12,,2019-01-28 16:20:22,2019-01-28 16:20:23,1.016s,ERROR

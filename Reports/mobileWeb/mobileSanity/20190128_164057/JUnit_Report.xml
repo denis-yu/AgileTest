@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="mobileSanity" time="183" tests="0" failures="0" errors="1">
+   <testsuite name="mobileSanity" tests="0" failures="0" errors="1" time="183" timestamp="2019-01-28 16:41:11" hostname="denisyu - 172.16.86.34" id="Test Suites/mobileWeb/mobileSanity">
+      <properties>
+         <property name="deviceName" value="iPhone XS"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057"/>
+         <property name="logFiles" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/execution0.log, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/appium.log, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/appium-proxy-server.log"/>
+         <property name="attachments" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664931627.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664962893.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664975762.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664984888.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664985740.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548665040644.png"/>
+         <property name="hostName" value="denisyu - 172.16.86.34"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="sessionId" value="dbe49d16-9cb3-4bb6-a025-a6e87c9a7c58"/>
+         <property name="deviceId" value="null"/>
+         <property name="deviceName" value="iPhone XS"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="12.1"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="browser" value="Safari 12"/>
+         <property name="deviceModel" value="Not available for Simulator"/>
+         <property name="hostAddress" value="172.16.86.34"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+      </properties>
+      <testcase name="Test Cases/mobileWeb/stm/Slaico" classname="Test Cases/mobileWeb/stm/Slaico" status="ERROR">
+         <error type="ERROR" message="Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-28 16:41:11 - [TEST_CASE][ERROR] - Test Cases/mobileWeb/stm/Slaico: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)
+
+
+2019-01-28 16:41:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-28 16:41:13 - [MESSAGE][INFO] - Starting 'iOS' driver
+
+2019-01-28 16:41:13 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2019-01-28 16:41:14 - [MESSAGE][INFO] - ios_webkit_debug_proxy server started on port 56647
+
+2019-01-28 16:41:19 - [MESSAGE][INFO] - Appium server started on port 56,649
+
+2019-01-28 16:42:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-28 16:42:05 - [TEST_STEP][PASSED] - navigateToUrl("https://praetemptatus.agilehealthinsurance.com/"): Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-28 16:42:11 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-01-28 16:42:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-01-28 16:42:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664931627.png]]
+
+2019-01-28 16:42:12 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today")): Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-01-28 16:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-01-28 16:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Location_zip-input"), "60602"): Text '60602' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-01-28 16:42:23 - [MESSAGE][PASSED] - Text '60602' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-01-28 16:42:23 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0"), "03/03/1987"): Text '03/03/1987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-01-28 16:42:34 - [MESSAGE][PASSED] - Text '03/03/1987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-01-28 16:42:34 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Male")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-01-28 16:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-01-28 16:42:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-01-28 16:42:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664962893.png]]
+
+2019-01-28 16:42:43 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Compare Plans")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-01-28 16:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-01-28 16:42:50 - [TEST_STEP][PASSED] - Thread.sleep(4000): null
+
+2019-01-28 16:42:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla"), 1000): Scroll to object 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' successfully
+
+2019-01-28 16:42:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' successfully
+
+2019-01-28 16:42:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-01-28 16:42:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664975762.png]]
+
+2019-01-28 16:42:56 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla")): Object: 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' is clicked on
+
+2019-01-28 16:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' is clicked on
+
+2019-01-28 16:42:57 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-01-28 16:42:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan"), 0): Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-01-28 16:42:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:03 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-01-28 16:43:03 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan")): Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-01-28 16:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-01-28 16:43:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-01-28 16:43:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664984888.png]]
+
+2019-01-28 16:43:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application"), 0): Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-01-28 16:43:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:05 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-01-28 16:43:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-01-28 16:43:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548664985740.png]]
+
+2019-01-28 16:43:06 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application")): Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-01-28 16:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-01-28 16:43:07 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-01-28 16:43:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-28 16:43:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-01-28 16:43:11 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' is clicked on
+
+2019-01-28 16:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' is clicked on
+
+2019-01-28 16:43:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No2"), 0): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No2' is visible
+
+2019-01-28 16:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:20 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No2' is visible
+
+2019-01-28 16:43:20 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No2")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No2' is clicked on
+
+2019-01-28 16:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No2' is clicked on
+
+2019-01-28 16:43:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No3"), 0): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No3' is visible
+
+2019-01-28 16:43:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:30 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No3' is visible
+
+2019-01-28 16:43:30 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No3")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No3' is clicked on
+
+2019-01-28 16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No3' is clicked on
+
+2019-01-28 16:43:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No4"), 0): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No4' is visible
+
+2019-01-28 16:43:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:40 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No4' is visible
+
+2019-01-28 16:43:40 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No4")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No4' is clicked on
+
+2019-01-28 16:43:45 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No4' is clicked on
+
+2019-01-28 16:43:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No5"), 0): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No5' is visible
+
+2019-01-28 16:43:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No5' is visible
+
+2019-01-28 16:43:49 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No5")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No5' is clicked on
+
+2019-01-28 16:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No5' is clicked on
+
+2019-01-28 16:43:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/button_No6"), 0): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No6' is visible
+
+2019-01-28 16:43:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:43:55 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No6' is visible
+
+2019-01-28 16:43:55 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No6")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No6' is clicked on
+
+2019-01-28 16:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No6' is clicked on
+
+2019-01-28 16:44:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-01-28 16:44:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/mobileSanity/20190128_164057/1548665040644.png]]
+
+2019-01-28 16:44:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue"), 0): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is visible
+
+2019-01-28 16:44:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2019-01-28 16:44:06 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is visible
+
+2019-01-28 16:44:06 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is clicked on
+
+2019-01-28 16:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is clicked on
+
+2019-01-28 16:44:09 - [TEST_STEP][ERROR] - WebUI.waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info"), 0): WebUI.waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info"), 0) FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)
+
+
+2019-01-28 16:44:10 - [MESSAGE][ERROR] - WebUI.waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info"), 0) FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-28 16:41:11 - [TEST_CASE][ERROR] - Test Cases/mobileWeb/stm/Slaico: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-28 16:41:11 - [TEST_SUITE][ERROR] - mobileSanity: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-28 16:41:11 - [TEST_SUITE][ERROR] - mobileSanity: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+java.lang.NullPointerException: Cannot get property 'WebUI' on null object
+	at Slaico.run(Slaico:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548664867584.run(TempTestSuite1548664867584.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
