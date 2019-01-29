@@ -20,7 +20,7 @@ WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__member-P-1
 WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__member-P-1-lastName'), GlobalVariable.LastName)
 
 'when carrier is \'agileone\', fill more areas'
-if (carrier == 'agileone') {
+if (carrier == 'agileone' || carrier =='agilesecure') {
     WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__primary-beneficiary-fir'), 'test1')
 
     WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__primary-beneficiary-las'), 'test2')

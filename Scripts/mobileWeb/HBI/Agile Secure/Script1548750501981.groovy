@@ -13,21 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
+WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Thread.sleep(3000)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/census_hbi'), [('zipcode') : '08701'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_hbi'))
+WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Location_zip-input'), zipcode)
-
-WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Date of Birth_dob-0'), '12/12/1980')
-
-WebUI.click(findTestObject('mobileSanity/HBI/census/label_Male'))
-
-WebUI.click(findTestObject('mobileSanity/HBI/census/label_Get a Quote'))
-
-WebUI.waitForPageLoad(10)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'agilesecure'], FailureHandling.CONTINUE_ON_FAILURE)
 

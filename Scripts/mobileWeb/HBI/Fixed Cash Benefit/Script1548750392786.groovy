@@ -13,21 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
+WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-Thread.sleep(3000)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/census_hbi'), [('zipcode') : '72209'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_hbi'))
+Thread.sleep(5000)
 
-WebUI.waitForPageLoad(10)
+WebUI.scrollToPosition(200, 2300)
 
-WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Location_zip-input'), zipcode)
+WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Fixed Cash Benefit'))
 
-WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Date of Birth_dob-0'), '12/12/1980')
+WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.click(findTestObject('mobileSanity/HBI/census/label_Male'))
+WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.click(findTestObject('mobileSanity/HBI/census/label_Get a Quote'))
-
-WebUI.waitForPageLoad(10)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'FixedCashBenefit'], FailureHandling.CONTINUE_ON_FAILURE)
 

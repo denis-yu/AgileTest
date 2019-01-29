@@ -23,5 +23,5 @@ WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'axislegion'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'legionlimitedmedical'], FailureHandling.CONTINUE_ON_FAILURE)
 
