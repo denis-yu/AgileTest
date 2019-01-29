@@ -1,0 +1,176 @@
+1
+00:00:00,434 --> 00:00:00,435
+1. openBrowser("")
+
+2
+00:00:48,642 --> 00:00:48,643
+5. navigateToUrl("https://praetemptatus.agilehealthinsurance.com/api/context/clear")
+
+3
+00:00:52,165 --> 00:00:52,169
+9. navigateToUrl("https://praetemptatus.agilehealthinsurance.com/")
+
+4
+00:00:56,324 --> 00:00:56,339
+13. click(findTestObject("mobileSanity/Common/side_nav/menu"))
+
+5
+00:00:59,928 --> 00:00:59,930
+17. Thread.sleep(3000)
+
+6
+00:01:02,940 --> 00:01:02,943
+21. click(findTestObject("mobileSanity/Common/side_nav/nav_dental"))
+
+7
+00:01:08,472 --> 00:01:08,474
+25. driver = getWebDriver()
+
+8
+00:01:08,516 --> 00:01:08,517
+29. sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), "35215")
+
+9
+00:01:13,140 --> 00:01:13,141
+33. setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), "12/12/1985")
+
+10
+00:01:15,081 --> 00:01:15,084
+37. click(findTestObject("mobileSanity/Dental/census/label_Male"))
+
+11
+00:01:15,741 --> 00:01:15,743
+41. click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance"))
+
+12
+00:01:21,689 --> 00:01:21,690
+45. click(findTestObject("mobileSanity/Dental/filter/btn_filter"))
+
+13
+00:01:26,492 --> 00:01:26,496
+49. waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10)
+
+14
+00:01:26,866 --> 00:01:26,870
+53. click(findTestObject("mobileSanity/Dental/filter/btn_company"))
+
+15
+00:01:27,841 --> 00:01:27,844
+57. click(findTestObject("mobileSanity/Dental/filter/btn_usa"))
+
+16
+00:01:28,812 --> 00:01:28,814
+61. waitForJQueryLoad(20, STOP_ON_FAILURE)
+
+17
+00:01:32,321 --> 00:01:32,322
+65. click(findTestObject("mobileSanity/Dental/filter/btn_filter"))
+
+18
+00:01:32,734 --> 00:01:32,735
+69. click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan"))
+
+19
+00:01:37,295 --> 00:01:37,296
+73. click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application"))
+
+20
+00:01:41,429 --> 00:01:41,430
+77. waitForPageLoad(10)
+
+21
+00:01:45,610 --> 00:01:45,612
+81. Thread.sleep(3000)
+
+22
+00:01:48,614 --> 00:01:48,615
+85. setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), "Test-123")
+
+23
+00:01:50,257 --> 00:01:50,259
+89. setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), "ZZ11-qwerty")
+
+24
+00:01:51,965 --> 00:01:51,966
+93. setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), "test test")
+
+25
+00:01:54,409 --> 00:01:54,412
+97. setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), "test test")
+
+26
+00:01:55,775 --> 00:01:55,777
+101. setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), "test.test123@suryani.cn")
+
+27
+00:01:59,047 --> 00:01:59,050
+105. setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), "5214566589")
+
+28
+00:02:00,844 --> 00:02:00,848
+109. click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment"))
+
+29
+00:02:01,421 --> 00:02:01,431
+113. click(findTestObject("mobileSanity/Dental/app_page2/membership/label_ihaveread"))
+
+30
+00:02:05,387 --> 00:02:05,389
+117. click(findTestObject("mobileSanity/Dental/app_page2/membership/a_ok"))
+
+31
+00:02:06,803 --> 00:02:06,805
+121. setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), "test")
+
+32
+00:02:09,289 --> 00:02:09,291
+125. setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), "test")
+
+33
+00:02:10,490 --> 00:02:10,492
+129. selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true)
+
+34
+00:02:19,526 --> 00:02:19,527
+133. selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true)
+
+35
+00:02:26,381 --> 00:02:26,382
+137. setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111")
+
+36
+00:02:28,732 --> 00:02:28,733
+141. setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123")
+
+37
+00:02:29,493 --> 00:02:29,494
+145. click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th"))
+
+38
+00:02:30,132 --> 00:02:30,134
+149. click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f"))
+
+39
+00:02:30,997 --> 00:02:30,998
+153. click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review"))
+
+40
+00:02:31,980 --> 00:02:31,981
+157. click(findTestObject("mobileSanity/Dental/app_page3/label"))
+
+41
+00:02:45,861 --> 00:02:45,863
+161. click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN"))
+
+42
+00:02:46,555 --> 00:02:46,556
+165. click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application"))
+
+43
+00:02:47,663 --> 00:02:47,667
+169. Thread.sleep(20000)
+
+44
+00:03:07,671 --> 00:03:07,672
+173. verifyTextPresent("Congratulations", false)
+

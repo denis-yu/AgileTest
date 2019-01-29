@@ -1,0 +1,164 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+mobileSanity,Chrome 71.0.3578.99,,2019-01-23 16:54:03,2019-01-23 17:01:49,7m - 46.259s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,Chrome 71.0.3578.99,,2019-01-23 16:54:04,2019-01-23 16:57:09,3m - 5.641s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-23 16:54:05,2019-01-23 16:54:56,51.527s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Chrome 71.0.3578.99,,2019-01-23 16:54:56,2019-01-23 16:55:02,6.100s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:55:02,2019-01-23 16:55:04,1.247s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:55:04,2019-01-23 16:55:06,2.779s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Chrome 71.0.3578.99,,2019-01-23 16:55:06,2019-01-23 16:55:10,3.868s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.99,,2019-01-23 16:55:10,2019-01-23 16:55:13,3.008s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:55:13,2019-01-23 16:55:14,1.064s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_dental""))",Chrome 71.0.3578.99,,2019-01-23 16:55:14,2019-01-23 16:55:19,5.156s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.99,,2019-01-23 16:55:19,2019-01-23 16:55:19,0.008s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:55:19,2019-01-23 16:55:20,0.421s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:55:20,2019-01-23 16:55:23,3.637s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Dental/census/input_Location_zip-input""), ""35215"")",Chrome 71.0.3578.99,,2019-01-23 16:55:23,2019-01-23 16:55:24,0.657s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Date of Birth_dob-0""), ""12/12/1985"")",Chrome 71.0.3578.99,,2019-01-23 16:55:24,2019-01-23 16:55:26,1.486s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Male""))",Chrome 71.0.3578.99,,2019-01-23 16:55:26,2019-01-23 16:55:26,0.348s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Compare Dental Insurance""))",Chrome 71.0.3578.99,,2019-01-23 16:55:26,2019-01-23 16:55:39,13.367s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:55:39,2019-01-23 16:55:40,0.194s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:55:40,2019-01-23 16:55:43,3.849s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-01-23 16:55:43,2019-01-23 16:55:44,0.465s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Chrome 71.0.3578.99,,2019-01-23 16:55:44,2019-01-23 16:55:44,0.348s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Chrome 71.0.3578.99,,2019-01-23 16:55:44,2019-01-23 16:55:45,0.339s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_nationwide""))",Chrome 71.0.3578.99,,2019-01-23 16:55:45,2019-01-23 16:55:45,0.598s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-01-23 16:55:45,2019-01-23 16:55:49,3.528s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-01-23 16:55:49,2019-01-23 16:55:49,0.277s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Chrome 71.0.3578.99,,2019-01-23 16:55:49,2019-01-23 16:55:52,3.079s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:55:52,2019-01-23 16:55:52,0.202s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:55:52,2019-01-23 16:55:56,3.543s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-01-23 16:55:56,2019-01-23 16:55:58,2.702s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:55:58,2019-01-23 16:56:00,1.673s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.99,,2019-01-23 16:56:00,2019-01-23 16:56:03,3.002s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:56:03,2019-01-23 16:56:04,1.157s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-firstName""), ""Test-123"")",Chrome 71.0.3578.99,,2019-01-23 16:56:04,2019-01-23 16:56:06,1.343s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-lastName""), ""ZZ11-qwerty"")",Chrome 71.0.3578.99,,2019-01-23 16:56:06,2019-01-23 16:56:07,1.469s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__address""), ""test test"")",Chrome 71.0.3578.99,,2019-01-23 16:56:07,2019-01-23 16:56:09,1.848s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__city""), ""test test"")",Chrome 71.0.3578.99,,2019-01-23 16:56:09,2019-01-23 16:56:10,0.800s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__email""), ""test.test123@suryani.cn"")",Chrome 71.0.3578.99,,2019-01-23 16:56:10,2019-01-23 16:56:11,1.630s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input_phone""), ""5214566589"")",Chrome 71.0.3578.99,,2019-01-23 16:56:11,2019-01-23 16:56:13,1.393s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment""))",Chrome 71.0.3578.99,,2019-01-23 16:56:13,2019-01-23 16:56:13,0.665s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:56:13,2019-01-23 16:56:14,0.075s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:56:14,2019-01-23 16:56:14,0.873s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-first""), ""test"")",Chrome 71.0.3578.99,,2019-01-23 16:56:14,2019-01-23 16:56:17,2.867s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-last""), ""test"")",Chrome 71.0.3578.99,,2019-01-23 16:56:17,2019-01-23 16:56:18,0.794s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_MM010203040506070809101""), ""12"", true)",Chrome 71.0.3578.99,,2019-01-23 16:56:18,2019-01-23 16:56:24,5.537s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_YYYY2019202020212022202""), ""2026"", true)",Chrome 71.0.3578.99,,2019-01-23 16:56:24,2019-01-23 16:56:28,4.489s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-number""), ""4111111111111111"")",Chrome 71.0.3578.99,,2019-01-23 16:56:28,2019-01-23 16:56:29,1.333s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__cvv""), ""123"")",Chrome 71.0.3578.99,,2019-01-23 16:56:29,2019-01-23 16:56:30,0.651s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_My billing address is th""))",Chrome 71.0.3578.99,,2019-01-23 16:56:30,2019-01-23 16:56:30,0.432s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_I Accept Authorization f""))",Chrome 71.0.3578.99,,2019-01-23 16:56:30,2019-01-23 16:56:31,0.468s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review""))",Chrome 71.0.3578.99,,2019-01-23 16:56:31,2019-01-23 16:56:32,1.162s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:56:32,2019-01-23 16:56:32,0.167s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:56:32,2019-01-23 16:56:34,1.583s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/label""))",Chrome 71.0.3578.99,,2019-01-23 16:56:34,2019-01-23 16:56:46,12.548s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/p_CLICK TO SIGN""))",Chrome 71.0.3578.99,,2019-01-23 16:56:46,2019-01-23 16:56:47,0.605s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/a_Submit Your Application""))",Chrome 71.0.3578.99,,2019-01-23 16:56:47,2019-01-23 16:56:47,0.397s,PASSED
+Thread.sleep(20000),Chrome 71.0.3578.99,,2019-01-23 16:56:47,2019-01-23 16:57:07,20.002s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:57:07,2019-01-23 16:57:09,1.137s,PASSED
+"verifyTextPresent(""Congratulations"", false)",Chrome 71.0.3578.99,,2019-01-23 16:57:09,2019-01-23 16:57:09,0.861s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/USA Access,Chrome 71.0.3578.99,,2019-01-23 16:57:09,2019-01-23 16:59:31,2m - 21.399s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-23 16:57:10,2019-01-23 16:57:32,21.747s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/api/context/clear"")",Chrome 71.0.3578.99,,2019-01-23 16:57:32,2019-01-23 16:57:33,1.499s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Chrome 71.0.3578.99,,2019-01-23 16:57:33,2019-01-23 16:57:35,2.302s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Chrome 71.0.3578.99,,2019-01-23 16:57:35,2019-01-23 16:57:36,0.956s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.99,,2019-01-23 16:57:36,2019-01-23 16:57:39,3.001s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_dental""))",Chrome 71.0.3578.99,,2019-01-23 16:57:39,2019-01-23 16:57:45,5.660s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.99,,2019-01-23 16:57:45,2019-01-23 16:57:45,0.001s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Dental/census/input_Location_zip-input""), ""35215"")",Chrome 71.0.3578.99,,2019-01-23 16:57:45,2019-01-23 16:57:49,3.815s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Date of Birth_dob-0""), ""12/12/1985"")",Chrome 71.0.3578.99,,2019-01-23 16:57:49,2019-01-23 16:57:51,2.231s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Male""))",Chrome 71.0.3578.99,,2019-01-23 16:57:51,2019-01-23 16:57:51,0.378s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Compare Dental Insurance""))",Chrome 71.0.3578.99,,2019-01-23 16:57:51,2019-01-23 16:57:59,7.397s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-01-23 16:57:59,2019-01-23 16:58:03,4.331s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Chrome 71.0.3578.99,,2019-01-23 16:58:03,2019-01-23 16:58:04,0.305s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Chrome 71.0.3578.99,,2019-01-23 16:58:04,2019-01-23 16:58:04,0.426s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_usa""))",Chrome 71.0.3578.99,,2019-01-23 16:58:04,2019-01-23 16:58:05,0.932s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-01-23 16:58:05,2019-01-23 16:58:07,2.031s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-01-23 16:58:07,2019-01-23 16:58:07,0.313s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Chrome 71.0.3578.99,,2019-01-23 16:58:07,2019-01-23 16:58:10,2.541s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-01-23 16:58:10,2019-01-23 16:58:13,2.892s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:58:13,2019-01-23 16:58:13,0.302s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.99,,2019-01-23 16:58:13,2019-01-23 16:58:16,3.001s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-firstName""), ""Test-123"")",Chrome 71.0.3578.99,,2019-01-23 16:58:16,2019-01-23 16:58:18,1.715s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-lastName""), ""ZZ11-qwerty"")",Chrome 71.0.3578.99,,2019-01-23 16:58:18,2019-01-23 16:58:19,1.150s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__address""), ""test test"")",Chrome 71.0.3578.99,,2019-01-23 16:58:19,2019-01-23 16:58:20,1.047s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__city""), ""test test"")",Chrome 71.0.3578.99,,2019-01-23 16:58:20,2019-01-23 16:58:21,0.932s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__email""), ""test.test123@suryani.cn"")",Chrome 71.0.3578.99,,2019-01-23 16:58:21,2019-01-23 16:58:23,1.933s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input_phone""), ""5214566589"")",Chrome 71.0.3578.99,,2019-01-23 16:58:23,2019-01-23 16:58:24,1.315s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment""))",Chrome 71.0.3578.99,,2019-01-23 16:58:24,2019-01-23 16:58:25,0.458s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/membership/label_ihaveread""))",Chrome 71.0.3578.99,,2019-01-23 16:58:25,2019-01-23 16:58:29,4.180s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/membership/a_ok""))",Chrome 71.0.3578.99,,2019-01-23 16:58:29,2019-01-23 16:58:30,0.926s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-first""), ""test"")",Chrome 71.0.3578.99,,2019-01-23 16:58:30,2019-01-23 16:58:31,1.202s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-last""), ""test"")",Chrome 71.0.3578.99,,2019-01-23 16:58:31,2019-01-23 16:58:32,0.862s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_MM010203040506070809101""), ""12"", true)",Chrome 71.0.3578.99,,2019-01-23 16:58:32,2019-01-23 16:58:37,5.665s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_YYYY2019202020212022202""), ""2026"", true)",Chrome 71.0.3578.99,,2019-01-23 16:58:37,2019-01-23 16:58:43,5.271s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-number""), ""4111111111111111"")",Chrome 71.0.3578.99,,2019-01-23 16:58:43,2019-01-23 16:58:46,3.824s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__cvv""), ""123"")",Chrome 71.0.3578.99,,2019-01-23 16:58:46,2019-01-23 16:58:49,2.841s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_My billing address is th""))",Chrome 71.0.3578.99,,2019-01-23 16:58:49,2019-01-23 16:58:50,1.217s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_I Accept Authorization f""))",Chrome 71.0.3578.99,,2019-01-23 16:58:50,2019-01-23 16:58:52,1.844s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review""))",Chrome 71.0.3578.99,,2019-01-23 16:58:52,2019-01-23 16:58:54,2.121s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/label""))",Chrome 71.0.3578.99,,2019-01-23 16:58:54,2019-01-23 16:59:08,13.859s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/p_CLICK TO SIGN""))",Chrome 71.0.3578.99,,2019-01-23 16:59:08,2019-01-23 16:59:09,1.140s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/a_Submit Your Application""))",Chrome 71.0.3578.99,,2019-01-23 16:59:09,2019-01-23 16:59:10,0.624s,PASSED
+Thread.sleep(20000),Chrome 71.0.3578.99,,2019-01-23 16:59:10,2019-01-23 16:59:30,19.998s,PASSED
+"verifyTextPresent(""Congratulations"", false)",Chrome 71.0.3578.99,,2019-01-23 16:59:30,2019-01-23 16:59:31,0.759s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,Chrome 71.0.3578.99,Dental - National General application flow,2019-01-23 16:59:31,2019-01-23 17:01:47,2m - 15.863s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.99,,2019-01-23 16:59:31,2019-01-23 16:59:53,21.547s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Chrome 71.0.3578.99,,2019-01-23 16:59:53,2019-01-23 16:59:57,3.657s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 16:59:57,2019-01-23 16:59:57,0.187s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 16:59:57,2019-01-23 16:59:59,2.170s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Chrome 71.0.3578.99,,2019-01-23 16:59:59,2019-01-23 17:00:03,3.971s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.99,,2019-01-23 17:00:03,2019-01-23 17:00:06,3.000s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:00:06,2019-01-23 17:00:07,1.533s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_dental""))",Chrome 71.0.3578.99,,2019-01-23 17:00:07,2019-01-23 17:00:10,2.555s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.99,,2019-01-23 17:00:10,2019-01-23 17:00:10,0.001s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 17:00:10,2019-01-23 17:00:11,0.668s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:00:11,2019-01-23 17:00:14,3.294s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Dental/census/input_Location_zip-input""), ""35215"")",Chrome 71.0.3578.99,,2019-01-23 17:00:14,2019-01-23 17:00:15,0.722s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Date of Birth_dob-0""), ""12/12/1985"")",Chrome 71.0.3578.99,,2019-01-23 17:00:15,2019-01-23 17:00:16,1.024s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Male""))",Chrome 71.0.3578.99,,2019-01-23 17:00:16,2019-01-23 17:00:16,0.449s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Compare Dental Insurance""))",Chrome 71.0.3578.99,,2019-01-23 17:00:16,2019-01-23 17:00:24,8.093s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 17:00:24,2019-01-23 17:00:24,0.149s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:00:24,2019-01-23 17:00:28,3.777s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-01-23 17:00:28,2019-01-23 17:00:29,0.499s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Chrome 71.0.3578.99,,2019-01-23 17:00:29,2019-01-23 17:00:29,0.253s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Chrome 71.0.3578.99,,2019-01-23 17:00:29,2019-01-23 17:00:30,0.610s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_ng""))",Chrome 71.0.3578.99,,2019-01-23 17:00:30,2019-01-23 17:00:30,0.733s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-01-23 17:00:30,2019-01-23 17:00:33,2.871s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-01-23 17:00:33,2019-01-23 17:00:34,0.430s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Chrome 71.0.3578.99,,2019-01-23 17:00:34,2019-01-23 17:00:36,2.761s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 17:00:36,2019-01-23 17:00:37,0.662s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:00:37,2019-01-23 17:00:41,3.602s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-01-23 17:00:41,2019-01-23 17:00:43,2.287s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 17:00:43,2019-01-23 17:00:43,0.628s,PASSED
+Thread.sleep(3000),Chrome 71.0.3578.99,,2019-01-23 17:00:43,2019-01-23 17:00:46,3.004s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:00:46,2019-01-23 17:00:48,1.136s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-firstName""), ""Test-123"")",Chrome 71.0.3578.99,,2019-01-23 17:00:48,2019-01-23 17:00:49,1.311s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-lastName""), ""ZZ11-qwerty"")",Chrome 71.0.3578.99,,2019-01-23 17:00:49,2019-01-23 17:00:50,1.027s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__address""), ""test test"")",Chrome 71.0.3578.99,,2019-01-23 17:00:50,2019-01-23 17:00:51,0.997s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__city""), ""test test"")",Chrome 71.0.3578.99,,2019-01-23 17:00:51,2019-01-23 17:00:52,1.046s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__email""), ""test.test123@suryani.cn"")",Chrome 71.0.3578.99,,2019-01-23 17:00:52,2019-01-23 17:00:54,1.849s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input_phone""), ""5214566589"")",Chrome 71.0.3578.99,,2019-01-23 17:00:54,2019-01-23 17:00:55,1.283s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment""))",Chrome 71.0.3578.99,,2019-01-23 17:00:55,2019-01-23 17:00:56,0.439s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 17:00:56,2019-01-23 17:00:56,0.028s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:00:56,2019-01-23 17:00:58,2.637s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-first""), ""test"")",Chrome 71.0.3578.99,,2019-01-23 17:00:58,2019-01-23 17:01:01,2.445s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-last""), ""test"")",Chrome 71.0.3578.99,,2019-01-23 17:01:01,2019-01-23 17:01:01,0.729s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_MM010203040506070809101""), ""12"", true)",Chrome 71.0.3578.99,,2019-01-23 17:01:01,2019-01-23 17:01:08,6.712s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_YYYY2019202020212022202""), ""2026"", true)",Chrome 71.0.3578.99,,2019-01-23 17:01:08,2019-01-23 17:01:13,5.322s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-number""), ""4111111111111111"")",Chrome 71.0.3578.99,,2019-01-23 17:01:13,2019-01-23 17:01:16,2.584s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__cvv""), ""123"")",Chrome 71.0.3578.99,,2019-01-23 17:01:16,2019-01-23 17:01:17,1.013s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_My billing address is th""))",Chrome 71.0.3578.99,,2019-01-23 17:01:17,2019-01-23 17:01:18,1.138s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_I Accept Authorization f""))",Chrome 71.0.3578.99,,2019-01-23 17:01:18,2019-01-23 17:01:19,0.587s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review""))",Chrome 71.0.3578.99,,2019-01-23 17:01:19,2019-01-23 17:01:19,0.655s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-01-23 17:01:19,2019-01-23 17:01:20,0.110s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:01:20,2019-01-23 17:01:21,1.627s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/label""))",Chrome 71.0.3578.99,,2019-01-23 17:01:21,2019-01-23 17:01:24,2.835s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/p_CLICK TO SIGN""))",Chrome 71.0.3578.99,,2019-01-23 17:01:24,2019-01-23 17:01:24,0.396s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/a_Submit Your Application""))",Chrome 71.0.3578.99,,2019-01-23 17:01:24,2019-01-23 17:01:25,0.574s,PASSED
+Thread.sleep(20000),Chrome 71.0.3578.99,,2019-01-23 17:01:25,2019-01-23 17:01:45,19.998s,PASSED
+takeScreenshot(),Chrome 71.0.3578.99,,2019-01-23 17:01:45,2019-01-23 17:01:46,1.207s,PASSED
+"verifyTextPresent(""Congratulations"", false)",Chrome 71.0.3578.99,,2019-01-23 17:01:46,2019-01-23 17:01:47,0.562s,PASSED

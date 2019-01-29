@@ -18,23 +18,53 @@ public class GlobalVariable {
      */
     public static Object ENV
      
+    /**
+     * <p></p>
+     */
+    public static Object FirstName
+     
+    /**
+     * <p></p>
+     */
+    public static Object LastName
+     
+    /**
+     * <p></p>
+     */
+    public static Object Address
+     
+    /**
+     * <p></p>
+     */
+    public static Object Tel
+     
+    /**
+     * <p></p>
+     */
+    public static Object City
+     
+    /**
+     * <p></p>
+     */
+    public static Object AutoEmail
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com'])
+        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : ''])
         allVariables.put('staging', allVariables['default'] + ['ENV' : 'https://staging.agilehealthinsurance.com'])
+        allVariables.put('windrunner', allVariables['default'] + ['ENV' : 'https://windrunner.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'City' : '', 'Tel' : '', 'AutoEmail' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
+        
         def selectedVariables = allVariables[profileName]
-		
-		for(object in selectedVariables){
-			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
-			if(overridingGlobalVariable != null){
-				selectedVariables.put(object.key, overridingGlobalVariable)
-			}
-		}
-
-        ENV = selectedVariables["ENV"]
+        ENV = selectedVariables['ENV']
+        FirstName = selectedVariables['FirstName']
+        LastName = selectedVariables['LastName']
+        Address = selectedVariables['Address']
+        Tel = selectedVariables['Tel']
+        City = selectedVariables['City']
+        AutoEmail = selectedVariables['AutoEmail']
         
     }
 }

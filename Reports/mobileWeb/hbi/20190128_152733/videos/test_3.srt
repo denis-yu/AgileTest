@@ -1,0 +1,96 @@
+1
+00:00:00,265 --> 00:00:00,267
+1. callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,361 --> 00:00:00,362
+1. openBrowser("")
+
+3
+00:00:26,702 --> 00:00:26,703
+5. navigateToUrl(ENV)
+
+4
+00:00:36,644 --> 00:00:36,645
+9. waitForPageLoad(10)
+
+5
+00:00:36,758 --> 00:00:36,759
+5. callTestCase(findTestCase("mobileWeb/_include/census_hbi"), [:], CONTINUE_ON_FAILURE)
+
+6
+00:00:36,828 --> 00:00:36,829
+1. click(findTestObject("mobileSanity/Common/side_nav/menu"))
+
+7
+00:00:37,705 --> 00:00:37,706
+5. Thread.sleep(3000)
+
+8
+00:00:40,706 --> 00:00:40,707
+9. click(findTestObject("mobileSanity/Common/side_nav/nav_hbi"))
+
+9
+00:00:48,696 --> 00:00:48,697
+13. waitForPageLoad(10)
+
+10
+00:00:49,211 --> 00:00:49,213
+17. setText(findTestObject("mobileSanity/HBI/census/input_Location_zip-input"), "35215")
+
+11
+00:00:55,441 --> 00:00:55,442
+21. setText(findTestObject("mobileSanity/HBI/census/input_Date of Birth_dob-0"), "12/12/1980")
+
+12
+00:00:57,163 --> 00:00:57,166
+25. click(findTestObject("mobileSanity/HBI/census/label_Male"))
+
+13
+00:01:13,353 --> 00:01:13,355
+29. click(findTestObject("mobileSanity/HBI/census/label_Get a Quote"))
+
+14
+00:01:22,810 --> 00:01:22,811
+33. waitForPageLoad(10)
+
+15
+00:01:23,059 --> 00:01:23,062
+9. Thread.sleep(5000)
+
+16
+00:01:28,063 --> 00:01:28,064
+13. scrollToPosition(200, 2300)
+
+17
+00:01:28,199 --> 00:01:28,200
+17. click(findTestObject("mobileSanity/HBI/quote/a_Cardinal Choice"))
+
+18
+00:01:35,217 --> 00:01:35,218
+21. click(findTestObject("mobileSanity/HBI/detail/a_Apply for This Plan"))
+
+19
+00:01:41,697 --> 00:01:41,699
+25. click(findTestObject("mobileSanity/HBI/Page_Apply/span_Start Secure Application"))
+
+20
+00:01:50,371 --> 00:01:50,372
+29. callTestCase(findTestCase("mobileWeb/_include/goToEnd_hbi"), ["carrier":"agileone"], CONTINUE_ON_FAILURE)
+
+21
+00:01:50,461 --> 00:01:50,462
+1. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__member-P-1-firstName"), "Test-123")
+
+22
+00:01:56,525 --> 00:01:56,526
+5. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__member-P-1-lastName"), "ZZ11-UIOUIOWUROIEUR")
+
+23
+00:02:01,197 --> 00:02:01,198
+9. if (carrier == "agileone")
+
+24
+00:02:01,199 --> 00:02:01,199
+1. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__primary-beneficiary-fir"), "test")
+

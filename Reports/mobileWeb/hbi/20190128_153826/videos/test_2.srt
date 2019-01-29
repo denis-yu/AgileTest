@@ -1,0 +1,164 @@
+1
+00:00:00,199 --> 00:00:00,201
+1. callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,316 --> 00:00:00,317
+1. openBrowser("")
+
+3
+00:00:26,117 --> 00:00:26,117
+5. navigateToUrl(ENV)
+
+4
+00:00:36,852 --> 00:00:36,853
+9. waitForPageLoad(10)
+
+5
+00:00:36,996 --> 00:00:36,996
+5. callTestCase(findTestCase("mobileWeb/_include/census_hbi"), [:], CONTINUE_ON_FAILURE)
+
+6
+00:00:37,082 --> 00:00:37,083
+1. click(findTestObject("mobileSanity/Common/side_nav/menu"))
+
+7
+00:00:38,968 --> 00:00:38,969
+5. Thread.sleep(3000)
+
+8
+00:00:41,969 --> 00:00:41,969
+9. click(findTestObject("mobileSanity/Common/side_nav/nav_hbi"))
+
+9
+00:00:54,344 --> 00:00:54,345
+13. waitForPageLoad(10)
+
+10
+00:00:58,342 --> 00:00:58,343
+17. setText(findTestObject("mobileSanity/HBI/census/input_Location_zip-input"), "35215")
+
+11
+00:00:59,681 --> 00:00:59,682
+21. setText(findTestObject("mobileSanity/HBI/census/input_Date of Birth_dob-0"), "12/12/1980")
+
+12
+00:01:02,327 --> 00:01:02,328
+25. click(findTestObject("mobileSanity/HBI/census/label_Male"))
+
+13
+00:01:04,695 --> 00:01:04,697
+29. click(findTestObject("mobileSanity/HBI/census/label_Get a Quote"))
+
+14
+00:01:14,095 --> 00:01:14,095
+33. waitForPageLoad(10)
+
+15
+00:01:14,438 --> 00:01:14,440
+9. click(findTestObject("mobileSanity/HBI/quote/a_Legion Limited Medical 500"))
+
+16
+00:01:23,636 --> 00:01:23,640
+13. click(findTestObject("mobileSanity/HBI/detail/a_Apply for This Plan"))
+
+17
+00:01:28,996 --> 00:01:28,997
+17. click(findTestObject("mobileSanity/HBI/Page_Apply/span_Start Secure Application"))
+
+18
+00:01:35,247 --> 00:01:35,253
+21. callTestCase(findTestCase("mobileWeb/_include/goToEnd_hbi"), ["carrier":"axislegion"], CONTINUE_ON_FAILURE)
+
+19
+00:01:35,379 --> 00:01:35,380
+1. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__member-P-1-firstName"), "Test-123")
+
+20
+00:01:40,819 --> 00:01:40,820
+5. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__member-P-1-lastName"), "ZZ11-UIOUIOWUROIEUR")
+
+21
+00:01:44,599 --> 00:01:44,599
+9. if (carrier == "agileone")
+
+22
+00:01:44,600 --> 00:01:44,601
+13. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__address"), "sgftreter retert")
+
+23
+00:01:47,033 --> 00:01:47,034
+17. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__city"), "gretret")
+
+24
+00:01:48,722 --> 00:01:48,723
+21. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__email"), "test.uoieuti@suryani.cn")
+
+25
+00:01:51,967 --> 00:01:51,968
+25. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input_tel"), "5641523658")
+
+26
+00:01:53,746 --> 00:01:53,746
+29. click(findTestObject("mobileSanity/HBI/Page_App Page 1/a_Continue to Step 2 - Payment"))
+
+27
+00:01:54,885 --> 00:01:54,885
+33. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__credit-card-first"), "test")
+
+28
+00:01:59,148 --> 00:01:59,149
+37. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__credit-card-last"), "test")
+
+29
+00:02:00,255 --> 00:02:00,256
+41. selectOptionByValue(findTestObject("mobileSanity/HBI/Page_App Page 2/select_MM010203040506070809101"), "12", true)
+
+30
+00:02:14,477 --> 00:02:14,478
+45. selectOptionByValue(findTestObject("mobileSanity/HBI/Page_App Page 2/select_YYYY2019202020212022202"), "2026", true)
+
+31
+00:02:24,852 --> 00:02:24,853
+49. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__credit-card-number"), "4111111111111111")
+
+32
+00:02:27,397 --> 00:02:27,398
+53. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__cvv"), "123")
+
+33
+00:02:28,510 --> 00:02:28,511
+57. click(findTestObject("mobileSanity/HBI/Page_App Page 2/label_My billing address is th"))
+
+34
+00:02:29,328 --> 00:02:29,330
+61. click(findTestObject("mobileSanity/HBI/Page_App Page 2/label_I Accept Authorization f"))
+
+35
+00:02:30,272 --> 00:02:30,273
+65. click(findTestObject("mobileSanity/HBI/Page_App Page 2/a_Continue to Step 3 - Review"))
+
+36
+00:02:34,483 --> 00:02:34,485
+69. if (verifyElementPresent(findTestObject("mobileSanity/HBI/Page_App Page 2/a_No Thanks"), 10))
+
+37
+00:02:46,187 --> 00:02:46,188
+73. click(findTestObject("mobileSanity/HBI/Page_App Page 3/label"))
+
+38
+00:02:48,553 --> 00:02:48,556
+77. click(findTestObject("mobileSanity/HBI/Page_App Page 3/p_CLICK TO SIGN"))
+
+39
+00:02:49,436 --> 00:02:49,437
+81. click(findTestObject("mobileSanity/HBI/Page_App Page 3/a_Submit Your Application"))
+
+40
+00:02:50,921 --> 00:02:50,922
+85. Thread.sleep(20000)
+
+41
+00:03:10,919 --> 00:03:10,920
+89. verifyTextPresent("Congratulations", false)
+

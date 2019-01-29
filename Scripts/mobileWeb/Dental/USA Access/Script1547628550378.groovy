@@ -16,27 +16,11 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/api/context/clear')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/census_dental'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
-
-WebUI.click(findTestObject('mobileSanity/Dental/side_nav/menu'))
-
-Thread.sleep(3000)
-
-WebUI.click(findTestObject('mobileSanity/Dental/side_nav/nav_dental'))
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebUI.sendKeys(findTestObject('mobileSanity/Dental/census/input_Location_zip-input'), '35215')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/census/input_Date of Birth_dob-0'), '12/12/1985')
-
-WebUI.click(findTestObject('mobileSanity/Dental/census/label_Male'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/census/label_Compare Dental Insurance'))
+WebUI.comment('-------------quote page--------------------')
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
@@ -56,51 +40,5 @@ WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Applicat
 
 WebUI.waitForPageLoad(10)
 
-Thread.sleep(3000)
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__member-P-1-firstName'), 'Test-123')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__member-P-1-lastName'), 'ZZ11-qwerty')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__address'), 'test test')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__city'), 'test test')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__email'), 'test.test123@suryani.cn')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input_phone'), '5214566589')
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page2/membership/label_ihaveread'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page2/membership/a_ok'))
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-first'), 'test')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-last'), 'test')
-
-WebUI.selectOptionByValue(findTestObject('mobileSanity/Dental/app_page2/select_MM010203040506070809101'), '12', true)
-
-WebUI.selectOptionByValue(findTestObject('mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'), '2026', true)
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-number'), '4111111111111111')
-
-WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__cvv'), '123')
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_My billing address is th'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_I Accept Authorization f'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page3/label'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))
-
-WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Application'))
-
-Thread.sleep(20000)
-
-WebUI.verifyTextPresent('Congratulations', false)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_dental'), [('carrier') : 'usa'], FailureHandling.STOP_ON_FAILURE)
 

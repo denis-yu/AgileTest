@@ -4,6 +4,7 @@
    <name>mobileSanity</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-01-28T13:37:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
