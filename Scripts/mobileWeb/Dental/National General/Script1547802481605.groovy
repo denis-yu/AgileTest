@@ -18,11 +18,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
-
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_dental'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
@@ -39,8 +35,6 @@ WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 WebUI.click(findTestObject('mobileSanity/Dental/quote/a_Select This Plan'))
 
 WebUI.waitForPageLoad(10)
-
-Mobile.takeScreenshot()
 
 WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
 

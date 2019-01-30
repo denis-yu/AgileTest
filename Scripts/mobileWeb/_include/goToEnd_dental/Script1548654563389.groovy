@@ -56,6 +56,8 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_I Accept Authori
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review'))
 
+WebUI.waitForPageLoad(10)
+
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/label'))
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))

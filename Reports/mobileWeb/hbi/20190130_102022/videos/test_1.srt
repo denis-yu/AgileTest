@@ -1,0 +1,268 @@
+1
+00:00:00,540 --> 00:00:00,559
+1. callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,953 --> 00:00:00,955
+1. openBrowser("")
+
+3
+00:00:05,177 --> 00:00:05,179
+5. navigateToUrl(ENV)
+
+4
+00:00:08,921 --> 00:00:08,922
+9. waitForPageLoad(10)
+
+5
+00:00:09,004 --> 00:00:09,006
+5. callTestCase(findTestCase("mobileWeb/_include/census_hbi"), [:], CONTINUE_ON_FAILURE)
+
+6
+00:00:09,392 --> 00:00:09,393
+1. click(findTestObject("mobileSanity/Common/side_nav/menu"))
+
+7
+00:00:10,363 --> 00:00:10,368
+5. Thread.sleep(3000)
+
+8
+00:00:13,379 --> 00:00:13,384
+9. click(findTestObject("mobileSanity/Common/side_nav/nav_hbi"))
+
+9
+00:00:19,866 --> 00:00:19,867
+13. waitForPageLoad(10)
+
+10
+00:00:21,271 --> 00:00:21,274
+17. setText(findTestObject("mobileSanity/HBI/census/input_Location_zip-input"), zipcode)
+
+11
+00:00:21,451 --> 00:00:21,452
+21. setText(findTestObject("mobileSanity/HBI/census/input_Date of Birth_dob-0"), "12/12/1980")
+
+12
+00:00:21,635 --> 00:00:21,636
+25. click(findTestObject("mobileSanity/HBI/census/label_Male"))
+
+13
+00:00:21,753 --> 00:00:21,755
+29. click(findTestObject("mobileSanity/HBI/census/label_Get a Quote"))
+
+14
+00:00:21,883 --> 00:00:21,885
+33. waitForPageLoad(10)
+
+15
+00:00:21,935 --> 00:00:21,936
+9. Thread.sleep(5000)
+
+16
+00:00:26,938 --> 00:00:26,940
+13. scrollToPosition(200, 2300)
+
+17
+00:00:28,364 --> 00:00:28,369
+17. click(findTestObject("mobileSanity/HBI/quote/a_Core Shield"))
+
+18
+00:00:50,527 --> 00:00:50,528
+21. click(findTestObject("mobileSanity/HBI/detail/a_Apply for This Plan"))
+
+19
+00:00:52,436 --> 00:00:52,437
+25. click(findTestObject("mobileSanity/HBI/Page_Apply/span_Start Secure Application"))
+
+20
+00:00:55,021 --> 00:00:55,025
+29. callTestCase(findTestCase("mobileWeb/_include/goToEnd_hbi"), ["carrier":"coreshield"], CONTINUE_ON_FAILURE)
+
+21
+00:00:55,400 --> 00:00:55,402
+1. callTestCase(findTestCase("mobileWeb/_include/name"), [:], CONTINUE_ON_FAILURE)
+
+22
+00:00:56,031 --> 00:00:56,033
+1. driver = getWebDriver()
+
+23
+00:00:56,044 --> 00:00:56,046
+5. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV)
+
+24
+00:00:56,604 --> 00:00:56,605
+9. FirstName = "Test-123"
+
+25
+00:00:56,606 --> 00:00:56,607
+13. LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}")
+
+26
+00:00:56,620 --> 00:00:56,621
+17. Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}")
+
+27
+00:00:56,631 --> 00:00:56,632
+21. City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}")
+
+28
+00:00:56,690 --> 00:00:56,692
+25. tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}")
+
+29
+00:00:56,699 --> 00:00:56,700
+29. tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}")
+
+30
+00:00:56,709 --> 00:00:56,711
+33. tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}")
+
+31
+00:00:56,743 --> 00:00:56,745
+37. Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3)
+
+32
+00:00:56,746 --> 00:00:56,747
+41. AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}")
+
+33
+00:00:56,763 --> 00:00:56,764
+45. FirstName = FirstName
+
+34
+00:00:56,765 --> 00:00:56,766
+49. LastName = LastName
+
+35
+00:00:56,767 --> 00:00:56,768
+53. Address = Address
+
+36
+00:00:56,769 --> 00:00:56,770
+57. City = City
+
+37
+00:00:56,771 --> 00:00:56,772
+61. Tel = Tel
+
+38
+00:00:56,773 --> 00:00:56,775
+65. AutoEmail = AutoEmail
+
+39
+00:00:56,776 --> 00:00:56,777
+69. println(FirstName)
+
+40
+00:00:56,782 --> 00:00:56,783
+73. println(LastName)
+
+41
+00:00:56,785 --> 00:00:56,786
+77. println(Address)
+
+42
+00:00:56,787 --> 00:00:56,788
+81. println(City)
+
+43
+00:00:56,789 --> 00:00:56,792
+85. println(Tel)
+
+44
+00:00:56,792 --> 00:00:56,795
+89. println(AutoEmail)
+
+45
+00:00:57,067 --> 00:00:57,068
+5. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__member-P-1-firstName"), FirstName)
+
+46
+00:00:57,932 --> 00:00:57,933
+9. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__member-P-1-lastName"), LastName)
+
+47
+00:00:58,224 --> 00:00:58,225
+15. when carrier is 'agileone', fill more areas
+
+48
+00:00:58,225 --> 00:00:58,226
+19. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__address"), Address)
+
+49
+00:00:58,455 --> 00:00:58,457
+23. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__city"), City)
+
+50
+00:00:58,722 --> 00:00:58,723
+27. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input__email"), AutoEmail)
+
+51
+00:00:59,131 --> 00:00:59,132
+31. setText(findTestObject("mobileSanity/HBI/Page_App Page 1/input_tel"), Tel)
+
+52
+00:00:59,351 --> 00:00:59,353
+35. click(findTestObject("mobileSanity/HBI/Page_App Page 1/a_Continue to Step 2 - Payment"))
+
+53
+00:00:59,585 --> 00:00:59,587
+39. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__credit-card-first"), FirstName)
+
+54
+00:01:00,812 --> 00:01:00,813
+43. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__credit-card-last"), LastName)
+
+55
+00:01:01,066 --> 00:01:01,067
+47. selectOptionByValue(findTestObject("mobileSanity/HBI/Page_App Page 2/select_MM010203040506070809101"), "12", true)
+
+56
+00:01:01,561 --> 00:01:01,561
+51. selectOptionByValue(findTestObject("mobileSanity/HBI/Page_App Page 2/select_YYYY2019202020212022202"), "2026", true)
+
+57
+00:01:01,977 --> 00:01:01,978
+55. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__credit-card-number"), "4111111111111111")
+
+58
+00:01:02,193 --> 00:01:02,195
+59. setText(findTestObject("mobileSanity/HBI/Page_App Page 2/input__cvv"), "123")
+
+59
+00:01:02,341 --> 00:01:02,342
+63. click(findTestObject("mobileSanity/HBI/Page_App Page 2/label_My billing address is th"))
+
+60
+00:01:02,524 --> 00:01:02,524
+67. click(findTestObject("mobileSanity/HBI/Page_App Page 2/label_I Accept Authorization f"))
+
+61
+00:01:02,673 --> 00:01:02,673
+71. click(findTestObject("mobileSanity/HBI/Page_App Page 2/a_Continue to Step 3 - Review"))
+
+62
+00:01:02,880 --> 00:01:02,881
+77. when 'addon' popup present, click 'no thanks'
+
+63
+00:01:13,932 --> 00:01:13,932
+81. click(findTestObject("mobileSanity/HBI/Page_App Page 3/label"))
+
+64
+00:01:15,130 --> 00:01:15,132
+85. click(findTestObject("mobileSanity/HBI/Page_App Page 3/p_CLICK TO SIGN"))
+
+65
+00:01:15,249 --> 00:01:15,250
+89. click(findTestObject("mobileSanity/HBI/Page_App Page 3/a_Submit Your Application"))
+
+66
+00:01:15,593 --> 00:01:15,595
+93. Thread.sleep(20000)
+
+67
+00:01:35,596 --> 00:01:35,599
+97. verifyTextPresent("Congratulations", false)
+

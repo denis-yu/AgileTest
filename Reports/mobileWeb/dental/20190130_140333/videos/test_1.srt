@@ -1,0 +1,296 @@
+1
+00:00:00,715 --> 00:00:00,726
+1. callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], STOP_ON_FAILURE)
+
+2
+00:00:01,155 --> 00:00:01,160
+1. openBrowser("")
+
+3
+00:00:19,663 --> 00:00:19,664
+5. navigateToUrl(ENV)
+
+4
+00:00:23,485 --> 00:00:23,487
+9. waitForPageLoad(10)
+
+5
+00:00:24,081 --> 00:00:24,083
+13. Thread.sleep(3000)
+
+6
+00:00:27,099 --> 00:00:27,100
+5. callTestCase(findTestCase("mobileWeb/_include/census_dental"), [:], STOP_ON_FAILURE)
+
+7
+00:00:27,527 --> 00:00:27,528
+1. click(findTestObject("mobileSanity/Common/side_nav/menu"))
+
+8
+00:00:28,368 --> 00:00:28,372
+5. Thread.sleep(3000)
+
+9
+00:00:31,373 --> 00:00:31,374
+9. click(findTestObject("mobileSanity/Common/side_nav/nav_dental"))
+
+10
+00:00:34,727 --> 00:00:34,729
+13. waitForPageLoad(10)
+
+11
+00:00:38,200 --> 00:00:38,203
+17. sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), zipcode)
+
+12
+00:00:38,940 --> 00:00:38,942
+21. setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), dob)
+
+13
+00:00:40,217 --> 00:00:40,221
+25. click(findTestObject("mobileSanity/Dental/census/label_Male"))
+
+14
+00:00:40,594 --> 00:00:40,596
+29. click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance"))
+
+15
+00:00:46,158 --> 00:00:46,160
+33. waitForPageLoad(10)
+
+16
+00:00:46,354 --> 00:00:46,356
+9. click(findTestObject("mobileSanity/Dental/filter/btn_filter"))
+
+17
+00:00:50,404 --> 00:00:50,406
+13. waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10)
+
+18
+00:00:50,843 --> 00:00:50,844
+17. click(findTestObject("mobileSanity/Dental/filter/btn_company"))
+
+19
+00:00:51,167 --> 00:00:51,168
+21. click(findTestObject("mobileSanity/Dental/filter/btn_ng"))
+
+20
+00:00:52,080 --> 00:00:52,082
+25. waitForJQueryLoad(20, STOP_ON_FAILURE)
+
+21
+00:00:54,593 --> 00:00:54,595
+29. click(findTestObject("mobileSanity/Dental/filter/btn_filter"))
+
+22
+00:00:54,836 --> 00:00:54,837
+33. click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan"))
+
+23
+00:00:57,233 --> 00:00:57,237
+37. waitForPageLoad(10)
+
+24
+00:01:00,710 --> 00:01:00,711
+41. click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application"))
+
+25
+00:01:04,038 --> 00:01:04,043
+45. waitForPageLoad(10)
+
+26
+00:01:05,023 --> 00:01:05,025
+49. callTestCase(findTestCase("mobileWeb/_include/goToEnd_dental"), ["carrier":"nationalgeneral"], CONTINUE_ON_FAILURE)
+
+27
+00:01:05,372 --> 00:01:05,374
+1. callTestCase(findTestCase("mobileWeb/_include/name"), [:], CONTINUE_ON_FAILURE)
+
+28
+00:01:05,729 --> 00:01:05,731
+1. driver = getWebDriver()
+
+29
+00:01:05,739 --> 00:01:05,740
+5. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV)
+
+30
+00:01:05,905 --> 00:01:05,906
+9. FirstName = "Test-123"
+
+31
+00:01:05,906 --> 00:01:05,908
+13. LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}")
+
+32
+00:01:08,448 --> 00:01:08,450
+17. Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}")
+
+33
+00:01:08,469 --> 00:01:08,471
+21. City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}")
+
+34
+00:01:08,489 --> 00:01:08,489
+25. tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}")
+
+35
+00:01:08,521 --> 00:01:08,522
+29. tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}")
+
+36
+00:01:08,542 --> 00:01:08,543
+33. tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}")
+
+37
+00:01:08,594 --> 00:01:08,599
+37. Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3)
+
+38
+00:01:08,603 --> 00:01:08,605
+41. AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}")
+
+39
+00:01:08,665 --> 00:01:08,666
+45. FirstName = FirstName
+
+40
+00:01:08,667 --> 00:01:08,668
+49. LastName = LastName
+
+41
+00:01:08,668 --> 00:01:08,669
+53. Address = Address
+
+42
+00:01:08,669 --> 00:01:08,670
+57. City = City
+
+43
+00:01:08,670 --> 00:01:08,671
+61. Tel = Tel
+
+44
+00:01:08,672 --> 00:01:08,673
+65. AutoEmail = AutoEmail
+
+45
+00:01:08,673 --> 00:01:08,674
+69. println(FirstName)
+
+46
+00:01:08,678 --> 00:01:08,679
+73. println(LastName)
+
+47
+00:01:08,680 --> 00:01:08,681
+77. println(Address)
+
+48
+00:01:08,681 --> 00:01:08,682
+81. println(City)
+
+49
+00:01:08,683 --> 00:01:08,684
+85. println(Tel)
+
+50
+00:01:08,684 --> 00:01:08,686
+89. println(AutoEmail)
+
+51
+00:01:08,688 --> 00:01:08,689
+5. Thread.sleep(3000)
+
+52
+00:01:11,689 --> 00:01:11,691
+9. setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), FirstName)
+
+53
+00:01:12,780 --> 00:01:12,781
+13. setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), LastName)
+
+54
+00:01:14,659 --> 00:01:14,659
+17. setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), Address)
+
+55
+00:01:15,934 --> 00:01:15,934
+21. setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), City)
+
+56
+00:01:17,452 --> 00:01:17,453
+25. setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), AutoEmail)
+
+57
+00:01:19,932 --> 00:01:19,933
+29. setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), Tel)
+
+58
+00:01:21,572 --> 00:01:21,573
+33. click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment"))
+
+59
+00:01:22,084 --> 00:01:22,085
+39. when carrier is 'usa', accept the membership.
+
+60
+00:01:22,086 --> 00:01:22,087
+43. setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), FirstName)
+
+61
+00:01:27,001 --> 00:01:27,004
+47. setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), LastName)
+
+62
+00:01:28,495 --> 00:01:28,496
+51. selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true)
+
+63
+00:01:31,091 --> 00:01:31,092
+55. selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true)
+
+64
+00:01:33,595 --> 00:01:33,596
+59. setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111")
+
+65
+00:01:35,613 --> 00:01:35,615
+63. setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123")
+
+66
+00:01:36,193 --> 00:01:36,193
+67. click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th"))
+
+67
+00:01:36,600 --> 00:01:36,600
+71. click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f"))
+
+68
+00:01:37,034 --> 00:01:37,035
+75. click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review"))
+
+69
+00:01:38,152 --> 00:01:38,153
+79. waitForPageLoad(10)
+
+70
+00:01:38,238 --> 00:01:38,239
+83. click(findTestObject("mobileSanity/Dental/app_page3/label"))
+
+71
+00:01:40,973 --> 00:01:40,974
+87. click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN"))
+
+72
+00:01:42,007 --> 00:01:42,008
+91. click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application"))
+
+73
+00:01:42,703 --> 00:01:42,705
+95. Thread.sleep(20000)
+
+74
+00:02:02,703 --> 00:02:02,704
+99. verifyTextPresent("Congratulations", false)
+

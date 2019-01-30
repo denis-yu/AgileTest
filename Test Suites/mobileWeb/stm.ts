@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>mobileSanity</name>
+   <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <lastRun>2019-01-28T13:37:25</lastRun>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>447ba290-aa54-4686-9aba-01a416f0f6fe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -49,23 +49,5 @@
          <value></value>
          <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>148ddc73-592f-4fe9-a7e7-5c19e5187a6e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>46a7ddf9-c889-4dac-bbd6-51ddd9b54b37</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/Dental/USA Access</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>39eff333-e2a2-442a-aadb-9f343cae9e61</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/Dental/National General</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

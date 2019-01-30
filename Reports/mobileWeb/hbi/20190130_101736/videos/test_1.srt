@@ -1,0 +1,36 @@
+1
+00:00:00,487 --> 00:00:00,507
+1. callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], CONTINUE_ON_FAILURE)
+
+2
+00:00:00,884 --> 00:00:00,886
+1. openBrowser("")
+
+3
+00:00:05,667 --> 00:00:05,669
+5. navigateToUrl(ENV)
+
+4
+00:00:08,564 --> 00:00:08,566
+9. waitForPageLoad(10)
+
+5
+00:00:08,736 --> 00:00:08,737
+5. callTestCase(findTestCase("mobileWeb/_include/census_hbi"), [:], CONTINUE_ON_FAILURE)
+
+6
+00:00:09,146 --> 00:00:09,147
+1. click(findTestObject("mobileSanity/Common/side_nav/menu"))
+
+7
+00:00:10,999 --> 00:00:11,000
+9. Thread.sleep(5000)
+
+8
+00:00:16,006 --> 00:00:16,008
+13. scrollToPosition(200, 2300)
+
+9
+00:00:16,055 --> 00:00:16,057
+17. click(findTestObject("mobileSanity/HBI/quote/a_Core Shield"))
+
