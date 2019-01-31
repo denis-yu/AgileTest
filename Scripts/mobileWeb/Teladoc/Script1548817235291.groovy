@@ -13,30 +13,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'click menu'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
 
+'wait time'
 Thread.sleep(3000)
 
+'click nav teladoc'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
 
 WebUI.waitForPageLoad(10)
 
+'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
 
+'set zip code'
 WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), '35215')
 
+'set dob'
 WebUI.setText(findTestObject('mobileSanity/Teladoc/census/input_Date of Birth_dob-0'), '12/12/1980')
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 
 Thread.sleep(3000)
 
+'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
 
+'get name'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName'), GlobalVariable.FirstName)
@@ -61,17 +70,16 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to S
 
 WebUI.waitForPageLoad(10)
 
-WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number'), '4111111111111111')
-
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'), GlobalVariable.FirstName)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last'), GlobalVariable.LastName)
 
-WebUI.selectOptionByValue(findTestObject('mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101'), '12', 
-    true)
+WebUI.selectOptionByValue(findTestObject('mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101'), '12', true)
 
 WebUI.selectOptionByValue(findTestObject('mobileSanity/Teladoc/Page_App Page 2/select_YYYY2019202020212022202'), '2026', 
     true)
+
+WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number'), '4111111111111111')
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-cvv'), '122')
 
@@ -82,6 +90,8 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 2/label_I Accept 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(5000)
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'))
 
