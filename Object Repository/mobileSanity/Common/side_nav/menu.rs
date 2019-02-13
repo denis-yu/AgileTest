@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'js-nav-toggle navbar-toggle-button collapsed']</value>
+         <value>//button[@class = 'js-nav-toggle navbar-toggle-button collapsed']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +18,12 @@
       <name>class</name>
       <type>Main</type>
       <value>js-nav-toggle navbar-toggle-button collapsed</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
 </WebElementEntity>

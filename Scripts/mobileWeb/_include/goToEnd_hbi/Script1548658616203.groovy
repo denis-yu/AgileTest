@@ -20,7 +20,7 @@ WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__member-P-1
 WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__member-P-1-lastName'), GlobalVariable.LastName)
 
 'when carrier is \'agileone\', fill more areas'
-if (carrier == 'agileone') {
+if ((carrier == 'agileone') || (carrier == 'agilesecure')) {
     WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__primary-beneficiary-fir'), 'test1')
 
     WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__primary-beneficiary-las'), 'test2')
@@ -66,6 +66,8 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_Continue to Step 
 if (CustomKeywords.'test.commons.isElementPresent'(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {
     WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'))
 }
+
+WebUI.waitForPageLoad(10)
 
 /*
 if (WebUI.verifyElementPresent(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {

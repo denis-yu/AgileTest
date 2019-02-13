@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,Chrome 71.0.3578.99,hbi flow,2019-01-30 14:09:36,2019-01-30 14:12:47,3m - 10.892s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Core Shield,Chrome 71.0.3578.99,Core Shield application flow,2019-01-30 14:09:37,2019-01-30 14:12:43,3m - 6.673s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-01-30 14:09:37,2019-01-30 14:10:03,26.116s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-01-30 14:10:03,2019-01-30 14:10:23,20.080s,PASSED
+Thread.sleep(5000),Chrome 71.0.3578.99,,2019-01-30 14:10:23,2019-01-30 14:10:28,5.002s,PASSED
+"scrollToPosition(200, 2300)",Chrome 71.0.3578.99,,2019-01-30 14:10:28,2019-01-30 14:10:28,0.063s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Core Shield""))",Chrome 71.0.3578.99,,2019-01-30 14:10:28,2019-01-30 14:12:41,2m - 12.658s,FAILED

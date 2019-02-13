@@ -21,7 +21,7 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_hbi'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Location_zip-input'), '35215')
+WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Location_zip-input'), zipcode)
 
 WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Date of Birth_dob-0'), '12/12/1980')
 

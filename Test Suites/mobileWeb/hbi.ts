@@ -4,7 +4,7 @@
    <name>hbi</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-29T14:11:14</lastRun>
+   <lastRun>2019-01-30T14:03:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>8f7504bc-9e86-478c-b013-76998708a3eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Agile One</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2a2af454-55aa-4a91-88fe-a5ba72242158</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/HBI/Axis Legion</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Legion Limited Medical</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1672cd1e-792c-4083-b9c6-a8f364f0c557</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Cardinal Choice</testCaseId>
    </testCaseLink>
    <testCaseLink>
