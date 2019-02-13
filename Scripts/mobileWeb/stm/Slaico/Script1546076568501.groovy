@@ -60,6 +60,31 @@ WebUI.waitForPageLoad(0)
 
 Thread.sleep(1000)
 
+<<<<<<< HEAD
+WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+
+WebUI.click(findTestObject('Object Repository/Page_App Page 1 - Standard Life Sel/button_No'))
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1 - Standard Life Sel/button_No'), 0)
+=======
 //WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'))
 //
 //Thread.sleep(1000)
@@ -82,6 +107,7 @@ WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/but
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No5'))
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No6'), 0)
+>>>>>>> Develop
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No6'))
 WebUI.takeScreenshot()
