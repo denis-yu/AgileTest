@@ -1,76 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Insurance company_fa fa-chev</name>
+   <name>label_Everest Prime_c-faux-che</name>
    <tag></tag>
-   <elementGuidId>a75841b4-2f8d-4ca8-a76e-71472d8d038b</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;js-modal-carrier&quot;)/div[@class=&quot;c-filter-v3&quot;]/a[@class=&quot;js-toggle-button c-filter-v3__header collapsed&quot;]/span[@class=&quot;c-filter-v3__chevron-down&quot;]/i[@class=&quot;fa fa-chevron-down&quot;]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='js-modal-carrier']/div/a/span[2]/i</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>b939f397-e825-4b54-b763-e557500ab5f7</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-chevron-down</value>
+      <value>c-faux-check-v3__radio</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>i-carrier-unitedhealthone-04545128388146593</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-modal-carrier&quot;)/div[@class=&quot;c-filter-v3&quot;]/a[@class=&quot;js-toggle-button c-filter-v3__header collapsed&quot;]/span[@class=&quot;c-filter-v3__chevron-down&quot;]/i[@class=&quot;fa fa-chevron-down&quot;]</value>
+      <value>id(&quot;js-carrier-collapse-04545128388146593&quot;)/form[@class=&quot;js-form&quot;]/ul[@class=&quot;c-filter-v3__list&quot;]/li[@class=&quot;c-filter-v3__list-item&quot;]/div[@class=&quot;c-faux-check-v3&quot;]/label[@class=&quot;c-faux-check-v3__radio&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-modal-carrier']/div/a/span[2]/i</value>
+      <value>//div[@id='js-carrier-collapse-04545128388146593']/form/ul/li[3]/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance company'])[2]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$42 - $403'])[4]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/following::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Golden Rule Insurance'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LifeShield'])[2]/preceding::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[3]/div/a/span[2]/i</value>
+      <value>//div[3]/div/div/form/ul/li[3]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,20 +3,7 @@
    <description></description>
    <name>a_Show Plans</name>
    <tag></tag>
-   <elementGuidId>6c7e5d75-520a-43f6-b6a2-40a4d535648e</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//main/div[3]/div/div[3]/a[count(. | //a[@href = '#' and @class = 'js-show-plans c-filter-modal-v3__show-plans' and @type = 'button' and (text() = 'Show Plans' or . = 'Show Plans')]) = count(//a[@href = '#' and @class = 'js-show-plans c-filter-modal-v3__show-plans' and @type = 'button' and (text() = 'Show Plans' or . = 'Show Plans')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//a[@type='button'])[2]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>d2ab2e27-ff30-4e52-9411-b7cbde37ef26</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -34,7 +21,7 @@
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -55,64 +42,64 @@
       <value>Show Plans</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//main/div[3]/div/div[3]/a</value>
+      <value>id(&quot;js-other-filters-modal&quot;)/div[@class=&quot;js-modal c-filter-modal-v3 l-filter-modal-v3&quot;]/div[@class=&quot;c-filter-modal-v3__footer&quot;]/a[@class=&quot;js-show-plans c-filter-modal-v3__show-plans&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>(//a[@type='button'])[2]</value>
+      <value>(//a[@type='button'])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-duration-modal']/div/div[3]/a</value>
+      <value>//div[@id='js-other-filters-modal']/div/div[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>(//a[contains(text(),'Show Plans')])[2]</value>
+      <value>(//a[contains(text(),'Show Plans')])[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='over 6 months'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coinsurance amount'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coverage length'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$250 - $10,000'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Short Term Health Insurance'])[3]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AdvantHealth'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>(//a[contains(@href, '#')])[121]</value>
+      <value>(//a[contains(@href, '#')])[52]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//main/div[3]/div/div[3]/a</value>
+      <value>//div[4]/div/div[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

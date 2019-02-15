@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Insurance company_c-faux</name>
+   <name>i_Insurance company_fa fa-chev</name>
    <tag></tag>
-   <elementGuidId>1b24b728-8856-47f8-9cb4-811ae7a5922c</elementGuidId>
+   <elementGuidId>547ae6ed-98d9-4081-a9a2-3c9225bc94d4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,63 +11,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>c-faux-check-v3__radio</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>i-carrier-pivotcompanion-015688923261166532</value>
+      <value>fa fa-chevron-down</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-carrier-collapse-015688923261166532&quot;)/form[@class=&quot;js-form&quot;]/ul[@class=&quot;c-filter-v3__list&quot;]/li[@class=&quot;c-filter-v3__list-item&quot;]/div[@class=&quot;c-faux-check-v3&quot;]/label[@class=&quot;c-faux-check-v3__radio&quot;]</value>
+      <value>id(&quot;js-modal-carrier&quot;)/div[@class=&quot;c-filter-v3&quot;]/a[@class=&quot;js-toggle-button c-filter-v3__header collapsed&quot;]/span[@class=&quot;c-filter-v3__chevron-down&quot;]/i[@class=&quot;fa fa-chevron-down&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-carrier-collapse-015688923261166532']/form/ul/li/div/label</value>
+      <value>//div[@id='js-modal-carrier']/div/a/span[2]/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance company'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance company'])[2]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$101 - $331'])[4]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$42 - $403'])[4]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/preceding::label[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/preceding::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[3]/div/div/form/ul/li/div/label</value>
+      <value>//div[2]/div[3]/div/a/span[2]/i</value>
    </webElementXpaths>
 </WebElementEntity>
