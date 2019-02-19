@@ -21,7 +21,27 @@ WebUI.takeScreenshot()
 
 Thread.sleep(2000)
 
-WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'), 1000)
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_filters'))
+
+Thread.sleep(500)
+
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/i_Insurance company'))
+
+Thread.sleep(300)
+
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_NationalGeneral'))
+
+Thread.sleep(300)
+
+WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'), 1000)
+
+Thread.sleep(1000)
+
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
+
+Thread.sleep(1000)
+
+//WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'), 1000)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'))
 

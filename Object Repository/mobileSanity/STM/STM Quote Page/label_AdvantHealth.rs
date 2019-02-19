@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Insurance company_c-faux</name>
+   <name>label_AdvantHealth</name>
    <tag></tag>
-   <elementGuidId>d75da242-7cf4-4ee1-b94a-bab86e9a49d5</elementGuidId>
+   <elementGuidId>40002c52-dc79-4eb8-af83-654507e20ab7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='js-carrier-collapse-032091448480255313']/form/ul/li/div/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div[3]/div/div/form/ul/li/div/label</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,20 +35,20 @@
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>i-carrier-pivotcompanion-019003559952757376</value>
+      <value>i-carrier-advanthealth-032091448480255313</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-carrier-collapse-019003559952757376&quot;)/form[@class=&quot;js-form&quot;]/ul[@class=&quot;c-filter-v3__list&quot;]/li[@class=&quot;c-filter-v3__list-item&quot;]/div[@class=&quot;c-faux-check-v3&quot;]/label[@class=&quot;c-faux-check-v3__radio&quot;]</value>
+      <value>//div[2]/div[3]/div/div/form/ul/li/div/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-carrier-collapse-019003559952757376']/form/ul/li/div/label</value>
+      <value>//div[@id='js-carrier-collapse-032091448480255313']/form/ul/li/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,19 +60,19 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$42 - $403'])[4]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$37 - $340'])[4]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AdvantHealth'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/preceding::label[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

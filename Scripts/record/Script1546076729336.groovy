@@ -78,53 +78,57 @@ WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
 
 WebUI.click(findTestObject('STM Quote Page/a_LifeShield Flex 5K208K750K (1)'))
 
-WebUI.click(findTestObject('others/STM Apply Page/span_ Add'))
+WebUI.click(findTestObject('STM Apply Page/span_ Add'))
 
-WebUI.click(findTestObject('others/Page_Find Health Insurance for 2019/a_Quote  Save Today'))
+WebUI.click(findTestObject('Page_Find Health Insurance for 2019/a_Quote  Save Today'))
 
-WebUI.setText(findTestObject('others/Page_2019 Health Insurance Get a Sh/input_Location_zip-input'), '60602')
+WebUI.setText(findTestObject('Page_2019 Health Insurance Get a Sh/input_Location_zip-input'), '60602')
 
-WebUI.setText(findTestObject('others/Page_2019 Health Insurance Get a Sh/input_Date of Birth_dob-0'), '03/03/1987')
+WebUI.setText(findTestObject('Page_2019 Health Insurance Get a Sh/input_Date of Birth_dob-0'), '03/03/1987')
 
-WebUI.click(findTestObject('others/Page_2019 Health Insurance Get a Sh/label_Male'))
+WebUI.click(findTestObject('Page_2019 Health Insurance Get a Sh/label_Male'))
 
-WebUI.click(findTestObject('others/Page_2019 Health Insurance Get a Sh/label_Compare Plans'))
+WebUI.click(findTestObject('Page_2019 Health Insurance Get a Sh/label_Compare Plans'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'))
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/button_filters'))
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/i_Insurance company_fa fa-chev'))
+WebUI.click(findTestObject('Page_Find Health Insurance for 2019/a_Quote  Save Today'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/label_Insurance company_c-faux'))
+WebUI.setText(findTestObject('Page_2019 Health Insurance Get a Sh/input_Location_zip-input'), '35216')
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/a_Show Plans'))
+WebUI.click(findTestObject('Page_2019 Health Insurance Get a Sh/label_Male'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Pivot Health Choice 5K  20'))
+WebUI.setText(findTestObject('Page_2019 Health Insurance Get a Sh/input_Date of Birth_dob-0'), '05/05/1987')
 
-WebUI.click(findTestObject('others/Page_Pivot Health Choice 5000  20 -/a_ Back to Short-Term Health I'))
+WebUI.click(findTestObject('Page_2019 Health Insurance Get a Sh/div_ Spouse ChildWith the abse'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/button_filters  1'))
+WebUI.click(findTestObject('Page_2019 Health Insurance Get a Sh/label_Compare Plans'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/i_Insurance company_fa fa-chev'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/label_LifeShield_c-faux-check-'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/a_Show Plans'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'))
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_AdvantHealth'))
 
-WebUI.click(findTestObject('others/Page_National General 5000501000025/a_ Back to Short-Term Health I'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/button_filters  1'))
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_AdvantHealth Plan 2 2.5K206.'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/a_Insurance company'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/label_Everest Prime_c-faux-che'))
+WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/span_ Add (1)'))
 
-WebUI.click(findTestObject('others/Page_Short Term Health Insurance Qu/a_Show Plans'))
+WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/button_ AddRemove'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Short Term Medical Plus Sele'))
+WebUI.click(findTestObject('null'))
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_Continue to Application'))
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
 

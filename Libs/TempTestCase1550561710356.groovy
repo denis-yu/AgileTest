@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Test Cases/mobileWeb/stm/Companion/20190215_161243/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/Katalon/Test Cases/mobileWeb/stm/UnitedHealthOne/20190219_153500/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/mobileWeb/stm/Companion', new TestCaseBinding('Test Cases/mobileWeb/stm/Companion',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
+        TestCaseMain.runTestCase('Test Cases/mobileWeb/stm/UnitedHealthOne', new TestCaseBinding('Test Cases/mobileWeb/stm/UnitedHealthOne',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     

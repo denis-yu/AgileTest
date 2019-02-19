@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Insurance company_fa fa-chev</name>
+   <name>label_By checking this box I u</name>
    <tag></tag>
-   <elementGuidId>547ae6ed-98d9-4081-a9a2-3c9225bc94d4</elementGuidId>
+   <elementGuidId>ae90e3ab-1f14-4d5f-8c8e-46c88012c81d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,56 +11,70 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-chevron-down</value>
+      <value>c-consecutive-modal__label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>i-acknowledge</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>By checking this box I understand and agree to the statement above.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-modal-carrier&quot;)/div[@class=&quot;c-filter-v3&quot;]/a[@class=&quot;js-toggle-button c-filter-v3__header collapsed&quot;]/span[@class=&quot;c-filter-v3__chevron-down&quot;]/i[@class=&quot;fa fa-chevron-down&quot;]</value>
+      <value>id(&quot;agile-default&quot;)/main[1]/div[@class=&quot;c-consecutive-container container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1&quot;]/div[@class=&quot;c-consecutive-modal&quot;]/form[1]/div[@class=&quot;c-consecutive-modal__gray&quot;]/label[@class=&quot;c-consecutive-modal__label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-modal-carrier']/div/a/span[2]/i</value>
+      <value>//body[@id='agile-default']/main/div/div/div/div/form/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance company'])[2]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Glossary'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$42 - $403'])[4]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FAQs'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue to Application'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[3]/div/a/span[2]/i</value>
+      <value>//label</value>
    </webElementXpaths>
 </WebElementEntity>

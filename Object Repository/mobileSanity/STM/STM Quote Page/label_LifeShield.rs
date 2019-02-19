@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Everest Prime_c-faux-che</name>
+   <name>label_LifeShield</name>
    <tag></tag>
    <elementGuidId>ea887d1f-3edd-41fd-a243-b4d28340d6fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='js-carrier-collapse-015688923261166532']/form/ul/li[3]/div/label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div/div/form/ul/li[3]/div/label</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-carrier-collapse-015688923261166532&quot;)/form[@class=&quot;js-form&quot;]/ul[@class=&quot;c-filter-v3__list&quot;]/li[@class=&quot;c-filter-v3__list-item&quot;]/div[@class=&quot;c-faux-check-v3&quot;]/label[@class=&quot;c-faux-check-v3__radio&quot;]</value>
+      <value>//div[3]/div/div/form/ul/li[3]/div/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

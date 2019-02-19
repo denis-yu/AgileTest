@@ -6,25 +6,25 @@
    <elementGuidId>7252918c-4b55-4be1-bc7f-612a2664ef56</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;js-app-continue-link&quot;)[count(. | //a[@id = 'js-app-continue-link' and (text() = 'Continue' or . = 'Continue')]) = count(//a[@id = 'js-app-continue-link' and (text() = 'Continue' or . = 'Continue')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='js-app-continue-link']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;js-app-continue-link&quot;)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>btn btn-default</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-app-continue-link&quot;)</value>
+      <value>//div[2]/div/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,8 +6,15 @@
    <elementGuidId>32679e99-6290-40d6-ae6a-895a3a1bcfd3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='js-group-']/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/term-health-insurance/plan/pivot-health-choice-il-5000-20' and (text() = 'Pivot Health Choice 5K / 20' or . = 'Pivot Health Choice 5K / 20')]</value>
+         <value>//td[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +27,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -34,18 +41,18 @@
       <value>c-plan-unit-v3__plan-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Pivot Health Choice 5K / 20</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-quote-plans-container&quot;)/ul[@class=&quot;l-plans-list&quot;]/li[@id=&quot;js-group-&quot;]/div[@class=&quot;c-plan-unit-v3 h-relative js-plan-unit&quot;]/table[@class=&quot;c-plan-unit-v3__table&quot;]/tbody[1]/tr[@class=&quot;c-plan-unit-v3__row&quot;]/td[@class=&quot;c-plan-unit-v3__cell c-plan-unit-v3__middle-cell&quot;]/table[1]/tbody[1]/tr[1]/td[2]/a[@class=&quot;c-plan-unit-v3__plan-name&quot;]</value>
+      <value>//td[2]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

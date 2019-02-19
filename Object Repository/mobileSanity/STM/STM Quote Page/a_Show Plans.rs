@@ -6,42 +6,42 @@
    <elementGuidId>6c7e5d75-520a-43f6-b6a2-40a4d535648e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//a[@type='button'])[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//main/div[3]/div/div[3]/a[count(. | //a[@href = '#' and @class = 'js-show-plans c-filter-modal-v3__show-plans' and @type = 'button' and (text() = 'Show Plans' or . = 'Show Plans')]) = count(//a[@href = '#' and @class = 'js-show-plans c-filter-modal-v3__show-plans' and @type = 'button' and (text() = 'Show Plans' or . = 'Show Plans')])]</value>
+         <value>//main/div[4]/div/div[3]/a[count(. | //*[(text() = 'Show Plans' or . = 'Show Plans')]) = count(//*[(text() = 'Show Plans' or . = 'Show Plans')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//a[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>#</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>js-show-plans c-filter-modal-v3__show-plans</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//main/div[3]/div/div[3]/a</value>
+      <value>//main/div[4]/div/div[3]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

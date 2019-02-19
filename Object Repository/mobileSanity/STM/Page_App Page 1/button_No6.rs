@@ -6,12 +6,12 @@
    <elementGuidId>85ce303e-82a7-478d-90b1-bda95e24f2c1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//li[6]/div/button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//li[@id='js-question-P0-2618.2620']/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[6]/div/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -77,7 +77,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[6]/div/button</value>
+      <value>//li[6]/div/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Insurance company</name>
+   <name>a_AdvantHealth Plan 2 2.5K206.</name>
    <tag></tag>
-   <elementGuidId>da52dd9f-2ae9-4211-aa98-d33acd6b325d</elementGuidId>
+   <elementGuidId>55206954-013e-4932-b453-b604ddacb908</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,91 +18,75 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>collapse</value>
+      <value>/term-health-insurance/plan/advanthealth-plan-2-al-2500-20-6500-1000000?consecutive=true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>js-toggle-button c-filter-v3__header collapsed</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-target</name>
-      <type>Main</type>
-      <value>#js-carrier-collapse-04545128388146593</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>js-carrier-collapse-04545128388146593</value>
+      <value>c-plan-unit-v3__plan-name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Insurance company</value>
+      <value>AdvantHealth Plan 2 2.5K/20/6.5K/1M</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-modal-carrier&quot;)/div[@class=&quot;c-filter-v3&quot;]/a[@class=&quot;js-toggle-button c-filter-v3__header collapsed&quot;]</value>
+      <value>id(&quot;js-quote-plans-container&quot;)/ul[@class=&quot;l-plans-list&quot;]/li[@id=&quot;js-group-&quot;]/div[@class=&quot;c-plan-unit-v3 h-relative js-plan-unit is-featured&quot;]/table[@class=&quot;c-plan-unit-v3__table&quot;]/tbody[1]/tr[@class=&quot;c-plan-unit-v3__row&quot;]/td[@class=&quot;c-plan-unit-v3__cell c-plan-unit-v3__middle-cell&quot;]/table[1]/tbody[1]/tr[1]/td[2]/a[@class=&quot;c-plan-unit-v3__plan-name&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-modal-carrier']/div/a</value>
+      <value>//li[@id='js-group-']/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <value>//a[contains(text(),'AdvantHealth Plan 2 2.5K/20/6.5K/1M')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$93 - $349'])[4]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='featured'])[1]/following::a[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Premium range'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Policy Maximum Benefit'])[2]/following::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2,500 Deductible'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$6,500 Out of Pocket Max'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>(//a[contains(@href, '#')])[53]</value>
+      <value>//a[contains(@href, '/term-health-insurance/plan/advanthealth-plan-2-al-2500-20-6500-1000000?consecutive=true')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[3]/div/a</value>
+      <value>//td[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

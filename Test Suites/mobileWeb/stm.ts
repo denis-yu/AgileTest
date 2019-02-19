@@ -4,30 +4,17 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-<<<<<<< HEAD:Test Suites/mobileWeb/mobileSanity.ts
-=======
-   <lastRun>2019-01-30T16:51:05</lastRun>
->>>>>>> 34fe158c3619fce6016abbad43df861a10bcbc3e:Test Suites/mobileWeb/stm.ts
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>5c2b6e37-c156-46ca-80a7-838b939358f0</testSuiteGuid>
+   <testSuiteGuid>61e8915c-9fac-4f2b-aa7d-084a94838caf</testSuiteGuid>
    <testCaseLink>
-      <guid>447ba290-aa54-4686-9aba-01a416f0f6fe</guid>
+      <guid>4bf49baa-2650-45cb-a24b-15de120cbf00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>87043a79-8edb-43cd-afe8-be8a44c7612b</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Level 1/Lifeshield</testDataId>
-      </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -53,49 +40,64 @@
          <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
       </variableLink>
    </testCaseLink>
-<<<<<<< HEAD:Test Suites/mobileWeb/mobileSanity.ts
    <testCaseLink>
-      <guid>148ddc73-592f-4fe9-a7e7-5c19e5187a6e</guid>
+      <guid>eb3466ca-b43b-4c41-a629-dae4fcc48698</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>46a7ddf9-c889-4dac-bbd6-51ddd9b54b37</guid>
+      <guid>3b6eb672-09f8-4ba3-a4b4-5c7deb2948d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/Dental/USA Access</testCaseId>
+      <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>39eff333-e2a2-442a-aadb-9f343cae9e61</guid>
+      <guid>ca24ed00-17fc-4c69-a697-e15d6fc2804f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/Dental/National General</testCaseId>
+      <testCaseId>Test Cases/mobileWeb/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1631faf3-329f-4cbc-a5dd-b50513c7b713</guid>
+      <guid>667a6598-35a4-4ce7-abb7-2f23ca2c52cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/HBI/Core Shield</testCaseId>
+      <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8337adbb-f040-4173-98b9-c603d302eebd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>adeccc1d-a1cd-4e5e-96ea-d7cf567f777c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81f33728-f684-4c4d-8b8a-38d716b13e88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a177220-6d58-4ef2-a0e4-ef64f2d94914</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc144e1e-987f-4cd0-b319-8bc07c82c01a</guid>
+      <guid>3d4e3c46-d4df-40f3-b102-5548b6cfca3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/HBI/Cardinal Choice</testCaseId>
+      <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bd5807a0-0d9a-4bbc-a2d1-9d37a427ec07</guid>
+      <guid>8a908446-d767-4ef3-90eb-18089e0a7143</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/HBI/Agile One</testCaseId>
+      <testCaseId>Test Cases/mobileWeb/stm/UnitedHealthOne</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>aa0e8087-ec06-4d4b-b8fc-08713fdd828a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/HBI/Axis Legion</testCaseId>
-   </testCaseLink>
-=======
->>>>>>> 34fe158c3619fce6016abbad43df861a10bcbc3e:Test Suites/mobileWeb/stm.ts
 </TestSuiteEntity>
