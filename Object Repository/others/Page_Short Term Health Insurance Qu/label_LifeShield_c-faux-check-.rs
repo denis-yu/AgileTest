@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Insurance company_fa fa-chev (1)</name>
+   <name>label_LifeShield_c-faux-check-</name>
    <tag></tag>
-   <elementGuidId>073b9d3a-1fcc-48a3-8905-6a1ec1c7bca3</elementGuidId>
+   <elementGuidId>e0600a4f-8ec6-4081-9e30-2580b71c861f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,56 +11,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-chevron-down</value>
+      <value>c-faux-check-v3__radio</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>i-carrier-nationalgeneral-012645319282231715</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-modal-carrier&quot;)/div[@class=&quot;c-filter-v3&quot;]/a[@class=&quot;js-toggle-button c-filter-v3__header collapsed&quot;]/span[@class=&quot;c-filter-v3__chevron-down&quot;]/i[@class=&quot;fa fa-chevron-down&quot;]</value>
+      <value>id(&quot;js-carrier-collapse-012645319282231715&quot;)/form[@class=&quot;js-form&quot;]/ul[@class=&quot;c-filter-v3__list&quot;]/li[@class=&quot;c-filter-v3__list-item&quot;]/div[@class=&quot;c-faux-check-v3&quot;]/label[@class=&quot;c-faux-check-v3__radio&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='js-modal-carrier']/div/a/span[2]/i</value>
+      <value>//div[@id='js-carrier-collapse-012645319282231715']/form/ul/li[5]/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Insurance company'])[2]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LifeShield'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$42 - $403'])[4]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Golden Rule Insurance'])[2]/following::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='National General'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard Life'])[2]/preceding::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[3]/div/a/span[2]/i</value>
+      <value>//div[3]/div/div/form/ul/li[5]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>
