@@ -16,16 +16,22 @@ import internal.GlobalVariable as GlobalVariable
 'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeScreenshot()
+
 'click menu'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
 
 'wait time'
 Thread.sleep(3000)
 
+WebUI.takeScreenshot()
+
 'click nav teladoc'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.takeScreenshot()
 
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
@@ -40,10 +46,14 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 
 Thread.sleep(3000)
 
+WebUI.takeScreenshot()
+
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.takeScreenshot()
 
 'get name'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -70,6 +80,8 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to S
 
 WebUI.waitForPageLoad(10)
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'), GlobalVariable.FirstName)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last'), GlobalVariable.LastName)
@@ -93,13 +105,23 @@ WebUI.waitForPageLoad(10)
 
 Thread.sleep(5000)
 
+WebUI.takeScreenshot()
+
+WebUI.scrollToElement(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'), 10)
+
+WebUI.waitForElementClickable(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'), 10)
+
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'))
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/p_'))
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application'))
 
-Thread.sleep(20000)
+WebUI.takeScreenshot()
+
+Thread.sleep(50000)
+
+WebUI.takeScreenshot()
 
 WebUI.verifyTextPresent('Congratulations', false)
 

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Safari 11,,2019-02-13 17:28:42,2019-02-13 17:29:02,19.463s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Safari 11,teladoc application flow,2019-02-13 17:28:43,2019-02-13 17:29:01,17.896s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,open site,2019-02-13 17:28:44,2019-02-13 17:28:56,12.379s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Safari 11,click menu,2019-02-13 17:28:56,2019-02-13 17:28:57,0.599s,PASSED
+Thread.sleep(3000),Safari 11,wait time,2019-02-13 17:28:57,2019-02-13 17:29:00,3.005s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Safari 11,click nav teladoc,2019-02-13 17:29:00,2019-02-13 17:29:01,0.983s,FAILED
