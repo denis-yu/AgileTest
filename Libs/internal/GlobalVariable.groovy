@@ -48,10 +48,20 @@ public class GlobalVariable {
      */
     public static Object AutoEmail
      
+    /**
+     * <p></p>
+     */
+    public static Object path
+     
+    /**
+     * <p></p>
+     */
+    public static Object i
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : ''])
+        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'path' : './Screenshots', 'i' : 0])
         allVariables.put('staging', allVariables['default'] + ['ENV' : 'https://staging.agilehealthinsurance.com'])
         allVariables.put('windrunner', allVariables['default'] + ['ENV' : 'https://windrunner.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'City' : '', 'Tel' : '', 'AutoEmail' : ''])
         
@@ -72,6 +82,8 @@ public class GlobalVariable {
         Tel = selectedVariables["Tel"]
         City = selectedVariables["City"]
         AutoEmail = selectedVariables["AutoEmail"]
+        path = selectedVariables["path"]
+        i = selectedVariables["i"]
         
     }
 }

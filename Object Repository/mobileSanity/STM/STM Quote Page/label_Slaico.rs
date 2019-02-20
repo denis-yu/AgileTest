@@ -14,7 +14,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[3]/div/div/form/ul/li[5]/div/label</value>
+         <value>//div[3]/div/div/form/ul/li[5]/div/label[count(. | //*[starts-with(@for, 'i-carrier-slaico')]) = count(//*[starts-with(@for, 'i-carrier-slaico')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>c-faux-check-v3__radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>starts with</matchCondition>
       <name>for</name>
       <type>Main</type>
