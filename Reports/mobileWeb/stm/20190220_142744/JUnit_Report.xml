@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="stm" time="117" tests="0" failures="1" errors="0">
+   <testsuite name="stm" tests="0" failures="1" errors="0" time="117" timestamp="2019-02-20 14:27:59" hostname="denisyu - 172.16.86.34" id="Test Suites/mobileWeb/stm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/stm/20190220_142744"/>
+         <property name="logFiles" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/stm/20190220_142744/execution0.log"/>
+         <property name="attachments" value="./Screenshots/mobileWeb/stm/slaico/0.png, ./Screenshots/mobileWeb/stm/slaico/1.png, ./Screenshots/mobileWeb/stm/slaico/2.png, ./Screenshots/mobileWeb/stm/slaico/3.png, ./Screenshots/mobileWeb/stm/slaico/4.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/stm/20190220_142744/1550644195248.png"/>
+         <property name="hostName" value="denisyu - 172.16.86.34"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 66.0.3329.0"/>
+         <property name="hostAddress" value="172.16.86.34"/>
+         <property name="sessionId" value="416e8b4e00556e1453d20a4c2378d8c3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/mobileWeb/stm/Slaico" classname="Test Cases/mobileWeb/stm/Slaico" status="FAILED">
+         <failure type="FAILED" message="Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-20 14:27:59 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/stm/Slaico: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)
+
+
+2019-02-20 14:28:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-20 14:28:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-20 14:28:01 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=Galaxy S5}']
+
+2019-02-20 14:28:01 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard]']
+
+2019-02-20 14:28:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-20 14:28:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-20 14:28:04 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-02-20 14:28:04 - [TEST_STEP][PASSED] - longType = time: null
+
+2019-02-20 14:28:04 - [TEST_STEP][PASSED] - testCaseUrl = path + testCaseUrl: null
+
+2019-02-20 14:28:04 - [TEST_STEP][PASSED] - navigateToUrl("https://praetemptatus.agilehealthinsurance.com/"): Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-02-20 14:28:08 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com/' successfully
+
+2019-02-20 14:28:08 - [TEST_STEP][PASSED] - takeScreenshot(testCaseUrl + i + ".png"): Taking screenshot successfully
+
+2019-02-20 14:28:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|./Screenshots/mobileWeb/stm/slaico/0.png]]
+
+2019-02-20 14:28:09 - [TEST_STEP][PASSED] - (i++): null
+
+2019-02-20 14:28:09 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today")): Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-02-20 14:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-02-20 14:28:10 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Location_zip-input"), "60602"): Text '60602' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-02-20 14:28:11 - [MESSAGE][PASSED] - Text '60602' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-02-20 14:28:11 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0"), "03/03/1987"): Text '03/03/1987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-02-20 14:28:11 - [MESSAGE][PASSED] - Text '03/03/1987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-02-20 14:28:11 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Male")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-02-20 14:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-02-20 14:28:11 - [TEST_STEP][PASSED] - takeScreenshot(testCaseUrl + i + ".png"): Taking screenshot successfully
+
+2019-02-20 14:28:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|./Screenshots/mobileWeb/stm/slaico/1.png]]
+
+2019-02-20 14:28:13 - [TEST_STEP][PASSED] - (i++): null
+
+2019-02-20 14:28:13 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Compare Plans")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-02-20 14:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-02-20 14:28:20 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-20 14:28:22 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Quote Page/button_filters")): Object: 'Object Repository/mobileSanity/STM/STM Quote Page/button_filters' is clicked on
+
+2019-02-20 14:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Quote Page/button_filters' is clicked on
+
+2019-02-20 14:28:22 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-02-20 14:28:23 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Quote Page/i_Insurance company")): Object: 'Object Repository/mobileSanity/STM/STM Quote Page/i_Insurance company' is clicked on
+
+2019-02-20 14:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Quote Page/i_Insurance company' is clicked on
+
+2019-02-20 14:28:23 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-20 14:28:23 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Quote Page/label_Slaico")): Object: 'Object Repository/mobileSanity/STM/STM Quote Page/label_Slaico' is clicked on
+
+2019-02-20 14:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Quote Page/label_Slaico' is clicked on
+
+2019-02-20 14:28:23 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2019-02-20 14:28:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("mobileSanity/STM/STM Quote Page/a_Show Plans"), 1000): Scroll to object 'Object Repository/mobileSanity/STM/STM Quote Page/a_Show Plans' successfully
+
+2019-02-20 14:28:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/mobileSanity/STM/STM Quote Page/a_Show Plans' successfully
+
+2019-02-20 14:28:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-02-20 14:28:25 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Quote Page/a_Show Plans")): Object: 'Object Repository/mobileSanity/STM/STM Quote Page/a_Show Plans' is clicked on
+
+2019-02-20 14:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Quote Page/a_Show Plans' is clicked on
+
+2019-02-20 14:28:25 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-02-20 14:28:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla"), 1000): Scroll to object 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' successfully
+
+2019-02-20 14:28:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' successfully
+
+2019-02-20 14:28:26 - [TEST_STEP][PASSED] - takeScreenshot(testCaseUrl + i + ".png"): Taking screenshot successfully
+
+2019-02-20 14:28:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|./Screenshots/mobileWeb/stm/slaico/2.png]]
+
+2019-02-20 14:28:27 - [TEST_STEP][PASSED] - (i++): null
+
+2019-02-20 14:28:27 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla")): Object: 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' is clicked on
+
+2019-02-20 14:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla' is clicked on
+
+2019-02-20 14:29:43 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-20 14:29:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan"), 0): Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-02-20 14:29:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '2'
+
+2019-02-20 14:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-02-20 14:29:47 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan")): Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-02-20 14:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-02-20 14:29:48 - [TEST_STEP][PASSED] - takeScreenshot(testCaseUrl + i + ".png"): Taking screenshot successfully
+
+2019-02-20 14:29:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|./Screenshots/mobileWeb/stm/slaico/3.png]]
+
+2019-02-20 14:29:49 - [TEST_STEP][PASSED] - (i++): null
+
+2019-02-20 14:29:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application"), 0): Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-02-20 14:29:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '2'
+
+2019-02-20 14:29:50 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-02-20 14:29:50 - [TEST_STEP][PASSED] - takeScreenshot(testCaseUrl + i + ".png"): Taking screenshot successfully
+
+2019-02-20 14:29:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|./Screenshots/mobileWeb/stm/slaico/4.png]]
+
+2019-02-20 14:29:50 - [TEST_STEP][PASSED] - (i++): null
+
+2019-02-20 14:29:50 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application")): Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-02-20 14:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-02-20 14:29:52 - [TEST_STEP][PASSED] - waitForPageLoad(0): Wait for page load successfully
+
+2019-02-20 14:29:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '2'
+
+2019-02-20 14:29:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-20 14:29:52 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-02-20 14:29:53 - [TEST_STEP][FAILED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No")): click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)
+
+
+2019-02-20 14:29:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/stm/20190220_142744/1550644195248.png]]
+
+2019-02-20 14:29:56 - [MESSAGE][FAILED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_No")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-20 14:27:59 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/stm/Slaico: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-20 14:27:59 - [TEST_SUITE][FAILED] - stm: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-20 14:27:59 - [TEST_SUITE][FAILED] - stm: Test Cases/mobileWeb/stm/Slaico FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/STM/Page_App Page 1/button_No' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50816}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 416e8b4e00556e1453d20a4c2378d8c3)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Slaico.run(Slaico:93)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1550644074982.run(TempTestSuite1550644074982.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

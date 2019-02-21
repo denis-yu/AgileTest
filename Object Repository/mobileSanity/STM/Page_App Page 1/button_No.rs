@@ -4,6 +4,16 @@
    <name>button_No</name>
    <tag></tag>
    <elementGuidId>7e0e21a2-a874-4248-aec0-2a756a85c792</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='js-question-P0-2618.2620']/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'No' or . = 'No')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

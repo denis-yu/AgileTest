@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Standard Life Select STM Pla</name>
+   <name>label_Slaico</name>
    <tag></tag>
-   <elementGuidId>dfc9f1b1-4b0a-467b-8177-c859a1d978dd</elementGuidId>
+   <elementGuidId>f586cd62-149d-4302-8686-db64fa839d86</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//li[@id='js-group-']/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a)[2]</value>
+         <value>//div[@id='js-carrier-collapse-015688923261166532']/form/ul/li[5]/div/label</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/td[2]/a</value>
+         <value>//div[3]/div/div/form/ul/li[5]/div/label[count(. | //*[starts-with(@for, 'i-carrier-slaico')]) = count(//*[starts-with(@for, 'i-carrier-slaico')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,82 +24,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>c-plan-unit-v3__plan-name</value>
+      <value>c-faux-check-v3__radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <isSelected>true</isSelected>
+      <matchCondition>starts with</matchCondition>
+      <name>for</name>
       <type>Main</type>
-      <value>Standard Life Select STM Plan 2 10K/30/1M</value>
+      <value>i-carrier-slaico</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[2]/a</value>
+      <value>//div[3]/div/div/form/ul/li[5]/div/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>(//li[@id='js-group-']/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a)[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <value>//a[contains(text(),'Standard Life Select STM Plan 2 10K/30/1M')]</value>
+      <value>WebUI.openBrowser('')</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/following::a[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='National General'])[3]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='no application fee'])[1]/following::a[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LifeShield'])[2]/following::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$10,000 Deductible'])[2]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard Life'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='$16,000 Out of Pocket Max'])[2]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <value>//a[contains(@href, '/term-health-insurance/plan/slaico-il-plan-2-10000-30-20000-1000000')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='UnitedHealthcare'])[2]/preceding::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[2]/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
+      <value>//div[3]/div/div/form/ul/li[5]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>

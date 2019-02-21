@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Chrome 66.0.3329.0,,2019-02-20 14:14:52,2019-02-20 14:15:30,38.164s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Chrome 66.0.3329.0,,2019-02-20 14:14:52,2019-02-20 14:15:30,37.507s,FAILED
+"openBrowser("""")",Chrome 66.0.3329.0,,2019-02-20 14:14:53,2019-02-20 14:14:56,3.366s,PASSED
+testCaseUrl = path + testCaseUrl,Chrome 66.0.3329.0,,2019-02-20 14:14:56,2019-02-20 14:14:56,0.003s,PASSED
+"navigateToUrl(""https://praetemptatus.agilehealthinsurance.com/"")",Chrome 66.0.3329.0,,2019-02-20 14:14:56,2019-02-20 14:14:59,3.278s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/Screenshot""), [""screenPath"":testCaseUrl], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-20 14:14:59,2019-02-20 14:15:01,1.081s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Chrome 66.0.3329.0,,2019-02-20 14:15:01,2019-02-20 14:15:02,1.064s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/Screenshot""), [""screenPath"":testCaseUrl], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-20 14:15:02,2019-02-20 14:15:03,1.111s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Chrome 66.0.3329.0,,2019-02-20 14:15:03,2019-02-20 14:15:03,0.197s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Chrome 66.0.3329.0,,2019-02-20 14:15:03,2019-02-20 14:15:03,0.173s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Chrome 66.0.3329.0,,2019-02-20 14:15:03,2019-02-20 14:15:03,0.246s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/Screenshot""), [""screenPath"":testCaseUrl], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-20 14:15:03,2019-02-20 14:15:04,0.839s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Chrome 66.0.3329.0,,2019-02-20 14:15:04,2019-02-20 14:15:10,5.767s,PASSED
+Thread.sleep(2000),Chrome 66.0.3329.0,,2019-02-20 14:15:10,2019-02-20 14:15:12,2.009s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Chrome 66.0.3329.0,,2019-02-20 14:15:12,2019-02-20 14:15:12,0.267s,PASSED
+Thread.sleep(500),Chrome 66.0.3329.0,,2019-02-20 14:15:12,2019-02-20 14:15:13,0.506s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/i_Insurance company""))",Chrome 66.0.3329.0,,2019-02-20 14:15:13,2019-02-20 14:15:13,0.082s,PASSED
+Thread.sleep(300),Chrome 66.0.3329.0,,2019-02-20 14:15:13,2019-02-20 14:15:13,0.305s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/label_Slaico""))",Chrome 66.0.3329.0,,2019-02-20 14:15:13,2019-02-20 14:15:13,0.148s,PASSED
+Thread.sleep(300),Chrome 66.0.3329.0,,2019-02-20 14:15:13,2019-02-20 14:15:14,0.301s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Show Plans""), 1000)",Chrome 66.0.3329.0,,2019-02-20 14:15:14,2019-02-20 14:15:14,0.046s,PASSED
+Thread.sleep(1000),Chrome 66.0.3329.0,,2019-02-20 14:15:14,2019-02-20 14:15:15,1.004s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_Show Plans""))",Chrome 66.0.3329.0,,2019-02-20 14:15:15,2019-02-20 14:15:15,0.262s,PASSED
+Thread.sleep(1000),Chrome 66.0.3329.0,,2019-02-20 14:15:15,2019-02-20 14:15:16,1.006s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""), 1000)",Chrome 66.0.3329.0,,2019-02-20 14:15:16,2019-02-20 14:15:16,0.037s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/Screenshot""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-20 14:15:16,2019-02-20 14:15:17,0.725s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla""))",Chrome 66.0.3329.0,,2019-02-20 14:15:17,2019-02-20 14:15:18,1.560s,PASSED
+Thread.sleep(2000),Chrome 66.0.3329.0,,2019-02-20 14:15:18,2019-02-20 14:15:20,2.004s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""), 0)",Chrome 66.0.3329.0,,2019-02-20 14:15:20,2019-02-20 14:15:20,0.073s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Chrome 66.0.3329.0,,2019-02-20 14:15:20,2019-02-20 14:15:22,1.636s,PASSED
+"takeScreenshot(testCaseUrl + ""4.png"")",Chrome 66.0.3329.0,,2019-02-20 14:15:22,2019-02-20 14:15:22,0.537s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Chrome 66.0.3329.0,,2019-02-20 14:15:22,2019-02-20 14:15:23,0.451s,PASSED
+"takeScreenshot(testCaseUrl + ""5.png"")",Chrome 66.0.3329.0,,2019-02-20 14:15:23,2019-02-20 14:15:23,0.463s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Chrome 66.0.3329.0,,2019-02-20 14:15:23,2019-02-20 14:15:25,1.695s,PASSED
+waitForPageLoad(0),Chrome 66.0.3329.0,,2019-02-20 14:15:25,2019-02-20 14:15:26,0.916s,PASSED
+Thread.sleep(1000),Chrome 66.0.3329.0,,2019-02-20 14:15:26,2019-02-20 14:15:27,1.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_No""))",Chrome 66.0.3329.0,,2019-02-20 14:15:27,2019-02-20 14:15:30,2.519s,FAILED

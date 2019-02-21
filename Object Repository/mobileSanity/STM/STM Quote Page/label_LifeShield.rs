@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_No6</name>
+   <name>label_LifeShield</name>
    <tag></tag>
-   <elementGuidId>85ce303e-82a7-478d-90b1-bda95e24f2c1</elementGuidId>
+   <elementGuidId>ea887d1f-3edd-41fd-a243-b4d28340d6fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//li[@id='js-question-P0-2618.2620']/div/button</value>
+         <value>//div[@id='js-carrier-collapse-015688923261166532']/form/ul/li[3]/div/label</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//li[6]/div/button[1]</value>
+         <value>//div[3]/div/div/form/ul/li[3]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,98 +21,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-answer</name>
-      <type>Main</type>
-      <value>No</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>boolean-toggle capitalize btn selected</value>
+      <value>c-faux-check-v3__radio</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-selected</name>
+      <name>for</name>
       <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-groupid</name>
-      <type>Main</type>
-      <value>P0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-value</name>
-      <type>Main</type>
-      <value>No</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-questionid</name>
-      <type>Main</type>
-      <value>2618.2620</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>No</value>
+      <value>i-carrier-lifeshield-015688923261166532</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[6]/div/button[1]</value>
+      <value>//div[3]/div/div/form/ul/li[3]/div/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//li[@id='js-question-P0-2618.2620']/div/button</value>
+      <value>//div[@id='js-carrier-collapse-015688923261166532']/form/ul/li[3]/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Everest Prime'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[5]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companion Life'])[2]/following::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[6]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LifeShield'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/preceding::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='National General'])[2]/preceding::label[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[2]/div/button</value>
+      <value>//div[3]/div/div/form/ul/li[3]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>

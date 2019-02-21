@@ -48,23 +48,42 @@ public class GlobalVariable {
      */
     public static Object AutoEmail
      
+    /**
+     * <p></p>
+     */
+    public static Object path
+     
+    /**
+     * <p></p>
+     */
+    public static Object i
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : ''])
+        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'path' : './Screenshots', 'i' : 0])
         allVariables.put('staging', allVariables['default'] + ['ENV' : 'https://staging.agilehealthinsurance.com'])
         allVariables.put('windrunner', allVariables['default'] + ['ENV' : 'https://windrunner.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'City' : '', 'Tel' : '', 'AutoEmail' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
-        
         def selectedVariables = allVariables[profileName]
-        ENV = selectedVariables['ENV']
-        FirstName = selectedVariables['FirstName']
-        LastName = selectedVariables['LastName']
-        Address = selectedVariables['Address']
-        Tel = selectedVariables['Tel']
-        City = selectedVariables['City']
-        AutoEmail = selectedVariables['AutoEmail']
+		
+		for(object in selectedVariables){
+			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
+			if(overridingGlobalVariable != null){
+				selectedVariables.put(object.key, overridingGlobalVariable)
+			}
+		}
+
+        ENV = selectedVariables["ENV"]
+        FirstName = selectedVariables["FirstName"]
+        LastName = selectedVariables["LastName"]
+        Address = selectedVariables["Address"]
+        Tel = selectedVariables["Tel"]
+        City = selectedVariables["City"]
+        AutoEmail = selectedVariables["AutoEmail"]
+        path = selectedVariables["path"]
+        i = selectedVariables["i"]
         
     }
 }
