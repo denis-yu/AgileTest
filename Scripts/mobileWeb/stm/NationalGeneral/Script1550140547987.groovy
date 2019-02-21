@@ -21,7 +21,9 @@ WebUI.takeScreenshot()
 
 Thread.sleep(2000)
 
-WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'), 1000)
+WebUI.scrollToPosition(0, 5000)
+
+WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'), 10)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'))
 

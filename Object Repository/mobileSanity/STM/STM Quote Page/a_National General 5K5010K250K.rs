@@ -4,17 +4,23 @@
    <name>a_National General 5K5010K250K</name>
    <tag></tag>
    <elementGuidId>1bf9aa78-6518-4dbf-bad5-48dcb630cca8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@href,'/plan/nationalgeneral-') and @class='c-plan-unit-v3__plan-name']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -28,18 +34,18 @@
       <value>c-plan-unit-v3__plan-name</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>National General 5K/50/10K/250K</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-quote-plans-container&quot;)/ul[@class=&quot;l-plans-list&quot;]/li[@id=&quot;js-group-&quot;]/div[@class=&quot;c-plan-unit-v3 h-relative js-plan-unit&quot;]/table[@class=&quot;c-plan-unit-v3__table&quot;]/tbody[1]/tr[@class=&quot;c-plan-unit-v3__row&quot;]/td[@class=&quot;c-plan-unit-v3__cell c-plan-unit-v3__middle-cell&quot;]/table[1]/tbody[1]/tr[1]/td[2]/a[@class=&quot;c-plan-unit-v3__plan-name&quot;]</value>
+      <value>//*[contains(@href,'/plan/nationalgeneral-') and @class='c-plan-unit-v3__plan-name']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

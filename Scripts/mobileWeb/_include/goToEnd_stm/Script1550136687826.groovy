@@ -13,70 +13,60 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 
 WebUI.waitForPageLoad(0)
 
 Thread.sleep(1000)
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No'))
-
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No2'), 0)
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No2'))
-
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No3'), 0)
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No3'))
-
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No4'), 0)
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No4'))
-
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No5'), 0)
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No5'))
-
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No6'), 0)
-
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No6'))
 WebUI.takeScreenshot()
-//WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No7'), 0)
-//
-//WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No7'))
-WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'), 0)
 
-//WebUI.scrollToElement(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
-
-Thread.sleep(1000)
+//WebUI.callTestCase(findTestCase('mobileWeb/_include/page_1_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'), 0)
+
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'))
 
 Thread.sleep(1000)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'), 0)
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
+
+WebUI.waitForPageLoad(10)
+
 WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
 Thread.sleep(2000)
 
+WebUI.clearText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'))
+
 WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'), '123')
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f'))
+
 WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review'))
+
+WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/Page_App Page 4/label'), 10)
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/label'))
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN'))
+
 WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/a_Submit Your Application'))
 
 Thread.sleep(2000)
 
+WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 30)
+
 WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 0)
 
 WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_approved'), 0)
+
 WebUI.takeScreenshot()
+

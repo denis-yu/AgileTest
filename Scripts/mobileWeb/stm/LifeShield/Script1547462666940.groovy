@@ -13,9 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
 
@@ -29,9 +27,9 @@ WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans
 
 Thread.sleep(4000)
 
-WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)'), 1000)
 WebUI.takeScreenshot()
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K (1)'))
+
+WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K'))
 
 Thread.sleep(2000)
 

@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://stormlight.agilehealthinsurance.com/')
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.takeScreenshot()
@@ -23,15 +25,24 @@ WebUI.takeScreenshot()
 Thread.sleep(2000)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_filters'))
+
 Thread.sleep(300)
+
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/i_Insurance company'))
+
 Thread.sleep(300)
+
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_companion'))
+
 Thread.sleep(300)
+
 WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'), 1000)
+
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
-Thread.sleep(1000)
-WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Pivot Health Choice 5K  20'), 1000)
+
+WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
+
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Pivot Health Choice 5K  20'))
 

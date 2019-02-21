@@ -19,7 +19,7 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHa
 
 WebUI.takeScreenshot()
 
-WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'), 1000)
+WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'), 10)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'))
 
