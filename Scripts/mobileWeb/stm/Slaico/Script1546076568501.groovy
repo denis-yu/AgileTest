@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 //def now = new Date()
 //
@@ -22,7 +22,6 @@ WebUI.openBrowser('')
 //String testCaseUrl = ((path + testCaseUrl) + longType) + '/'
  testCaseUrl = path + testCaseUrl
 	
-WebUI.navigateToUrl('https://praetemptatus.agilehealthinsurance.com/')
 
 //WebUI.callTestCase(findTestCase('mobileWeb/_include/Screenshot'), [('screenPath'):testCaseUrl], FailureHandling.STOP_ON_FAILURE)
 WebUI.takeScreenshot(testCaseUrl + i+'.png')

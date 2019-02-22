@@ -4,8 +4,7 @@
    <name>teladoc</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-31T10:39:56</lastRun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>denis.yu@surayani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

@@ -4,12 +4,19 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <lastRun>2019-02-20T17:53:31</lastRun>
+   <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>61e8915c-9fac-4f2b-aa7d-084a94838caf</testSuiteGuid>
+   <testCaseLink>
+      <guid>eb3466ca-b43b-4c41-a629-dae4fcc48698</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
+   </testCaseLink>
    <testCaseLink>
       <guid>4bf49baa-2650-45cb-a24b-15de120cbf00</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -63,12 +70,6 @@
          <value></value>
          <variableId>3cd79c46-89de-41c0-bbc2-dd1e6b92f786</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eb3466ca-b43b-4c41-a629-dae4fcc48698</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3b6eb672-09f8-4ba3-a4b4-5c7deb2948d4</guid>
