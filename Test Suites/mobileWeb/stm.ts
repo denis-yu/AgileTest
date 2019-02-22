@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>2936922f-f754-4dd1-b936-525d33728c22</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>46d45f0b-a6e7-448c-9c89-a71aa091b757</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -79,13 +79,13 @@
    <testCaseLink>
       <guid>1bf14ac0-f992-4b7d-94d2-c9a8a59f46b2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2ea47660-6f90-435e-8c2b-bcac933eb325</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -115,13 +115,13 @@
    <testCaseLink>
       <guid>efd05439-eeea-4f52-bd4f-af23fbdb1292</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>09cb3114-bc59-49bb-a343-cf6d4c2043e8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/UnitedHealthOne</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

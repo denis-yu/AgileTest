@@ -17,8 +17,9 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/stm/Companion/' + mydate) + '/')
+GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.stmPath+ 'Companion/' + mydate + '/'
 GlobalVariable.i=0
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)

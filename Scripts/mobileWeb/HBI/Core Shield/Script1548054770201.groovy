@@ -17,7 +17,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/hbi/Core Shield/' + mydate) + '/')
+GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.hbiPath+ 'Core Shield/' + mydate + '/'
 
 GlobalVariable.i = 0
 

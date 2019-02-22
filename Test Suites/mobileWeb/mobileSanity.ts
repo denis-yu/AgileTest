@@ -39,7 +39,7 @@
             <profileName>default</profileName>
             <runConfigurationId>iphone8simul</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/hbi</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
