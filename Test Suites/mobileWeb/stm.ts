@@ -4,7 +4,6 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-19T16:29:24</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -12,27 +11,81 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>47a40322-b0ca-4d90-8fd6-8937a52575b1</testSuiteGuid>
    <testCaseLink>
-      <guid>1208024c-7ac2-419c-b2c1-56339bd63507</guid>
+      <guid>2936922f-f754-4dd1-b936-525d33728c22</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth Plan 1</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7141a177-36a3-434f-97c0-6810e05d4317</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>be9c6e43-d249-4caf-8db2-3d551811e7dd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6ec1771-b963-4611-82dc-9dac6b1a0061</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>040afb4d-b4dd-47c9-a0f1-9760d77e9f75</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>30ec7ad3-c8a6-462e-bcf6-112588cc7b70</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fa471c79-5ac1-4451-881f-872f09ef627e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3cd79c46-89de-41c0-bbc2-dd1e6b92f786</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9dfc0fc-8a68-49be-a57b-210acab5b5f1</guid>
+      <guid>46d45f0b-a6e7-448c-9c89-a71aa091b757</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a03245c-5d1b-403d-80b7-b0846f788c8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7a0bdf03-4430-462d-8a67-2b3fe0b11851</guid>
+      <guid>1bf14ac0-f992-4b7d-94d2-c9a8a59f46b2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8416a35c-1e76-4834-83b1-63c0302b81db</guid>
+      <guid>2ea47660-6f90-435e-8c2b-bcac933eb325</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -60,39 +113,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>33a19647-5c4a-4a5a-bcf8-76e134a85175</guid>
+      <guid>efd05439-eeea-4f52-bd4f-af23fbdb1292</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>84a849a9-06c1-43da-99f7-a7b21a3284f6</guid>
+      <guid>09cb3114-bc59-49bb-a343-cf6d4c2043e8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7141a177-36a3-434f-97c0-6810e05d4317</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>be9c6e43-d249-4caf-8db2-3d551811e7dd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e6ec1771-b963-4611-82dc-9dac6b1a0061</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
-      </variableLink>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/UnitedHealthOne</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
