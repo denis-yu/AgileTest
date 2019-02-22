@@ -29,6 +29,7 @@ import org.openqa.selenium.By
 public class commons {
 	WebDriver driver = DriverFactory.getWebDriver()
 
+	
 	@Keyword
 	def isElementPresent(TestObject to, int timeout){
 		//Use Katalon built-in function to find elements with time out 1 seconds

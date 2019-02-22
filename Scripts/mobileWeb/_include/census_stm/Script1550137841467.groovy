@@ -17,6 +17,10 @@ WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/Home Page/a_Quote
 
 WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
 
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zip-input'), zipcode)
 
 WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03/03/1987')

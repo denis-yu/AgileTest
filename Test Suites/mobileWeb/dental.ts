@@ -4,7 +4,7 @@
    <name>dental</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-19T09:59:02</lastRun>
+   <lastRun>2019-02-21T17:52:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -35,7 +35,7 @@
    <testCaseLink>
       <guid>3c4349f7-f4b5-443e-ac5d-838c29e3b998</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
    </testCaseLink>
    <testCaseLink>

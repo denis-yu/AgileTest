@@ -4,19 +4,13 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-19T16:29:24</lastRun>
+   <lastRun>2019-02-21T17:44:03</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>47a40322-b0ca-4d90-8fd6-8937a52575b1</testSuiteGuid>
-   <testCaseLink>
-      <guid>1208024c-7ac2-419c-b2c1-56339bd63507</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth Plan 1</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>a9dfc0fc-8a68-49be-a57b-210acab5b5f1</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -94,5 +88,23 @@
          <value></value>
          <variableId>ec0323b0-bf4e-44f7-a24f-d7f346c4dc4d</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f32e28ed-68b4-49fd-a159-ae0d9f549024</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth_Plan_1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1e5718d3-8ae0-4579-a0db-dc91764a774d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth_Plan_2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7dbbe839-3a45-44bd-9490-be974c713227</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth_Plan_3</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

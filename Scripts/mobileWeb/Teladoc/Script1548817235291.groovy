@@ -13,10 +13,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+now = new Date()
+
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = (('./Screenshots/mobileWeb/teladoc/' + mydate) + '/')
+GlobalVariable.i=0
 'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click menu'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
@@ -24,17 +30,21 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
 'wait time'
 Thread.sleep(3000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click nav teladoc'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'set zip code'
 WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), '35215')
@@ -46,14 +56,14 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 
 Thread.sleep(3000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'get name'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -80,7 +90,7 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to S
 
 WebUI.waitForPageLoad(10)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'), GlobalVariable.FirstName)
 

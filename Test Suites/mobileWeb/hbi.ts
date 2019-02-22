@@ -4,7 +4,7 @@
    <name>hbi</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-01-30T14:03:34</lastRun>
+   <lastRun>2019-02-21T17:52:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>8f7504bc-9e86-478c-b013-76998708a3eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Agile One</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2a2af454-55aa-4a91-88fe-a5ba72242158</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Legion Limited Medical</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1672cd1e-792c-4083-b9c6-a8f364f0c557</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Cardinal Choice</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -34,5 +34,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Core Shield</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6182ebb8-6bf8-4089-bc3b-fbeb29520e83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Agile Secure</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>217efa44-a074-42c1-8e71-f52055f34293</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Fixed Cash Benefit</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
