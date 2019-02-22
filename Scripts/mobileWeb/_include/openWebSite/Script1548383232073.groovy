@@ -19,4 +19,5 @@ WebUI.navigateToUrl(GlobalVariable.ENV)
 
 WebUI.waitForPageLoad(10)
 
-Thread.sleep(3000)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-02-19 16:29:27,2019-02-19 16:30:27,1m - 0.000s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Companion,Safari 11,,2019-02-19 16:29:28,2019-02-19 16:30:26,58.232s,FAILED
+"openBrowser("""")",Safari 11,,2019-02-19 16:29:30,2019-02-19 16:29:34,4.692s,PASSED
+"navigateToUrl(""https://stormlight.agilehealthinsurance.com/"")",Safari 11,,2019-02-19 16:29:34,2019-02-19 16:29:38,3.662s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-19 16:29:38,2019-02-19 16:30:02,23.987s,FAILED
+takeScreenshot(),Safari 11,,2019-02-19 16:30:02,2019-02-19 16:30:03,0.937s,PASSED
+Thread.sleep(2000),Safari 11,,2019-02-19 16:30:03,2019-02-19 16:30:05,2.007s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 11,,2019-02-19 16:30:05,2019-02-19 16:30:26,21.246s,FAILED

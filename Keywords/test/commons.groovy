@@ -21,16 +21,19 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 import internal.GlobalVariable
 import org.openqa.selenium.NoSuchElementException
 import java.io.IOException
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import org.frontendtest.components.ImageComparison
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.By
 
 public class commons {
-	
+	WebDriver driver = DriverFactory.getWebDriver()
+
 
 	@Keyword
 	def isElementPresent(TestObject to, int timeout){
 		//Use Katalon built-in function to find elements with time out 1 seconds
-		List<WebElement> elements = WebUiBuiltInKeywords.findWebElements(to, timeout)
+		List<WebElement> elements = WebUI.findWebElements(to, timeout)
 		if (elements.size() > 0)
 		{
 			//Mark Passed status after this step
@@ -56,6 +59,12 @@ public class commons {
 	@Keyword
 	def click_JS(TestObject object){
 		WebElement element = WebUiCommonHelper.findWebElement(object, 10)
+		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+	}
+
+	@Keyword
+	def click_JS_ByXpath(String str){
+		WebElement element = driver.findElement(By.xpath(str))
 		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 	}
 

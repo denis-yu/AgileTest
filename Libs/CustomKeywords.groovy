@@ -5,6 +5,8 @@
 
 import com.kms.katalon.core.testobject.TestObject
 
+import java.lang.String
+
 
 def static "test.commons.isElementPresent"(
     	TestObject to	
@@ -24,6 +26,12 @@ def static "test.commons.click_JS"(
     	TestObject object	) {
     (new test.commons()).click_JS(
         	object)
+}
+
+def static "test.commons.click_JS_ByXpath"(
+    	String str	) {
+    (new test.commons()).click_JS_ByXpath(
+        	str)
 }
 
 def static "test.commons.compareImage"() {

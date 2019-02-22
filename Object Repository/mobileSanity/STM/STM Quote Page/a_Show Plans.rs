@@ -6,15 +6,15 @@
    <elementGuidId>6c7e5d75-520a-43f6-b6a2-40a4d535648e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@type='button'])[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//main/div[4]/div/div[3]/a[count(. | //*[(text() = 'Show Plans' or . = 'Show Plans')]) = count(//*[(text() = 'Show Plans' or . = 'Show Plans')])]</value>
+         <value>//main/div[4]/div/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +48,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

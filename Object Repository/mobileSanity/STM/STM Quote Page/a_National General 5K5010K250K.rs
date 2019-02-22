@@ -6,16 +6,8 @@
    <elementGuidId>1bf9aa78-6518-4dbf-bad5-48dcb630cca8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>css=a.c-plan-unit-v3_plan-name</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//li[@id='js-group-']/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//a[contains(text(),'National General 5K/50/10K/250K')]</value>
+         <value>//*[contains(@href,'/plan/nationalgeneral-') and @class='c-plan-unit-v3__plan-name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -53,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(text(),'National General 5K/50/10K/250K')]</value>
+      <value>//*[contains(@href,'/plan/nationalgeneral-') and @class='c-plan-unit-v3__plan-name']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

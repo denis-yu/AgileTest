@@ -13,9 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'), 10)
+
 WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
 
-WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zip-input'), '60602')
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zip-input'), zipcode)
 
 WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03/03/1987')
 
@@ -25,4 +31,3 @@ WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans
 
 WebUI.waitForPageLoad(10)
 
-WebUI.takeScreenshot()

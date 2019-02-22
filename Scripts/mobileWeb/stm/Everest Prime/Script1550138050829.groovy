@@ -19,25 +19,8 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHa
 
 WebUI.takeScreenshot()
 
-Thread.sleep(2000)
+WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'), 10)
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_filters'))
-
-Thread.sleep(500)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/i_Insurance company'))
-
-Thread.sleep(300)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_Everest'))
-
-Thread.sleep(300)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
-
-Thread.sleep(2000)
-
-//WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K'), 1000)
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'))
 
 Thread.sleep(2000)

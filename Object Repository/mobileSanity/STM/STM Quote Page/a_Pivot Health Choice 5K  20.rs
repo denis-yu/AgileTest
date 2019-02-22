@@ -6,15 +6,8 @@
    <elementGuidId>32679e99-6290-40d6-ae6a-895a3a1bcfd3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//li[@id='js-group-']/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//td[2]/a</value>
+         <value>//*[@class='c-plan-unit-v3__plan-name' and text()='Pivot Health Choice 5K / 20']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//td[2]/a</value>
+      <value>//*[@class='c-plan-unit-v3__plan-name' and text()='Pivot Health Choice 5K / 20']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

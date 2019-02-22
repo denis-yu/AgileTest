@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dental,Chrome 66.0.3329.0,,2019-02-21 17:44:10,2019-02-21 17:45:36,1m - 26.067s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,Chrome 66.0.3329.0,Dental - National General application flow,2019-02-21 17:44:11,2019-02-21 17:45:05,54.404s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:44:14,2019-02-21 17:44:14,0.154s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:44:14,2019-02-21 17:44:14,0.007s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/dental/National General/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:44:14,2019-02-21 17:44:14,0.017s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:44:14,2019-02-21 17:44:14,0.005s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:44:14,2019-02-21 17:44:56,42.013s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [""zipcode"":zipcode, ""dob"":""12/12/1980""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:44:56,2019-02-21 17:45:05,9.064s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,Chrome 66.0.3329.0,,2019-02-21 17:45:05,2019-02-21 17:45:35,30.030s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:45:05,2019-02-21 17:45:05,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:45:05,2019-02-21 17:45:05,0.002s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/dental/Nationwide/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:45:05,2019-02-21 17:45:05,0.001s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:45:05,2019-02-21 17:45:05,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:45:05,2019-02-21 17:45:16,10.403s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:45:16,2019-02-21 17:45:33,17.616s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 66.0.3329.0,,2019-02-21 17:45:33,2019-02-21 17:45:34,0.800s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Chrome 66.0.3329.0,,2019-02-21 17:45:34,2019-02-21 17:45:34,0.085s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Chrome 66.0.3329.0,,2019-02-21 17:45:34,2019-02-21 17:45:34,0.093s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_nationwide""))",Chrome 66.0.3329.0,,2019-02-21 17:45:34,2019-02-21 17:45:35,0.702s,FAILED

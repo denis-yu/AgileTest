@@ -4,7 +4,7 @@
    <name>dental</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>denis.yu@suryani.cn;sofee.yu@suryani.cn;</mailRecipient>
+   <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -15,6 +15,21 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/National General</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d28e83d0-59d3-4253-87ca-afa922b848df</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/mobileWeb/dental</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d28e83d0-59d3-4253-87ca-afa922b848df</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>cbe84e69-e0fa-4459-9fdb-0a9b6fb3fcfc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3c4349f7-f4b5-443e-ac5d-838c29e3b998</guid>

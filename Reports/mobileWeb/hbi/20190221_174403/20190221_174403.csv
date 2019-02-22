@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,Chrome 66.0.3329.0,hbi flow,2019-02-21 17:44:19,2019-02-21 17:45:34,1m - 14.808s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Core Shield,Chrome 66.0.3329.0,Core Shield application flow,2019-02-21 17:44:20,2019-02-21 17:45:32,1m - 12.421s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:44:21,2019-02-21 17:44:21,0.015s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:44:21,2019-02-21 17:44:21,0.006s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/hbi/Core Shield/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:44:21,2019-02-21 17:44:21,0.018s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:44:21,2019-02-21 17:44:21,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:44:21,2019-02-21 17:44:55,33.767s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:44:55,2019-02-21 17:45:04,9.004s,FAILED
+Thread.sleep(5000),Chrome 66.0.3329.0,,2019-02-21 17:45:04,2019-02-21 17:45:09,5.022s,PASSED
+"scrollToPosition(200, 2300)",Chrome 66.0.3329.0,,2019-02-21 17:45:09,2019-02-21 17:45:09,0.129s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Core Shield""))",Chrome 66.0.3329.0,,2019-02-21 17:45:09,2019-02-21 17:45:32,23.365s,FAILED

@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Chrome 66.0.3329.0,,2019-02-21 17:15:24,2019-02-21 17:22:01,6m - 37.111s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Companion,Chrome 66.0.3329.0,,2019-02-21 17:15:25,2019-02-21 17:16:59,1m - 33.664s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:15:26,2019-02-21 17:15:26,0.013s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:15:26,2019-02-21 17:15:26,0.005s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/stm/Companion/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:15:26,2019-02-21 17:15:26,0.028s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:15:26,2019-02-21 17:15:26,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:15:26,2019-02-21 17:16:04,38.143s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/take_screenshot""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:16:04,2019-02-21 17:16:06,1.067s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:16:06,2019-02-21 17:16:33,27.735s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/take_screenshot""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:16:33,2019-02-21 17:16:34,1.205s,PASSED
+Thread.sleep(2000),Chrome 66.0.3329.0,,2019-02-21 17:16:34,2019-02-21 17:16:37,2.014s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Chrome 66.0.3329.0,,2019-02-21 17:16:37,2019-02-21 17:16:59,22.043s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth_Plan_1,Chrome 66.0.3329.0,,2019-02-21 17:16:59,2019-02-21 17:18:49,1m - 50.285s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:16:59,2019-02-21 17:16:59,0.003s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:16:59,2019-02-21 17:16:59,0.002s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/stm/AdvantHealth_Plan_1/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:16:59,2019-02-21 17:16:59,0.001s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:16:59,2019-02-21 17:16:59,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:16:59,2019-02-21 17:17:06,7.202s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:17:06,2019-02-21 17:17:12,5.983s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:17:12,2019-02-21 17:17:22,9.601s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""advanthealth-plan-1""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:17:22,2019-02-21 17:17:44,22.858s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:17:44,2019-02-21 17:17:50,5.103s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:17:50,2019-02-21 17:18:49,59.300s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth_Plan_2,Chrome 66.0.3329.0,,2019-02-21 17:18:49,2019-02-21 17:20:15,1m - 26.546s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:18:49,2019-02-21 17:18:49,0.012s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:18:49,2019-02-21 17:18:49,0.002s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/stm/AdvantHealth_Plan_2/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:18:49,2019-02-21 17:18:49,0.001s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:18:49,2019-02-21 17:18:49,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:18:49,2019-02-21 17:18:58,9.219s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:18:58,2019-02-21 17:19:02,4.048s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:19:02,2019-02-21 17:19:10,8.020s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""advanthealth-plan-2""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:19:10,2019-02-21 17:19:32,21.873s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:19:32,2019-02-21 17:19:37,5.265s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:19:37,2019-02-21 17:20:15,37.918s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth_Plan_3,Chrome 66.0.3329.0,,2019-02-21 17:20:15,2019-02-21 17:22:01,1m - 45.169s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 17:20:16,2019-02-21 17:20:16,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 17:20:16,2019-02-21 17:20:16,0.000s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/stm/AdvantHealth_Plan_3/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 17:20:16,2019-02-21 17:20:16,0.001s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 17:20:16,2019-02-21 17:20:16,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:20:16,2019-02-21 17:20:23,7.687s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:20:23,2019-02-21 17:20:27,4.209s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:20:27,2019-02-21 17:20:36,8.645s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""advanthealth-plan-3""], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:20:36,2019-02-21 17:20:58,22.225s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:20:58,2019-02-21 17:21:04,5.275s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 17:21:04,2019-02-21 17:22:01,56.926s,FAILED

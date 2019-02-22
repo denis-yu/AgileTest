@@ -21,6 +21,8 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_hbi'))
 
 WebUI.waitForPageLoad(10)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Location_zip-input'), zipcode)
 
 WebUI.setText(findTestObject('mobileSanity/HBI/census/input_Date of Birth_dob-0'), '12/12/1980')
@@ -30,4 +32,6 @@ WebUI.click(findTestObject('mobileSanity/HBI/census/label_Male'))
 WebUI.click(findTestObject('mobileSanity/HBI/census/label_Get a Quote'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

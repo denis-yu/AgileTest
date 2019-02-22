@@ -13,19 +13,19 @@
    <testCaseLink>
       <guid>8f7504bc-9e86-478c-b013-76998708a3eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Agile One</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2a2af454-55aa-4a91-88fe-a5ba72242158</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Legion Limited Medical</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1672cd1e-792c-4083-b9c6-a8f364f0c557</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Cardinal Choice</testCaseId>
    </testCaseLink>
    <testCaseLink>

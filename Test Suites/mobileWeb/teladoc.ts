@@ -4,14 +4,14 @@
    <name>teladoc</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>denis.yu@surayani.cn;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>25a3c582-60e6-40b9-9571-d2e8610dc25e</testSuiteGuid>
+   <testSuiteGuid>09de95bd-07e3-4fa2-8168-dd026481ddb1</testSuiteGuid>
    <testCaseLink>
-      <guid>185eb492-d2d4-4ff3-828c-959b6033361c</guid>
+      <guid>a3be9031-c780-4c4f-8fe5-0f10568eb2d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Teladoc</testCaseId>

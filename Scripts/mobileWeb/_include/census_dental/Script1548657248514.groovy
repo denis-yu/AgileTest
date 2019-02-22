@@ -17,9 +17,13 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
 
 Thread.sleep(3000)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_dental'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('mobileSanity/Dental/census/input_Location_zip-input'), zipcode)
 
@@ -30,4 +34,6 @@ WebUI.click(findTestObject('mobileSanity/Dental/census/label_Male'))
 WebUI.click(findTestObject('mobileSanity/Dental/census/label_Compare Dental Insurance'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
