@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dental,Safari 11,,2019-02-21 16:25:59,2019-02-21 16:27:22,1m - 22.974s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,Safari 11,Dental - National General application flow,2019-02-21 16:26:00,2019-02-21 16:26:36,35.744s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-21 16:26:01,2019-02-21 16:26:12,11.131s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-21 16:26:12,2019-02-21 16:26:26,13.968s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-02-21 16:26:26,2019-02-21 16:26:35,9.293s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-02-21 16:26:35,2019-02-21 16:26:35,0.049s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-02-21 16:26:35,2019-02-21 16:26:35,0.065s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_ng""))",Safari 11,,2019-02-21 16:26:35,2019-02-21 16:26:36,0.691s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,Safari 11,,2019-02-21 16:26:36,2019-02-21 16:26:56,20.082s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-21 16:26:36,2019-02-21 16:26:45,8.853s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-21 16:26:45,2019-02-21 16:26:51,5.878s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-02-21 16:26:51,2019-02-21 16:26:55,4.410s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-02-21 16:26:55,2019-02-21 16:26:55,0.038s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-02-21 16:26:55,2019-02-21 16:26:55,0.078s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_nationwide""))",Safari 11,,2019-02-21 16:26:55,2019-02-21 16:26:56,0.554s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/USA Access,Safari 11,,2019-02-21 16:26:56,2019-02-21 16:27:22,26.426s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-21 16:26:56,2019-02-21 16:27:04,8.325s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-21 16:27:04,2019-02-21 16:27:11,6.965s,PASSED
+"comment(""-------------quote page--------------------"")",Safari 11,,2019-02-21 16:27:11,2019-02-21 16:27:11,0.005s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-02-21 16:27:11,2019-02-21 16:27:19,8.025s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-02-21 16:27:19,2019-02-21 16:27:20,0.039s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-02-21 16:27:20,2019-02-21 16:27:20,0.063s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_usa""))",Safari 11,,2019-02-21 16:27:20,2019-02-21 16:27:22,2.691s,FAILED

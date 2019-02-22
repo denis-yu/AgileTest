@@ -4,15 +4,30 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2019-02-21T17:44:03</lastRun>
    <mailRecipient></mailRecipient>
+=======
+   <lastRun>2019-02-20T17:53:31</lastRun>
+   <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
+>>>>>>> Develop
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>47a40322-b0ca-4d90-8fd6-8937a52575b1</testSuiteGuid>
    <testCaseLink>
+<<<<<<< HEAD
       <guid>a9dfc0fc-8a68-49be-a57b-210acab5b5f1</guid>
+=======
+      <guid>eb3466ca-b43b-4c41-a629-dae4fcc48698</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bf49baa-2650-45cb-a24b-15de120cbf00</guid>
+>>>>>>> Develop
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
@@ -54,7 +69,11 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD
       <guid>33a19647-5c4a-4a5a-bcf8-76e134a85175</guid>
+=======
+      <guid>3b6eb672-09f8-4ba3-a4b4-5c7deb2948d4</guid>
+>>>>>>> Develop
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Chrome 66.0.3329.0,,2019-02-21 15:40:25,2019-02-21 15:41:39,1m - 14.340s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Chrome 66.0.3329.0,teladoc application flow,2019-02-21 15:40:26,2019-02-21 15:41:39,1m - 13.501s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,open site,2019-02-21 15:40:27,2019-02-21 15:40:49,21.975s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Chrome 66.0.3329.0,click menu,2019-02-21 15:40:49,2019-02-21 15:40:51,1.731s,PASSED
+Thread.sleep(3000),Chrome 66.0.3329.0,wait time,2019-02-21 15:40:51,2019-02-21 15:40:54,3.006s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Chrome 66.0.3329.0,click nav teladoc,2019-02-21 15:40:54,2019-02-21 15:41:14,20.027s,PASSED
+waitForPageLoad(10),Chrome 66.0.3329.0,,2019-02-21 15:41:14,2019-02-21 15:41:14,0.072s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/front_door_quote_button""))",Chrome 66.0.3329.0,click button,2019-02-21 15:41:14,2019-02-21 15:41:18,4.157s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), ""35215"")",Chrome 66.0.3329.0,set zip code,2019-02-21 15:41:18,2019-02-21 15:41:18,0.456s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/census/input_Date of Birth_dob-0""), ""12/12/1980"")",Chrome 66.0.3329.0,set dob,2019-02-21 15:41:18,2019-02-21 15:41:19,0.769s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/census/label_Male""))",Chrome 66.0.3329.0,,2019-02-21 15:41:19,2019-02-21 15:41:19,0.147s,PASSED
+Thread.sleep(3000),Chrome 66.0.3329.0,,2019-02-21 15:41:19,2019-02-21 15:41:22,3.005s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/census/label_Start Secure Application""))",Chrome 66.0.3329.0,click button,2019-02-21 15:41:22,2019-02-21 15:41:31,8.722s,PASSED
+waitForPageLoad(10),Chrome 66.0.3329.0,,2019-02-21 15:41:31,2019-02-21 15:41:32,1.448s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/name""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,get name,2019-02-21 15:41:32,2019-02-21 15:41:34,1.431s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName""), FirstName)",Chrome 66.0.3329.0,,2019-02-21 15:41:34,2019-02-21 15:41:34,0.218s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-lastName""), LastName)",Chrome 66.0.3329.0,,2019-02-21 15:41:34,2019-02-21 15:41:34,0.285s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/select_01020304050607""), ""05"", true)",Chrome 66.0.3329.0,,2019-02-21 15:41:34,2019-02-21 15:41:35,0.294s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/select_00102030405060708091011""), ""06"", true)",Chrome 66.0.3329.0,,2019-02-21 15:41:35,2019-02-21 15:41:35,0.421s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input_lbs""), ""180"")",Chrome 66.0.3329.0,,2019-02-21 15:41:35,2019-02-21 15:41:35,0.155s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__address""), Address)",Chrome 66.0.3329.0,,2019-02-21 15:41:35,2019-02-21 15:41:36,0.246s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__city""), City)",Chrome 66.0.3329.0,,2019-02-21 15:41:36,2019-02-21 15:41:36,0.177s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__email""), AutoEmail)",Chrome 66.0.3329.0,,2019-02-21 15:41:36,2019-02-21 15:41:36,0.423s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input_phone number""), Tel)",Chrome 66.0.3329.0,,2019-02-21 15:41:36,2019-02-21 15:41:36,0.157s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment""))",Chrome 66.0.3329.0,,2019-02-21 15:41:36,2019-02-21 15:41:36,0.163s,PASSED
+waitForPageLoad(10),Chrome 66.0.3329.0,,2019-02-21 15:41:36,2019-02-21 15:41:36,0.014s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first""), FirstName)",Chrome 66.0.3329.0,,2019-02-21 15:41:36,2019-02-21 15:41:39,2.687s,FAILED

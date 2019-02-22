@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,Chrome 66.0.3329.0,hbi flow,2019-02-21 16:27:37,2019-02-21 16:29:43,2m - 6.230s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Core Shield,Chrome 66.0.3329.0,Core Shield application flow,2019-02-21 16:27:37,2019-02-21 16:29:43,2m - 5.652s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 16:27:38,2019-02-21 16:27:50,11.944s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 16:27:50,2019-02-21 16:27:57,7.675s,PASSED
+Thread.sleep(5000),Chrome 66.0.3329.0,,2019-02-21 16:27:57,2019-02-21 16:28:02,5.007s,PASSED
+"scrollToPosition(200, 2300)",Chrome 66.0.3329.0,,2019-02-21 16:28:02,2019-02-21 16:28:03,0.954s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Core Shield""))",Chrome 66.0.3329.0,,2019-02-21 16:28:03,2019-02-21 16:29:19,1m - 16.171s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Chrome 66.0.3329.0,,2019-02-21 16:29:19,2019-02-21 16:29:22,2.529s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Chrome 66.0.3329.0,,2019-02-21 16:29:22,2019-02-21 16:29:24,1.734s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""coreshield""], CONTINUE_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 16:29:24,2019-02-21 16:29:43,19.188s,FAILED
