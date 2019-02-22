@@ -4,7 +4,10 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
+
    <mailRecipient>denis.yu@suryani.cn;sofee.yu@suryani.cn;</mailRecipient>
+
+
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -67,14 +70,19 @@
    <testCaseLink>
       <guid>46d45f0b-a6e7-448c-9c89-a71aa091b757</guid>
       <isReuseDriver>false</isReuseDriver>
+<<<<<<< HEAD
       <isRun>false</isRun>
+=======
+      <isRun>true</isRun>
+
+>>>>>>> dcac5965b66925b0a398256f999a84a4e7b7f21c
       <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1a03245c-5d1b-403d-80b7-b0846f788c8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
+
    </testCaseLink>
    <testCaseLink>
       <guid>1bf14ac0-f992-4b7d-94d2-c9a8a59f46b2</guid>
