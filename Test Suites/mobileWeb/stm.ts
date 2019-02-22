@@ -4,7 +4,6 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-20T17:53:31</lastRun>
    <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -74,19 +73,19 @@
    <testCaseLink>
       <guid>3b6eb672-09f8-4ba3-a4b4-5c7deb2948d4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ca24ed00-17fc-4c69-a697-e15d6fc2804f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>667a6598-35a4-4ce7-abb7-2f23ca2c52cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -116,13 +115,13 @@
    <testCaseLink>
       <guid>3d4e3c46-d4df-40f3-b102-5548b6cfca3c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8a908446-d767-4ef3-90eb-18089e0a7143</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/UnitedHealthOne</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
