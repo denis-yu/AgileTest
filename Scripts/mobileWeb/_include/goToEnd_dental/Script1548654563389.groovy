@@ -31,6 +31,10 @@ WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input_phone'), Globa
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment'))
 
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'when carrier is \'usa\', accept the membership.'
 if (carrier == 'usa') {
     WebUI.click(findTestObject('mobileSanity/Dental/app_page2/membership/label_ihaveread'))
@@ -58,6 +62,8 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 -
 
 WebUI.waitForPageLoad(10)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/label'))
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))
@@ -65,6 +71,8 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Application'))
 
 Thread.sleep(20000)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Congratulations', false)
 

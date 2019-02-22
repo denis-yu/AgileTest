@@ -13,14 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-WebUI.openBrowser('')
+now = new Date()
 
-WebUI.navigateToUrl('https://stormlight.agilehealthinsurance.com/')
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = (('./Screenshots/mobileWeb/stm/Companion/' + mydate) + '/')
+GlobalVariable.i=0
+WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
@@ -44,9 +49,13 @@ WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Pivot Health Choice 5K  20'))
 
 Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 

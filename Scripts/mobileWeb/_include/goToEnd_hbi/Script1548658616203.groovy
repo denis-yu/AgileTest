@@ -44,6 +44,10 @@ WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input_tel'), Glob
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 1/a_Continue to Step 2 - Payment'))
 
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 2/input__credit-card-first'), GlobalVariable.FirstName)
 
 WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 2/input__credit-card-last'), GlobalVariable.LastName)
@@ -61,6 +65,10 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/label_My billing ad
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/label_I Accept Authorization f'))
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_Continue to Step 3 - Review'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'when \'addon\' popup present, click \'no thanks\''
 if (CustomKeywords.'test.commons.isElementPresent'(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {
@@ -81,6 +89,8 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/p_CLICK TO SIGN'))
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/a_Submit Your Application'))
 
 Thread.sleep(20000)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Congratulations', false)
 

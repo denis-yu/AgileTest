@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'primaryCTA' and (text() = 'Quote &amp; Save Today' or . = 'Quote &amp; Save Today')]</value>
+         <value>//*[@id = 'primaryCTA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +48,7 @@
       <value>Get Health Insurance Quotes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

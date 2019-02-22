@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Chrome 66.0.3329.0,,2019-02-21 16:56:46,2019-02-21 16:57:11,24.942s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Chrome 66.0.3329.0,teladoc application flow,2019-02-21 16:56:46,2019-02-21 16:57:09,22.997s,FAILED
+now = new java.util.Date(),Chrome 66.0.3329.0,,2019-02-21 16:56:49,2019-02-21 16:56:49,0.013s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 66.0.3329.0,,2019-02-21 16:56:49,2019-02-21 16:56:49,0.005s,PASSED
+"screenPath = ""./Screenshots/mobileWeb/teladoc/"" + mydate + ""/""",Chrome 66.0.3329.0,,2019-02-21 16:56:49,2019-02-21 16:56:49,0.015s,PASSED
+i = 0,Chrome 66.0.3329.0,,2019-02-21 16:56:49,2019-02-21 16:56:49,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,open site,2019-02-21 16:56:49,2019-02-21 16:57:00,11.186s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/take_screenshot""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 16:57:00,2019-02-21 16:57:03,2.819s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Chrome 66.0.3329.0,click menu,2019-02-21 16:57:03,2019-02-21 16:57:04,1.034s,PASSED
+Thread.sleep(3000),Chrome 66.0.3329.0,wait time,2019-02-21 16:57:04,2019-02-21 16:57:07,3.022s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/take_screenshot""), [:], STOP_ON_FAILURE)",Chrome 66.0.3329.0,,2019-02-21 16:57:07,2019-02-21 16:57:08,1.262s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Chrome 66.0.3329.0,click nav teladoc,2019-02-21 16:57:08,2019-02-21 16:57:09,1.183s,FAILED

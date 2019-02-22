@@ -16,6 +16,12 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+now = new Date()
+
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = (('./Screenshots/mobileWeb/dental/USA Plus/' + mydate) + '/')
+GlobalVariable.i=0
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_dental'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -32,13 +38,21 @@ WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_usa'))
 
 WebUI.waitForJQueryLoad(20, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
 WebUI.click(findTestObject('mobileSanity/Dental/quote/a_Select This Plan'))
 
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_dental'), [('carrier') : 'usa'], FailureHandling.STOP_ON_FAILURE)
 
