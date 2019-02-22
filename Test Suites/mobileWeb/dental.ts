@@ -4,15 +4,7 @@
    <name>dental</name>
    <tag></tag>
    <isRerun>false</isRerun>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-   <lastRun>2019-02-21T17:52:30</lastRun>
->>>>>>> 305a8c141a09591cc5d229b217dece16e7b302a0
-   <mailRecipient></mailRecipient>
-=======
-   <mailRecipient>denis.yu@suryani.cn;sofee.yu@suryani.cn;</mailRecipient>
->>>>>>> Develop
+   <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

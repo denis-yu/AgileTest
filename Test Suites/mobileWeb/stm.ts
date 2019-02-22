@@ -4,37 +4,14 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-   <lastRun>2019-02-21T17:44:03</lastRun>
->>>>>>> 305a8c141a09591cc5d229b217dece16e7b302a0
-   <mailRecipient></mailRecipient>
-=======
-   <lastRun>2019-02-20T17:53:31</lastRun>
-   <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
->>>>>>> Develop
+   <mailRecipient>denis.yu@suryani.cn;sofee.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>47a40322-b0ca-4d90-8fd6-8937a52575b1</testSuiteGuid>
    <testCaseLink>
-<<<<<<< HEAD
       <guid>2936922f-f754-4dd1-b936-525d33728c22</guid>
-=======
-<<<<<<< HEAD
-      <guid>a9dfc0fc-8a68-49be-a57b-210acab5b5f1</guid>
-=======
-      <guid>eb3466ca-b43b-4c41-a629-dae4fcc48698</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4bf49baa-2650-45cb-a24b-15de120cbf00</guid>
->>>>>>> Develop
->>>>>>> 305a8c141a09591cc5d229b217dece16e7b302a0
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
@@ -88,15 +65,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-<<<<<<< HEAD
       <guid>46d45f0b-a6e7-448c-9c89-a71aa091b757</guid>
-=======
-<<<<<<< HEAD
-      <guid>33a19647-5c4a-4a5a-bcf8-76e134a85175</guid>
-=======
-      <guid>3b6eb672-09f8-4ba3-a4b4-5c7deb2948d4</guid>
->>>>>>> Develop
->>>>>>> 305a8c141a09591cc5d229b217dece16e7b302a0
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
@@ -144,7 +113,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-<<<<<<< HEAD
       <guid>efd05439-eeea-4f52-bd4f-af23fbdb1292</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -155,23 +123,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/UnitedHealthOne</testCaseId>
-=======
-      <guid>f32e28ed-68b4-49fd-a159-ae0d9f549024</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth_Plan_1</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1e5718d3-8ae0-4579-a0db-dc91764a774d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth_Plan_2</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7dbbe839-3a45-44bd-9490-be974c713227</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth_Plan_3</testCaseId>
->>>>>>> 305a8c141a09591cc5d229b217dece16e7b302a0
    </testCaseLink>
 </TestSuiteEntity>
