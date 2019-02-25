@@ -13,6 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+now = new Date()
+
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = GlobalVariable.stmPath+ 'AdvantHealth/' + mydate + '/'
+GlobalVariable.i=0
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
@@ -27,7 +34,7 @@ WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans
 
 WebUI.waitForPageLoad(10)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
@@ -60,7 +67,7 @@ WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM Apply Page/a_St
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/a_Start Secure Application'))
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
 

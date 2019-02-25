@@ -17,7 +17,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/teladoc/' + mydate) + '/')
+GlobalVariable.screenPath = (('../Screenshots/mobileWeb/teladoc/' + mydate) + '/')
 GlobalVariable.i=0
 'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)

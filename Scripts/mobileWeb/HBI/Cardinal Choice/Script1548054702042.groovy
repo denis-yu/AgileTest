@@ -19,7 +19,8 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/hbi/Cardinal Choice/' + mydate) + '/')
+GlobalVariable.screenPath = GlobalVariable.hbiPath+ 'Cardinal Choice/' + mydate + '/'
+
 
 GlobalVariable.i = 0
 

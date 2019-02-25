@@ -13,11 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
+now = new Date()
+
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = GlobalVariable.stmPath+ 'Everest Prime/' + mydate + '/'
+GlobalVariable.i=0
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K'), 10)
 

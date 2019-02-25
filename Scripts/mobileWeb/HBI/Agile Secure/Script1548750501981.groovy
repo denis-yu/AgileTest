@@ -17,7 +17,8 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/hbi/Agile Secure/' + mydate) + '/')
+GlobalVariable.screenPath =  GlobalVariable.hbiPath+ 'Agile Secure/' + mydate + '/'
+
 
 GlobalVariable.i = 0
 

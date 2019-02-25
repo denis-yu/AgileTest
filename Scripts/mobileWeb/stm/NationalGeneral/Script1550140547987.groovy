@@ -13,11 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+now = new Date()
+
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'National General/' + mydate + '/'
+GlobalVariable.i=0
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 
