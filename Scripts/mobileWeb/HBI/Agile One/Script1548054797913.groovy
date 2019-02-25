@@ -13,13 +13,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
+
 now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/hbi/Agile One/' + mydate) + '/')
+GlobalVariable.screenPath  = GlobalVariable.hbiPath+ 'Agile One/' + mydate + '/'
+GlobalVariable.i=0
 
-GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

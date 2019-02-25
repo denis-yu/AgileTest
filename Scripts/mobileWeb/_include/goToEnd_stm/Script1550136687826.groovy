@@ -19,7 +19,7 @@ WebUI.waitForPageLoad(0)
 
 Thread.sleep(1000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('mobileWeb/_include/page_1_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'), 0)
@@ -34,7 +34,7 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-car
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f'))
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review'))
 
@@ -56,7 +56,7 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/label'))
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN'))
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/a_Submit Your Application'))
 
@@ -68,5 +68,5 @@ WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span
 
 WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_approved'), 0)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

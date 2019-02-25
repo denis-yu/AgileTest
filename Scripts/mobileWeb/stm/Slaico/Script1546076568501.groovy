@@ -15,17 +15,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-//def now = new Date()
-//
-//def longType = now.time
+now = new Date()
 
-//String testCaseUrl = ((path + testCaseUrl) + longType) + '/'
- testCaseUrl = path + testCaseUrl
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'Slaico/' + mydate + '/'
+GlobalVariable.i=0
+
 	
 
 //WebUI.callTestCase(findTestCase('mobileWeb/_include/Screenshot'), [('screenPath'):testCaseUrl], FailureHandling.STOP_ON_FAILURE)
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
 
@@ -35,8 +36,8 @@ WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Bir
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans'))
 
@@ -53,8 +54,8 @@ Thread.sleep(300)
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_Slaico'))
 
 Thread.sleep(300)
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'), 1000)
 
@@ -67,8 +68,8 @@ Thread.sleep(1000)
 
 WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla'), 1000)
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Standard Life Select STM Pla'))
 
@@ -78,13 +79,13 @@ WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM PlanDetail Page
 
 WebUI.click(findTestObject('mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan'))
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM Apply Page/a_Start Secure Application'), 0)
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/a_Start Secure Application'))
 
@@ -114,8 +115,8 @@ WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/but
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_No6'))
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 //WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/button_No7'), 0)
 //
@@ -133,8 +134,8 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info
 
 Thread.sleep(1000)
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
@@ -144,8 +145,8 @@ WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-car
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f'))
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review'))
 
@@ -153,8 +154,8 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/label'))
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN'))
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/a_Submit Your Application'))
 
@@ -164,6 +165,6 @@ WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span
 
 WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_approved'), 0)
 
-WebUI.takeScreenshot(testCaseUrl + i+'.png')
-i++
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 

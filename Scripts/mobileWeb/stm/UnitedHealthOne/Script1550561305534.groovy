@@ -14,13 +14,20 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+now = new Date()
+
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'UniteHealthOne/' + mydate + '/'
+GlobalVariable.i=0
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://stormlight.agilehealthinsurance.com/')
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
 

@@ -17,8 +17,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/hbi/Legion Limited Medical/' + mydate) + '/')
-
+GlobalVariable.screenPath =  GlobalVariable.hbiPath+ 'Legion Limited Medical/' + mydate + '/'
 GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
