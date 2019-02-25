@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-02-25 16:45:59,2019-02-25 16:50:57,4m - 57.783s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 11,,2019-02-25 16:45:59,2019-02-25 16:46:28,28.204s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:46:00,2019-02-25 16:46:10,9.999s,PASSED
+now = new java.util.Date(),Safari 11,,2019-02-25 16:46:10,2019-02-25 16:46:10,0.004s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-02-25 16:46:10,2019-02-25 16:46:10,0.003s,PASSED
+"screenPath = stmPath + ""Slaico/"" + mydate + ""/""",Safari 11,,2019-02-25 16:46:10,2019-02-25 16:46:10,0.001s,PASSED
+i = 0,Safari 11,,2019-02-25 16:46:10,2019-02-25 16:46:10,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:46:10,2019-02-25 16:46:11,0.391s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 11,,2019-02-25 16:46:11,2019-02-25 16:46:13,2.238s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 11,,2019-02-25 16:46:13,2019-02-25 16:46:14,0.549s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 11,,2019-02-25 16:46:14,2019-02-25 16:46:14,0.198s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 11,,2019-02-25 16:46:14,2019-02-25 16:46:14,0.254s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:46:14,2019-02-25 16:46:15,0.501s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 11,,2019-02-25 16:46:15,2019-02-25 16:46:24,9.293s,PASSED
+Thread.sleep(2000),Safari 11,,2019-02-25 16:46:24,2019-02-25 16:46:26,2.018s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 11,,2019-02-25 16:46:26,2019-02-25 16:46:26,0.309s,PASSED
+Thread.sleep(500),Safari 11,,2019-02-25 16:46:26,2019-02-25 16:46:27,0.502s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/i_Insurance company""))",Safari 11,,2019-02-25 16:46:27,2019-02-25 16:46:28,0.947s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth,Safari 11,,2019-02-25 16:46:28,2019-02-25 16:47:12,44.332s,FAILED
+now = new java.util.Date(),Safari 11,,2019-02-25 16:46:28,2019-02-25 16:46:28,0.003s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-02-25 16:46:28,2019-02-25 16:46:28,0.001s,PASSED
+"screenPath = stmPath + ""AdvantHealth/"" + mydate + ""/""",Safari 11,,2019-02-25 16:46:28,2019-02-25 16:46:28,0.019s,PASSED
+i = 0,Safari 11,,2019-02-25 16:46:28,2019-02-25 16:46:28,0.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:46:28,2019-02-25 16:46:34,5.966s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 11,,2019-02-25 16:46:34,2019-02-25 16:46:38,3.964s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""35216"")",Safari 11,,2019-02-25 16:46:38,2019-02-25 16:46:38,0.148s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 11,,2019-02-25 16:46:38,2019-02-25 16:46:38,0.157s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 11,,2019-02-25 16:46:38,2019-02-25 16:46:38,0.093s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 11,,2019-02-25 16:46:38,2019-02-25 16:46:39,0.130s,PASSED
+waitForPageLoad(10),Safari 11,,2019-02-25 16:46:39,2019-02-25 16:46:46,7.762s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:46:46,2019-02-25 16:46:48,1.479s,PASSED
+Thread.sleep(2000),Safari 11,,2019-02-25 16:46:48,2019-02-25 16:46:50,2.003s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 11,,2019-02-25 16:46:50,2019-02-25 16:46:50,0.208s,PASSED
+Thread.sleep(500),Safari 11,,2019-02-25 16:46:50,2019-02-25 16:46:51,0.503s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/i_Insurance company""))",Safari 11,,2019-02-25 16:46:51,2019-02-25 16:46:51,0.076s,PASSED
+Thread.sleep(300),Safari 11,,2019-02-25 16:46:51,2019-02-25 16:46:51,0.301s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/label_AdvantHealth""))",Safari 11,,2019-02-25 16:46:51,2019-02-25 16:47:12,21.010s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Companion,Safari 11,,2019-02-25 16:47:12,2019-02-25 16:48:39,1m - 27.147s,FAILED
+now = new java.util.Date(),Safari 11,,2019-02-25 16:47:12,2019-02-25 16:47:12,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-02-25 16:47:12,2019-02-25 16:47:12,0.002s,PASSED
+"screenPath = stmPath + ""Companion/"" + mydate + ""/""",Safari 11,,2019-02-25 16:47:12,2019-02-25 16:47:12,0.000s,PASSED
+i = 0,Safari 11,,2019-02-25 16:47:12,2019-02-25 16:47:12,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:47:12,2019-02-25 16:47:27,14.696s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:47:27,2019-02-25 16:47:27,0.367s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:47:27,2019-02-25 16:47:45,17.320s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:47:45,2019-02-25 16:47:45,0.411s,PASSED
+Thread.sleep(2000),Safari 11,,2019-02-25 16:47:45,2019-02-25 16:47:47,2.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 11,,2019-02-25 16:47:47,2019-02-25 16:48:18,30.582s,PASSED
+Thread.sleep(300),Safari 11,,2019-02-25 16:48:18,2019-02-25 16:48:18,0.303s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/i_Insurance company""))",Safari 11,,2019-02-25 16:48:18,2019-02-25 16:48:18,0.079s,PASSED
+Thread.sleep(300),Safari 11,,2019-02-25 16:48:18,2019-02-25 16:48:18,0.305s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/label_companion""))",Safari 11,,2019-02-25 16:48:18,2019-02-25 16:48:39,20.873s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest Prime,Safari 11,,2019-02-25 16:48:39,2019-02-25 16:49:26,47.301s,FAILED
+now = new java.util.Date(),Safari 11,,2019-02-25 16:48:39,2019-02-25 16:48:39,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-02-25 16:48:39,2019-02-25 16:48:39,0.000s,PASSED
+"screenPath = stmPath + ""Everest Prime/"" + mydate + ""/""",Safari 11,,2019-02-25 16:48:39,2019-02-25 16:48:39,0.001s,PASSED
+i = 0,Safari 11,,2019-02-25 16:48:39,2019-02-25 16:48:39,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:48:39,2019-02-25 16:48:46,7.166s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:48:46,2019-02-25 16:48:49,2.962s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:48:49,2019-02-25 16:48:55,5.563s,PASSED
+"waitForElementClickable(findTestObject(""mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K""), 10)",Safari 11,,2019-02-25 16:48:55,2019-02-25 16:49:05,10.507s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_Everest Prime 5K05K750K""))",Safari 11,,2019-02-25 16:49:05,2019-02-25 16:49:26,20.933s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 11,,2019-02-25 16:49:26,2019-02-25 16:50:09,42.191s,FAILED
+now = new java.util.Date(),Safari 11,,2019-02-25 16:49:27,2019-02-25 16:49:27,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-02-25 16:49:27,2019-02-25 16:49:27,0.000s,PASSED
+"screenPath = stmPath + ""LifeShield/"" + mydate + ""/""",Safari 11,,2019-02-25 16:49:27,2019-02-25 16:49:27,0.000s,PASSED
+i = 0,Safari 11,,2019-02-25 16:49:27,2019-02-25 16:49:27,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:49:27,2019-02-25 16:49:33,6.142s,PASSED
+"click(findTestObject(""mobileSanity/STM/Home Page/a_Quote  Save Today""))",Safari 11,,2019-02-25 16:49:33,2019-02-25 16:49:39,5.711s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Location_zip-input""), ""60602"")",Safari 11,,2019-02-25 16:49:39,2019-02-25 16:49:39,0.361s,PASSED
+"setText(findTestObject(""mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0""), ""03/03/1987"")",Safari 11,,2019-02-25 16:49:39,2019-02-25 16:49:39,0.156s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Male""))",Safari 11,,2019-02-25 16:49:39,2019-02-25 16:49:39,0.127s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Census Page/label_Compare Plans""))",Safari 11,,2019-02-25 16:49:39,2019-02-25 16:49:39,0.078s,PASSED
+Thread.sleep(4000),Safari 11,,2019-02-25 16:49:39,2019-02-25 16:49:43,4.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:49:43,2019-02-25 16:49:47,3.977s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K""))",Safari 11,,2019-02-25 16:49:47,2019-02-25 16:50:09,21.350s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/NationalGeneral,Safari 11,,2019-02-25 16:50:09,2019-02-25 16:50:56,47.816s,FAILED
+now = new java.util.Date(),Safari 11,,2019-02-25 16:50:09,2019-02-25 16:50:09,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-02-25 16:50:09,2019-02-25 16:50:09,0.001s,PASSED
+"screenPath = stmPath + ""National General/"" + mydate + ""/""",Safari 11,,2019-02-25 16:50:09,2019-02-25 16:50:09,0.001s,PASSED
+i = 0,Safari 11,,2019-02-25 16:50:09,2019-02-25 16:50:09,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:50:09,2019-02-25 16:50:16,7.152s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-02-25 16:50:16,2019-02-25 16:50:23,6.607s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-02-25 16:50:23,2019-02-25 16:50:23,0.412s,PASSED
+Thread.sleep(2000),Safari 11,,2019-02-25 16:50:23,2019-02-25 16:50:25,2.005s,PASSED
+"scrollToPosition(0, 5000)",Safari 11,,2019-02-25 16:50:25,2019-02-25 16:50:34,9.428s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/STM/STM Quote Page/a_National General 5K5010K250K""), 10)",Safari 11,,2019-02-25 16:50:34,2019-02-25 16:50:56,21.997s,FAILED

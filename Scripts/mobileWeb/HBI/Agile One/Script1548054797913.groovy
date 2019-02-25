@@ -18,7 +18,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.hbiPath+ 'Agile One/' + mydate + '/'
+GlobalVariable.screenPath  = GlobalVariable.hbiPath+ 'Agile One/' + mydate + '/'
 GlobalVariable.i=0
 
 

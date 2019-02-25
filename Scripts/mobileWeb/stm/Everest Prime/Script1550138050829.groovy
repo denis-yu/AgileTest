@@ -18,7 +18,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.stmPath+ 'Everest Prime/' + mydate + '/'
+GlobalVariable.screenPath = GlobalVariable.stmPath+ 'Everest Prime/' + mydate + '/'
 GlobalVariable.i=0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)

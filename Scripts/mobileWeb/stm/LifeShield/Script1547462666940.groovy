@@ -18,7 +18,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.stmPath+ 'LifeShield/' + mydate + '/'
+GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'LifeShield/' + mydate + '/'
 GlobalVariable.i=0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)

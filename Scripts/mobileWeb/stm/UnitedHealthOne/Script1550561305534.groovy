@@ -18,7 +18,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.stmPath+ 'UniteHealthOne/' + mydate + '/'
+GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'UniteHealthOne/' + mydate + '/'
 GlobalVariable.i=0
 
 WebUI.openBrowser('')

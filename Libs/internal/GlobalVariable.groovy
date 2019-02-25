@@ -81,7 +81,7 @@ public class GlobalVariable {
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'i' : 0, 'screenPath' : '../Screenshots/', 'stmPath' : 'mobileWeb/stm/', 'hbiPath' : 'mobileWeb/hbi/', 'dentalPath' : 'mobileWeb/dental/', 'teladoc' : 'mobileWeb/teladoc/'])
+        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'i' : 0, 'screenPath' : '../Screenshots/', 'stmPath' : '../Screenshots/mobileWeb/stm/', 'hbiPath' : '../Screenshots/mobileWeb/hbi/', 'dentalPath' : '../Screenshots/mobileWeb/dental/', 'teladoc' : '../Screenshots/mobileWeb/teladoc/'])
         allVariables.put('staging', allVariables['default'] + ['ENV' : 'https://staging.agilehealthinsurance.com'])
         allVariables.put('windrunner', allVariables['default'] + ['ENV' : 'https://windrunner.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'City' : '', 'Tel' : '', 'AutoEmail' : ''])
         

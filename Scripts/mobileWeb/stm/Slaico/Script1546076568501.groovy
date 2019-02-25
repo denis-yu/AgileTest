@@ -19,7 +19,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = GlobalVariable.screenPath + GlobalVariable.stmPath+ 'Slaico/' + mydate + '/'
+GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'Slaico/' + mydate + '/'
 GlobalVariable.i=0
 
 	
