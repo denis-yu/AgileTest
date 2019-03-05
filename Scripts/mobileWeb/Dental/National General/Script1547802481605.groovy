@@ -20,7 +20,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('./Screenshots/mobileWeb/dental/National General/' + mydate) + '/')
+GlobalVariable.screenPath = ((GlobalVariable.dentalPath+'National General/' + mydate) + '/')
 GlobalVariable.i=0
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 

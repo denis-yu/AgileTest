@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Chrome 71.0.3578.99,,2019-03-01 11:32:05,2019-03-01 11:35:36,3m - 31.331s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest,Chrome 71.0.3578.99,,2019-03-01 11:32:05,2019-03-01 11:35:33,3m - 27.308s,PASSED
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-03-01 11:32:06,2019-03-01 11:32:06,0.014s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-03-01 11:32:06,2019-03-01 11:32:06,0.006s,PASSED
+"screenPath = stmPath + ""Everest/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-03-01 11:32:06,2019-03-01 11:32:06,0.016s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-03-01 11:32:06,2019-03-01 11:32:06,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-01 11:32:06,2019-03-01 11:32:47,40.304s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""83709""], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-01 11:32:47,2019-03-01 11:33:28,41.252s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-01 11:33:28,2019-03-01 11:33:48,20.259s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-01 11:33:48,2019-03-01 11:34:09,21.169s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-01 11:34:09,2019-03-01 11:34:30,20.326s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-01 11:34:30,2019-03-01 11:35:33,1m - 3.168s,PASSED

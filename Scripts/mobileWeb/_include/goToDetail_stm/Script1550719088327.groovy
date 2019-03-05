@@ -23,20 +23,13 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
 
-String a_plan_name="xpath=//a[contains(@href,'/term-health-insurance/plan/"+carrier+"') and @class='c-plan-unit-v3__plan-name']"
+String a_plan_name = ('xpath=//a[contains(@href,\'/term-health-insurance/plan/' + carrier) + '\')]'
+
+println(a_plan_name)
 
 selenium.click(a_plan_name)
 
 WebUI.waitForPageLoad(10)
 
-
-
-
-
-
-
-
-
-
-
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

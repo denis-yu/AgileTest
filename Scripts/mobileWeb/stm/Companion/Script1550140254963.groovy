@@ -17,48 +17,19 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = GlobalVariable.stmPath+ 'Companion/' + mydate + '/'
-GlobalVariable.i=0
+GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'Companion/') + mydate) + '/')
+
+GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/filter_stm'), [('carrier') : 'pivotcompanion'], FailureHandling.STOP_ON_FAILURE)
 
-Thread.sleep(2000)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_filters'))
-
-Thread.sleep(300)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/i_Insurance company'))
-
-Thread.sleep(300)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_companion'))
-
-Thread.sleep(300)
-
-WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'), 1000)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
-
-WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
-
-Thread.sleep(2000)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Pivot Health Choice 5K  20'))
-
-Thread.sleep(2000)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToDetail_stm'), [('carrier') : 'pivot-health-choice'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
 

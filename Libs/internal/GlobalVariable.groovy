@@ -86,28 +86,21 @@ public class GlobalVariable {
         allVariables.put('windrunner', allVariables['default'] + ['ENV' : 'https://windrunner.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'City' : '', 'Tel' : '', 'AutoEmail' : ''])
         
         String profileName = RunConfiguration.getExecutionProfile()
+        
         def selectedVariables = allVariables[profileName]
-		
-		for(object in selectedVariables){
-			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
-			if(overridingGlobalVariable != null){
-				selectedVariables.put(object.key, overridingGlobalVariable)
-			}
-		}
-
-        ENV = selectedVariables["ENV"]
-        FirstName = selectedVariables["FirstName"]
-        LastName = selectedVariables["LastName"]
-        Address = selectedVariables["Address"]
-        Tel = selectedVariables["Tel"]
-        City = selectedVariables["City"]
-        AutoEmail = selectedVariables["AutoEmail"]
-        i = selectedVariables["i"]
-        screenPath = selectedVariables["screenPath"]
-        stmPath = selectedVariables["stmPath"]
-        hbiPath = selectedVariables["hbiPath"]
-        dentalPath = selectedVariables["dentalPath"]
-        teladoc = selectedVariables["teladoc"]
+        ENV = selectedVariables['ENV']
+        FirstName = selectedVariables['FirstName']
+        LastName = selectedVariables['LastName']
+        Address = selectedVariables['Address']
+        Tel = selectedVariables['Tel']
+        City = selectedVariables['City']
+        AutoEmail = selectedVariables['AutoEmail']
+        i = selectedVariables['i']
+        screenPath = selectedVariables['screenPath']
+        stmPath = selectedVariables['stmPath']
+        hbiPath = selectedVariables['hbiPath']
+        dentalPath = selectedVariables['dentalPath']
+        teladoc = selectedVariables['teladoc']
         
     }
 }

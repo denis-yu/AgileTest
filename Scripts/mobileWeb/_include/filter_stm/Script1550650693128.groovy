@@ -25,33 +25,39 @@ selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_6 months'))
 
-CustomKeywords.'test.commons.click_JS'(findTestObject('mobileSanity/STM/STM Quote Page/radio_6 months'))
+CustomKeywords.'test.MobileKeywords.clickJS'(findTestObject('mobileSanity/STM/STM Quote Page/radio_6 months'))
 
-Thread.sleep(300)
+Thread.sleep(1000)
 
-CustomKeywords.'test.commons.click_JS'(findTestObject('mobileSanity/STM/STM Quote Page/duration_show_plans'))
+CustomKeywords.'test.MobileKeywords.clickJS'(findTestObject('mobileSanity/STM/STM Quote Page/duration_show_plans'))
 
 WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
 
+Thread.sleep(1000)
+
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_filters'))
 
-Thread.sleep(300)
+Thread.sleep(1000)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/i_Insurance company'))
 
-Thread.sleep(300)
+Thread.sleep(1000)
 
 String filter_carrier = ('//input[@name=\'filter[carrier]\' and @value=\'' + carrier) + '\']/following::label'
 
 println(filter_carrier)
 
-CustomKeywords.'test.commons.click_JS_ByXpath'(filter_carrier)
+CustomKeywords.'test.MobileKeywords.clickJS_ByXpath'(filter_carrier)
 
-Thread.sleep(300)
+Thread.sleep(1000)
 
 WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'), 1000)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
 
 WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
+
+Thread.sleep(1000)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

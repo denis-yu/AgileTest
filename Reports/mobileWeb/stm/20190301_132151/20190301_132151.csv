@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,,,2019-03-01 13:22:02,2019-03-01 13:22:29,27.317s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest,,,2019-03-01 13:22:03,2019-03-01 13:22:29,26.120s,FAILED
+now = new java.util.Date(),,,2019-03-01 13:22:03,2019-03-01 13:22:03,0.023s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-03-01 13:22:03,2019-03-01 13:22:03,0.013s,PASSED
+"screenPath = stmPath + ""Everest/"" + mydate + ""/""",,,2019-03-01 13:22:03,2019-03-01 13:22:03,0.019s,PASSED
+i = 0,,,2019-03-01 13:22:03,2019-03-01 13:22:03,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",,,2019-03-01 13:22:03,2019-03-01 13:22:28,24.778s,FAILED

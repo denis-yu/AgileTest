@@ -17,8 +17,10 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('../Screenshots/mobileWeb/teladoc/' + mydate) + '/')
-GlobalVariable.i=0
+GlobalVariable.screenPath = ((GlobalVariable.teladoc + mydate) + '/')
+
+GlobalVariable.i = 0
+
 'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -115,7 +117,7 @@ WebUI.waitForPageLoad(10)
 
 Thread.sleep(5000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'), 10)
 
@@ -127,11 +129,9 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/p_'))
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application'))
 
-WebUI.takeScreenshot()
-
 Thread.sleep(50000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Congratulations', false)
 

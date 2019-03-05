@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,Chrome 71.0.3578.99,hbi flow,2019-02-26 15:38:11,2019-02-26 15:44:05,5m - 54.364s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Agile One,Chrome 71.0.3578.99,Agile One application flow,2019-02-26 15:38:11,2019-02-26 15:38:44,32.306s,FAILED
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-02-26 15:38:12,2019-02-26 15:38:12,0.010s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-02-26 15:38:12,2019-02-26 15:38:12,0.005s,PASSED
+"screenPath = hbiPath + ""Agile One/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-02-26 15:38:12,2019-02-26 15:38:12,0.026s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-02-26 15:38:12,2019-02-26 15:38:12,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:38:12,2019-02-26 15:38:36,24.392s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:38:36,2019-02-26 15:38:38,1.968s,FAILED
+Thread.sleep(5000),Chrome 71.0.3578.99,,2019-02-26 15:38:38,2019-02-26 15:38:43,5.007s,PASSED
+"scrollToPosition(200, 2300)",Chrome 71.0.3578.99,,2019-02-26 15:38:43,2019-02-26 15:38:44,0.161s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Legion Limited Medical,Chrome 71.0.3578.99,Axis Legion application flow,2019-02-26 15:38:44,2019-02-26 15:41:17,2m - 33.445s,ERROR
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-02-26 15:38:44,2019-02-26 15:38:44,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-02-26 15:38:44,2019-02-26 15:38:44,0.002s,PASSED
+"screenPath = hbiPath + ""Legion Limited Medical/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-02-26 15:38:44,2019-02-26 15:38:44,0.002s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-02-26 15:38:44,2019-02-26 15:38:44,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:38:44,2019-02-26 15:39:25,40.515s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:39:25,2019-02-26 15:40:12,47.898s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Legion Limited Medical 500""))",Chrome 71.0.3578.99,,2019-02-26 15:40:12,2019-02-26 15:40:19,6.506s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-02-26 15:40:19,2019-02-26 15:40:22,3.399s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:40:22,2019-02-26 15:40:23,0.686s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Chrome 71.0.3578.99,,2019-02-26 15:40:23,2019-02-26 15:40:27,3.959s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-02-26 15:40:27,2019-02-26 15:40:30,2.652s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:40:30,2019-02-26 15:40:30,0.303s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-02-26 15:40:30,2019-02-26 15:40:37,6.992s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-02-26 15:40:37,2019-02-26 15:40:40,3.461s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:40:40,2019-02-26 15:40:41,0.339s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""legionlimitedmedical""], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:40:41,2019-02-26 15:41:17,36.353s,ERROR
+,,,,,,
+Test Cases/mobileWeb/HBI/Cardinal Choice,Chrome 71.0.3578.99,Cardinal Choice application flow,2019-02-26 15:41:17,2019-02-26 15:41:47,30.391s,FAILED
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-02-26 15:41:17,2019-02-26 15:41:17,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-02-26 15:41:17,2019-02-26 15:41:17,0.003s,PASSED
+"screenPath = hbiPath + ""Cardinal Choice/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-02-26 15:41:17,2019-02-26 15:41:17,0.002s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-02-26 15:41:17,2019-02-26 15:41:18,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:41:18,2019-02-26 15:41:42,24.785s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:41:42,2019-02-26 15:41:42,0.130s,FAILED
+Thread.sleep(5000),Chrome 71.0.3578.99,,2019-02-26 15:41:42,2019-02-26 15:41:47,5.010s,PASSED
+"scrollToPosition(200, 2300)",Chrome 71.0.3578.99,,2019-02-26 15:41:47,2019-02-26 15:41:47,0.057s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Core Shield,Chrome 71.0.3578.99,Core Shield application flow,2019-02-26 15:41:47,2019-02-26 15:44:01,2m - 13.857s,ERROR
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-02-26 15:41:48,2019-02-26 15:41:48,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-02-26 15:41:48,2019-02-26 15:41:48,0.000s,PASSED
+"screenPath = hbiPath + ""Core Shield/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-02-26 15:41:48,2019-02-26 15:41:48,0.000s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-02-26 15:41:48,2019-02-26 15:41:48,0.004s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:41:48,2019-02-26 15:42:23,34.802s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:42:23,2019-02-26 15:42:59,36.091s,PASSED
+Thread.sleep(5000),Chrome 71.0.3578.99,,2019-02-26 15:42:59,2019-02-26 15:43:04,5.001s,PASSED
+"scrollToPosition(200, 2300)",Chrome 71.0.3578.99,,2019-02-26 15:43:04,2019-02-26 15:43:04,0.043s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Core Shield""))",Chrome 71.0.3578.99,,2019-02-26 15:43:04,2019-02-26 15:43:10,6.102s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-02-26 15:43:10,2019-02-26 15:43:13,3.101s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:43:13,2019-02-26 15:43:13,0.298s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Chrome 71.0.3578.99,,2019-02-26 15:43:13,2019-02-26 15:43:16,2.884s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-02-26 15:43:16,2019-02-26 15:43:19,2.531s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:43:19,2019-02-26 15:43:19,0.282s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-02-26 15:43:19,2019-02-26 15:43:24,5.195s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-02-26 15:43:24,2019-02-26 15:43:28,3.965s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:43:28,2019-02-26 15:43:28,0.278s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""coreshield""], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-02-26 15:43:28,2019-02-26 15:44:01,32.992s,ERROR

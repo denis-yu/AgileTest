@@ -10,9 +10,14 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebDriver
 
-WebUI.takeScreenshot(GlobalVariable.screenPath + GlobalVariable.i+'.png')
-GlobalVariable.i++
+
+    Mobile.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
+
+    (GlobalVariable.i)++
+
 
