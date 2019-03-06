@@ -17,7 +17,7 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = ((GlobalVariable.teladoc + mydate) + '/')
+GlobalVariable.screenPath = (((GlobalVariable.teladocPath + 'teladoc/') + mydate) + '/')
 
 GlobalVariable.i = 0
 

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-03-06 18:08:52,2019-03-06 18:10:45,1m - 53.105s,ERROR
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 11,,2019-03-06 18:08:53,2019-03-06 18:10:45,1m - 52.256s,ERROR
+now = new java.util.Date(),Safari 11,,2019-03-06 18:08:54,2019-03-06 18:08:54,0.213s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-06 18:08:54,2019-03-06 18:08:54,0.003s,PASSED
+"screenPath = stmPath + ""Slaico/"" + mydate + ""/""",Safari 11,,2019-03-06 18:08:54,2019-03-06 18:08:54,0.002s,PASSED
+i = 0,Safari 11,,2019-03-06 18:08:54,2019-03-06 18:08:54,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-06 18:08:54,2019-03-06 18:09:05,10.969s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-03-06 18:09:05,2019-03-06 18:09:15,9.897s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-03-06 18:09:15,2019-03-06 18:09:25,10.147s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-03-06 18:09:25,2019-03-06 18:10:45,1m - 19.516s,ERROR

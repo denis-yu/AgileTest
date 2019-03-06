@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,,,2019-03-06 17:24:42,2019-03-06 17:24:43,1.550s,ERROR
+,,,,,,
+Test Cases/mobileWeb/Teladoc,,teladoc application flow,2019-03-06 17:24:42,2019-03-06 17:24:43,1.023s,ERROR
+now = new java.util.Date(),,,2019-03-06 17:24:43,2019-03-06 17:24:43,0.007s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-03-06 17:24:43,2019-03-06 17:24:43,0.002s,PASSED
+"screenPath = teladocPath + ""teladoc/"" + mydate + ""/""",,,2019-03-06 17:24:43,2019-03-06 17:24:43,0.014s,ERROR

@@ -4,7 +4,6 @@
    <name>stm</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-01T13:23:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -14,7 +13,7 @@
    <testCaseLink>
       <guid>0ad80c73-d89d-4919-b4b3-0d3fa7867f36</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Slaico</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
