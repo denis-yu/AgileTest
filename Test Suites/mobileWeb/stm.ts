@@ -67,31 +67,31 @@
    <testCaseLink>
       <guid>33ab757e-d7d0-43e4-9d45-3900f01d343a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/AdvantHealth</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f17b647e-d849-4454-acdd-3044194b04a3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b8e4d67a-4269-48b6-a6ce-50176929a209</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Everest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a67b6d5f-2094-458f-b89a-c0be86dbce6c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f8dae1c7-1bb6-4a6b-b869-79ea4ecf2cf0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>9fa11fe9-5d19-46e6-b02b-56d06380b41e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

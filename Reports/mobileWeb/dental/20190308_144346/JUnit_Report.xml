@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dental" time="85" tests="0" failures="2" errors="0">
+   <testsuite name="dental" tests="0" failures="2" errors="0" time="85" timestamp="2019-03-08 14:44:31" hostname="denisyu - 172.16.86.34" id="Test Suites/mobileWeb/dental">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/dental/20190308_144346"/>
+         <property name="logFiles" value="/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/dental/20190308_144346/execution0.log"/>
+         <property name="attachments" value="../Screenshots/mobileWeb/dental/National General/20190308_144432/0.png, ../Screenshots/mobileWeb/dental/National General/20190308_144432/1.png, ../Screenshots/mobileWeb/dental/National General/20190308_144432/2.png, ../Screenshots/mobileWeb/dental/National General/20190308_144432/3.png, /Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/dental/20190308_144346/1552027506541.png, ../Screenshots/mobileWeb/dental/Nationwide/20190308_144507/0.png"/>
+         <property name="hostName" value="denisyu - 172.16.86.34"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.16.86.34"/>
+         <property name="sessionId" value="3fea5c9f716017edaa4fdec1634ce53a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/mobileWeb/Dental/National General" classname="Test Cases/mobileWeb/Dental/National General" status="FAILED">
+         <failure type="FAILED" message="Test Cases/mobileWeb/Dental/National General FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-08 14:44:31 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Dental/National General: Test Cases/mobileWeb/Dental/National General FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:44:32 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-03-08 14:44:32 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-03-08 14:44:32 - [TEST_STEP][PASSED] - screenPath = dentalPath + "National General/" + mydate + "/": null
+
+2019-03-08 14:44:32 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-03-08 14:44:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-03-08 14:44:32 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/openWebSite: Test Cases/mobileWeb/_include/openWebSite
+
+2019-03-08 14:44:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 14:44:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 14:44:34 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 8}']
+
+2019-03-08 14:44:34 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard]']
+
+2019-03-08 14:44:34 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-08 14:44:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 14:44:40 - [TEST_STEP][PASSED] - navigateToUrl(ENV): Navigate to 'https://praetemptatus.agilehealthinsurance.com' successfully
+
+2019-03-08 14:44:45 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com' successfully
+
+2019-03-08 14:44:45 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-08 14:44:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-08 14:44:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:44:45 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-03-08 14:44:46 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-03-08 14:44:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|../Screenshots/mobileWeb/dental/National General/20190308_144432/0.png]]
+
+2019-03-08 14:44:46 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-03-08 14:44:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:44:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-03-08 14:44:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/census_dental"), ["zipcode":zipcode, "dob":"12/12/1980"], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/census_dental' successfully
+
+2019-03-08 14:44:46 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/census_dental: Test Cases/mobileWeb/_include/census_dental
+
+2019-03-08 14:44:47 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/menu")): Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-03-08 14:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-03-08 14:44:47 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-08 14:44:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:44:50 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-03-08 14:44:50 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-03-08 14:44:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|../Screenshots/mobileWeb/dental/National General/20190308_144432/1.png]]
+
+2019-03-08 14:44:51 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-03-08 14:44:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:44:51 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/nav_dental")): Object: 'Object Repository/mobileSanity/Common/side_nav/nav_dental' is clicked on
+
+2019-03-08 14:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/nav_dental' is clicked on
+
+2019-03-08 14:44:55 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-08 14:44:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-08 14:44:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:44:55 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-03-08 14:44:55 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-03-08 14:44:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|../Screenshots/mobileWeb/dental/National General/20190308_144432/2.png]]
+
+2019-03-08 14:44:55 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-03-08 14:44:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:44:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), zipcode): Keys '72209' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-03-08 14:44:56 - [MESSAGE][PASSED] - Keys '72209' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-03-08 14:44:56 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), dob): Text '12/12/1980' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-03-08 14:44:56 - [MESSAGE][PASSED] - Text '12/12/1980' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-03-08 14:44:56 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Male")): Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-03-08 14:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-03-08 14:44:56 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance")): Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-03-08 14:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-03-08 14:45:05 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-08 14:45:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-08 14:45:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:45:05 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-03-08 14:45:05 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-03-08 14:45:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|../Screenshots/mobileWeb/dental/National General/20190308_144432/3.png]]
+
+2019-03-08 14:45:06 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-03-08 14:45:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:45:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/census_dental' successfully
+
+2019-03-08 14:45:06 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-03-08 14:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-03-08 14:45:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10): Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-03-08 14:45:06 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-03-08 14:45:06 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_company")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-03-08 14:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-03-08 14:45:06 - [TEST_STEP][FAILED] - click(findTestObject("mobileSanity/Dental/filter/btn_ng")): click(findTestObject("mobileSanity/Dental/filter/btn_ng")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:45:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+[[ATTACHMENT|/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/dental/20190308_144346/1552027506541.png]]
+
+2019-03-08 14:45:06 - [MESSAGE][FAILED] - click(findTestObject("mobileSanity/Dental/filter/btn_ng")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-08 14:44:31 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Dental/National General: Test Cases/mobileWeb/Dental/National General FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/mobileWeb/Dental/Nationwide" classname="Test Cases/mobileWeb/Dental/Nationwide" status="FAILED">
+         <failure type="FAILED" message="Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-08 14:45:06 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Dental/Nationwide: Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:45:07 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-03-08 14:45:07 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-03-08 14:45:07 - [TEST_STEP][PASSED] - screenPath = dentalPath + "Nationwide/" + mydate + "/": null
+
+2019-03-08 14:45:07 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-03-08 14:45:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-03-08 14:45:07 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/openWebSite: Test Cases/mobileWeb/_include/openWebSite
+
+2019-03-08 14:45:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 14:45:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 14:45:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 14:45:07 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 8}']
+
+2019-03-08 14:45:07 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard]']
+
+2019-03-08 14:45:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 14:45:08 - [TEST_STEP][PASSED] - navigateToUrl(ENV): Navigate to 'https://praetemptatus.agilehealthinsurance.com' successfully
+
+2019-03-08 14:45:23 - [MESSAGE][PASSED] - Navigate to 'https://praetemptatus.agilehealthinsurance.com' successfully
+
+2019-03-08 14:45:23 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-08 14:45:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-08 14:45:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:45:23 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-03-08 14:45:23 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-03-08 14:45:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|../Screenshots/mobileWeb/dental/Nationwide/20190308_144507/0.png]]
+
+2019-03-08 14:45:24 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-03-08 14:45:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-03-08 14:45:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-03-08 14:45:24 - [TEST_STEP][FAILED] - callTestCase(findTestCase("mobileWeb/_include/census_dental"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("mobileWeb/_include/census_dental"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:45:24 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/_include/census_dental: Test Cases/mobileWeb/_include/census_dental FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:45:24 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/menu")): Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-03-08 14:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-03-08 14:45:24 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-03-08 14:45:28 - [TEST_STEP][FAILED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:45:28 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+
+2019-03-08 14:45:28 - [MESSAGE][FAILED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)
+
+
+2019-03-08 14:45:28 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/mobileWeb/_include/census_dental' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/mobileWeb/_include/census_dental' failed)
+
+2019-03-08 14:45:28 - [MESSAGE][FAILED] - callTestCase(findTestCase("mobileWeb/_include/census_dental"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-08 14:45:06 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Dental/Nationwide: Test Cases/mobileWeb/Dental/Nationwide FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' (Root cause: java.lang.IllegalArgumentException: Cannot find test case 'Test Cases/mobileWeb/_include/get_screenshot'.
+Reason:
+'org.dom4j.DocumentException: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system) Nested exception: /Users/denisyu/workplace/test/AgileTest/Test Cases/mobileWeb/_include/get_screenshot.tc (Too many open files in system)')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at census_dental.run(census_dental:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Nationwide.run(Nationwide:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-08 14:44:31 - [TEST_SUITE][FAILED] - dental: Test Cases/mobileWeb/Dental/National General FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-08 14:44:31 - [TEST_SUITE][FAILED] - dental: Test Cases/mobileWeb/Dental/National General FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mobileSanity/Dental/filter/btn_ng' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.43.600229 (3fae4d0cda5334b4f533bede5a4787f7b832d052),platform=Mac OS X 10.14.2 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Deniss-MacBook-Pro.local', ip: 'fe80:0:0:0:18db:5ed3:b3d6:93e7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600229 (3fae4d0cda5334..., userDataDir: /var/folders/95/4qsvf70n5s5...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54212}, handlesAlerts: true, hasTouchScreen: true, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: true, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: f0a7293e383933dfea6502b3e8e5ef81)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at National General.run(National General:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552027436164.run(TempTestSuite1552027436164.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Safari 11,,2019-03-08 14:47:30,2019-03-08 14:47:54,23.604s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Safari 11,teladoc application flow,2019-03-08 14:47:30,2019-03-08 14:47:53,23.021s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.028s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.004s,PASSED
+"screenPath = teladocPath + ""teladoc/"" + mydate + ""/""",Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.022s,PASSED
+i = 0,Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,open site,2019-03-08 14:47:31,2019-03-08 14:47:40,8.931s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:47:40,2019-03-08 14:47:41,0.588s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Safari 11,click menu,2019-03-08 14:47:41,2019-03-08 14:47:41,0.131s,PASSED
+Thread.sleep(3000),Safari 11,wait time,2019-03-08 14:47:41,2019-03-08 14:47:44,3.020s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:47:44,2019-03-08 14:47:45,1.414s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Safari 11,click nav teladoc,2019-03-08 14:47:45,2019-03-08 14:47:53,7.937s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 14:47:53,2019-03-08 14:47:53,0.079s,FAILED

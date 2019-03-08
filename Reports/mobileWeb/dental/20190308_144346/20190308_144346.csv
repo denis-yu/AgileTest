@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dental,Safari 11,,2019-03-08 14:44:31,2019-03-08 14:45:56,1m - 25.815s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,Safari 11,Dental - National General application flow,2019-03-08 14:44:31,2019-03-08 14:45:06,35.275s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 14:44:32,2019-03-08 14:44:32,0.005s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:44:32,2019-03-08 14:44:32,0.004s,PASSED
+"screenPath = dentalPath + ""National General/"" + mydate + ""/""",Safari 11,,2019-03-08 14:44:32,2019-03-08 14:44:32,0.039s,PASSED
+i = 0,Safari 11,,2019-03-08 14:44:32,2019-03-08 14:44:32,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:44:32,2019-03-08 14:44:46,14.115s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [""zipcode"":zipcode, ""dob"":""12/12/1980""], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:44:46,2019-03-08 14:45:06,19.486s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-03-08 14:45:06,2019-03-08 14:45:06,0.078s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-03-08 14:45:06,2019-03-08 14:45:06,0.058s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-03-08 14:45:06,2019-03-08 14:45:06,0.090s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_ng""))",Safari 11,,2019-03-08 14:45:06,2019-03-08 14:45:06,0.449s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,Safari 11,,2019-03-08 14:45:06,2019-03-08 14:45:28,21.176s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 14:45:07,2019-03-08 14:45:07,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:45:07,2019-03-08 14:45:07,0.001s,PASSED
+"screenPath = dentalPath + ""Nationwide/"" + mydate + ""/""",Safari 11,,2019-03-08 14:45:07,2019-03-08 14:45:07,0.000s,PASSED
+i = 0,Safari 11,,2019-03-08 14:45:07,2019-03-08 14:45:07,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:45:07,2019-03-08 14:45:24,17.480s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:45:24,2019-03-08 14:45:28,3.338s,FAILED

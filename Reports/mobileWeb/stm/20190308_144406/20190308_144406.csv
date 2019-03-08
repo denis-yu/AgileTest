@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-03-08 14:47:17,2019-03-08 14:47:26,9.355s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 11,,2019-03-08 14:47:17,2019-03-08 14:47:26,8.960s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 14:47:18,2019-03-08 14:47:18,0.075s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:47:18,2019-03-08 14:47:18,0.016s,PASSED
+"screenPath = stmPath + ""Slaico/"" + mydate + ""/""",Safari 11,,2019-03-08 14:47:18,2019-03-08 14:47:18,0.002s,PASSED
+i = 0,Safari 11,,2019-03-08 14:47:18,2019-03-08 14:47:18,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 14:47:18,2019-03-08 14:47:25,7.321s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-03-08 14:47:25,2019-03-08 14:47:26,1.017s,FAILED
