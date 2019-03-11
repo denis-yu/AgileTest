@@ -27,6 +27,8 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 
 WebUI.sendKeys(findTestObject('mobileSanity/Dental/census/input_Location_zip-input'), zipcode)
 
+Thread.sleep(500)
+
 WebUI.setText(findTestObject('mobileSanity/Dental/census/input_Date of Birth_dob-0'), dob)
 
 WebUI.click(findTestObject('mobileSanity/Dental/census/label_Male'))

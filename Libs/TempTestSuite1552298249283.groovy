@@ -29,7 +29,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/hbi/20190308_144356/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/denisyu/workplace/test/AgileTest/Reports/mobileWeb/hbi/20190311_175719/execution.properties")
 
 TestCaseMain.beforeStart()
 

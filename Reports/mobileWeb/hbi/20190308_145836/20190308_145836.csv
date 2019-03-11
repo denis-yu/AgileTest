@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,Safari 11,hbi flow,2019-03-08 14:59:09,2019-03-08 15:05:38,6m - 29.060s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Agile One,Safari 11,Agile One application flow,2019-03-08 14:59:09,2019-03-08 14:59:52,42.491s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 14:59:10,2019-03-08 14:59:10,0.025s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:59:10,2019-03-08 14:59:10,0.003s,PASSED
+"screenPath = hbiPath + ""Agile One/"" + mydate + ""/""",Safari 11,,2019-03-08 14:59:10,2019-03-08 14:59:10,0.049s,PASSED
+i = 0,Safari 11,,2019-03-08 14:59:10,2019-03-08 14:59:10,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 14:59:10,2019-03-08 14:59:20,9.956s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 14:59:20,2019-03-08 14:59:26,5.537s,FAILED
+Thread.sleep(5000),Safari 11,,2019-03-08 14:59:26,2019-03-08 14:59:31,5.002s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-03-08 14:59:31,2019-03-08 14:59:31,0.026s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Agile One 750""))",Safari 11,,2019-03-08 14:59:31,2019-03-08 14:59:52,21.161s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Legion Limited Medical,Safari 11,Axis Legion application flow,2019-03-08 14:59:52,2019-03-08 15:00:02,10.182s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 14:59:52,2019-03-08 14:59:52,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:59:52,2019-03-08 14:59:52,0.000s,PASSED
+"screenPath = hbiPath + ""Legion Limited Medical/"" + mydate + ""/""",Safari 11,,2019-03-08 14:59:52,2019-03-08 14:59:52,0.001s,PASSED
+i = 0,Safari 11,,2019-03-08 14:59:52,2019-03-08 14:59:52,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 14:59:52,2019-03-08 14:59:57,5.336s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 14:59:57,2019-03-08 15:00:02,4.651s,FAILED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Legion Limited Medical 500""))",Safari 11,,2019-03-08 15:00:02,2019-03-08 15:00:02,0.028s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Cardinal Choice,Safari 11,Cardinal Choice application flow,2019-03-08 15:00:02,2019-03-08 15:00:38,36.237s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 15:00:02,2019-03-08 15:00:02,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 15:00:02,2019-03-08 15:00:02,0.001s,PASSED
+"screenPath = hbiPath + ""Cardinal Choice/"" + mydate + ""/""",Safari 11,,2019-03-08 15:00:02,2019-03-08 15:00:02,0.000s,PASSED
+i = 0,Safari 11,,2019-03-08 15:00:02,2019-03-08 15:00:02,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:00:02,2019-03-08 15:00:08,5.853s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:00:08,2019-03-08 15:00:12,3.926s,FAILED
+Thread.sleep(5000),Safari 11,,2019-03-08 15:00:12,2019-03-08 15:00:17,5.012s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-03-08 15:00:17,2019-03-08 15:00:17,0.035s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Cardinal Choice""))",Safari 11,,2019-03-08 15:00:17,2019-03-08 15:00:38,21.085s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Core Shield,Safari 11,Core Shield application flow,2019-03-08 15:00:38,2019-03-08 15:02:48,2m - 9.560s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 15:00:39,2019-03-08 15:00:39,0.004s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 15:00:39,2019-03-08 15:00:39,0.002s,PASSED
+"screenPath = hbiPath + ""Core Shield/"" + mydate + ""/""",Safari 11,,2019-03-08 15:00:39,2019-03-08 15:00:39,0.000s,PASSED
+i = 0,Safari 11,,2019-03-08 15:00:39,2019-03-08 15:00:39,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:00:39,2019-03-08 15:00:45,5.966s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:00:45,2019-03-08 15:00:52,7.643s,PASSED
+Thread.sleep(5000),Safari 11,,2019-03-08 15:00:52,2019-03-08 15:00:57,5.003s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-03-08 15:00:57,2019-03-08 15:00:58,0.281s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Core Shield""))",Safari 11,,2019-03-08 15:00:58,2019-03-08 15:02:15,1m - 17.250s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:02:15,2019-03-08 15:02:15,0.053s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:02:15,2019-03-08 15:02:16,0.873s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-03-08 15:02:16,2019-03-08 15:02:17,1.472s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:02:17,2019-03-08 15:02:17,0.045s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:02:17,2019-03-08 15:02:18,0.911s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-03-08 15:02:18,2019-03-08 15:02:20,1.711s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:02:20,2019-03-08 15:02:20,0.213s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:02:20,2019-03-08 15:02:21,0.837s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""coreshield""], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:02:21,2019-03-08 15:02:48,26.921s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Agile Secure,Safari 11,,2019-03-08 15:02:48,2019-03-08 15:04:41,1m - 53.278s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 15:02:48,2019-03-08 15:02:48,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 15:02:48,2019-03-08 15:02:48,0.000s,PASSED
+"screenPath = hbiPath + ""Agile Secure/"" + mydate + ""/""",Safari 11,,2019-03-08 15:02:48,2019-03-08 15:02:48,0.000s,PASSED
+i = 0,Safari 11,,2019-03-08 15:02:48,2019-03-08 15:02:48,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:02:48,2019-03-08 15:03:53,1m - 4.777s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""08701""], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:03:53,2019-03-08 15:04:04,11.186s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-03-08 15:04:04,2019-03-08 15:04:09,5.439s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:04:09,2019-03-08 15:04:09,0.007s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:04:09,2019-03-08 15:04:10,0.442s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-03-08 15:04:10,2019-03-08 15:04:12,2.272s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:04:12,2019-03-08 15:04:12,0.019s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:04:12,2019-03-08 15:04:13,0.904s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""agilesecure""], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:04:13,2019-03-08 15:04:41,28.084s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Fixed Cash Benefit,Safari 11,,2019-03-08 15:04:41,2019-03-08 15:05:38,56.644s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-08 15:04:41,2019-03-08 15:04:41,0.003s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 15:04:41,2019-03-08 15:04:41,0.000s,PASSED
+"screenPath = hbiPath + ""Fixed Cash Benefit/"" + mydate + ""/""",Safari 11,,2019-03-08 15:04:41,2019-03-08 15:04:41,0.000s,PASSED
+i = 0,Safari 11,,2019-03-08 15:04:41,2019-03-08 15:04:41,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:04:41,2019-03-08 15:04:46,5.237s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""72209""], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:04:46,2019-03-08 15:04:59,12.265s,PASSED
+Thread.sleep(5000),Safari 11,,2019-03-08 15:04:59,2019-03-08 15:05:04,5.004s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-03-08 15:05:04,2019-03-08 15:05:04,0.021s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Fixed Cash Benefit""))",Safari 11,,2019-03-08 15:05:04,2019-03-08 15:05:05,1.423s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:05:05,2019-03-08 15:05:05,0.031s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:05:05,2019-03-08 15:05:06,0.919s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-03-08 15:05:06,2019-03-08 15:05:07,1.344s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:05:07,2019-03-08 15:05:07,0.024s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:05:07,2019-03-08 15:05:08,0.415s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-03-08 15:05:08,2019-03-08 15:05:10,1.616s,PASSED
+waitForPageLoad(10),Safari 11,,2019-03-08 15:05:10,2019-03-08 15:05:10,0.034s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-08 15:05:10,2019-03-08 15:05:11,1.150s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""FixedCashBenefit""], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-08 15:05:11,2019-03-08 15:05:38,27.017s,FAILED
