@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zi
 
 Thread.sleep(500)
 
-WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03/03/1987')
+WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03031987')
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
 

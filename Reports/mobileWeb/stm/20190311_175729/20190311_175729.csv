@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-03-11 18:03:38,2019-03-11 18:13:45,10m - 6.903s,ERROR
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 11,,2019-03-11 18:03:39,2019-03-11 18:05:35,1m - 55.993s,ERROR
+now = new java.util.Date(),Safari 11,,2019-03-11 18:03:40,2019-03-11 18:03:40,0.086s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:03:40,2019-03-11 18:03:40,0.003s,PASSED
+"screenPath = stmPath + ""Slaico/"" + mydate + ""/""",Safari 11,,2019-03-11 18:03:40,2019-03-11 18:03:40,0.001s,PASSED
+i = 0,Safari 11,,2019-03-11 18:03:40,2019-03-11 18:03:40,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:03:40,2019-03-11 18:03:52,12.029s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:03:52,2019-03-11 18:04:07,15.547s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:04:07,2019-03-11 18:04:18,10.352s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:04:18,2019-03-11 18:05:35,1m - 17.253s,ERROR
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth,Safari 11,,2019-03-11 18:05:35,2019-03-11 18:05:56,21.031s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-11 18:05:36,2019-03-11 18:05:36,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:05:36,2019-03-11 18:05:36,0.000s,PASSED
+"screenPath = stmPath + ""AdvantHealth/"" + mydate + ""/""",Safari 11,,2019-03-11 18:05:36,2019-03-11 18:05:36,0.000s,PASSED
+i = 0,Safari 11,,2019-03-11 18:05:36,2019-03-11 18:05:36,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:05:36,2019-03-11 18:05:42,6.361s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:05:42,2019-03-11 18:05:52,10.409s,PASSED
+Thread.sleep(2000),Safari 11,,2019-03-11 18:05:52,2019-03-11 18:05:54,2.005s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 11,,2019-03-11 18:05:54,2019-03-11 18:05:55,0.327s,PASSED
+Thread.sleep(500),Safari 11,,2019-03-11 18:05:55,2019-03-11 18:05:55,0.504s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/i_Insurance company""))",Safari 11,,2019-03-11 18:05:55,2019-03-11 18:05:56,0.733s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Companion,Safari 11,,2019-03-11 18:05:56,2019-03-11 18:08:31,2m - 35.391s,PASSED
+now = new java.util.Date(),Safari 11,,2019-03-11 18:05:56,2019-03-11 18:05:56,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:05:56,2019-03-11 18:05:56,0.001s,PASSED
+"screenPath = stmPath + ""Companion/"" + mydate + ""/""",Safari 11,,2019-03-11 18:05:56,2019-03-11 18:05:56,0.001s,PASSED
+i = 0,Safari 11,,2019-03-11 18:05:56,2019-03-11 18:05:56,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:05:56,2019-03-11 18:06:04,8.012s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:06:04,2019-03-11 18:06:15,10.820s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""pivotcompanion""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:06:15,2019-03-11 18:06:26,10.359s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""pivot-health-choice""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:06:26,2019-03-11 18:06:29,2.887s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:06:29,2019-03-11 18:06:35,6.862s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:06:35,2019-03-11 18:08:31,1m - 55.920s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest,Safari 11,,2019-03-11 18:08:31,2019-03-11 18:08:47,15.568s,FAILED
+now = new java.util.Date(),Safari 11,,2019-03-11 18:08:32,2019-03-11 18:08:32,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:08:32,2019-03-11 18:08:32,0.003s,PASSED
+"screenPath = stmPath + ""Everest/"" + mydate + ""/""",Safari 11,,2019-03-11 18:08:32,2019-03-11 18:08:32,0.001s,PASSED
+i = 0,Safari 11,,2019-03-11 18:08:32,2019-03-11 18:08:32,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:08:32,2019-03-11 18:08:37,5.054s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""83709""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:08:37,2019-03-11 18:08:45,8.487s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:08:45,2019-03-11 18:08:47,1.558s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest Prime,Safari 11,,2019-03-11 18:08:47,2019-03-11 18:10:33,1m - 46.293s,ERROR
+now = new java.util.Date(),Safari 11,,2019-03-11 18:08:47,2019-03-11 18:08:47,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:08:47,2019-03-11 18:08:47,0.000s,PASSED
+"screenPath = stmPath + ""Everest Prime/"" + mydate + ""/""",Safari 11,,2019-03-11 18:08:47,2019-03-11 18:08:47,0.004s,PASSED
+i = 0,Safari 11,,2019-03-11 18:08:47,2019-03-11 18:08:47,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:08:47,2019-03-11 18:08:52,4.622s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:08:52,2019-03-11 18:09:04,12.278s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:09:04,2019-03-11 18:09:15,10.708s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:09:15,2019-03-11 18:10:33,1m - 18.434s,ERROR
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 11,,2019-03-11 18:10:33,2019-03-11 18:12:04,1m - 31.254s,ERROR
+now = new java.util.Date(),Safari 11,,2019-03-11 18:10:33,2019-03-11 18:10:33,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:10:33,2019-03-11 18:10:33,0.000s,PASSED
+"screenPath = stmPath + ""LifeShield/"" + mydate + ""/""",Safari 11,,2019-03-11 18:10:33,2019-03-11 18:10:33,0.000s,PASSED
+i = 0,Safari 11,,2019-03-11 18:10:33,2019-03-11 18:10:33,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:10:33,2019-03-11 18:10:39,5.466s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:10:39,2019-03-11 18:10:48,8.731s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""lifeshield""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:10:48,2019-03-11 18:12:04,1m - 16.873s,ERROR
+,,,,,,
+Test Cases/mobileWeb/stm/NationalGeneral,Safari 11,,2019-03-11 18:12:04,2019-03-11 18:13:45,1m - 40.740s,ERROR
+now = new java.util.Date(),Safari 11,,2019-03-11 18:12:05,2019-03-11 18:12:05,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-11 18:12:05,2019-03-11 18:12:05,0.001s,PASSED
+"screenPath = stmPath + ""National General/"" + mydate + ""/""",Safari 11,,2019-03-11 18:12:05,2019-03-11 18:12:05,0.000s,PASSED
+i = 0,Safari 11,,2019-03-11 18:12:05,2019-03-11 18:12:05,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:12:05,2019-03-11 18:12:10,5.410s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-03-11 18:12:10,2019-03-11 18:12:19,9.254s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:12:19,2019-03-11 18:12:29,9.473s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2019-03-11 18:12:29,2019-03-11 18:13:45,1m - 16.424s,ERROR
