@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[2]/div[3]/div/div/form/ul/li/div/label[count(. | //label[contains(@for, 'i-carrier-pivotcompanion')]) = count(//label[contains(@for, 'i-carrier-pivotcompanion')])]</value>
+         <value>//input[@name='filter[carrier]' and @value='pivotcompanion']/following::label</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <value>c-faux-check-v3__radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>for</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/div/div/form/ul/li/div/label</value>
+      <value>//input[@name='filter[carrier]' and @value='pivotcompanion']/following::label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

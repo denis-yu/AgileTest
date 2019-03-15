@@ -4,6 +4,7 @@
    <name>hbi</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-02-26T17:48:54</lastRun>
    <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -33,5 +34,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Core Shield</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41f49251-bcd0-451f-b407-9a5e3448dbdc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Agile Secure</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>779aaee6-e141-4815-86ed-f838de597a0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Fixed Cash Benefit</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

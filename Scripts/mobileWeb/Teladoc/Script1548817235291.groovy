@@ -17,8 +17,10 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = (('../Screenshots/mobileWeb/teladoc/' + mydate) + '/')
-GlobalVariable.i=0
+GlobalVariable.screenPath = (((GlobalVariable.teladocPath + 'teladoc/') + mydate) + '/')
+
+GlobalVariable.i = 0
+
 'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -50,6 +52,8 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), '35215')
 
 'set dob'
+Thread.sleep(500)
+
 WebUI.setText(findTestObject('mobileSanity/Teladoc/census/input_Date of Birth_dob-0'), '12/12/1980')
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
@@ -115,7 +119,7 @@ WebUI.waitForPageLoad(10)
 
 Thread.sleep(5000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'), 10)
 
@@ -127,11 +131,9 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/p_'))
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application'))
 
-WebUI.takeScreenshot()
-
 Thread.sleep(50000)
 
-WebUI.takeScreenshot()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Congratulations', false)
 

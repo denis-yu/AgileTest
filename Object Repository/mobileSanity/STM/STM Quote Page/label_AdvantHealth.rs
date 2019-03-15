@@ -6,18 +6,18 @@
    <elementGuidId>40002c52-dc79-4eb8-af83-654507e20ab7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='js-carrier-collapse-032091448480255313']/form/ul/li/div/label</value>
+         <key>BASIC</key>
+         <value>//input[@name='filter[carrier]' and @value='advanthealth']/following::label</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[2]/div[3]/div/div/form/ul/li/div/label</value>
+         <key>XPATH</key>
+         <value>//div[@id='js-carrier-collapse-032091448480255313']/form/ul/li/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[2]/div[3]/div/div/form/ul/li/div/label</value>
+      <value>//input[@name='filter[carrier]' and @value='advanthealth']/following::label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

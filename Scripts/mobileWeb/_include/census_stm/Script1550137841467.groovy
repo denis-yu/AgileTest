@@ -23,11 +23,15 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 
 WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zip-input'), zipcode)
 
-WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03/03/1987')
+Thread.sleep(500)
+
+WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03031987')
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans'))
 
 WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

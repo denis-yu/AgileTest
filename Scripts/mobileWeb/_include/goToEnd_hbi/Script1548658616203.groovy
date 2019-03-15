@@ -71,7 +71,7 @@ WebUI.waitForPageLoad(10)
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'when \'addon\' popup present, click \'no thanks\''
-if (CustomKeywords.'test.commons.isElementPresent'(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {
+if (CustomKeywords.'test.MobileKeywords.isElementPresent_Web'(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {
     WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'))
 }
 

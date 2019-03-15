@@ -77,6 +77,12 @@
       <testCaseId>Test Cases/mobileWeb/stm/Companion</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>b8e4d67a-4269-48b6-a6ce-50176929a209</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/Everest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a67b6d5f-2094-458f-b89a-c0be86dbce6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -117,11 +123,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f931bb38-4a8f-49eb-9683-3946aa029573</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/UnitedHealthOne</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

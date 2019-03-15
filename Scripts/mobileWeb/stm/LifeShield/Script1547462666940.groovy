@@ -13,33 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'LifeShield/' + mydate + '/'
-GlobalVariable.i=0
+GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'LifeShield/') + mydate) + '/')
+
+GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
+WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [('zipcode') : '60602'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zip-input'), '60602')
-
-WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'), '03/03/1987')
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans'))
-
-Thread.sleep(4000)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_LifeShield Flex 5K208K750K'))
-
-Thread.sleep(2000)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToDetail_stm'), [('carrier') : 'lifeshield'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan'), 0)
 
@@ -51,5 +37,5 @@ WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM Apply Page/a_St
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/a_Start Secure Application'))
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
 
