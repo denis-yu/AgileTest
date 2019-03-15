@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-teladoc,Safari 11,,2019-03-08 14:47:30,2019-03-08 14:47:51,20.840s,FAILED
-,,,,,,
-Test Cases/mobileWeb/Teladoc,Safari 11,teladoc application flow,2019-03-08 14:47:30,2019-03-08 14:47:51,20.298s,FAILED
-now = new java.util.Date(),Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.025s,PASSED
-"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.003s,PASSED
-"screenPath = teladocPath + ""teladoc/"" + mydate + ""/""",Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.038s,PASSED
-i = 0,Safari 11,,2019-03-08 14:47:31,2019-03-08 14:47:31,0.003s,PASSED
-"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,open site,2019-03-08 14:47:31,2019-03-08 14:47:51,19.529s,FAILED

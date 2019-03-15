@@ -25,8 +25,25 @@ import java.nio.file.Path
 import java.nio.file.Paths
 import javax.imageio.ImageIO
 
+// set display size similar to iPhone 5.5 extended
 
-    WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
-    (GlobalVariable.i)++
+//WebUI.setViewPortSize(375, 667)
+WebDriver driver = DriverFactory.getWebDriver()
+// take screenshot of entire web page
+void takeEntirePage(WebDriver webDriver, File file, Integer timeout = 300) {
+	Screenshot screenshot = new AShot().
+			coordsProvider(new WebDriverCoordsProvider()).
+			shootingStrategy(ShootingStrategies.viewportPasting(timeout)).
+			takeScreenshot(webDriver)
+	ImageIO.write(screenshot.getImage(), "PNG", file)
+}
+String fileName = (GlobalVariable.screenPath)+(GlobalVariable.i)+'.png'
+File out = new File(fileName)
+WebUI.takeScreenshot((GlobalVariable.screenPath +"image"+ GlobalVariable.i) + '.png')
+//Path pngFile = Paths.get(fileName)
+takeEntirePage(driver, out, 500)
+
+	  (GlobalVariable.i)++
+
 
 
