@@ -23,6 +23,7 @@ GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(2000)
