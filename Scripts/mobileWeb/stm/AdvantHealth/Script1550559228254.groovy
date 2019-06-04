@@ -13,11 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
+//now = new Date()
+//
+//mydate = now.format('yyyyMMdd_HHmmss')
 
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'AdvantHealth/') + mydate) + '/')
+//GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'AdvantHealth/') + mydate) + '/')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'stm',('carrierName') : 'AdvantHealth'], FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 

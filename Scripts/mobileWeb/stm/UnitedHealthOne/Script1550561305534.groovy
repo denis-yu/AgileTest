@@ -14,11 +14,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-now = new Date()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'stm',('carrierName') : 'UnitedHealthOne'], FailureHandling.CONTINUE_ON_FAILURE)
 
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath =  GlobalVariable.stmPath+ 'UniteHealthOne/' + mydate + '/'
 GlobalVariable.i=0
 
 WebUI.openBrowser('')

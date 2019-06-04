@@ -12,22 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import com.kms.katalon.core.webui.driver.WebUIDriverType as DriverType
+import com.kms.katalon.core.webui.driver.DriverFactory as DF
+import com.kms.katalon.core.webui.util.WebDriverPropertyUtil as property
+import com.kms.katalon.core.configuration.RunConfiguration as RS
 
+
+//println(DF.getExecutedBrowser().getPropertyKey()+":"+DF.getExecutedBrowser().getPropertyValue())
+//println(property.CHROME_MOBILE_EMULATION_PROPERTY_KEY+":"+property.CHROME_CAPABILITIES)
+Map m = RS.getExecutionProperties()
+String deviceName = m.get("drivers").get("preferences").get("WebUI").get("mobileEmulation").get("deviceName")
+println  deviceName
 now = new Date()
-
 mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = ((GlobalVariable.stmPath+'AdvantHealth_Plan_3/' + mydate) + '/')
-GlobalVariable.i=0
-WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/census_stm'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/filter_stm'), [('carrier') : 'advanthealth'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToDetail_stm'), [('carrier') : 'advanthealth-plan-3'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
-
+GlobalVariable.screenPath = (((GlobalVariable.screenPath +deviceName+ '/'+productLine+'/'+carrierName+'/') + mydate) + '/')
+println GlobalVariable.screenPath 
