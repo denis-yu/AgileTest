@@ -4,17 +4,30 @@
    <name>a_Show Plans</name>
    <tag></tag>
    <elementGuidId>6c7e5d75-520a-43f6-b6a2-40a4d535648e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//main/div[4]/div/div[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@type='button'])[2]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -28,25 +41,25 @@
       <value>js-show-plans c-filter-modal-v3__show-plans</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Show Plans</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-duration-modal&quot;)/div[@class=&quot;js-modal c-filter-modal-v3 l-filter-modal-v3&quot;]/div[@class=&quot;c-filter-modal-v3__footer&quot;]/a[@class=&quot;js-show-plans c-filter-modal-v3__show-plans&quot;]</value>
+      <value>//main/div[4]/div/div[3]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -4,17 +4,27 @@
    <name>button_filters</name>
    <tag></tag>
    <elementGuidId>0c8aca18-a658-4594-9001-b91e1adb63ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='js-header-filter-toggles']/ul/li[3]/button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -28,18 +38,18 @@
       <value>js-toggle-others c-filter-toggle-v3 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>filters </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-header-filter-toggles&quot;)/ul[@class=&quot;l-inline-list&quot;]/li[@class=&quot;l-inline-list__item&quot;]/button[@class=&quot;js-toggle-others c-filter-toggle-v3&quot;]</value>
+      <value>//div[@id='js-header-filter-toggles']/ul/li[3]/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
