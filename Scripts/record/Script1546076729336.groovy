@@ -112,23 +112,23 @@ WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/label_AdvantHealth'))
+WebUI.click(findTestObject('STM Quote Page/label_AdvantHealth'))
 
 WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_AdvantHealth Plan 2 2.5K206.'))
+WebUI.click(findTestObject('STM Quote Page/a_AdvantHealth Plan 2 2.5K206.'))
 
 WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/span_ Add (1)'))
+WebUI.click(findTestObject('STM Apply Page/span_ Add (1)'))
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/button_ AddRemove'))
+WebUI.click(findTestObject('STM Apply Page/button_ AddRemove'))
 
 WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
+WebUI.click(findTestObject('Object Repository/other/Page_App Page 1/label_By checking this box I u'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_Continue to Application'))
+WebUI.click(findTestObject('Object Repository/other/Page_App Page 1/button_Continue to Application'))
 
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
+WebUI.click(findTestObject('Object Repository/other/Page_App Page 1/label_By checking this box I u'))
 

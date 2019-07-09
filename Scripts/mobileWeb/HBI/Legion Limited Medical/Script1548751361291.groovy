@@ -13,11 +13,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi',('carrierName') : 'Legion Limited Medical'], FailureHandling.CONTINUE_ON_FAILURE)
 
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath =  GlobalVariable.hbiPath+ 'Legion Limited Medical/' + mydate + '/'
 GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)

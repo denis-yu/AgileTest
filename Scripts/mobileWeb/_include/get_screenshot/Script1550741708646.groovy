@@ -14,10 +14,23 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebDriver
+import ru.yandex.qatools.ashot.AShot
+import ru.yandex.qatools.ashot.Screenshot
+import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies
 
+import java.io.File
+import java.nio.file.Files
+import java.nio.file.Path
+import java.nio.file.Paths
+import javax.imageio.ImageIO
+
+<<<<<<< HEAD
+    WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
+=======
+>>>>>>> iMac
 
     WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
-
     (GlobalVariable.i)++
 
 

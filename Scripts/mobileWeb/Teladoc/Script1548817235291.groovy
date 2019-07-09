@@ -13,16 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
 
-mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = ((GlobalVariable.teladoc + mydate) + '/')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'teladoc',('carrierName') : 'Teladoc'], FailureHandling.CONTINUE_ON_FAILURE)
+
 
 GlobalVariable.i = 0
 
 'open site'
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -52,7 +53,9 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), '35215')
 
 'set dob'
-WebUI.setText(findTestObject('mobileSanity/Teladoc/census/input_Date of Birth_dob-0'), '12/12/1980')
+Thread.sleep(500)
+
+WebUI.setText(findTestObject('mobileSanity/Teladoc/census/input_Date of Birth_dob-0'), '12121980')
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 
