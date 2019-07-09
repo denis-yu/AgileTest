@@ -19,15 +19,18 @@ mydate = now.format('yyyyMMdd_HHmmss')
 
 GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'Slaico/') + mydate) + '/')
 
+
+
 GlobalVariable.i = 0
 
 WebUI.openBrowser('')
+
 
 WebUI.navigateToUrl(GlobalVariable.ENV)
 
 WebUI.waitForPageLoad(10)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_wholePage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

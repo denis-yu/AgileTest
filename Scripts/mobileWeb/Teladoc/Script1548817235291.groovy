@@ -54,7 +54,7 @@ WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-in
 'set dob'
 Thread.sleep(500)
 
-WebUI.setText(findTestObject('mobileSanity/Teladoc/census/input_Date of Birth_dob-0'), '12/12/1980')
+WebUI.setText(findTestObject('mobileSanity/Teladoc/census/input_Date of Birth_dob-0'), '12121980')
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 
