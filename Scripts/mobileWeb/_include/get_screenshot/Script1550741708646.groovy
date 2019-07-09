@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebDriver
 
 
-    Mobile.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
+    WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
 
     (GlobalVariable.i)++
 

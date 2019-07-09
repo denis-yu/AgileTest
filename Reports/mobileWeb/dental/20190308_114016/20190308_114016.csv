@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dental,,,2019-03-08 11:40:23,2019-03-08 11:41:12,48.775s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,,Dental - National General application flow,2019-03-08 11:40:24,2019-03-08 11:40:50,25.293s,FAILED
+now = new java.util.Date(),,,2019-03-08 11:40:25,2019-03-08 11:40:25,0.091s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-03-08 11:40:25,2019-03-08 11:40:25,0.017s,PASSED
+"screenPath = dentalPath + ""National General/"" + mydate + ""/""",,,2019-03-08 11:40:25,2019-03-08 11:40:25,0.016s,PASSED
+i = 0,,,2019-03-08 11:40:25,2019-03-08 11:40:25,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",,,2019-03-08 11:40:25,2019-03-08 11:40:49,24.085s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,,,2019-03-08 11:40:50,2019-03-08 11:41:11,21.728s,FAILED
+now = new java.util.Date(),,,2019-03-08 11:40:50,2019-03-08 11:40:50,0.112s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-03-08 11:40:50,2019-03-08 11:40:50,0.003s,PASSED
+"screenPath = dentalPath + ""Nationwide/"" + mydate + ""/""",,,2019-03-08 11:40:50,2019-03-08 11:40:50,0.001s,PASSED
+i = 0,,,2019-03-08 11:40:50,2019-03-08 11:40:50,0.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",,,2019-03-08 11:40:50,2019-03-08 11:41:11,21.182s,FAILED

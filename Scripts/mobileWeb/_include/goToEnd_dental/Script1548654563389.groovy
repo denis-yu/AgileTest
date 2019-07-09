@@ -33,6 +33,8 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page1/a_Continue to Step 2 -
 
 WebUI.waitForPageLoad(10)
 
+Thread.sleep(2000)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'when carrier is \'usa\', accept the membership.'
@@ -61,6 +63,8 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_I Accept Authori
 WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

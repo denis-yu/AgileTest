@@ -20,8 +20,10 @@ now = new Date()
 
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = ((GlobalVariable.dentalPath+'National General/' + mydate) + '/')
-GlobalVariable.i=0
+GlobalVariable.screenPath = (((GlobalVariable.dentalPath + 'National General/') + mydate) + '/')
+
+GlobalVariable.i = 0
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_dental'), [('zipcode') : zipcode, ('dob') : '12/12/1980'], FailureHandling.STOP_ON_FAILURE)
@@ -49,6 +51,8 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

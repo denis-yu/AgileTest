@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dental,Chrome 71.0.3578.99,,2019-03-08 11:43:24,2019-03-08 11:50:03,6m - 38.565s,PASSED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,Chrome 71.0.3578.99,Dental - National General application flow,2019-03-08 11:43:25,2019-03-08 11:46:39,3m - 14.761s,PASSED
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-03-08 11:43:26,2019-03-08 11:43:26,0.015s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-03-08 11:43:26,2019-03-08 11:43:26,0.006s,PASSED
+"screenPath = dentalPath + ""National General/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-03-08 11:43:26,2019-03-08 11:43:26,0.019s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-03-08 11:43:26,2019-03-08 11:43:26,0.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:43:26,2019-03-08 11:44:22,56.657s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [""zipcode"":zipcode, ""dob"":""12/12/1980""], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:44:22,2019-03-08 11:45:06,44.120s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-03-08 11:45:06,2019-03-08 11:45:07,0.530s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Chrome 71.0.3578.99,,2019-03-08 11:45:07,2019-03-08 11:45:07,0.330s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Chrome 71.0.3578.99,,2019-03-08 11:45:07,2019-03-08 11:45:08,0.338s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_ng""))",Chrome 71.0.3578.99,,2019-03-08 11:45:08,2019-03-08 11:45:08,0.740s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:45:08,2019-03-08 11:45:10,1.936s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:45:10,2019-03-08 11:45:11,1.055s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-03-08 11:45:11,2019-03-08 11:45:12,0.505s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Chrome 71.0.3578.99,,2019-03-08 11:45:12,2019-03-08 11:45:15,2.893s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-03-08 11:45:15,2019-03-08 11:45:15,0.453s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:45:15,2019-03-08 11:45:19,3.486s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-03-08 11:45:19,2019-03-08 11:45:21,2.406s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-03-08 11:45:21,2019-03-08 11:45:22,0.550s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:45:22,2019-03-08 11:45:25,3.191s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_dental""), [""carrier"":""nationalgeneral""], CONTINUE_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:45:25,2019-03-08 11:46:39,1m - 14.505s,PASSED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,Chrome 71.0.3578.99,,2019-03-08 11:46:39,2019-03-08 11:49:59,3m - 19.899s,PASSED
+now = new java.util.Date(),Chrome 71.0.3578.99,,2019-03-08 11:46:40,2019-03-08 11:46:40,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Chrome 71.0.3578.99,,2019-03-08 11:46:40,2019-03-08 11:46:40,0.001s,PASSED
+"screenPath = dentalPath + ""Nationwide/"" + mydate + ""/""",Chrome 71.0.3578.99,,2019-03-08 11:46:40,2019-03-08 11:46:40,0.001s,PASSED
+i = 0,Chrome 71.0.3578.99,,2019-03-08 11:46:40,2019-03-08 11:46:40,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:46:40,2019-03-08 11:47:15,35.315s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:47:15,2019-03-08 11:47:45,29.964s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-03-08 11:47:45,2019-03-08 11:47:45,0.615s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Chrome 71.0.3578.99,,2019-03-08 11:47:45,2019-03-08 11:47:46,0.300s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Chrome 71.0.3578.99,,2019-03-08 11:47:46,2019-03-08 11:47:46,0.709s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_nationwide""))",Chrome 71.0.3578.99,,2019-03-08 11:47:46,2019-03-08 11:47:47,0.668s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:47:47,2019-03-08 11:47:49,2.267s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:47:49,2019-03-08 11:47:51,1.936s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Chrome 71.0.3578.99,,2019-03-08 11:47:51,2019-03-08 11:47:52,0.669s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Chrome 71.0.3578.99,,2019-03-08 11:47:52,2019-03-08 11:47:55,2.995s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-03-08 11:47:55,2019-03-08 11:47:55,0.327s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:47:55,2019-03-08 11:47:59,3.590s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Chrome 71.0.3578.99,,2019-03-08 11:47:59,2019-03-08 11:48:02,3.320s,PASSED
+waitForPageLoad(10),Chrome 71.0.3578.99,,2019-03-08 11:48:02,2019-03-08 11:48:03,0.696s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:48:03,2019-03-08 11:48:06,3.388s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_dental""), [""carrier"":""nationwide""], STOP_ON_FAILURE)",Chrome 71.0.3578.99,,2019-03-08 11:48:06,2019-03-08 11:49:59,1m - 52.903s,PASSED
