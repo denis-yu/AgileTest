@@ -36,6 +36,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/census/label_Male'))
 WebUI.click(findTestObject('mobileSanity/Dental/census/label_Compare Dental Insurance'))
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

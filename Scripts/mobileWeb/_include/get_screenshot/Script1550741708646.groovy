@@ -25,10 +25,7 @@ import java.nio.file.Path
 import java.nio.file.Paths
 import javax.imageio.ImageIO
 
-<<<<<<< HEAD
-    WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
-=======
->>>>>>> iMac
+
 
     WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
     (GlobalVariable.i)++

@@ -57,7 +57,7 @@ WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
 
 WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
 
-Thread.sleep(1000)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

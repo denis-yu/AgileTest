@@ -24,11 +24,11 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureH
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_dental'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
-
+Thread.sleep(1000)
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Dental/filter/btn_company'), 10)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_company'))
-
+Thread.sleep(2000)
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_nationwide'))
 
 WebUI.waitForJQueryLoad(20, FailureHandling.STOP_ON_FAILURE)

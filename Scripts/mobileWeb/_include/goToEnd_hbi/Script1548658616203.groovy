@@ -45,6 +45,7 @@ WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input_tel'), Glob
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 1/a_Continue to Step 2 - Payment'))
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -67,6 +68,7 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/label_I Accept Auth
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_Continue to Step 3 - Review'))
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -88,7 +90,7 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/p_CLICK TO SIGN'))
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/a_Submit Your Application'))
 
-Thread.sleep(20000)
+Thread.sleep(30000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

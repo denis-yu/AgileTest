@@ -74,7 +74,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Application'))
 
-Thread.sleep(20000)
+Thread.sleep(50000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

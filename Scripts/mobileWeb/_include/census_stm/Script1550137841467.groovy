@@ -32,6 +32,7 @@ WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans'))
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
+Thread.sleep(1000)

@@ -28,5 +28,6 @@ String deviceName = m.get("drivers").get("preferences").get("WebUI").get("mobile
 println  deviceName
 now = new Date()
 mydate = now.format('yyyyMMdd_HHmmss')
+GlobalVariable.screenPath='../Screenshots/'
 GlobalVariable.screenPath = (((GlobalVariable.screenPath +deviceName+ '/'+productLine+'/'+carrierName+'/') + mydate) + '/')
 println GlobalVariable.screenPath 

@@ -30,6 +30,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Dental/filter/btn_company'), 10)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_company'))
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_usa'))
 

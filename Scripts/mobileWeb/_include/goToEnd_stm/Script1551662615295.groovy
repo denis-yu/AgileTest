@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/page_1_stm'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2/input__member-P-1-firstName'), GlobalVariable.FirstName)
@@ -36,6 +38,7 @@ WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 2/input_tel'), Glob
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -58,6 +61,7 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/label_I Accept Auth
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review'))
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -74,15 +78,14 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN')
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/a_Submit Your Application'))
 
-Thread.sleep(2000)
+Thread.sleep(30000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 30)
 
 WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 0)
 
 WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_approved'), 0)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
