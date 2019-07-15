@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>detail_link_plan_2</name>
+   <tag></tag>
+   <elementGuidId>411957b9-14ab-4fba-80a4-2c05d184c879</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href='/health-benefit-insurance/plan/legion-al-500-30-500-100-3']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@href='/health-benefit-insurance/plan/legion-al-500-30-500-100-3']</value>
+   </webElementProperties>
+</WebElementEntity>
