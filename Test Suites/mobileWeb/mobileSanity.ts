@@ -10,16 +10,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/mobileWeb/dental</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphone6</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/hbi</testSuiteEntity>
@@ -28,7 +19,16 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphone6</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/mobileWeb/dental</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>iphone6</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/stm</testSuiteEntity>
@@ -37,7 +37,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphone6</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/teladoc</testSuiteEntity>
