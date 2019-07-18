@@ -30,6 +30,20 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebDriver driver = DriverFactory.getWebDriver()
 
+try{
+
+	if (WebUI.verifyTextPresent('Month Duration Acknowledgement', false)) {
+		WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
+		
+		WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_Continue to Application'))
+		
+		Thread.sleep(2000)
+		WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+}catch(Exception e){
+	println('no consecutive')
+}
+
 selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
 
 int qnum = selenium.getXpathCount('//button[@data-answer=\'No\']')

@@ -47,6 +47,7 @@ Thread.sleep(2000)
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_AdvantHealth Plan 2 2.5K206.'))
 
 Thread.sleep(2000)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan'))
@@ -56,19 +57,16 @@ WebUI.waitForPageLoad(10)
 WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/span_ Add'))
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/button_ AddRemove'))
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM Apply Page/a_Start Secure Application'), 0)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Apply Page/a_Start Secure Application'))
+
 Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
-
-WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_Continue to Application'))
-Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 

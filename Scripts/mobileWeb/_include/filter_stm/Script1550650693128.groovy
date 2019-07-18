@@ -23,15 +23,6 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
 
-WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/button_6 months'))
-
-CustomKeywords.'test.MobileKeywords.clickJS'(findTestObject('mobileSanity/STM/STM Quote Page/radio_6 months'))
-
-Thread.sleep(1000)
-
-CustomKeywords.'test.MobileKeywords.clickJS'(findTestObject('mobileSanity/STM/STM Quote Page/duration_show_plans'))
-
-WebUI.waitForJQueryLoad(10, FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(1000)
 

@@ -4,7 +4,7 @@
    <name>hbi</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-12T17:30:56</lastRun>
+   <lastRun>2019-07-18T15:45:20</lastRun>
    <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
