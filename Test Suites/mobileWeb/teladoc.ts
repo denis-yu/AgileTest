@@ -4,7 +4,7 @@
    <name>teladoc</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-09T14:16:47</lastRun>
+   <lastRun>2019-07-23T16:14:04</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>

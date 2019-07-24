@@ -59,6 +59,8 @@ WebUI.selectOptionByLabel(findTestObject('mobileSanity/STM/Page_App Page 2/membe
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
+WebUI.waitForPageLoad(10)
+
 Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -70,6 +72,8 @@ WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-car
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f'))
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review'))
+
+WebUI.waitForPageLoad(10)
 
 WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/Page_App Page 4/label'), 10)
 
