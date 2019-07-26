@@ -55,7 +55,7 @@ Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByLabel(findTestObject('mobileSanity/STM/Page_App Page 2/member-P-1-in'), '05', false)
+//WebUI.selectOptionByLabel(findTestObject('mobileSanity/STM/Page_App Page 2/member-P-1-in'), '05', false)
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
