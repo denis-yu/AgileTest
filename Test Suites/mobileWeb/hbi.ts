@@ -4,7 +4,6 @@
    <name>hbi</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-23T16:14:03</lastRun>
    <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -46,5 +45,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/HBI/Fixed Cash Benefit</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e8cf90b6-9329-4392-b98e-1e4f3ea4774b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Health Choice</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42061d6e-7b73-4ea0-9355-8ce414e42cf2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/HBI/Vitala Care</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
