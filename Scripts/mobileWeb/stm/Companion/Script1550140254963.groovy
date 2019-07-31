@@ -13,11 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'stm',('carrierName') : 'Companion'], FailureHandling.CONTINUE_ON_FAILURE)
 
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'Companion/') + mydate) + '/')
 
 GlobalVariable.i = 0
 

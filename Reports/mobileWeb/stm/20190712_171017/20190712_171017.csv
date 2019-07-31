@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-07-12 17:10:21,2019-07-12 17:24:42,14m - 21.923s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 11,,2019-07-12 17:10:21,2019-07-12 17:12:18,1m - 56.149s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Salico""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:10:23,2019-07-12 17:10:23,0.534s,PASSED
+i = 0,Safari 11,,2019-07-12 17:10:23,2019-07-12 17:10:23,0.002s,PASSED
+"openBrowser("""")",Safari 11,,2019-07-12 17:10:23,2019-07-12 17:10:29,5.290s,PASSED
+navigateToUrl(ENV),Safari 11,,2019-07-12 17:10:29,2019-07-12 17:10:32,3.498s,PASSED
+waitForPageLoad(10),Safari 11,,2019-07-12 17:10:32,2019-07-12 17:10:32,0.121s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:10:32,2019-07-12 17:10:34,1.440s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:10:34,2019-07-12 17:10:49,15.435s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:10:49,2019-07-12 17:11:01,12.087s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:11:01,2019-07-12 17:11:10,9.271s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:11:10,2019-07-12 17:11:21,10.487s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:11:21,2019-07-12 17:12:18,56.667s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth,Safari 11,,2019-07-12 17:12:18,2019-07-12 17:14:30,2m - 12.058s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:12:18,2019-07-12 17:12:18,0.079s,PASSED
+i = 0,Safari 11,,2019-07-12 17:12:18,2019-07-12 17:12:18,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:12:18,2019-07-12 17:12:26,8.169s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:12:26,2019-07-12 17:12:40,14.146s,PASSED
+Thread.sleep(2000),Safari 11,,2019-07-12 17:12:40,2019-07-12 17:12:42,2.001s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/button_filters""))",Safari 11,,2019-07-12 17:12:42,2019-07-12 17:12:43,0.422s,PASSED
+Thread.sleep(500),Safari 11,,2019-07-12 17:12:43,2019-07-12 17:12:43,0.500s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/i_Insurance company""))",Safari 11,,2019-07-12 17:12:43,2019-07-12 17:12:43,0.149s,PASSED
+Thread.sleep(300),Safari 11,,2019-07-12 17:12:43,2019-07-12 17:12:43,0.300s,PASSED
+"test.MobileKeywords.clickJS(findTestObject(""mobileSanity/STM/STM Quote Page/label_AdvantHealth""))",Safari 11,,2019-07-12 17:12:43,2019-07-12 17:12:44,0.212s,PASSED
+Thread.sleep(300),Safari 11,,2019-07-12 17:12:44,2019-07-12 17:12:44,0.300s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_Show Plans""))",Safari 11,,2019-07-12 17:12:44,2019-07-12 17:12:44,0.393s,PASSED
+Thread.sleep(2000),Safari 11,,2019-07-12 17:12:44,2019-07-12 17:12:46,2.001s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Quote Page/a_AdvantHealth Plan 2 2.5K206.""))",Safari 11,,2019-07-12 17:12:46,2019-07-12 17:12:49,2.138s,PASSED
+Thread.sleep(2000),Safari 11,,2019-07-12 17:12:49,2019-07-12 17:12:51,2.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:12:51,2019-07-12 17:12:51,0.739s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Safari 11,,2019-07-12 17:12:51,2019-07-12 17:12:54,2.435s,PASSED
+waitForPageLoad(10),Safari 11,,2019-07-12 17:12:54,2019-07-12 17:12:54,0.082s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/span_ Add""))",Safari 11,,2019-07-12 17:12:54,2019-07-12 17:12:55,1.248s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/button_ AddRemove""))",Safari 11,,2019-07-12 17:12:55,2019-07-12 17:12:55,0.125s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:12:55,2019-07-12 17:12:56,0.745s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Safari 11,,2019-07-12 17:12:56,2019-07-12 17:12:56,0.056s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Safari 11,,2019-07-12 17:12:56,2019-07-12 17:12:58,2.304s,PASSED
+Thread.sleep(2000),Safari 11,,2019-07-12 17:12:58,2019-07-12 17:13:00,2.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:13:00,2019-07-12 17:13:01,0.586s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/label_By checking this box I u""))",Safari 11,,2019-07-12 17:13:01,2019-07-12 17:13:01,0.124s,PASSED
+"click(findTestObject(""mobileSanity/STM/Page_App Page 1/button_Continue to Application""))",Safari 11,,2019-07-12 17:13:01,2019-07-12 17:13:03,1.929s,PASSED
+Thread.sleep(2000),Safari 11,,2019-07-12 17:13:03,2019-07-12 17:13:05,2.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:13:05,2019-07-12 17:14:30,1m - 24.673s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Companion,Safari 11,,2019-07-12 17:14:30,2019-07-12 17:16:45,2m - 14.920s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Companion""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:14:30,2019-07-12 17:14:30,0.070s,PASSED
+i = 0,Safari 11,,2019-07-12 17:14:30,2019-07-12 17:14:30,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:14:30,2019-07-12 17:14:39,9.375s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:14:39,2019-07-12 17:14:54,15.054s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""pivotcompanion""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:14:54,2019-07-12 17:15:06,11.420s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""pivot-health-choice""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:15:06,2019-07-12 17:15:17,10.936s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:15:17,2019-07-12 17:15:26,9.196s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:15:26,2019-07-12 17:16:43,1m - 17.663s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest,Safari 11,,2019-07-12 17:16:45,2019-07-12 17:18:29,1m - 44.177s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Everest""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:16:45,2019-07-12 17:16:45,0.067s,PASSED
+i = 0,Safari 11,,2019-07-12 17:16:45,2019-07-12 17:16:45,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:16:45,2019-07-12 17:16:52,7.640s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""83709""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:16:52,2019-07-12 17:17:10,17.226s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:17:10,2019-07-12 17:17:21,11.035s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:17:21,2019-07-12 17:17:31,10.179s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:17:31,2019-07-12 17:17:42,11.671s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:17:42,2019-07-12 17:18:29,46.199s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest Prime,Safari 11,,2019-07-12 17:18:29,2019-07-12 17:20:29,2m - 0.524s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Everest Prime""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:18:29,2019-07-12 17:18:29,0.075s,PASSED
+i = 0,Safari 11,,2019-07-12 17:18:29,2019-07-12 17:18:29,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:18:29,2019-07-12 17:18:45,16.155s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:18:45,2019-07-12 17:18:58,12.819s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:18:58,2019-07-12 17:19:09,11.103s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:19:09,2019-07-12 17:19:20,11.137s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:19:20,2019-07-12 17:19:30,10.124s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:19:30,2019-07-12 17:20:29,58.967s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 11,,2019-07-12 17:20:29,2019-07-12 17:22:00,1m - 30.717s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""LifeShield""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:20:29,2019-07-12 17:20:30,0.156s,PASSED
+i = 0,Safari 11,,2019-07-12 17:20:30,2019-07-12 17:20:30,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:20:30,2019-07-12 17:20:38,8.530s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:20:38,2019-07-12 17:20:52,14.342s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""lifeshield""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:20:52,2019-07-12 17:21:04,11.063s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""), 0)",Safari 11,,2019-07-12 17:21:04,2019-07-12 17:21:04,0.165s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan""))",Safari 11,,2019-07-12 17:21:04,2019-07-12 17:21:06,1.920s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/span_ Add""))",Safari 11,,2019-07-12 17:21:06,2019-07-12 17:21:06,0.527s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""), 0)",Safari 11,,2019-07-12 17:21:06,2019-07-12 17:21:06,0.059s,PASSED
+"click(findTestObject(""mobileSanity/STM/STM Apply Page/a_Start Secure Application""))",Safari 11,,2019-07-12 17:21:06,2019-07-12 17:21:08,1.586s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:21:08,2019-07-12 17:22:00,52.177s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/NationalGeneral,Safari 11,,2019-07-12 17:22:00,2019-07-12 17:24:42,2m - 41.830s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""National General""], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:22:00,2019-07-12 17:22:01,0.467s,PASSED
+i = 0,Safari 11,,2019-07-12 17:22:01,2019-07-12 17:22:01,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:22:01,2019-07-12 17:22:08,7.391s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-07-12 17:22:08,2019-07-12 17:22:24,15.671s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:22:24,2019-07-12 17:22:35,11.660s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:22:35,2019-07-12 17:22:46,10.817s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:22:46,2019-07-12 17:22:57,10.993s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-07-12 17:22:57,2019-07-12 17:24:41,1m - 43.869s,FAILED

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//main/div[4]/div/div[3]/a</value>
+         <value>//main/div[3]/div/div[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//main/div[4]/div/div[3]/a</value>
+      <value>//main/div[3]/div/div[3]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

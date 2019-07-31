@@ -30,6 +30,7 @@ println(a_plan_name)
 selenium.click(a_plan_name)
 
 WebUI.waitForPageLoad(10)
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

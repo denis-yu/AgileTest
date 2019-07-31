@@ -4,13 +4,12 @@
    <name>mobileSanity</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>2</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphonex</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/dental</testSuiteEntity>
@@ -19,7 +18,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphonex</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/hbi</testSuiteEntity>
@@ -28,7 +27,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphonex</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/stm</testSuiteEntity>
@@ -37,7 +36,7 @@
          <configuration>
             <groupName>Custom</groupName>
             <profileName>default</profileName>
-            <runConfigurationId>iphone8simul</runConfigurationId>
+            <runConfigurationId>iphonex</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/teladoc</testSuiteEntity>

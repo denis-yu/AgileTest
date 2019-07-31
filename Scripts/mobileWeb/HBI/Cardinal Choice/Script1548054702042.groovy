@@ -15,11 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-now = new Date()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi',('carrierName') : 'Cardinal Choice'], FailureHandling.CONTINUE_ON_FAILURE)
 
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = GlobalVariable.hbiPath+ 'Cardinal Choice/' + mydate + '/'
 
 
 GlobalVariable.i = 0

@@ -4,42 +4,33 @@
    <name>dental</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-27T10:56:18</lastRun>
-   <mailRecipient>denis.yu@suryani.cn;</mailRecipient>
+   <lastRun>2019-07-23T16:14:03</lastRun>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>a88be6b3-d1f4-4cc1-bf33-0b1bffaab964</testSuiteGuid>
+   <testSuiteGuid>b8768561-71f7-4682-babe-76626a6e73b9</testSuiteGuid>
    <testCaseLink>
-      <guid>f8db82b5-0ba6-4385-acf1-9a4576be5aa7</guid>
+      <guid>2fc8745a-bbdb-4a1f-9df0-87735e357b91</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/National General</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>d28e83d0-59d3-4253-87ca-afa922b848df</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>3</value>
-         </iterationEntity>
-         <testDataId>Data Files/mobileWeb/dental</testDataId>
-      </testDataLink>
       <variableLink>
-         <testDataLinkId>d28e83d0-59d3-4253-87ca-afa922b848df</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>zipcode</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>cbe84e69-e0fa-4459-9fdb-0a9b6fb3fcfc</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3c4349f7-f4b5-443e-ac5d-838c29e3b998</guid>
+      <guid>c3406ac2-848c-400a-aca7-93d861681946</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/Nationwide</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6e7c2fbc-29c0-4b23-89ca-788426aaad64</guid>
+      <guid>d113636a-bc95-4f69-b571-9233abf67c7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/USA Access</testCaseId>
