@@ -4,6 +4,7 @@
    <name>mobileSanity</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -20,7 +21,7 @@
             <profileName>default</profileName>
             <runConfigurationId>iphonex</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/hbi</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
