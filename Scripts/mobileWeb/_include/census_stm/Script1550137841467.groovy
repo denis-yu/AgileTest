@@ -31,7 +31,7 @@ WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM Quote Page/button_sort'), 20)
 
 Thread.sleep(3000)
 

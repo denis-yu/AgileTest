@@ -28,19 +28,21 @@ WebUI.scrollToPosition(200, 2300)
 
 WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Vitala Care'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

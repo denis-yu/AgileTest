@@ -21,7 +21,9 @@ try {
 
         WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_Continue to Application'))
 
-        Thread.sleep(2000)
+        WebUI.waitForPageLoad(20)
+
+        Thread.sleep(5000)
 
         WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
     }
@@ -49,17 +51,18 @@ WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_C
 
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.selectOptionByLabel(findTestObject('mobileSanity/STM/Page_App Page 2/member-P-1-in'), '05', false)
-
 WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'), 20)
 
 Thread.sleep(2000)
 

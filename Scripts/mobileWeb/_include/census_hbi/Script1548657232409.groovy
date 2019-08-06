@@ -33,7 +33,7 @@ WebUI.click(findTestObject('mobileSanity/HBI/census/label_Male'))
 
 WebUI.click(findTestObject('mobileSanity/HBI/census/label_Get a Quote'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
