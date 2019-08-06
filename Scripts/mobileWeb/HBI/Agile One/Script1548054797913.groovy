@@ -13,11 +13,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi', ('carrierName') : 'Agile One'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi',('carrierName') : 'Agile One'], FailureHandling.CONTINUE_ON_FAILURE)
-
-GlobalVariable.i=0
-
+GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -29,18 +28,26 @@ WebUI.scrollToPosition(200, 2300)
 
 WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Agile One 750'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'), 20)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(5000)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'agileone'], FailureHandling.CONTINUE_ON_FAILURE)

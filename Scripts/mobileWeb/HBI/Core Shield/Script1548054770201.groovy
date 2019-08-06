@@ -13,8 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi',('carrierName') : 'Core Shield'], FailureHandling.CONTINUE_ON_FAILURE)
-
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi', ('carrierName') : 'Core Shield'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 
@@ -28,19 +28,21 @@ WebUI.scrollToPosition(200, 2300)
 
 WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Core Shield'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

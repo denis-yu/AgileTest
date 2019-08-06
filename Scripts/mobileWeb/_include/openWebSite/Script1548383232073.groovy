@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser(env)
 
 //WebUI.navigateToUrl(GlobalVariable.ENV)
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
