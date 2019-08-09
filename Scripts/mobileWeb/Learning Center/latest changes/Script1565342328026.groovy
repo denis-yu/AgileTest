@@ -15,23 +15,46 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'Learning Center', ('carrierName') : 'latest changes'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+GlobalVariable.i = 0
+
+WebUI.openBrowser(GlobalVariable.ENV)
+
+WebUI.waitForPageLoad(20)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
 selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
 
-String a_plan_name = ('xpath=//a[contains(@href,\'/term-health-insurance/plan/' + carrier) + '\')]'
+learningcenter_xpath = '//ul[@class=\'footer-list footer-about\']/descendant::*[contains(text(),\'Learning Center\')]'
 
-println(a_plan_name)
-
-selenium.click(a_plan_name)
+WebElement element = driver.findElement(By.xpath(learningcenter_xpath))
+	
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 
 WebUI.waitForPageLoad(20)
 
-Thread.sleep(2000)
+int num = selenium.getXpathCount('//li[@class=\'latest-inner\']')
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+println(num)
+
+for (def index : (1..num)) {
+	
+    xpath = (('(//li[@class=\'latest-inner\'])[' + index) + ']/div/a')
+
+    WebElement el = driver.findElement(By.xpath(xpath))
+
+    WebUI.executeJavaScript('arguments[0].click()', Arrays.asList(el))
+
+    WebUI.waitForPageLoad(20)
+
+    WebUI.callTestCase(findTestCase('mobileWeb/_include/get_scrollScreenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.back()
+}
 

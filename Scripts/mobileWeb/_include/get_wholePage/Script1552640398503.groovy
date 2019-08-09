@@ -39,7 +39,7 @@ void takeEntirePage(WebDriver webDriver, File file, Integer timeout = 300) {
 }
 String fileName = (GlobalVariable.screenPath)+(GlobalVariable.i)+'.png'
 File out = new File(fileName)
-WebUI.takeScreenshot((GlobalVariable.screenPath +"image"+ GlobalVariable.i) + '.png')
+//WebUI.takeScreenshot((GlobalVariable.screenPath +"image"+ GlobalVariable.i) + '.png')
 //Path pngFile = Paths.get(fileName)
 takeEntirePage(driver, out, 500)
 

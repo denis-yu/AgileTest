@@ -15,23 +15,28 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.Keys as Keys
 
-WebDriver driver = DriverFactory.getWebDriver()
 
-selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'census pages', ('carrierName') : 'General'],
+	FailureHandling.CONTINUE_ON_FAILURE)
 
-String a_plan_name = ('xpath=//a[contains(@href,\'/term-health-insurance/plan/' + carrier) + '\')]'
+GlobalVariable.i = 0
 
-println(a_plan_name)
-
-selenium.click(a_plan_name)
+WebUI.openBrowser(GlobalVariable.ENV)
 
 WebUI.waitForPageLoad(20)
 
-Thread.sleep(2000)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+selenium = new WebDriverBackedSelenium(driver,GlobalVariable.ENV)
+	
+WebElement element = driver.findElement(By.id('primaryCTA'))
+		
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+	
+WebUI.waitForPageLoad(20)
+	
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_scrollScreenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

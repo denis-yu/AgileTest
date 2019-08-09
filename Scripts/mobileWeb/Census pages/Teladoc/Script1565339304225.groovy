@@ -15,23 +15,31 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.By as By
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
-import org.openqa.selenium.Keys as Keys
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'census pages', ('carrierName') : 'Teladoc'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-selenium = new WebDriverBackedSelenium(driver, GlobalVariable.ENV)
+GlobalVariable.i = 0
 
-String a_plan_name = ('xpath=//a[contains(@href,\'/term-health-insurance/plan/' + carrier) + '\')]'
-
-println(a_plan_name)
-
-selenium.click(a_plan_name)
+WebUI.openBrowser(GlobalVariable.ENV)
 
 WebUI.waitForPageLoad(20)
 
-Thread.sleep(2000)
+WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(3000)
+
+WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_scrollScreenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_scrollScreenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
