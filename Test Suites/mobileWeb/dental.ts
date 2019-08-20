@@ -4,7 +4,6 @@
    <name>dental</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-23T16:14:03</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>20</pageLoadTimeout>
@@ -32,7 +31,7 @@
    <testCaseLink>
       <guid>d113636a-bc95-4f69-b571-9233abf67c7d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/Dental/USA Access</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
