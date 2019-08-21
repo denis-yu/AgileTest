@@ -87,6 +87,7 @@ class MobileKeywords {
 		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 	}
 
+
 	/**
 	 * Get all rows of HTML table
 	 * @param table Katalon test object represent for HTML table
