@@ -17,26 +17,4 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.healthpocket.com/')
 
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 
-    '32209')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)

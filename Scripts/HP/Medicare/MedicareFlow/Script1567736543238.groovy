@@ -35,9 +35,15 @@ String baseUrl = 'https://pengujian.healthpocket.com/medicare/'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click("id=location")
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.type("id=location", "32209")
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 selenium.click("id=findPlans")
 
@@ -47,5 +53,14 @@ for (int second = 0;; second++) {
 			Thread.sleep(1000);
 		}
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click("//a[contains(text(),'Select')]")
 
+for (int second = 0;; second++) {
+	if (second >= 60) fail("timeout");
+	try { if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")) break; } catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)

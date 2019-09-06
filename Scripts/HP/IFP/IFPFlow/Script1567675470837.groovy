@@ -27,20 +27,57 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('https://pengujian.healthpocket.com/individual-health-insurance')
+WebUI.openBrowser('https://www.healthpocket.com/individual-health-insurance')
 
 def driver = DriverFactory.getWebDriver()
 
-String baseUrl = 'https://pengujian.healthpocket.com/individual-health-insurance/'
+String baseUrl = 'https://www.healthpocket.com/individual-health-insurance/'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click("id=location")
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 selenium.type("id=location", "32209")
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click("id=findPlans")
 
-selenium.click("//div[@id='js-census-bar']/div/div/div/ul/li[2]/button[contains(text(),'Add Your Info')]")
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click("//div[@id='js-member-popover']/form/div[2]/div/div/div[3]/ul/li/div/label")
+for (int second = 0;; second++) {
+			if (second >= 60) fail("timeout");
+			try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
+			Thread.sleep(1000);
+}
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+selenium.click("//a[contains(text(),'Select')]")
+
+for (int second = 0;; second++) {
+			if (second >= 60) fail("timeout");
+			try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])[2]")) break; } catch (Exception e) {}
+			Thread.sleep(1000);
+}
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+selenium.click("xpath=(//a[contains(text(),'Apply Now')])[2]")
+
+for (int second = 0;; second++) {
+	if (second >= 60) fail("timeout");
+	try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+selenium.click("//a[contains(text(),'Select')]")
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
