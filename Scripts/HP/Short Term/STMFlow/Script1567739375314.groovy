@@ -37,15 +37,23 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 selenium.click("id=location")
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.type("id=location", "32209")
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click("id=findPlans")
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (int second = 0;; second++) {
 			if (second >= 60) fail("timeout");
 			try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
 		}
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 selenium.click("//a[contains(text(),'Select')]")
 
@@ -55,6 +63,8 @@ for (int second = 0;; second++) {
 			Thread.sleep(1000);
 		}
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click("xpath=(//a[contains(text(),'Apply Now')])[2]")
 
 for (int second = 0;; second++) {
@@ -62,3 +72,5 @@ for (int second = 0;; second++) {
 	try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Short Term Health Insurance')])[3]")) break; } catch (Exception e) {}
 	Thread.sleep(1000);
 }
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
