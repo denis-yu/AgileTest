@@ -37,6 +37,21 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
+for (int second = 0;; second++) {
+	if (second >= 60) fail("timeout");
+	try { if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")) 
+			selenium.click("//a[contains(text(),'No Thanks. I want to see ACA plans.')]");
+			break; } 
+		catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
+for (int second = 0;; second++) {
+	if (second >= 60) fail("timeout");
+	try { if (selenium.isElementPresent("id=location")) break; } catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
 selenium.click("id=location")
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
