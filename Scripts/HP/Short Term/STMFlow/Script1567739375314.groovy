@@ -47,8 +47,7 @@ selenium.click("id=findPlans")
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-for (int second = 0;; second++) {
-			if (second >= 60) fail("timeout");
+for (second = 0;second<60; second++) {
 			try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
 		}
@@ -57,8 +56,7 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 
 selenium.click("//a[contains(text(),'Select')]")
 
-for (int second = 0;; second++) {
-			if (second >= 60) fail("timeout");
+for (second = 0;second<60; second++) {
 			try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])[2]")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
 		}
@@ -67,8 +65,7 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 
 selenium.click("xpath=(//a[contains(text(),'Apply Now')])[2]")
 
-for (int second = 0;; second++) {
-	if (second >= 60) fail("timeout");
+for (second = 0;second<60; second++) {
 	try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Short Term Health Insurance')])[3]")) break; } catch (Exception e) {}
 	Thread.sleep(1000);
 }

@@ -27,6 +27,8 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
+int second;
+
 WebUI.openBrowser('https://www.healthpocket.com/individual-health-insurance')
 
 def driver = DriverFactory.getWebDriver()
@@ -37,8 +39,7 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-for (int second = 0;; second++) {
-	if (second >= 60) fail("timeout");
+for (second = 0;second<60;second++) {
 	try { if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")) 
 			selenium.click("//a[contains(text(),'No Thanks. I want to see ACA plans.')]");
 			break; } 
@@ -46,8 +47,7 @@ for (int second = 0;; second++) {
 	Thread.sleep(1000);
 }
 
-for (int second = 0;; second++) {
-	if (second >= 60) fail("timeout");
+for (second = 0;second<60;second++) {
 	try { if (selenium.isElementPresent("id=location")) break; } catch (Exception e) {}
 	Thread.sleep(1000);
 }
@@ -64,8 +64,7 @@ selenium.click("id=findPlans")
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-for (int second = 0;; second++) {
-			if (second >= 60) fail("timeout");
+for (second = 0;second<60; second++) {
 			try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
 }
@@ -74,8 +73,7 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 
 selenium.click("//a[contains(text(),'Select')]")
 
-for (int second = 0;; second++) {
-			if (second >= 60) fail("timeout");
+for (second = 0;second<60; second++) {
 			try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])[2]")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
 }
@@ -84,8 +82,7 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 
 selenium.click("xpath=(//a[contains(text(),'Apply Now')])[2]")
 
-for (int second = 0;; second++) {
-	if (second >= 60) fail("timeout");
+for (second = 0;second<60;second++) {
 	try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
 	Thread.sleep(1000);
 }
