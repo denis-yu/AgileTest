@@ -13,7 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+now = new Date()
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = ((GlobalVariable.HPPath+'HomePage/' + mydate) + '/')
+GlobalVariable.i=0
+
+WebUI.openBrowser('https://www.healthpocket.com/')
 
 WebUI.navigateToUrl('https://www.healthpocket.com/')
 

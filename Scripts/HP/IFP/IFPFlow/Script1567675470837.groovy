@@ -27,9 +27,15 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
+now = new Date()
+mydate = now.format('yyyyMMdd_HHmmss')
+
+GlobalVariable.screenPath = ((GlobalVariable.HPPath+'IFP/' + mydate) + '/')
+GlobalVariable.i=0
+
 int second;
 
-WebUI.openBrowser('https://www.healthpocket.com/individual-health-insurance')
+WebUI.openBrowser('www.healthpocket.com/individual-health-insurance')
 
 def driver = DriverFactory.getWebDriver()
 

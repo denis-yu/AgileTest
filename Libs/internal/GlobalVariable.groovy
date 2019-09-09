@@ -74,6 +74,11 @@ public class GlobalVariable {
      */
     public static Object teladocPath
      
+    /**
+     * <p></p>
+     */
+    public static Object HPPath
+     
 
     static {
         try {
@@ -94,6 +99,7 @@ public class GlobalVariable {
             hbiPath = selectedVariables['hbiPath']
             dentalPath = selectedVariables['dentalPath']
             teladocPath = selectedVariables['teladocPath']
+            HPPath = selectedVariables['HPPath']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
