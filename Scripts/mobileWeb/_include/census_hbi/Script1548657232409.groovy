@@ -17,9 +17,13 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
 
 Thread.sleep(3000)
 
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_hbi'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(3000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -34,6 +38,8 @@ WebUI.click(findTestObject('mobileSanity/HBI/census/label_Male'))
 WebUI.click(findTestObject('mobileSanity/HBI/census/label_Get a Quote'))
 
 WebUI.waitForPageLoad(20)
+
+Thread.sleep(3000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

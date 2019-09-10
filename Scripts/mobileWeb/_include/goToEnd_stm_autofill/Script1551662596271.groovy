@@ -92,11 +92,13 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/a_Submit Your Appli
 
 Thread.sleep(30000)
 
+WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/app-page-wrapper'), 20)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 30)
-
-WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 20)
-
-WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_approved'), 20)
+//WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 30)
+//
+//WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_planName'), 20)
+//
+//WebUI.verifyElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/span_approved'), 20)
 
