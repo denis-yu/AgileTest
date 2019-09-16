@@ -43,8 +43,6 @@ String baseUrl = 'https://www.healthpocket.com/individual-health-insurance/'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
 for (second = 0;second<60;second++) {
 	try { if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")) 
 			selenium.click("//a[contains(text(),'No Thanks. I want to see ACA plans.')]");
