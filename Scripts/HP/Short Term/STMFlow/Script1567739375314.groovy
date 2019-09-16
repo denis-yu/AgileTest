@@ -63,13 +63,13 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 selenium.click("//a[contains(text(),'Select')]")
 
 for (second = 0;second<60; second++) {
-			try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])[2]")) break; } catch (Exception e) {}
+			try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
 		}
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click("xpath=(//a[contains(text(),'Apply Now')])[2]")
+selenium.click("xpath=(//a[contains(text(),'Apply Now')])")
 
 for (second = 0;second<60; second++) {
 	try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Short Term Health Insurance')])[3]")) break; } catch (Exception e) {}
