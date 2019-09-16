@@ -15,12 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 
-now = new Date()
-
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = GlobalVariable.hbiPath+ 'Cardinal Choice/' + mydate + '/'
-
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi', ('carrierName') : 'Cardinal Choice'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 
@@ -34,19 +30,21 @@ WebUI.scrollToPosition(200, 2300)
 
 WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Cardinal Choice'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

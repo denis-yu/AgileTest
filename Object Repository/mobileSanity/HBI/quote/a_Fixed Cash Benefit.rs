@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//li[@class='js-plan plan js-plan-responsive' and @data-id='slaicohbi-ar-500-30-50-5']/div[2]/table/tbody/tr/td/a</value>
+         <value>//li[@class='js-plan plan js-plan-responsive' and @data-id='slaicohbi-az-500-30-50-5']/div[2]/table/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[@class='js-plan plan js-plan-responsive' and @data-id='slaicohbi-ar-500-30-50-5']/div[2]/table/tbody/tr/td/a</value>
+      <value>//li[@class='js-plan plan js-plan-responsive' and @data-id='slaicohbi-az-500-30-50-5']/div[2]/table/tbody/tr/td/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

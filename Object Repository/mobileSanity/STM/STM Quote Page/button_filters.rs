@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='js-header-filter-toggles']/ul/li[3]/button</value>
+         <value>//div[@id='js-header-filter-toggles']/ul/li[2]/button</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='js-header-filter-toggles']/ul/li[3]/button</value>
+      <value>//div[@id='js-header-filter-toggles']/ul/li[2]/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

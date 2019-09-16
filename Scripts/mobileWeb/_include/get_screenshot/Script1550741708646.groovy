@@ -26,6 +26,7 @@ import java.nio.file.Paths
 import javax.imageio.ImageIO
 
 
+
     WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
     (GlobalVariable.i)++
 

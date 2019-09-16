@@ -4,10 +4,16 @@
    <name>label</name>
    <tag></tag>
    <elementGuidId>c46b8ce2-a50b-4e8c-a09e-722e8a5d62b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'consent-checkbox-0']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,11 +27,18 @@
       <value>consent-checkbox-0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-consent-review&quot;)/div[@class=&quot;js-error-container&quot;]/div[@class=&quot;terms-wrapper row&quot;]/div[@class=&quot;col-md-1 terms-cell&quot;]/div[@class=&quot;js-form-group&quot;]/div[@class=&quot;checkbox&quot;]/label[1]</value>
+      <value>//input[@id='consent-checkbox-0']/following::label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>consent-checkbox-0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

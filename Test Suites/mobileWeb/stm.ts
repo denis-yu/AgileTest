@@ -124,4 +124,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/mobileWeb/stm/NationalGeneral</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>38432b6c-4801-4868-b727-0d2038feac7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/mobileWeb/stm/Aspen</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

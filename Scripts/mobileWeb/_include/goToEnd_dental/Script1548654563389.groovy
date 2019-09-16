@@ -33,14 +33,20 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page1/a_Continue to Step 2 -
 
 WebUI.waitForPageLoad(10)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(2000)
 
 'when carrier is \'usa\', accept the membership.'
 if (carrier == 'usa') {
+    WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
     WebUI.click(findTestObject('mobileSanity/Dental/app_page2/membership/label_ihaveread'))
 
     WebUI.click(findTestObject('mobileSanity/Dental/app_page2/membership/a_ok'))
+
+    Thread.sleep(3000)
 }
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-first'), GlobalVariable.FirstName)
 
@@ -60,7 +66,11 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_I Accept Authori
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(2000)
+
+WebUI.waitForElementClickable(findTestObject('mobileSanity/Dental/app_page3/label'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -70,9 +80,11 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))
 
 WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Application'))
 
-Thread.sleep(20000)
+Thread.sleep(50000)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/Dental/app_page4/js-app-confirmation'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Congratulations', false)
+//WebUI.verifyTextPresent('Congratulations', false)
 

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ICA,Safari 11,,,2019-08-05 11:28:25,2019-08-05 11:31:56,3m - 30.866s,INCOMPLETE
+,,,,,,,
+Test Cases/PL Site/ICA/stm/AdvantHealth,Safari 11,,,2019-08-05 11:28:25,2019-08-05 11:30:15,1m - 49.605s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""ICA"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-08-05 11:28:26,2019-08-05 11:28:27,1.426s,PASSED
+i = 0,Safari 11,,,2019-08-05 11:28:27,2019-08-05 11:28:27,0.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [""env"":""https://ica--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-08-05 11:28:27,2019-08-05 11:28:40,13.181s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:28:40,2019-08-05 11:28:53,13.112s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:28:53,2019-08-05 11:29:03,9.314s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:29:03,2019-08-05 11:29:11,7.957s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:29:11,2019-08-05 11:29:19,8.332s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:29:19,2019-08-05 11:30:15,55.822s,PASSED
+,,,,,,,
+Test Cases/PL Site/ICA/stm/LifeShield,Safari 11,,,2019-08-05 11:30:15,2019-08-05 11:31:56,1m - 40.882s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""ICA"", ""carrierName"":""LifeShield""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-08-05 11:30:15,2019-08-05 11:30:15,0.077s,PASSED
+i = 0,Safari 11,,,2019-08-05 11:30:15,2019-08-05 11:30:15,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [""env"":""https://ica--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-08-05 11:30:15,2019-08-05 11:30:24,8.871s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:30:24,2019-08-05 11:30:36,12.477s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""lifeshield""], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:30:36,2019-08-05 11:30:45,8.495s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""lifeshield""], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:30:45,2019-08-05 11:30:53,7.608s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:30:53,2019-08-05 11:31:01,8.111s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-08-05 11:31:01,2019-08-05 11:31:56,55.029s,PASSED

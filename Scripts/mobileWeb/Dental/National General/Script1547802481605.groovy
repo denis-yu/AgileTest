@@ -16,12 +16,8 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-now = new Date()
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'dental',('carrierName') : 'National General'], FailureHandling.CONTINUE_ON_FAILURE)
 
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = ((GlobalVariable.dentalPath+'National General/' + mydate) + '/')
-GlobalVariable.i=0
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/census_dental'), [('zipcode') : zipcode, ('dob') : '12/12/1980'], FailureHandling.STOP_ON_FAILURE)
@@ -31,6 +27,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Dental/filter/btn_company'), 10)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_company'))
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_ng'))
 
@@ -49,6 +46,8 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

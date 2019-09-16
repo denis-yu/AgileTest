@@ -13,18 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
-
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath = (((GlobalVariable.teladocPath + 'teladoc/') + mydate) + '/')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'teladoc', ('carrierName') : 'Teladoc'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 
 'open site'
 WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click menu'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
@@ -37,14 +32,18 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 'click nav teladoc'
 WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/front_door_quote_button'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -60,12 +59,12 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 
 Thread.sleep(3000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -92,7 +91,9 @@ WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input_phone n
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -115,7 +116,9 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 2/label_I Accept 
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'), 20)
 
 Thread.sleep(5000)
 

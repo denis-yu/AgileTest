@@ -13,6 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'when state is \'ca\', it has underwriting question'
+if (state == 'ca') {
+    Thread.sleep(3000)
+
+    WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 1/yes_question_1'))
+
+    WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 1/continue_to_app_info'))
+
+    WebUI.waitForPageLoad(20)
+
+    Thread.sleep(3000)
+
+    WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+}
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input__member-P-1-firstName'), GlobalVariable.FirstName)
@@ -44,7 +59,11 @@ WebUI.setText(findTestObject('mobileSanity/HBI/Page_App Page 1/input_tel'), Glob
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 1/a_Continue to Step 2 - Payment'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(2000)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/HBI/Page_App Page 2/input__credit-card-first'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -66,16 +85,13 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/label_I Accept Auth
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_Continue to Step 3 - Review'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(10000)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/HBI/Page_App Page 3/label'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'when \'addon\' popup present, click \'no thanks\''
-if (CustomKeywords.'test.MobileKeywords.isElementPresent_Web'(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {
-    WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'))
-}
-
-WebUI.waitForPageLoad(10)
 
 /*
 if (WebUI.verifyElementPresent(findTestObject('mobileSanity/HBI/Page_App Page 2/a_No Thanks'), 10)) {
@@ -88,7 +104,7 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/p_CLICK TO SIGN'))
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/a_Submit Your Application'))
 
-Thread.sleep(20000)
+Thread.sleep(30000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

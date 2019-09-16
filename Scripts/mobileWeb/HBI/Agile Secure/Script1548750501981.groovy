@@ -13,12 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
-
-mydate = now.format('yyyyMMdd_HHmmss')
-
-GlobalVariable.screenPath =  GlobalVariable.hbiPath+ 'Agile Secure/' + mydate + '/'
-
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'hbi', ('carrierName') : 'Agile Secure'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 
@@ -28,13 +24,15 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/census_hbi'), [('zipcode') :
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
