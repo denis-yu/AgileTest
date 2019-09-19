@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>front_door_quote_button</name>
+   <name>front_door_h1</name>
    <tag></tag>
    <elementGuidId>297b2ff6-0edb-4e79-9280-52f9e2cb197a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/teladoc/apply/teladoc-single']</value>
+         <value>//h1[@class = 'front-door-h1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/teladoc/apply/teladoc-single</value>
+      <value>front-door-h1</value>
    </webElementProperties>
 </WebElementEntity>

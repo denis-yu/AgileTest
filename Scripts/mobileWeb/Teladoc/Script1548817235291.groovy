@@ -34,18 +34,11 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
 
 WebUI.waitForPageLoad(20)
 
-WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/front_door_quote_button'), 20)
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/front_door_h1'), 20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'click button'
-WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
-
-WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), 20)
-
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'set zip code'
 WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), '35215')
@@ -60,7 +53,15 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Male'))
 Thread.sleep(3000)
 
 'click button'
-WebUI.click(findTestObject('mobileSanity/Teladoc/census/label_Start Secure Application'))
+WebUI.click(findTestObject('mobileSanity/Teladoc/census/get_a_quote'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/apply_button'), 20)
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('mobileSanity/Teladoc/apply_button'))
 
 WebUI.waitForPageLoad(20)
 
