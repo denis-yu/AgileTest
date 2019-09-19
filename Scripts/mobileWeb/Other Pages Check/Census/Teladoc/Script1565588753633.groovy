@@ -37,7 +37,7 @@ WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_scrollScreenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_quote_button'))
+WebUI.click(findTestObject('mobileSanity/Teladoc/front_door_h1'))
 
 WebUI.waitForPageLoad(20)
 

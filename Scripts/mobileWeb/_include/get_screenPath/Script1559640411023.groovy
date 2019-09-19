@@ -29,7 +29,7 @@ println  deviceName
 now = new Date()
 mydate = now.format('yyyyMMdd_HHmmss')
 GlobalVariable.screenPath='../Screenshots/'
-//GlobalVariable.screenPath = (((GlobalVariable.screenPath +deviceName+ '/'+productLine+'/'+carrierName+'/') + mydate) + '/')
-GlobalVariable.screenPath = (((GlobalVariable.screenPath +deviceName+ '/'+productLine+'/'+carrierName+'/') + "standard") + '/')
+GlobalVariable.screenPath = (((GlobalVariable.screenPath +deviceName+ '/'+productLine+'/'+carrierName+'/') + mydate) + '/')
+//GlobalVariable.screenPath = (((GlobalVariable.screenPath +deviceName+ '/'+productLine+'/'+carrierName+'/') + "standard") + '/')
 
 println GlobalVariable.screenPath 
