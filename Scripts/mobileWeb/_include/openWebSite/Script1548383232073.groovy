@@ -18,5 +18,7 @@ WebUI.openBrowser(env)
 //WebUI.navigateToUrl(GlobalVariable.ENV)
 WebUI.waitForPageLoad(20)
 
+Thread.sleep(2000)
+
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

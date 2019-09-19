@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="teladoc" time="75" tests="0" failures="1" errors="0">
+   <testsuite name="teladoc" tests="0" failures="1" errors="0" time="75" timestamp="2019-09-17 08:00:49" hostname="Administrator - 172.30.0.53" id="Test Suites/mobileWeb/teladoc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/0.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/1.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/2.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/3.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\1568721724213.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="d9bb3df6dbb98fe9a7a8a7c489e230a9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/mobileWeb/Teladoc" classname="Test Cases/mobileWeb/Teladoc" status="FAILED">
+         <failure type="FAILED" message="Test Cases/mobileWeb/Teladoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)
+"/>
+         <system-out><![CDATA[2019-09-17 08:00:50 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Teladoc: Test Cases/mobileWeb/Teladoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)
+
+
+2019-09-17 08:00:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenPath"), ["productLine":"teladoc", "carrierName":"Teladoc"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-09-17 08:00:54 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenPath: Test Cases/mobileWeb/_include/get_screenPath
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-09-17 08:00:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-09-17 08:00:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-09-17 08:00:56 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/openWebSite: Test Cases/mobileWeb/_include/openWebSite
+
+2019-09-17 08:00:58 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-09-17 08:00:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-09-17 08:00:58 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-09-17 08:00:58 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-09-17 08:00:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-09-17 08:01:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-09-17 08:01:07 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-09-17 08:01:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-09-17 08:01:07 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-09-17 08:01:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:10 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-09-17 08:01:10 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-09-17 08:01:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/0.png]]
+
+2019-09-17 08:01:11 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-09-17 08:01:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-09-17 08:01:11 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/menu")): Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-09-17 08:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-09-17 08:01:11 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-09-17 08:01:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:14 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-09-17 08:01:14 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-09-17 08:01:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/1.png]]
+
+2019-09-17 08:01:15 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-09-17 08:01:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/nav_teladoc")): Object: 'Object Repository/mobileSanity/Common/side_nav/nav_teladoc' is clicked on
+
+2019-09-17 08:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/nav_teladoc' is clicked on
+
+2019-09-17 08:01:16 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-09-17 08:01:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-09-17 08:01:17 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-09-17 08:01:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:20 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-09-17 08:01:20 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-09-17 08:01:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/2.png]]
+
+2019-09-17 08:01:21 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-09-17 08:01:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:21 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/front_door_quote_button")): Object: 'Object Repository/mobileSanity/Teladoc/front_door_quote_button' is clicked on
+
+2019-09-17 08:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/front_door_quote_button' is clicked on
+
+2019-09-17 08:01:21 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-09-17 08:01:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-09-17 08:01:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Teladoc/census/input_Location_zip-input"), 20): Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found
+
+2019-09-17 08:01:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-09-17 08:01:43 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found
+
+2019-09-17 08:01:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:43 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-09-17 08:01:43 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-09-17 08:01:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\../Screenshots/iPhone 6/teladoc/Teladoc/20190917_080055/3.png]]
+
+2019-09-17 08:01:43 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-09-17 08:01:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-09-17 08:01:43 - [TEST_STEP][FAILED] - sendKeys(findTestObject("mobileSanity/Teladoc/census/input_Location_zip-input"), "35215"): sendKeys(findTestObject("mobileSanity/Teladoc/census/input_Location_zip-input"), "35215") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)
+
+
+2019-09-17 08:02:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-09-17 08:02:04 - [MESSAGE][FAILED] - Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20190917_080043\\1568721724213.png]]
+
+2019-09-17 08:02:04 - [MESSAGE][FAILED] - sendKeys(findTestObject("mobileSanity/Teladoc/census/input_Location_zip-input"), "35215") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-09-17 08:00:50 - [TEST_CASE][FAILED] - Test Cases/mobileWeb/Teladoc: Test Cases/mobileWeb/Teladoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-09-17 08:00:49 - [TEST_SUITE][FAILED] - teladoc: Test Cases/mobileWeb/Teladoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-09-17 08:00:49 - [TEST_SUITE][FAILED] - teladoc: Test Cases/mobileWeb/Teladoc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '35215' to object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' located by 'By.xpath: //input[@id = 'zip-input' and @type = 'tel' and @placeholder = 'Zip Code']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Teladoc.run(Teladoc:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1568721643937.run(TempTestSuite1568721643937.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

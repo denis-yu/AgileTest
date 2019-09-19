@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Safari 11,,2019-09-03 08:05:01,2019-09-03 08:18:37,13m - 36.377s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Safari 11,teladoc application flow,2019-09-03 08:05:07,2019-09-03 08:18:19,13m - 12.334s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""teladoc"", ""carrierName"":""Teladoc""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-03 08:05:15,2019-09-03 08:05:21,5.559s,PASSED
+i = 0,Safari 11,,2019-09-03 08:05:21,2019-09-03 08:05:21,0.006s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,open site,2019-09-03 08:05:21,2019-09-03 08:14:13,8m - 51.711s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Safari 11,click menu,2019-09-03 08:14:13,2019-09-03 08:15:00,47.291s,PASSED
+Thread.sleep(3000),Safari 11,wait time,2019-09-03 08:15:00,2019-09-03 08:15:08,8.428s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-03 08:15:09,2019-09-03 08:15:27,18.649s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Safari 11,click nav teladoc,2019-09-03 08:15:27,2019-09-03 08:16:34,1m - 6.289s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-03 08:16:34,2019-09-03 08:16:36,2.925s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/front_door_quote_button""), 20)",Safari 11,,2019-09-03 08:16:36,2019-09-03 08:17:28,51.233s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-03 08:17:28,2019-09-03 08:17:40,12.679s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/front_door_quote_button""))",Safari 11,click button,2019-09-03 08:17:40,2019-09-03 08:18:19,38.142s,FAILED

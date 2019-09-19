@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Safari 11,,2019-09-17 08:00:49,2019-09-17 08:02:05,1m - 15.584s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Safari 11,teladoc application flow,2019-09-17 08:00:50,2019-09-17 08:02:04,1m - 13.716s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""teladoc"", ""carrierName"":""Teladoc""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-17 08:00:53,2019-09-17 08:00:55,1.850s,PASSED
+i = 0,Safari 11,,2019-09-17 08:00:55,2019-09-17 08:00:55,0.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,open site,2019-09-17 08:00:55,2019-09-17 08:01:11,15.780s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Safari 11,click menu,2019-09-17 08:01:11,2019-09-17 08:01:11,0.176s,PASSED
+Thread.sleep(3000),Safari 11,wait time,2019-09-17 08:01:11,2019-09-17 08:01:14,3.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-17 08:01:14,2019-09-17 08:01:15,0.500s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Safari 11,click nav teladoc,2019-09-17 08:01:15,2019-09-17 08:01:16,1.669s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-17 08:01:16,2019-09-17 08:01:17,0.558s,PASSED
+Thread.sleep(3000),Safari 11,,2019-09-17 08:01:17,2019-09-17 08:01:20,3.028s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-17 08:01:20,2019-09-17 08:01:21,0.731s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/front_door_quote_button""))",Safari 11,click button,2019-09-17 08:01:21,2019-09-17 08:01:21,0.566s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-17 08:01:21,2019-09-17 08:01:22,0.362s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), 20)",Safari 11,,2019-09-17 08:01:22,2019-09-17 08:01:43,21.062s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-17 08:01:43,2019-09-17 08:01:43,0.431s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), ""35215"")",Safari 11,set zip code,2019-09-17 08:01:43,2019-09-17 08:02:04,20.910s,FAILED

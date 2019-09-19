@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+teladoc,Safari 11,,2019-09-12 08:00:44,2019-09-12 08:02:40,1m - 56.317s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Teladoc,Safari 11,teladoc application flow,2019-09-12 08:00:44,2019-09-12 08:02:39,1m - 55.018s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""teladoc"", ""carrierName"":""Teladoc""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-12 08:00:46,2019-09-12 08:00:49,2.629s,PASSED
+i = 0,Safari 11,,2019-09-12 08:00:49,2019-09-12 08:00:49,0.053s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,open site,2019-09-12 08:00:49,2019-09-12 08:01:06,17.220s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/menu""))",Safari 11,click menu,2019-09-12 08:01:06,2019-09-12 08:01:06,0.366s,PASSED
+Thread.sleep(3000),Safari 11,wait time,2019-09-12 08:01:06,2019-09-12 08:01:09,3.003s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:01:09,2019-09-12 08:01:10,0.510s,PASSED
+"click(findTestObject(""mobileSanity/Common/side_nav/nav_teladoc""))",Safari 11,click nav teladoc,2019-09-12 08:01:10,2019-09-12 08:01:13,3.283s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-12 08:01:13,2019-09-12 08:01:13,0.038s,PASSED
+Thread.sleep(3000),Safari 11,,2019-09-12 08:01:13,2019-09-12 08:01:16,3.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:01:16,2019-09-12 08:01:17,0.442s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/front_door_quote_button""))",Safari 11,click button,2019-09-12 08:01:17,2019-09-12 08:01:17,0.586s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-12 08:01:17,2019-09-12 08:01:17,0.057s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), 20)",Safari 11,,2019-09-12 08:01:17,2019-09-12 08:01:18,0.443s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:01:18,2019-09-12 08:01:18,0.668s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), ""35215"")",Safari 11,set zip code,2019-09-12 08:01:18,2019-09-12 08:01:19,0.158s,PASSED
+Thread.sleep(500),Safari 11,set dob,2019-09-12 08:01:19,2019-09-12 08:01:19,0.500s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/census/input_Date of Birth_dob-0""), ""12121980"")",Safari 11,,2019-09-12 08:01:19,2019-09-12 08:01:19,0.130s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/census/label_Male""))",Safari 11,,2019-09-12 08:01:19,2019-09-12 08:01:19,0.088s,PASSED
+Thread.sleep(3000),Safari 11,,2019-09-12 08:01:19,2019-09-12 08:01:22,3.001s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/census/label_Start Secure Application""))",Safari 11,click button,2019-09-12 08:01:22,2019-09-12 08:01:23,1.239s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-12 08:01:23,2019-09-12 08:01:24,0.065s,PASSED
+"waitForElementPresent(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName""), 20)",Safari 11,,2019-09-12 08:01:24,2019-09-12 08:01:24,0.466s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:01:24,2019-09-12 08:01:24,0.457s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/name""), [:], STOP_ON_FAILURE)",Safari 11,get name,2019-09-12 08:01:24,2019-09-12 08:01:26,1.087s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName""), FirstName)",Safari 11,,2019-09-12 08:01:26,2019-09-12 08:01:26,0.482s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-lastName""), LastName)",Safari 11,,2019-09-12 08:01:26,2019-09-12 08:01:26,0.229s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/select_01020304050607""), ""05"", true)",Safari 11,,2019-09-12 08:01:26,2019-09-12 08:01:27,0.346s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/select_00102030405060708091011""), ""06"", true)",Safari 11,,2019-09-12 08:01:27,2019-09-12 08:01:27,0.826s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input_lbs""), ""180"")",Safari 11,,2019-09-12 08:01:27,2019-09-12 08:01:28,0.315s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__address""), Address)",Safari 11,,2019-09-12 08:01:28,2019-09-12 08:01:28,0.271s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__city""), City)",Safari 11,,2019-09-12 08:01:28,2019-09-12 08:01:28,0.189s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__email""), AutoEmail)",Safari 11,,2019-09-12 08:01:28,2019-09-12 08:01:28,0.210s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input_phone number""), Tel)",Safari 11,,2019-09-12 08:01:28,2019-09-12 08:01:29,0.118s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment""))",Safari 11,,2019-09-12 08:01:29,2019-09-12 08:01:29,0.109s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-12 08:01:29,2019-09-12 08:01:29,0.005s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first""), 20)",Safari 11,,2019-09-12 08:01:29,2019-09-12 08:01:29,0.555s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:01:29,2019-09-12 08:01:30,0.493s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first""), FirstName)",Safari 11,,2019-09-12 08:01:30,2019-09-12 08:01:30,0.190s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last""), LastName)",Safari 11,,2019-09-12 08:01:30,2019-09-12 08:01:30,0.155s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101""), ""12"", true)",Safari 11,,2019-09-12 08:01:30,2019-09-12 08:01:31,0.660s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/select_YYYY2019202020212022202""), ""2026"", true)",Safari 11,,2019-09-12 08:01:31,2019-09-12 08:01:31,0.558s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number""), ""4111111111111111"")",Safari 11,,2019-09-12 08:01:31,2019-09-12 08:01:31,0.143s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-cvv""), ""122"")",Safari 11,,2019-09-12 08:01:31,2019-09-12 08:01:32,0.093s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/label_My billing address is th""))",Safari 11,,2019-09-12 08:01:32,2019-09-12 08:01:32,0.133s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/label_I Accept Authorization f""))",Safari 11,,2019-09-12 08:01:32,2019-09-12 08:01:32,0.101s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review""))",Safari 11,,2019-09-12 08:01:32,2019-09-12 08:01:32,0.099s,PASSED
+waitForPageLoad(20),Safari 11,,2019-09-12 08:01:32,2019-09-12 08:01:32,0.006s,PASSED
+"waitForElementPresent(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""), 20)",Safari 11,,2019-09-12 08:01:32,2019-09-12 08:01:43,10.769s,PASSED
+Thread.sleep(5000),Safari 11,,2019-09-12 08:01:43,2019-09-12 08:01:48,5.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:01:48,2019-09-12 08:01:48,0.400s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""), 10)",Safari 11,,2019-09-12 08:01:48,2019-09-12 08:01:48,0.029s,PASSED
+"waitForElementClickable(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""), 10)",Safari 11,,2019-09-12 08:01:48,2019-09-12 08:01:48,0.049s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""))",Safari 11,,2019-09-12 08:01:48,2019-09-12 08:01:48,0.091s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/p_""))",Safari 11,,2019-09-12 08:01:48,2019-09-12 08:01:48,0.088s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application""))",Safari 11,,2019-09-12 08:01:48,2019-09-12 08:01:48,0.087s,PASSED
+Thread.sleep(50000),Safari 11,,2019-09-12 08:01:48,2019-09-12 08:02:38,50.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-12 08:02:38,2019-09-12 08:02:39,0.467s,PASSED
+"verifyTextPresent(""Congratulations"", false)",Safari 11,,2019-09-12 08:02:39,2019-09-12 08:02:39,0.495s,FAILED
