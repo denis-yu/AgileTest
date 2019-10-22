@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>affiliates</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c7a1e67f-e25c-45fd-ae84-a54803c88f8d</testSuiteGuid>
+   <testCaseLink>
+      <guid>6ed9ee83-611b-4c2d-962c-278ba5c8eb30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/affiliates_inventory</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/hic_affiliates</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ShortName</value>
+         <variableId>f53959ad-90a8-4661-b4dd-adea89ec0bf3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PhoneNumber</value>
+         <variableId>53f79a1a-bfed-42ff-8c61-bad0c5159d43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Health</value>
+         <variableId>e0bbe9fb-93a1-4687-8056-5059f81251c1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ShortTerm</value>
+         <variableId>31492e0b-67df-41e0-bfb7-06ee834e1b0b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Dental</value>
+         <variableId>a4f204bc-f2fd-496a-8563-f1e90dc83d1e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

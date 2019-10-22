@@ -57,3 +57,17 @@ def static "test.MobileKeywords.isElementPresent_Web"(
 def static "test.MobileKeywords.getCurrentSessionMobileDriver"() {
     (new test.MobileKeywords()).getCurrentSessionMobileDriver()
 }
+
+def static "test.WriteExcel.writeToExcel"(
+    	String stmNumber	
+     , 	String context	) {
+    (new test.WriteExcel()).writeToExcel(
+        	stmNumber
+         , 	context)
+}
+
+def static "test.WriteExcel.writeContext"(
+    	String context	) {
+    (new test.WriteExcel()).writeContext(
+        	context)
+}
