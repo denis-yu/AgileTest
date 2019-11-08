@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+dental,Safari 11,,2019-11-07 08:00:38,2019-11-07 08:01:58,1m - 20.373s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/National General,Safari 11,Dental - National General application flow,2019-11-07 08:00:39,2019-11-07 08:01:14,35.213s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""dental"", ""carrierName"":""National General""], CONTINUE_ON_FAILURE)",Safari 11,,2019-11-07 08:00:40,2019-11-07 08:00:41,1.490s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:00:41,2019-11-07 08:00:54,12.528s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [""zipcode"":zipcode, ""dob"":""12/12/1980""], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:00:54,2019-11-07 08:01:10,15.579s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-11-07 08:01:10,2019-11-07 08:01:10,0.263s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-11-07 08:01:10,2019-11-07 08:01:10,0.206s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-11-07 08:01:10,2019-11-07 08:01:10,0.123s,PASSED
+Thread.sleep(2000),Safari 11,,2019-11-07 08:01:10,2019-11-07 08:01:12,2.002s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_ng""))",Safari 11,,2019-11-07 08:01:12,2019-11-07 08:01:12,0.094s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:12,2019-11-07 08:01:13,0.563s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:13,2019-11-07 08:01:13,0.419s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-11-07 08:01:13,2019-11-07 08:01:13,0.078s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Safari 11,,2019-11-07 08:01:13,2019-11-07 08:01:14,0.481s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/Nationwide,Safari 11,,2019-11-07 08:01:14,2019-11-07 08:01:36,22.728s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""dental"", ""carrierName"":""Nationwide""], CONTINUE_ON_FAILURE)",Safari 11,,2019-11-07 08:01:14,2019-11-07 08:01:14,0.091s,PASSED
+i = 0,Safari 11,,2019-11-07 08:01:14,2019-11-07 08:01:14,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:14,2019-11-07 08:01:20,5.526s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:20,2019-11-07 08:01:31,11.471s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-11-07 08:01:31,2019-11-07 08:01:31,0.084s,PASSED
+Thread.sleep(1000),Safari 11,,2019-11-07 08:01:31,2019-11-07 08:01:32,1.002s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-11-07 08:01:32,2019-11-07 08:01:32,0.033s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-11-07 08:01:32,2019-11-07 08:01:32,0.068s,PASSED
+Thread.sleep(2000),Safari 11,,2019-11-07 08:01:32,2019-11-07 08:01:34,2.001s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_nationwide""))",Safari 11,,2019-11-07 08:01:34,2019-11-07 08:01:34,0.232s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:34,2019-11-07 08:01:35,0.803s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:35,2019-11-07 08:01:36,0.541s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-11-07 08:01:36,2019-11-07 08:01:36,0.092s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Safari 11,,2019-11-07 08:01:36,2019-11-07 08:01:36,0.568s,FAILED
+,,,,,,
+Test Cases/mobileWeb/Dental/USA Access,Safari 11,,2019-11-07 08:01:36,2019-11-07 08:01:57,20.971s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""dental"", ""carrierName"":""USA Access""], CONTINUE_ON_FAILURE)",Safari 11,,2019-11-07 08:01:37,2019-11-07 08:01:37,0.065s,PASSED
+i = 0,Safari 11,,2019-11-07 08:01:37,2019-11-07 08:01:37,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:37,2019-11-07 08:01:42,5.451s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:42,2019-11-07 08:01:53,11.034s,PASSED
+"comment(""-------------quote page--------------------"")",Safari 11,,2019-11-07 08:01:53,2019-11-07 08:01:53,0.013s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-11-07 08:01:53,2019-11-07 08:01:53,0.104s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2019-11-07 08:01:53,2019-11-07 08:01:53,0.042s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2019-11-07 08:01:53,2019-11-07 08:01:54,0.452s,PASSED
+Thread.sleep(2000),Safari 11,,2019-11-07 08:01:54,2019-11-07 08:01:56,2.002s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_usa""))",Safari 11,,2019-11-07 08:01:56,2019-11-07 08:01:56,0.154s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:56,2019-11-07 08:01:57,0.535s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-11-07 08:01:57,2019-11-07 08:01:57,0.449s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2019-11-07 08:01:57,2019-11-07 08:01:57,0.049s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Safari 11,,2019-11-07 08:01:57,2019-11-07 08:01:57,0.397s,FAILED

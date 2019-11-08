@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,,hbi flow,2019-10-22 01:42:30,2019-10-22 02:18:54,36m - 24.277s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Agile One,,Agile One application flow,2019-10-22 01:42:57,2019-10-22 01:56:23,13m - 25.821s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Agile One""], CONTINUE_ON_FAILURE)",,,2019-10-22 01:43:46,2019-10-22 01:46:07,2m - 20.577s,PASSED
+i = 0,,,2019-10-22 01:46:07,2019-10-22 01:46:07,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 01:46:07,2019-10-22 01:54:11,8m - 4.174s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 01:54:11,2019-10-22 01:55:41,1m - 29.901s,FAILED
+Thread.sleep(5000),,,2019-10-22 01:55:41,2019-10-22 01:55:49,7.662s,PASSED
+"scrollToPosition(200, 2300)",,,2019-10-22 01:55:49,2019-10-22 01:56:21,32.771s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Legion Limited Medical,,Axis Legion application flow,2019-10-22 01:56:30,2019-10-22 01:59:59,3m - 29.465s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Legion Limited Medical""], CONTINUE_ON_FAILURE)",,,2019-10-22 01:57:40,2019-10-22 01:58:00,20.280s,PASSED
+i = 0,,,2019-10-22 01:58:01,2019-10-22 01:58:01,0.088s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 01:58:01,2019-10-22 01:58:56,55.325s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 01:58:56,2019-10-22 01:59:53,56.818s,FAILED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Legion Limited Medical 500""))",,,2019-10-22 01:59:53,2019-10-22 01:59:58,4.976s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Cardinal Choice,,Cardinal Choice application flow,2019-10-22 02:00:01,2019-10-22 02:01:43,1m - 42.440s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Cardinal Choice""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:00:55,2019-10-22 02:00:58,3.156s,PASSED
+i = 0,,,2019-10-22 02:00:58,2019-10-22 02:00:58,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:00:58,2019-10-22 02:01:28,30.560s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:01:28,2019-10-22 02:01:35,6.507s,FAILED
+Thread.sleep(5000),,,2019-10-22 02:01:35,2019-10-22 02:01:40,5.215s,PASSED
+"scrollToPosition(200, 2300)",,,2019-10-22 02:01:40,2019-10-22 02:01:42,1.833s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Core Shield,,Core Shield application flow,2019-10-22 02:01:44,2019-10-22 02:06:14,4m - 30.100s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Core Shield""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:01:55,2019-10-22 02:01:57,1.533s,PASSED
+i = 0,,,2019-10-22 02:01:57,2019-10-22 02:01:57,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:01:57,2019-10-22 02:05:31,3m - 34.585s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:05:31,2019-10-22 02:06:07,35.578s,FAILED
+Thread.sleep(5000),,,2019-10-22 02:06:07,2019-10-22 02:06:12,5.166s,PASSED
+"scrollToPosition(200, 2300)",,,2019-10-22 02:06:12,2019-10-22 02:06:13,0.772s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Agile Secure,,,2019-10-22 02:06:14,2019-10-22 02:08:33,2m - 18.860s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Agile Secure""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:06:40,2019-10-22 02:06:42,1.333s,PASSED
+i = 0,,,2019-10-22 02:06:42,2019-10-22 02:06:42,0.034s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:06:42,2019-10-22 02:08:23,1m - 41.051s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""08701""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:08:23,2019-10-22 02:08:30,7.371s,FAILED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",,,2019-10-22 02:08:30,2019-10-22 02:08:32,1.689s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Fixed Cash Benefit,,,2019-10-22 02:08:33,2019-10-22 02:11:59,3m - 25.970s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Fixed Cash Benefit""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:09:14,2019-10-22 02:09:16,2.495s,PASSED
+i = 0,,,2019-10-22 02:09:16,2019-10-22 02:09:16,0.018s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:09:16,2019-10-22 02:11:45,2m - 28.729s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""85364""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:11:45,2019-10-22 02:11:51,6.623s,FAILED
+Thread.sleep(5000),,,2019-10-22 02:11:51,2019-10-22 02:11:57,5.171s,PASSED
+"scrollToPosition(200, 2300)",,,2019-10-22 02:11:57,2019-10-22 02:11:57,0.683s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Health Choice,,,2019-10-22 02:11:59,2019-10-22 02:15:22,3m - 23.348s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Health Choice""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:12:33,2019-10-22 02:12:36,2.767s,PASSED
+i = 0,,,2019-10-22 02:12:36,2019-10-22 02:12:36,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:12:36,2019-10-22 02:14:43,2m - 6.557s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:14:43,2019-10-22 02:15:15,32.012s,FAILED
+Thread.sleep(5000),,,2019-10-22 02:15:15,2019-10-22 02:15:20,5.266s,PASSED
+"scrollToPosition(200, 2300)",,,2019-10-22 02:15:20,2019-10-22 02:15:21,1.377s,FAILED
+,,,,,,
+Test Cases/mobileWeb/HBI/Vitala Care,,,2019-10-22 02:15:23,2019-10-22 02:18:48,3m - 24.533s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:15:53,2019-10-22 02:15:56,3.340s,PASSED
+i = 0,,,2019-10-22 02:15:56,2019-10-22 02:15:56,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",,,2019-10-22 02:15:56,2019-10-22 02:18:32,2m - 35.562s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""90011""], CONTINUE_ON_FAILURE)",,,2019-10-22 02:18:32,2019-10-22 02:18:42,10.235s,FAILED
+Thread.sleep(5000),,,2019-10-22 02:18:42,2019-10-22 02:18:47,5.055s,PASSED
+"scrollToPosition(200, 2300)",,,2019-10-22 02:18:47,2019-10-22 02:18:47,0.477s,FAILED

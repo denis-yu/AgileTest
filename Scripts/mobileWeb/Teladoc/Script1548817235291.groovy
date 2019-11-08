@@ -34,11 +34,11 @@ WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
 
 WebUI.waitForPageLoad(20)
 
-WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/front_door_h1'), 20)
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), 20)
+
+Thread.sleep(3000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), 20)
 
 'set zip code'
 WebUI.sendKeys(findTestObject('mobileSanity/Teladoc/census/input_Location_zip-input'), '35215')

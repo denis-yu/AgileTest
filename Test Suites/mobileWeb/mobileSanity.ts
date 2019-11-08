@@ -21,7 +21,7 @@
             <profileName>default</profileName>
             <runConfigurationId>iphone6</runConfigurationId>
          </configuration>
-         <runEnabled>false</runEnabled>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/mobileWeb/hbi</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>

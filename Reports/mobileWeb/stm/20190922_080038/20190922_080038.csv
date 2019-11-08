@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2019-09-22 08:02:49,2019-09-22 08:14:04,11m - 15.056s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/Slaico,Safari 11,,2019-09-22 08:02:50,2019-09-22 08:04:27,1m - 37.826s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Slaico""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:02:50,2019-09-22 08:02:51,0.564s,PASSED
+i = 0,Safari 11,,2019-09-22 08:02:51,2019-09-22 08:02:51,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:02:51,2019-09-22 08:03:00,8.971s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:03:00,2019-09-22 08:03:13,12.969s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:03:13,2019-09-22 08:03:21,8.097s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:03:21,2019-09-22 08:03:26,5.526s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:03:26,2019-09-22 08:03:34,7.802s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:03:34,2019-09-22 08:04:27,53.228s,FAILED
+,,,,,,
+Test Cases/mobileWeb/stm/AdvantHealth,Safari 11,,2019-09-22 08:04:27,2019-09-22 08:05:59,1m - 31.845s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:04:28,2019-09-22 08:04:28,0.081s,PASSED
+i = 0,Safari 11,,2019-09-22 08:04:28,2019-09-22 08:04:28,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:04:28,2019-09-22 08:04:34,6.862s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:04:34,2019-09-22 08:04:46,11.965s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:04:46,2019-09-22 08:04:55,8.246s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:04:55,2019-09-22 08:04:59,3.917s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:04:59,2019-09-22 08:05:06,7.813s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:05:06,2019-09-22 08:05:59,52.834s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Companion,Safari 11,,2019-09-22 08:05:59,2019-09-22 08:07:28,1m - 29.011s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Companion""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:05:59,2019-09-22 08:05:59,0.062s,PASSED
+i = 0,Safari 11,,2019-09-22 08:05:59,2019-09-22 08:05:59,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:05:59,2019-09-22 08:06:05,5.908s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:06:05,2019-09-22 08:06:14,8.422s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""pivotcompanion""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:06:14,2019-09-22 08:06:21,7.240s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""pivot-health-choice""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:06:21,2019-09-22 08:06:25,3.748s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:06:25,2019-09-22 08:06:32,7.215s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:06:32,2019-09-22 08:07:28,56.280s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest,Safari 11,,2019-09-22 08:07:28,2019-09-22 08:08:47,1m - 18.478s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Everest""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:07:28,2019-09-22 08:07:29,0.065s,PASSED
+i = 0,Safari 11,,2019-09-22 08:07:29,2019-09-22 08:07:29,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:07:29,2019-09-22 08:07:34,5.266s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""83709""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:07:34,2019-09-22 08:07:42,8.619s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:07:42,2019-09-22 08:07:50,7.276s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""everest-one""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:07:50,2019-09-22 08:07:54,3.991s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:07:54,2019-09-22 08:08:01,7.124s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:08:01,2019-09-22 08:08:47,45.917s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Everest Prime,Safari 11,,2019-09-22 08:08:47,2019-09-22 08:10:05,1m - 17.912s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Everest Prime""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:08:47,2019-09-22 08:08:47,0.061s,PASSED
+i = 0,Safari 11,,2019-09-22 08:08:47,2019-09-22 08:08:47,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:08:47,2019-09-22 08:08:52,5.063s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:08:52,2019-09-22 08:09:00,8.225s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:09:00,2019-09-22 08:09:08,7.352s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:09:08,2019-09-22 08:09:11,3.717s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:09:11,2019-09-22 08:09:18,7.188s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:09:18,2019-09-22 08:10:05,46.174s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/LifeShield,Safari 11,,2019-09-22 08:10:05,2019-09-22 08:11:23,1m - 17.941s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""LifeShield""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:10:05,2019-09-22 08:10:05,0.061s,PASSED
+i = 0,Safari 11,,2019-09-22 08:10:05,2019-09-22 08:10:05,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:10:05,2019-09-22 08:10:10,5.133s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:10:10,2019-09-22 08:10:19,8.926s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""lifeshield""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:10:19,2019-09-22 08:10:26,7.247s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""lifeshield""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:10:26,2019-09-22 08:10:30,3.590s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:10:30,2019-09-22 08:10:37,6.999s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:10:37,2019-09-22 08:11:23,45.836s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/NationalGeneral,Safari 11,,2019-09-22 08:11:23,2019-09-22 08:12:46,1m - 23.461s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""National General""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:11:23,2019-09-22 08:11:23,0.062s,PASSED
+i = 0,Safari 11,,2019-09-22 08:11:23,2019-09-22 08:11:23,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:11:23,2019-09-22 08:11:29,5.825s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:11:29,2019-09-22 08:11:37,8.479s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:11:37,2019-09-22 08:11:44,7.185s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:11:44,2019-09-22 08:11:48,3.644s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:11:48,2019-09-22 08:11:54,6.323s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:11:54,2019-09-22 08:12:46,51.824s,PASSED
+,,,,,,
+Test Cases/mobileWeb/stm/Aspen,Safari 11,,2019-09-22 08:12:46,2019-09-22 08:14:04,1m - 17.621s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Aspen""], CONTINUE_ON_FAILURE)",Safari 11,,2019-09-22 08:12:46,2019-09-22 08:12:46,0.059s,PASSED
+i = 0,Safari 11,,2019-09-22 08:12:46,2019-09-22 08:12:46,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:12:46,2019-09-22 08:12:52,5.388s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:12:52,2019-09-22 08:13:00,8.460s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""aspen""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:13:00,2019-09-22 08:13:07,7.273s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToDetail_stm""), [""carrier"":""aspen""], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:13:07,2019-09-22 08:13:11,3.597s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:13:11,2019-09-22 08:13:18,6.931s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2019-09-22 08:13:18,2019-09-22 08:14:04,45.794s,PASSED
