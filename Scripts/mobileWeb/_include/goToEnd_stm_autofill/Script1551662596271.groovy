@@ -53,7 +53,7 @@ WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
 
 WebUI.waitForPageLoad(20)
 
-Thread.sleep(2000)
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

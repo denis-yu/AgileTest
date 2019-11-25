@@ -45,48 +45,55 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;js-quote-plans-container&quot;)/ul[@class=&quot;quote-all-plans-list js-plans-list&quot;]/li[@class=&quot;quote-plan-container js-plan-unit dental-plan&quot;]/div[@class=&quot;quote-plan dental-plan&quot;]/div[@class=&quot;quote-plan-header&quot;]/a[@class=&quot;js-buy-plan quote-plan-buy&quot;]</value>
+      <value>(//a[@class='js-buy-plan quote-plan-buy'])[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='js-quote-plans-container']/ul[2]/li/div/div/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
+      <type>Main</type>
       <value>//a[contains(text(),'Select This Plan')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/mo'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Best Seller'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Foundation Dental - Protector I'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>//a[contains(@href, '/dental-insurance/apply/foundation-dental-protector-i-al')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//ul[2]/li/div/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>
