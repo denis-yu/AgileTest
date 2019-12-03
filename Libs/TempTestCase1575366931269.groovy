@@ -14,9 +14,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\JABIR~1.GON\\AppData\\Local\\Temp\\Katalon\\Test Cases\\HP\\Short Term\\STMFlow\\20190916_114226\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\JABIR~1.GON\\AppData\\Local\\Temp\\Katalon\\Test Cases\\HP\\IFP\\IFPFlow\\20191203_175531\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/HP/Short Term/STMFlow', new TestCaseBinding('Test Cases/HP/Short Term/STMFlow',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
+        TestCaseMain.runTestCase('Test Cases/HP/IFP/IFPFlow', new TestCaseBinding('Test Cases/HP/IFP/IFPFlow',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     
