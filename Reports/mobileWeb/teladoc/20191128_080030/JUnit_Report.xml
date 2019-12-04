@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="teladoc" time="106" tests="1" failures="0" errors="0">
+   <testsuite name="teladoc" tests="1" failures="0" errors="0" time="106" timestamp="2019-11-28 08:00:36" hostname="Administrator - 172.30.0.53" id="Test Suites/mobileWeb/teladoc">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/0.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/1.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/2.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/3.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/4.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/5.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/6.png, D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/7.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="0bac9c2cd01b841b07914bb71283d494"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/mobileWeb/Teladoc" classname="Test Cases/mobileWeb/Teladoc" status="PASSED">
+         <system-out><![CDATA[2019-11-28 08:00:37 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/Teladoc: Test Cases/mobileWeb/Teladoc
+
+2019-11-28 08:00:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenPath"), ["productLine":"teladoc", "carrierName":"Teladoc"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-11-28 08:00:38 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenPath: Test Cases/mobileWeb/_include/get_screenPath
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-11-28 08:00:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-11-28 08:00:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/openWebSite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-11-28 08:00:40 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/openWebSite: Test Cases/mobileWeb/_include/openWebSite
+
+2019-11-28 08:00:40 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-11-28 08:00:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-28 08:00:41 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-11-28 08:00:41 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-11-28 08:00:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-28 08:00:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-11-28 08:00:47 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-11-28 08:00:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-28 08:00:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:00:48 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:00:50 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:00:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/0.png]]
+
+2019-11-28 08:00:52 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:00:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:00:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/openWebSite' successfully
+
+2019-11-28 08:00:52 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/menu")): Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-11-28 08:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-11-28 08:00:53 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-11-28 08:00:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:00:56 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:00:56 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:00:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/1.png]]
+
+2019-11-28 08:00:56 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:00:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:00:56 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/nav_teladoc")): Object: 'Object Repository/mobileSanity/Common/side_nav/nav_teladoc' is clicked on
+
+2019-11-28 08:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/nav_teladoc' is clicked on
+
+2019-11-28 08:00:59 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-11-28 08:00:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-28 08:00:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Teladoc/front_door_h1"), 20): Object 'Object Repository/mobileSanity/Teladoc/front_door_h1' is visible
+
+2019-11-28 08:00:59 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/front_door_h1' is visible
+
+2019-11-28 08:00:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:00:59 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:00:59 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:01:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/2.png]]
+
+2019-11-28 08:01:00 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:01:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Teladoc/census/input_Location_zip-input"), 20): Object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' is visible
+
+2019-11-28 08:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input' is visible
+
+2019-11-28 08:01:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Teladoc/census/input_Location_zip-input"), "35215"): Keys '35215' sent to object: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input'
+
+2019-11-28 08:01:01 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/mobileSanity/Teladoc/census/input_Location_zip-input'
+
+2019-11-28 08:01:01 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-11-28 08:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/census/input_Date of Birth_dob-0"), "12121980"): Text '12121980' is set on object 'Object Repository/mobileSanity/Teladoc/census/input_Date of Birth_dob-0'
+
+2019-11-28 08:01:02 - [MESSAGE][PASSED] - Text '12121980' is set on object 'Object Repository/mobileSanity/Teladoc/census/input_Date of Birth_dob-0'
+
+2019-11-28 08:01:02 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/census/label_Male")): Object: 'Object Repository/mobileSanity/Teladoc/census/label_Male' is clicked on
+
+2019-11-28 08:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/census/label_Male' is clicked on
+
+2019-11-28 08:01:02 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-11-28 08:01:05 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/census/get_a_quote")): Object: 'Object Repository/mobileSanity/Teladoc/census/get_a_quote' is clicked on
+
+2019-11-28 08:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/census/get_a_quote' is clicked on
+
+2019-11-28 08:01:06 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-11-28 08:01:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-28 08:01:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Teladoc/apply_button"), 20): Object 'Object Repository/mobileSanity/Teladoc/apply_button' is visible
+
+2019-11-28 08:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/apply_button' is visible
+
+2019-11-28 08:01:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:06 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:01:06 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:01:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/3.png]]
+
+2019-11-28 08:01:07 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:01:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:07 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/apply_button")): Object: 'Object Repository/mobileSanity/Teladoc/apply_button' is clicked on
+
+2019-11-28 08:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/apply_button' is clicked on
+
+2019-11-28 08:01:07 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-11-28 08:01:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-28 08:01:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName"), 20): Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName' is present
+
+2019-11-28 08:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName' is present
+
+2019-11-28 08:01:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:08 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:01:08 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:01:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/4.png]]
+
+2019-11-28 08:01:08 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:01:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/name"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/name' successfully
+
+2019-11-28 08:01:08 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/name: Test Cases/mobileWeb/_include/name
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - City = City: null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - println(City): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-11-28 08:01:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/name' successfully
+
+2019-11-28 08:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName"), FirstName): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName'
+
+2019-11-28 08:01:10 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName'
+
+2019-11-28 08:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-lastName"), LastName): Text 'ZZ11-PSFJDUnq' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-lastName'
+
+2019-11-28 08:01:10 - [MESSAGE][PASSED] - Text 'ZZ11-PSFJDUnq' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-lastName'
+
+2019-11-28 08:01:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Teladoc/Page_App Page 1/select_01020304050607"), "05", true): All options with value '05' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/select_01020304050607'  using regular expression
+
+2019-11-28 08:01:11 - [MESSAGE][PASSED] - All options with value '05' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/select_01020304050607'  using regular expression
+
+2019-11-28 08:01:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Teladoc/Page_App Page 1/select_00102030405060708091011"), "06", true): All options with value '06' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/select_00102030405060708091011'  using regular expression
+
+2019-11-28 08:01:11 - [MESSAGE][PASSED] - All options with value '06' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/select_00102030405060708091011'  using regular expression
+
+2019-11-28 08:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input_lbs"), "180"): Text '180' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input_lbs'
+
+2019-11-28 08:01:11 - [MESSAGE][PASSED] - Text '180' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input_lbs'
+
+2019-11-28 08:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input__address"), Address): Text 'DCHtZSpO' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__address'
+
+2019-11-28 08:01:11 - [MESSAGE][PASSED] - Text 'DCHtZSpO' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__address'
+
+2019-11-28 08:01:11 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input__city"), City): Text 'fEwStTlM' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__city'
+
+2019-11-28 08:01:12 - [MESSAGE][PASSED] - Text 'fEwStTlM' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__city'
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input__email"), AutoEmail): Text 'test.XMEUexrq@suryani.cn' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__email'
+
+2019-11-28 08:01:12 - [MESSAGE][PASSED] - Text 'test.XMEUexrq@suryani.cn' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input__email'
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 1/input_phone number"), Tel): Text '598-354-2674' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input_phone number'
+
+2019-11-28 08:01:12 - [MESSAGE][PASSED] - Text '598-354-2674' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/input_phone number'
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-11-28 08:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-11-28 08:01:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first"), 20): Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first' is visible
+
+2019-11-28 08:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first' is visible
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:12 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:01:12 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:01:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/5.png]]
+
+2019-11-28 08:01:13 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:01:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:13 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first"), FirstName): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'
+
+2019-11-28 08:01:14 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'
+
+2019-11-28 08:01:14 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last"), LastName): Text 'ZZ11-PSFJDUnq' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last'
+
+2019-11-28 08:01:14 - [MESSAGE][PASSED] - Text 'ZZ11-PSFJDUnq' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last'
+
+2019-11-28 08:01:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101"), "12", true): All options with value '12' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101'  using regular expression
+
+2019-11-28 08:01:14 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101'  using regular expression
+
+2019-11-28 08:01:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Teladoc/Page_App Page 2/select_YYYY2019202020212022202"), "2026", true): All options with value '2026' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/select_YYYY2019202020212022202'  using regular expression
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/select_YYYY2019202020212022202'  using regular expression
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number'
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number'
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Teladoc/Page_App Page 2/input__credit-card-cvv"), "122"): Text '122' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-cvv'
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - Text '122' is set on object 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/input__credit-card-cvv'
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 2/label_My billing address is th")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/label_My billing address is th' is clicked on
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/label_My billing address is th' is clicked on
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 2/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/label_I Accept Authorization f' is clicked on
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/label_I Accept Authorization f' is clicked on
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review' is clicked on
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review' is clicked on
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-11-28 08:01:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-28 08:01:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("mobileSanity/Teladoc/Page_App Page 3/label"), 20): Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' is present
+
+2019-11-28 08:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' is present
+
+2019-11-28 08:01:26 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-11-28 08:01:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:31 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:01:31 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:01:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/6.png]]
+
+2019-11-28 08:01:31 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:01:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:01:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("mobileSanity/Teladoc/Page_App Page 3/label"), 10): Scroll to object 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' successfully
+
+2019-11-28 08:01:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' successfully
+
+2019-11-28 08:01:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("mobileSanity/Teladoc/Page_App Page 3/label"), 10): Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' is clickable
+
+2019-11-28 08:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' is clickable
+
+2019-11-28 08:01:31 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 3/label")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' is clicked on
+
+2019-11-28 08:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/label' is clicked on
+
+2019-11-28 08:01:32 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 3/p_")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/p_' is clicked on
+
+2019-11-28 08:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/p_' is clicked on
+
+2019-11-28 08:01:32 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application' is clicked on
+
+2019-11-28 08:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application' is clicked on
+
+2019-11-28 08:01:32 - [TEST_STEP][PASSED] - Thread.sleep(50000): null
+
+2019-11-28 08:02:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:02:22 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-11-28 08:02:22 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-11-28 08:02:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\mobileWeb\\teladoc\\20191128_080030\\../Screenshots/iPhone 6/teladoc/Teladoc/20191128_080039/7.png]]
+
+2019-11-28 08:02:22 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-11-28 08:02:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-11-28 08:02:22 - [TEST_STEP][PASSED] - verifyTextPresent("Congratulations", false): Text 'Congratulations' is present on page 
+
+2019-11-28 08:02:22 - [MESSAGE][PASSED] - Text 'Congratulations' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-28 08:00:36 - [TEST_SUITE][PASSED] - teladoc: Test Cases/mobileWeb/Teladoc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
