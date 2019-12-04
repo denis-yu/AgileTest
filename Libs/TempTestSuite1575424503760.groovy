@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/Private Label/Spark')
+suiteProperties.put('id', 'Test Suites/Life/life')
 
-suiteProperties.put('name', 'Spark')
+suiteProperties.put('name', 'life')
 
 suiteProperties.put('description', '')
  
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("D:\\Test\\AgileTest\\Reports\\Private Label\\Spark\\20191202_050956\\execution.properties")
+RunConfiguration.setExecutionSettingFile("D:\\Test\\AgileTest\\Reports\\Life\\life\\20191203_205503\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Private Label/Spark', suiteProperties, [new TestCaseBinding('Test Cases/PL Site/Spark/hbi/Health Choice', 'Test Cases/PL Site/Spark/hbi/Health Choice',  null), new TestCaseBinding('Test Cases/PL Site/Spark/hbi/Vitala Care', 'Test Cases/PL Site/Spark/hbi/Vitala Care',  null), new TestCaseBinding('Test Cases/PL Site/Spark/stm/AdvantHealth', 'Test Cases/PL Site/Spark/stm/AdvantHealth',  null), new TestCaseBinding('Test Cases/PL Site/Spark/stm/Everest Prime', 'Test Cases/PL Site/Spark/stm/Everest Prime',  null), new TestCaseBinding('Test Cases/PL Site/Spark/stm/LifeShield', 'Test Cases/PL Site/Spark/stm/LifeShield',  null)])
+TestCaseMain.startTestSuite('Test Suites/Life/life', suiteProperties, [new TestCaseBinding('Test Cases/Life/Freedom Elite', 'Test Cases/Life/Freedom Elite',  null)])
