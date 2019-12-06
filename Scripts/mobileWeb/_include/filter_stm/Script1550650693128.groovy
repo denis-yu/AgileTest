@@ -39,9 +39,9 @@ println(filter_carrier)
 
 CustomKeywords.'test.MobileKeywords.clickJS_ByXpath'(filter_carrier)
 
-Thread.sleep(1000)
-
 WebUI.scrollToElement(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'), 1000)
+
+Thread.sleep(2000)
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Quote Page/a_Show Plans'))
 
