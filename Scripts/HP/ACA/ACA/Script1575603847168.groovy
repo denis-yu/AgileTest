@@ -30,18 +30,39 @@ import static org.apache.commons.lang3.StringUtils.join
 now = new Date()
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = ((GlobalVariable.HPPath+'STM/' + mydate) + '/')
+//GlobalVariable.screenPath = ((GlobalVariable.HPPath+'IFP/' + mydate) + '/')
 GlobalVariable.i=0
 
-WebUI.openBrowser('https://pengujian.healthpocket.com/short-term-health-insurance')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'HP', ('carrierName') : 'ACA'],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
+int second;
+
+WebUI.openBrowser('www.healthpocket.com/individual-health-insurance')
 
 def driver = DriverFactory.getWebDriver()
 
-String baseUrl = 'https://pengujian.healthpocket.com/short-term-health-insurance/'
+String baseUrl = 'https://www.healthpocket.com/individual-health-insurance/'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.click("id=location")
+selenium.refresh();
+selenium.waitForPageToLoad("30000");
+
+for (second = 0;second<60;second++) {
+	try { if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")) 
+			selenium.click("//a[contains(text(),'No Thanks. I want to see ACA plans.')]");
+			break; } 
+		catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
+for (second = 0;second<60;second++) {
+	try { if (selenium.isElementPresent("id=location")) break; } catch (Exception e) {}
+	Thread.sleep(1000);
+}
+
+//selenium.click("id=location")
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -56,7 +77,7 @@ WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], Failu
 for (second = 0;second<60; second++) {
 			try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
-		}
+}
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -65,15 +86,20 @@ selenium.click("//a[contains(text(),'Select')]")
 for (second = 0;second<60; second++) {
 			try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")) break; } catch (Exception e) {}
 			Thread.sleep(1000);
-		}
+}
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 selenium.click("xpath=(//a[contains(text(),'Apply Now')])")
 
-for (second = 0;second<60; second++) {
-	try { if (selenium.isElementPresent("xpath=(//a[contains(text(),'Short Term Health Insurance')])[3]")) break; } catch (Exception e) {}
+for (second = 0;second<60;second++) {
+	try { if (selenium.isElementPresent("//a[contains(text(),'Select')]")) break; } catch (Exception e) {}
 	Thread.sleep(1000);
 }
+
+
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+selenium.click("//a[contains(text(),'Select')]")
 
 WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)

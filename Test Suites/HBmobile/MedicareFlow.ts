@@ -14,6 +14,6 @@
       <guid>7aaaddb1-3479-4c9f-85fe-0e136998d307</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HP/Medicare/MedicareFlow</testCaseId>
+      <testCaseId>Test Cases/HP/Medicare/Medicare</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

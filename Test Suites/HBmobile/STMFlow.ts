@@ -14,6 +14,6 @@
       <guid>63ef9250-b81c-4356-aba6-36390cccd035</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HP/Short Term/STMFlow</testCaseId>
+      <testCaseId>Test Cases/HP/Short Term/STM</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

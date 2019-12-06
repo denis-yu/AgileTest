@@ -14,6 +14,6 @@
       <guid>f46304f9-0e65-41bf-a5e1-829b4b05a830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HP/HomePage/HomePage</testCaseId>
+      <testCaseId>Test Cases/HP/Home/Home</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

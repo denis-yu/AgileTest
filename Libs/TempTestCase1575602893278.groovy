@@ -15,9 +15,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\Katalon\\Test Cases\\mobileWeb\\HBI\\Agile One\\20191205_205153\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\2\\Katalon\\Test Cases\\mobileWeb\\_include\\get_screenPath\\20191205_222813\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/mobileWeb/HBI/Agile One', new TestCaseBinding('Test Cases/mobileWeb/HBI/Agile One',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
+        TestCaseMain.runTestCase('Test Cases/mobileWeb/_include/get_screenPath', new TestCaseBinding('Test Cases/mobileWeb/_include/get_screenPath',[:]), FailureHandling.STOP_ON_FAILURE , true, true)
     

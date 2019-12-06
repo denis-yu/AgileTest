@@ -16,7 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 now = new Date()
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = ((GlobalVariable.HPPath+'HomePage/' + mydate) + '/')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'HP', ('carrierName') : 'home'],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
 GlobalVariable.i=0
 
 WebUI.openBrowser('https://www.healthpocket.com/')

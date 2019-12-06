@@ -14,6 +14,6 @@
       <guid>8505b7c5-ab4f-427f-8d50-4121cc058594</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HP/IFP/IFPFlow</testCaseId>
+      <testCaseId>Test Cases/HP/ACA/ACA</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HP" time="235" tests="4" failures="0" errors="0">
+   <testsuite name="HP" tests="4" failures="0" errors="0" time="235" timestamp="2019-12-06 00:24:26" hostname="Administrator - 172.30.0.53" id="Test Suites/HP/HP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/3.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/4.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/5.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/6.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/home/standard/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/3.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/4.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/3.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/4.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/5.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="11c5bb7a7c5e6a0fb009737914cd18b4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/HP/ACA/ACA" classname="Test Cases/HP/ACA/ACA" status="PASSED">
+         <system-out><![CDATA[2019-12-06 00:24:26 - [TEST_CASE][PASSED] - Test Cases/HP/ACA/ACA: Test Cases/HP/ACA/ACA
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenPath"), ["productLine":"HP", "carrierName":"ACA"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:24:27 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenPath: Test Cases/mobileWeb/_include/get_screenPath
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + "standard" + "/": null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-06 00:24:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-12-06 00:24:27 - [TEST_STEP][PASSED] - openBrowser("www.healthpocket.com/individual-health-insurance"): Browser is opened with url: 'www.healthpocket.com/individual-health-insurance'
+
+2019-12-06 00:24:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-06 00:24:28 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-06 00:24:28 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-06 00:24:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-06 00:24:40 - [MESSAGE][PASSED] - Browser is opened with url: 'www.healthpocket.com/individual-health-insurance'
+
+2019-12-06 00:24:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-06 00:24:40 - [TEST_STEP][PASSED] - baseUrl = "https://www.healthpocket.com/individual-health-insurance/": null
+
+2019-12-06 00:24:40 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-12-06 00:24:40 - [TEST_STEP][PASSED] - selenium.refresh(): null
+
+2019-12-06 00:24:40 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2019-12-06 00:24:43 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:24:43 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:43 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:43 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:43 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:44 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:44 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:45 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:45 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:46 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:46 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:47 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:47 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:48 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:48 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:48 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:49 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:49 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:50 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:50 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:51 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:51 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:51 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:52 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:52 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:53 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:54 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:54 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:54 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:55 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:55 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:56 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:57 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:57 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:58 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:24:59 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:24:59 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:24:59 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:24:59 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:00 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:00 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:00 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:00 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:01 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:01 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:02 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:02 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:03 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:03 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:04 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:04 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:05 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:05 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:05 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:05 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:06 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:06 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:06 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:06 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:07 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:07 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:07 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:07 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:08 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:08 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:08 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:09 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:09 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:10 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:11 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:11 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:12 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:12 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:13 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:13 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:13 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:13 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:14 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:14 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:15 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:15 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:16 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:16 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:16 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:17 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:17 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:17 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:17 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:18 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:18 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:19 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:19 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:20 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:20 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:21 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:21 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:22 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:22 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:22 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:22 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:23 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:23 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:24 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:25 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:25 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:25 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:25 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:26 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:26 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:27 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:27 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:28 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:28 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:29 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:30 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:30 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:30 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:30 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:31 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:31 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:32 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:32 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:33 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:33 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:34 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:34 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:35 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:35 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:36 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:36 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:37 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:37 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:38 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:38 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:39 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:39 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:40 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:40 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:41 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:41 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:42 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:42 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:43 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:43 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:44 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:44 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:45 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:45 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:47 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:47 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:48 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:48 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:49 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:49 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:50 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:50 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:51 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:52 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:52 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:53 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:54 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:54 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:55 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:55 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:25:56 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:25:56 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:25:59 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:25:59 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:00 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:00 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:00 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:00 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:01 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:01 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:02 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:02 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:03 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:03 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:04 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:04 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:05 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:05 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:06 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:06 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:07 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:07 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:08 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:09 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:09 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:09 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:09 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:10 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:10 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:14 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:14 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:15 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:15 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:18 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:18 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:19 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:19 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:20 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:20 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:21 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:21 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:22 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:22 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:23 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:23 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:24 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:25 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:25 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:25 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:25 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:26 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:26 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:30 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:30 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:31 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:31 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:33 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:33 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:34 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:34 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2019-12-06 00:26:38 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-12-06 00:26:38 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:39 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:26:39 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:39 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=location")): null
+
+2019-12-06 00:26:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:39 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:40 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/0.png]]
+
+2019-12-06 00:26:41 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:41 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2019-12-06 00:26:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:41 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:41 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/1.png]]
+
+2019-12-06 00:26:42 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:42 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2019-12-06 00:26:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:42 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:42 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/2.png]]
+
+2019-12-06 00:26:44 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:44 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:26:44 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:44 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2019-12-06 00:26:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:45 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:45 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/3.png]]
+
+2019-12-06 00:26:46 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:46 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2019-12-06 00:26:47 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:26:47 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:47 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2019-12-06 00:26:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:26:49 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:49 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2019-12-06 00:26:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:50 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:50 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/4.png]]
+
+2019-12-06 00:26:51 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(//a[contains(text(),'Apply Now')])"): null
+
+2019-12-06 00:26:55 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:26:55 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:26:55 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2019-12-06 00:26:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:55 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:55 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/5.png]]
+
+2019-12-06 00:26:56 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:56 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2019-12-06 00:26:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:26:56 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:26:56 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:26:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/ACA/standard/6.png]]
+
+2019-12-06 00:26:57 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:26:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Home/Home" classname="Test Cases/HP/Home/Home" status="PASSED">
+         <system-out><![CDATA[2019-12-06 00:26:57 - [TEST_CASE][PASSED] - Test Cases/HP/Home/Home: Test Cases/HP/Home/Home
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenPath"), ["productLine":"HP", "carrierName":"home"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:26:58 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenPath: Test Cases/mobileWeb/_include/get_screenPath
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + "standard" + "/": null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-06 00:26:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-06 00:26:58 - [TEST_STEP][PASSED] - openBrowser("https://www.healthpocket.com/"): Browser is opened with url: 'https://www.healthpocket.com/'
+
+2019-12-06 00:26:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-06 00:26:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-06 00:26:59 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-06 00:26:59 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-06 00:27:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.healthpocket.com/'
+
+2019-12-06 00:27:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.healthpocket.com/"): Navigate to 'https://www.healthpocket.com/' successfully
+
+2019-12-06 00:27:11 - [MESSAGE][PASSED] - Navigate to 'https://www.healthpocket.com/' successfully
+
+2019-12-06 00:27:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:11 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:11 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/home/standard/0.png]]
+
+2019-12-06 00:27:12 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Medicare/Medicare" classname="Test Cases/HP/Medicare/Medicare" status="PASSED">
+         <system-out><![CDATA[2019-12-06 00:27:12 - [TEST_CASE][PASSED] - Test Cases/HP/Medicare/Medicare: Test Cases/HP/Medicare/Medicare
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Medicare"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:27:13 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenPath: Test Cases/mobileWeb/_include/get_screenPath
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + "standard" + "/": null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-06 00:27:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-06 00:27:13 - [TEST_STEP][PASSED] - openBrowser("https://pengujian.healthpocket.com/medicare"): Browser is opened with url: 'https://pengujian.healthpocket.com/medicare'
+
+2019-12-06 00:27:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-06 00:27:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-06 00:27:16 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-06 00:27:16 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-06 00:27:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pengujian.healthpocket.com/medicare'
+
+2019-12-06 00:27:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-06 00:27:23 - [TEST_STEP][PASSED] - baseUrl = "https://pengujian.healthpocket.com/medicare/": null
+
+2019-12-06 00:27:23 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-12-06 00:27:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:23 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:23 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/0.png]]
+
+2019-12-06 00:27:24 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:24 - [TEST_STEP][PASSED] - selenium.click("id=location"): null
+
+2019-12-06 00:27:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:24 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:24 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/1.png]]
+
+2019-12-06 00:27:25 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:25 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2019-12-06 00:27:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:26 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:26 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/2.png]]
+
+2019-12-06 00:27:27 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:27 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2019-12-06 00:27:28 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:27:28 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:27:28 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2019-12-06 00:27:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:31 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:31 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/3.png]]
+
+2019-12-06 00:27:32 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:32 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2019-12-06 00:27:33 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:27:33 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:27:33 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2019-12-06 00:27:33 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:27:34 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:27:34 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2019-12-06 00:27:34 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-06 00:27:35 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:27:35 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2019-12-06 00:27:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:35 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:35 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/Medicare/standard/4.png]]
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Short Term/STM" classname="Test Cases/HP/Short Term/STM" status="PASSED">
+         <system-out><![CDATA[2019-12-06 00:27:36 - [TEST_CASE][PASSED] - Test Cases/HP/Short Term/STM: Test Cases/HP/Short Term/STM
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenPath"), ["productLine":"HP", "carrierName":"STM"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:27:36 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenPath: Test Cases/mobileWeb/_include/get_screenPath
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + "standard" + "/": null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-06 00:27:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenPath' successfully
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-06 00:27:36 - [TEST_STEP][PASSED] - openBrowser("https://pengujian.healthpocket.com/short-term-health-insurance"): Browser is opened with url: 'https://pengujian.healthpocket.com/short-term-health-insurance'
+
+2019-12-06 00:27:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-06 00:27:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-06 00:27:39 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-06 00:27:39 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-06 00:27:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pengujian.healthpocket.com/short-term-health-insurance'
+
+2019-12-06 00:27:49 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-06 00:27:49 - [TEST_STEP][PASSED] - baseUrl = "https://pengujian.healthpocket.com/short-term-health-insurance/": null
+
+2019-12-06 00:27:49 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-12-06 00:27:49 - [TEST_STEP][PASSED] - selenium.click("id=location"): null
+
+2019-12-06 00:27:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:50 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:50 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/0.png]]
+
+2019-12-06 00:27:51 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:51 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2019-12-06 00:27:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:51 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:51 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:27:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/1.png]]
+
+2019-12-06 00:27:52 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:27:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:52 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2019-12-06 00:27:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:27:52 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:27:52 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:28:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/2.png]]
+
+2019-12-06 00:28:01 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:28:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:28:01 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:28:01 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:28:01 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2019-12-06 00:28:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:28:02 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:28:02 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:28:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/3.png]]
+
+2019-12-06 00:28:03 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:28:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:28:03 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2019-12-06 00:28:05 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:28:05 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:28:05 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2019-12-06 00:28:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:28:07 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:28:07 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:28:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/4.png]]
+
+2019-12-06 00:28:08 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:28:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:28:08 - [TEST_STEP][PASSED] - selenium.click("xpath=(//a[contains(text(),'Apply Now')])"): null
+
+2019-12-06 00:28:10 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2019-12-06 00:28:10 - [TEST_STEP][PASSED] - try: null
+
+2019-12-06 00:28:10 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Short Term Health Insurance')])[3]")): null
+
+2019-12-06 00:28:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("mobileWeb/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully
+
+2019-12-06 00:28:11 - [TEST_CASE][PASSED] - Test Cases/mobileWeb/_include/get_screenshot: Test Cases/mobileWeb/_include/get_screenshot
+
+2019-12-06 00:28:11 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-06 00:28:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20191206_002421\\../Screenshots/iPhone 6/HP/STM/standard/5.png]]
+
+2019-12-06 00:28:12 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-06 00:28:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/mobileWeb/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-06 00:24:26 - [TEST_SUITE][PASSED] - HP: Test Cases/HP/Short Term/STM]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

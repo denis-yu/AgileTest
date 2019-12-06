@@ -30,7 +30,9 @@ import static org.apache.commons.lang3.StringUtils.join
 now = new Date()
 mydate = now.format('yyyyMMdd_HHmmss')
 
-GlobalVariable.screenPath = ((GlobalVariable.HPPath+'Medicare/' + mydate) + '/')
+WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'HP', ('carrierName') : 'Medicare'],
+	FailureHandling.CONTINUE_ON_FAILURE)
+
 GlobalVariable.i=0
 
 WebUI.openBrowser('https://pengujian.healthpocket.com/medicare')
