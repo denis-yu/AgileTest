@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>life</name>
+   <name>TriStar</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,11 +9,11 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>083a4415-d6e7-49e3-ab2c-c1b1d4a7bc8f</testSuiteGuid>
+   <testSuiteGuid>fd6ec129-eec6-43ea-b8f2-03eed003aada</testSuiteGuid>
    <testCaseLink>
-      <guid>1319aa5a-5b8d-45e0-8086-93e15f978276</guid>
+      <guid>578d744b-9ea6-4fb3-9b7b-983c79ffec25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Life/Freedom Lite</testCaseId>
+      <testCaseId>Test Cases/PL Site/TriStar/hbi/Vitala Care</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
