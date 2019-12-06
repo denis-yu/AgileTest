@@ -27,7 +27,7 @@ WebUI.click(findTestObject('hic/stm/submitButton'))
 
 Thread.sleep(6000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(1000)
 

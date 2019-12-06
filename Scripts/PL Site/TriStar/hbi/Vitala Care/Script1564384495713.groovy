@@ -13,15 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'TriStar', ('carrierName') : 'Vitala Care'], 
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'TriStar', ('carrierName') : 'Vitala Care'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [('env') : 'https://tristar--qa.storefront.mybenefitskeeper.com'], 
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://tristar--qa.storefront.mybenefitskeeper.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/census_hbi'), [('zipcode') : '90011'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/census_hbi'), [('zipcode') : '90011'], FailureHandling.CONTINUE_ON_FAILURE)
 
 Thread.sleep(5000)
 
@@ -31,19 +31,19 @@ WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Vitala Care'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
 WebUI.waitForPageLoad(10)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'vitalacare', ('state') : 'ca'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_hbi'), [('carrier') : 'vitalacare', ('state') : 'ca'], FailureHandling.CONTINUE_ON_FAILURE)
 
