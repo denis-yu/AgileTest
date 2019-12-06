@@ -16,10 +16,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PL Site/ICA/stm/AdvantHealth</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>a9473c00-f812-47d2-ace3-f109987bec42</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PL Site/ICA/stm/LifeShield</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

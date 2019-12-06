@@ -34,10 +34,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PL Site/Spark/stm/Everest Prime</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>0da8fff7-5dc8-4aef-9129-a02637649c8b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PL Site/Spark/stm/LifeShield</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

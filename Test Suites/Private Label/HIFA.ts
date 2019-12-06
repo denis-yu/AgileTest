@@ -28,10 +28,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PL Site/HIFA/stm/AdvantHealth</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>35287d14-385c-4578-ac54-0bb841c8eda4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PL Site/HIFA/stm/LifeShield</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

@@ -89,36 +89,6 @@
       <testCaseId>Test Cases/mobileWeb/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f8dae1c7-1bb6-4a6b-b869-79ea4ecf2cf0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/mobileWeb/stm/LifeShield</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8337adbb-f040-4173-98b9-c603d302eebd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>adeccc1d-a1cd-4e5e-96ea-d7cf567f777c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>81f33728-f684-4c4d-8b8a-38d716b13e88</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6a177220-6d58-4ef2-a0e4-ef64f2d94914</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>9fa11fe9-5d19-46e6-b02b-56d06380b41e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

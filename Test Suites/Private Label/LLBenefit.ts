@@ -16,10 +16,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/PL Site/LLBenefits/hbi/Vitala Care</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>d36ffc08-a0b3-4fc0-a044-31e27d933944</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/PL Site/LLBenefits/stm/LifeShield</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
