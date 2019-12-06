@@ -14,6 +14,6 @@
       <guid>1319aa5a-5b8d-45e0-8086-93e15f978276</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Life/Freedom Elite</testCaseId>
+      <testCaseId>Test Cases/Life/Freedom Lite</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

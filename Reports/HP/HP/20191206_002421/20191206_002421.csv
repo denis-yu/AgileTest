@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HP,Safari 11,,2019-12-06 00:24:26,2019-12-06 00:28:21,3m - 55.066s,PASSED
+,,,,,,
+Test Cases/HP/ACA/ACA,Safari 11,,2019-12-06 00:24:26,2019-12-06 00:26:57,2m - 30.772s,PASSED
+now = new java.util.Date(),Safari 11,,2019-12-06 00:24:27,2019-12-06 00:24:27,0.008s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-12-06 00:24:27,2019-12-06 00:24:27,0.003s,PASSED
+i = 0,Safari 11,,2019-12-06 00:24:27,2019-12-06 00:24:27,0.015s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""ACA""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 00:24:27,2019-12-06 00:24:27,0.463s,PASSED
+second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 11,,2019-12-06 00:24:27,2019-12-06 00:24:27,0.002s,PASSED
+"openBrowser(""www.healthpocket.com/individual-health-insurance"")",Safari 11,,2019-12-06 00:24:27,2019-12-06 00:24:40,12.586s,PASSED
+driver = getWebDriver(),Safari 11,,2019-12-06 00:24:40,2019-12-06 00:24:40,0.023s,PASSED
+"baseUrl = ""https://www.healthpocket.com/individual-health-insurance/""",Safari 11,,2019-12-06 00:24:40,2019-12-06 00:24:40,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2019-12-06 00:24:40,2019-12-06 00:24:40,0.214s,PASSED
+selenium.refresh(),Safari 11,,2019-12-06 00:24:40,2019-12-06 00:24:40,0.095s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Safari 11,,2019-12-06 00:24:40,2019-12-06 00:24:43,2.613s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:24:43,2019-12-06 00:26:39,1m - 56.238s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:26:39,2019-12-06 00:26:39,0.274s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:39,2019-12-06 00:26:41,1.226s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2019-12-06 00:26:41,2019-12-06 00:26:41,0.299s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:41,2019-12-06 00:26:42,0.742s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2019-12-06 00:26:42,2019-12-06 00:26:42,0.307s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:42,2019-12-06 00:26:44,2.311s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:26:44,2019-12-06 00:26:45,0.232s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:45,2019-12-06 00:26:46,1.087s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2019-12-06 00:26:46,2019-12-06 00:26:47,1.716s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:26:47,2019-12-06 00:26:49,2.137s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:49,2019-12-06 00:26:51,1.304s,PASSED
+"selenium.click(""xpath=(//a[contains(text(),'Apply Now')])"")",Safari 11,,2019-12-06 00:26:51,2019-12-06 00:26:55,4.364s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:26:55,2019-12-06 00:26:55,0.029s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:55,2019-12-06 00:26:56,0.484s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2019-12-06 00:26:56,2019-12-06 00:26:56,0.431s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:26:56,2019-12-06 00:26:57,0.949s,PASSED
+,,,,,,
+Test Cases/HP/Home/Home,Safari 11,,2019-12-06 00:26:57,2019-12-06 00:27:12,15.106s,PASSED
+now = new java.util.Date(),Safari 11,,2019-12-06 00:26:58,2019-12-06 00:26:58,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-12-06 00:26:58,2019-12-06 00:26:58,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""home""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 00:26:58,2019-12-06 00:26:58,0.085s,PASSED
+i = 0,Safari 11,,2019-12-06 00:26:58,2019-12-06 00:26:58,0.001s,PASSED
+"openBrowser(""https://www.healthpocket.com/"")",Safari 11,,2019-12-06 00:26:58,2019-12-06 00:27:09,11.183s,PASSED
+"navigateToUrl(""https://www.healthpocket.com/"")",Safari 11,,2019-12-06 00:27:09,2019-12-06 00:27:11,2.486s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:11,2019-12-06 00:27:12,0.870s,PASSED
+,,,,,,
+Test Cases/HP/Medicare/Medicare,Safari 11,,2019-12-06 00:27:12,2019-12-06 00:27:36,23.533s,PASSED
+now = new java.util.Date(),Safari 11,,2019-12-06 00:27:13,2019-12-06 00:27:13,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-12-06 00:27:13,2019-12-06 00:27:13,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Medicare""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 00:27:13,2019-12-06 00:27:13,0.072s,PASSED
+i = 0,Safari 11,,2019-12-06 00:27:13,2019-12-06 00:27:13,0.000s,PASSED
+"openBrowser(""https://pengujian.healthpocket.com/medicare"")",Safari 11,,2019-12-06 00:27:13,2019-12-06 00:27:23,10.034s,PASSED
+driver = getWebDriver(),Safari 11,,2019-12-06 00:27:23,2019-12-06 00:27:23,0.000s,PASSED
+"baseUrl = ""https://pengujian.healthpocket.com/medicare/""",Safari 11,,2019-12-06 00:27:23,2019-12-06 00:27:23,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2019-12-06 00:27:23,2019-12-06 00:27:23,0.069s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:23,2019-12-06 00:27:24,0.798s,PASSED
+"selenium.click(""id=location"")",Safari 11,,2019-12-06 00:27:24,2019-12-06 00:27:24,0.335s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:24,2019-12-06 00:27:25,0.792s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2019-12-06 00:27:25,2019-12-06 00:27:26,1.106s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:26,2019-12-06 00:27:27,0.798s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2019-12-06 00:27:27,2019-12-06 00:27:28,1.288s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:27:28,2019-12-06 00:27:31,2.452s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:31,2019-12-06 00:27:32,1.108s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2019-12-06 00:27:32,2019-12-06 00:27:33,0.752s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:27:33,2019-12-06 00:27:35,2.165s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:35,2019-12-06 00:27:36,0.994s,PASSED
+,,,,,,
+Test Cases/HP/Short Term/STM,Safari 11,,2019-12-06 00:27:36,2019-12-06 00:28:12,36.676s,PASSED
+now = new java.util.Date(),Safari 11,,2019-12-06 00:27:36,2019-12-06 00:27:36,0.000s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2019-12-06 00:27:36,2019-12-06 00:27:36,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""STM""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 00:27:36,2019-12-06 00:27:36,0.098s,PASSED
+i = 0,Safari 11,,2019-12-06 00:27:36,2019-12-06 00:27:36,0.000s,PASSED
+"openBrowser(""https://pengujian.healthpocket.com/short-term-health-insurance"")",Safari 11,,2019-12-06 00:27:36,2019-12-06 00:27:49,12.932s,PASSED
+driver = getWebDriver(),Safari 11,,2019-12-06 00:27:49,2019-12-06 00:27:49,0.000s,PASSED
+"baseUrl = ""https://pengujian.healthpocket.com/short-term-health-insurance/""",Safari 11,,2019-12-06 00:27:49,2019-12-06 00:27:49,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2019-12-06 00:27:49,2019-12-06 00:27:49,0.148s,PASSED
+"selenium.click(""id=location"")",Safari 11,,2019-12-06 00:27:49,2019-12-06 00:27:50,0.878s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:50,2019-12-06 00:27:51,0.632s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2019-12-06 00:27:51,2019-12-06 00:27:51,0.388s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:51,2019-12-06 00:27:52,0.634s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2019-12-06 00:27:52,2019-12-06 00:27:52,0.272s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:27:52,2019-12-06 00:28:01,8.856s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:28:01,2019-12-06 00:28:02,0.965s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:28:02,2019-12-06 00:28:03,1.429s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2019-12-06 00:28:03,2019-12-06 00:28:05,1.401s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:28:05,2019-12-06 00:28:07,2.287s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:28:07,2019-12-06 00:28:08,0.636s,PASSED
+"selenium.click(""xpath=(//a[contains(text(),'Apply Now')])"")",Safari 11,,2019-12-06 00:28:08,2019-12-06 00:28:10,2.426s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2019-12-06 00:28:10,2019-12-06 00:28:11,0.545s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 00:28:11,2019-12-06 00:28:12,1.673s,PASSED

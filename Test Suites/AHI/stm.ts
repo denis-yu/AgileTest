@@ -89,6 +89,7 @@
       <testCaseId>Test Cases/AHI/stm/Everest Prime</testCaseId>
    </testCaseLink>
    <testCaseLink>
+<<<<<<< HEAD:Test Suites/AHI/stm.ts
       <guid>f8dae1c7-1bb6-4a6b-b869-79ea4ecf2cf0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -119,6 +120,8 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+=======
+>>>>>>> bc34fe339cf730f6a7d0aa167749eb8125cbc97f:Test Suites/mobileWeb/stm.ts
       <guid>9fa11fe9-5d19-46e6-b02b-56d06380b41e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
