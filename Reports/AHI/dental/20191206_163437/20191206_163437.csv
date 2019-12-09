@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dental,Safari 11,,,2019-12-06 17:02:33,2019-12-06 17:04:56,2m - 23.161s,INCOMPLETE
+,,,,,,,
+Test Cases/AHI/Dental/National General,Safari 11,Dental - National General application flow,,2019-12-06 17:02:34,2019-12-06 17:03:26,51.973s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""dental"", ""carrierName"":""National General""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-12-06 17:02:34,2019-12-06 17:02:36,1.426s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-12-06 17:02:36,2019-12-06 17:02:50,14.521s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_dental""), [""zipcode"":zipcode, ""dob"":""12/12/1980""], STOP_ON_FAILURE)",Safari 11,,,2019-12-06 17:02:50,2019-12-06 17:03:03,12.703s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,,2019-12-06 17:03:03,2019-12-06 17:03:26,22.477s,FAILED
+,,,,,,,
+Test Cases/AHI/Dental/Nationwide,Safari 11,,,2019-12-06 17:03:26,2019-12-06 17:04:11,45.673s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""dental"", ""carrierName"":""Nationwide""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-12-06 17:03:26,2019-12-06 17:03:26,0.108s,PASSED
+i = 0,Safari 11,,,2019-12-06 17:03:26,2019-12-06 17:03:26,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-12-06 17:03:26,2019-12-06 17:03:38,12.086s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-12-06 17:03:38,2019-12-06 17:03:50,11.585s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,,2019-12-06 17:03:50,2019-12-06 17:04:11,21.346s,FAILED
+,,,,,,,
+Test Cases/AHI/Dental/USA Access,Safari 11,,,2019-12-06 17:04:11,2019-12-06 17:04:56,44.982s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""dental"", ""carrierName"":""USA Access""], CONTINUE_ON_FAILURE)",Safari 11,,,2019-12-06 17:04:12,2019-12-06 17:04:12,0.100s,PASSED
+i = 0,Safari 11,,,2019-12-06 17:04:12,2019-12-06 17:04:12,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-12-06 17:04:12,2019-12-06 17:04:23,10.666s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_dental""), [:], STOP_ON_FAILURE)",Safari 11,,,2019-12-06 17:04:23,2019-12-06 17:04:35,11.891s,PASSED
+"comment(""-------------quote page--------------------"")",Safari 11,,,2019-12-06 17:04:35,2019-12-06 17:04:35,0.011s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,,2019-12-06 17:04:35,2019-12-06 17:04:56,21.639s,FAILED

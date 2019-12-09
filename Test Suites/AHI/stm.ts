@@ -9,9 +9,75 @@
    <pageLoadTimeout>20</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>e853617b-7f85-40a5-99e7-ad726a8a4d53</testSuiteGuid>
+   <testSuiteGuid>3a84ae2e-51cc-4f76-aa9c-4ba9d9d3a4c8</testSuiteGuid>
    <testCaseLink>
-      <guid>0ad80c73-d89d-4919-b4b3-0d3fa7867f36</guid>
+      <guid>46691638-2c9d-496a-a422-3e6363156942</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/AdvantHealth</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0df5e54c-4ed9-443c-a562-799867a9387c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/Aspen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7edea1c1-5025-4297-b7a3-5c8505d43043</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/Companion</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b702a8a7-b9a3-4497-9a99-eefd68672019</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/Everest Prime</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>65096ff1-a9aa-46ea-be59-4126540b01fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/Everest</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>062f62ba-9106-44d0-9da1-8359eb4a0b12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/LifeShield</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8337adbb-f040-4173-98b9-c603d302eebd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>adeccc1d-a1cd-4e5e-96ea-d7cf567f777c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>81f33728-f684-4c4d-8b8a-38d716b13e88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6a177220-6d58-4ef2-a0e4-ef64f2d94914</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ef86dad7-46bf-48cf-a30a-78f6ccd21e81</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/stm/NationalGeneral</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ca0ce14-ed90-4557-9289-f18a3f5059eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/AHI/stm/Slaico</testCaseId>
@@ -63,74 +129,5 @@
          <value></value>
          <variableId>3cd79c46-89de-41c0-bbc2-dd1e6b92f786</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>33ab757e-d7d0-43e4-9d45-3900f01d343a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/AdvantHealth</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f17b647e-d849-4454-acdd-3044194b04a3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/Companion</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b8e4d67a-4269-48b6-a6ce-50176929a209</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/Everest</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a67b6d5f-2094-458f-b89a-c0be86dbce6c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/Everest Prime</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-<<<<<<< HEAD:Test Suites/AHI/stm.ts
-      <guid>f8dae1c7-1bb6-4a6b-b869-79ea4ecf2cf0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/LifeShield</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8337adbb-f040-4173-98b9-c603d302eebd</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>adeccc1d-a1cd-4e5e-96ea-d7cf567f777c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>81f33728-f684-4c4d-8b8a-38d716b13e88</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6a177220-6d58-4ef2-a0e4-ef64f2d94914</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-=======
->>>>>>> bc34fe339cf730f6a7d0aa167749eb8125cbc97f:Test Suites/mobileWeb/stm.ts
-      <guid>9fa11fe9-5d19-46e6-b02b-56d06380b41e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/NationalGeneral</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>38432b6c-4801-4868-b727-0d2038feac7d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/AHI/stm/Aspen</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
