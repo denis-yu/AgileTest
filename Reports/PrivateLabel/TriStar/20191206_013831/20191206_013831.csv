@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TriStar,Safari 11,,2019-12-06 02:04:52,2019-12-06 02:06:14,1m - 21.520s,PASSED
+,,,,,,
+Test Cases/PL Site/TriStar/hbi/Vitala Care,Safari 11,,2019-12-06 02:04:53,2019-12-06 02:06:13,1m - 20.337s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""TriStar"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 02:04:53,2019-12-06 02:04:54,0.494s,PASSED
+i = 0,Safari 11,,2019-12-06 02:04:54,2019-12-06 02:04:54,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [""env"":""https://tristar--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2019-12-06 02:04:54,2019-12-06 02:04:58,4.073s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""90011""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 02:04:58,2019-12-06 02:05:10,12.795s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-06 02:05:10,2019-12-06 02:05:15,5.000s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-06 02:05:15,2019-12-06 02:05:16,0.045s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Vitala Care""))",Safari 11,,2019-12-06 02:05:16,2019-12-06 02:05:16,0.677s,PASSED
+waitForPageLoad(10),Safari 11,,2019-12-06 02:05:16,2019-12-06 02:05:16,0.024s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 02:05:16,2019-12-06 02:05:17,0.451s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-06 02:05:17,2019-12-06 02:05:17,0.305s,PASSED
+waitForPageLoad(10),Safari 11,,2019-12-06 02:05:17,2019-12-06 02:05:17,0.013s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 02:05:17,2019-12-06 02:05:17,0.415s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-12-06 02:05:17,2019-12-06 02:05:18,0.393s,PASSED
+waitForPageLoad(10),Safari 11,,2019-12-06 02:05:18,2019-12-06 02:05:18,0.014s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-06 02:05:18,2019-12-06 02:05:18,0.473s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/goToEnd_hbi""), [""carrier"":""vitalacare"", ""state"":""ca""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 02:05:18,2019-12-06 02:06:13,54.743s,PASSED

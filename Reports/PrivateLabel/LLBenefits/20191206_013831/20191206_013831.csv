@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LLBenefits,Safari 11,,2019-12-06 01:58:28,2019-12-06 01:59:14,45.759s,FAILED
+,,,,,,
+Test Cases/PL Site/LLBenefits/hbi/Vitala Care,Safari 11,,2019-12-06 01:58:29,2019-12-06 01:59:13,44.578s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""LLBenefits"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 01:58:29,2019-12-06 01:58:30,0.565s,PASSED
+i = 0,Safari 11,,2019-12-06 01:58:30,2019-12-06 01:58:30,0.000s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [""env"":""https://llbenefits--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2019-12-06 01:58:30,2019-12-06 01:58:34,4.493s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_hbi""), [""zipcode"":""33186""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 01:58:34,2019-12-06 01:58:47,13.074s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-06 01:58:47,2019-12-06 01:58:52,5.002s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-06 01:58:52,2019-12-06 01:58:52,0.028s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Vitala Care""))",Safari 11,,2019-12-06 01:58:52,2019-12-06 01:59:13,21.043s,FAILED

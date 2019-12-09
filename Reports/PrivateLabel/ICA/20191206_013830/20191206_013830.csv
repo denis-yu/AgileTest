@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ICA,Safari 11,,2019-12-06 01:57:38,2019-12-06 01:58:22,43.973s,FAILED
+,,,,,,
+Test Cases/PL Site/ICA/stm/AdvantHealth,Safari 11,,2019-12-06 01:57:38,2019-12-06 01:58:21,42.854s,FAILED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""ICA"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 01:57:39,2019-12-06 01:57:39,0.476s,PASSED
+i = 0,Safari 11,,2019-12-06 01:57:39,2019-12-06 01:57:39,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/openWebSite""), [""env"":""https://ica--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-06 01:57:39,2019-12-06 01:57:45,5.380s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2019-12-06 01:57:45,2019-12-06 01:57:57,12.470s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2019-12-06 01:57:57,2019-12-06 01:58:21,24.177s,FAILED
