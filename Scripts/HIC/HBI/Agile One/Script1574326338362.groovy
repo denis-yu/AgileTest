@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('HIC/_include/get_hicScreenPath'), [('project') 
 
 GlobalVariable.i = 0
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('hic/nav/navButton'))
 
@@ -28,7 +28,7 @@ WebUI.click(findTestObject('hic/nav/hbiLink'))
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('HIC/_include/stm_census'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
 
@@ -42,7 +42,7 @@ WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementPresent(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'), 20)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
@@ -50,7 +50,7 @@ WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementPresent(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'), 20)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
 
@@ -58,7 +58,7 @@ WebUI.waitForPageLoad(20)
 
 Thread.sleep(5000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_hbi'), [('carrier') : 'agileone'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_hbi'), [('carrier') : 'agileone'], FailureHandling.CONTINUE_ON_FAILURE)
 

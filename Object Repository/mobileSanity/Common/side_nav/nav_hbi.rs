@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ul[@class='global-side-nav-list']/descendant::a[text()='</value>
+         <value>//ul[@class='global-side-nav-list']/descendant::a[text()='Hospital Indemnity Insurance']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//ul[@class='global-side-nav-list']/descendant::a[text()='Health Benefit Indemnity Insurance']</value>
+      <value>//ul[@class='global-side-nav-list']/descendant::a[text()='Hospital Indemnity Insurance']</value>
    </webElementProperties>
 </WebElementEntity>

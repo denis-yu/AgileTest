@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('HIC/_include/get_hicScreenPath'), [('project') 
 
 GlobalVariable.i = 0
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('hic/nav/navButton'))
 
@@ -28,7 +28,7 @@ WebUI.click(findTestObject('hic/nav/teladocLink'))
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('hic/stm/zip'), zipcode)
 
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('hic/teladoc/seePlans'))
 
 Thread.sleep(6000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(1000)
 
@@ -55,7 +55,7 @@ WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/apply_button'), 20)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/apply_button'))
 
@@ -63,10 +63,10 @@ WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementPresent(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName'), 20)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'get name'
-WebUI.callTestCase(findTestCase('mobileWeb/_include/name'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/name'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName'), GlobalVariable.FirstName)
 
@@ -92,7 +92,7 @@ WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'), 20)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first'), GlobalVariable.FirstName)
 
@@ -119,7 +119,7 @@ WebUI.waitForElementPresent(findTestObject('mobileSanity/Teladoc/Page_App Page 3
 
 Thread.sleep(5000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('mobileSanity/Teladoc/Page_App Page 3/label'), 10)
 
@@ -133,7 +133,7 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/a_Submit Your A
 
 Thread.sleep(50000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Congratulations', false)
 

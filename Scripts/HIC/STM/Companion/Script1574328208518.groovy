@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('HIC/_include/get_hicScreenPath'), [('project') 
 
 GlobalVariable.i = 0
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('hic/nav/navButton'))
 
@@ -28,15 +28,15 @@ WebUI.click(findTestObject('hic/nav/stmLink'))
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('HIC/_include/stm_census'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/filter_stm'), [('carrier') : 'pivotcompanion'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/filter_stm'), [('carrier') : 'pivotcompanion'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToDetail_stm'), [('carrier') : 'pivot-health-choice'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/goToDetail_stm'), [('carrier') : 'pivot-health-choice'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
 

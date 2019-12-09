@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('HIC/_include/get_hicScreenPath'), [('project') 
 
 GlobalVariable.i = 0
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('hic/nav/navButton'))
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('hic/nav/acaLink'))
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('hic/aca/zip'), '33186')
 
@@ -36,5 +36,5 @@ WebUI.click(findTestObject('hic/aca/comparePlan'))
 
 Thread.sleep(5000)
 
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
