@@ -21,13 +21,13 @@ GlobalVariable.i = 0
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://llbenefits--qa.storefront.mybenefitskeeper.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/census_hbi'), [('zipcode') : '33186'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('PL Site/_include/census_hbi'), [('zipcode') : '33186'], FailureHandling.CONTINUE_ON_FAILURE)
 
 Thread.sleep(5000)
 
 WebUI.scrollToPosition(200, 2300)
 
-WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Vitala Care'))
+WebUI.click(findTestObject('PLSite/a_vitalacare'))
 
 WebUI.waitForPageLoad(10)
 
@@ -45,5 +45,5 @@ WebUI.waitForPageLoad(10)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_hbi'), [('carrier') : 'vitalacare', ('state') : 'ca'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_hbi'), [('carrier') : 'vitalacare', ('state') : 'fl'], FailureHandling.CONTINUE_ON_FAILURE)
 

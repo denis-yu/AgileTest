@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>062f62ba-9106-44d0-9da1-8359eb4a0b12</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AHI/stm/LifeShield</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>

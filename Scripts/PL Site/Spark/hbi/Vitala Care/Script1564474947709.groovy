@@ -21,7 +21,7 @@ GlobalVariable.i = 0
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://spark--qa.storefront.mybenefitskeeper.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/census_hbi'), [('zipcode') : '90011'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('PL Site/_include/census_hbi'), [('zipcode') : '90011'], FailureHandling.CONTINUE_ON_FAILURE)
 
 Thread.sleep(5000)
 

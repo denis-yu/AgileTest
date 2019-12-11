@@ -13,11 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-<<<<<<< HEAD:Scripts/Life/Freedom Elite/Script1575339232800.groovy
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'Life', ('carrierName') : 'Freedom Elite'], 
-=======
-WebUI.callTestCase(findTestCase('mobileWeb/_include/get_screenPath'), [('productLine') : 'Life', ('carrierName') : 'Freedom Lite'], 
->>>>>>> bc34fe339cf730f6a7d0aa167749eb8125cbc97f:Scripts/Life/Freedom Lite/Script1575428236703.groovy
+
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'Life', ('carrierName') : 'Freedom Lite'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0

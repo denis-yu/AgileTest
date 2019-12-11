@@ -23,8 +23,6 @@ WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https:/
 
 WebUI.callTestCase(findTestCase('AHI/_include/census_stm'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/filter_stm'), [('carrier') : 'advanthealth'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('AHI/_include/goToDetail_stm'), [('carrier') : 'advanthealth'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('AHI/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)

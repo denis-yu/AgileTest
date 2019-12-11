@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>c3406ac2-848c-400a-aca7-93d861681946</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AHI/Dental/Nationwide</testCaseId>
    </testCaseLink>
    <testCaseLink>

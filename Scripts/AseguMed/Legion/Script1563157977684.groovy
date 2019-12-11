@@ -58,6 +58,8 @@ WebUI.click(findTestObject('AseguMed/apply_page/apply_button'))
 
 WebUI.waitForPageLoad(10)
 
+Thread.sleep(2000)
+
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('AseguMed/_include/name'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -77,6 +79,8 @@ WebUI.setText(findTestObject('AseguMed/app page 1/input_primaryPhone'), GlobalVa
 WebUI.click(findTestObject('AseguMed/app page 1/continue_to_page_2_button'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -99,6 +103,10 @@ WebUI.click(findTestObject('AseguMed/app page 2/input_credit-payment-authorizati
 WebUI.click(findTestObject('AseguMed/app page 2/continue_to_page_3_button'))
 
 WebUI.waitForPageLoad(10)
+
+Thread.sleep(2000)
+
+WebUI.waitForElementPresent(findTestObject('AseguMed/app page 3/input_consent-checkbox-0'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -38,5 +38,92 @@ WebUI.callTestCase(findTestCase('AHI/_include/goToDetail_stm'), [('carrier') : '
 
 WebUI.callTestCase(findTestCase('AHI/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('AHI/_include/name'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+try {
+    if (WebUI.verifyTextPresent('Month Duration Acknowledgement', false)) {
+        WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/label_By checking this box I u'))
+
+        WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/button_Continue to Application'))
+
+        WebUI.waitForPageLoad(20)
+
+        Thread.sleep(5000)
+
+        WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+    }
+}
+catch (Exception e) {
+    println('no consecutive')
+} 
+
+WebUI.waitForPageLoad(10)
+
+Thread.sleep(3000)
+
+//WebUI.callTestCase(findTestCase('AHI/_include/page_1_stm'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'), 20)
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'))
+
+Thread.sleep(1000)
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Autofill App Info'))
+
+Thread.sleep(1000)
+
+WebUI.click(findTestObject('hic/stm/member-P-1-no-smoker'))
+
+Thread.sleep(1000)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'), 20)
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 1/a_Continue'))
+
+WebUI.waitForPageLoad(20)
+
+Thread.sleep(5000)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+//WebUI.selectOptionByLabel(findTestObject('mobileSanity/STM/Page_App Page 2/member-P-1-in'), '05', false)
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment'))
+
+WebUI.waitForPageLoad(20)
+
+WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'), 20)
+
+Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.clearText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'))
+
+WebUI.setText(findTestObject('mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'), '123')
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f'))
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/Page_App Page 4/label'), 10)
+
+Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/label'))
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN'))
+
+WebUI.click(findTestObject('mobileSanity/STM/Page_App Page 4/a_Submit Your Application'))
+
+Thread.sleep(30000)
+
+WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/Page_App Page 6/app-page-wrapper'), 20)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
 
