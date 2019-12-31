@@ -37,25 +37,41 @@ public class WriteExcel {
 	private  static int i=0;
 
 	@Keyword
-	public static void writeToExcel(String stmNumber, String context) throws IOException{
+	public static void writeToExcel(String stmNumber) throws IOException{
 		FileInputStream fis = new FileInputStream("C:\\Users\\sofee.yu\\Desktop\\test.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheet("Sheet1");
 		int rowCount = i;
 
 		Row row = sheet.getRow(rowCount+1);
-		Cell cell = row.createCell(11,0);
+		Cell cell = row.createCell(3,0);
 		cell.setCellType(cell.CELL_TYPE_STRING);
 		cell.setCellValue(stmNumber);
 
-		Row row2 = sheet.getRow(rowCount+1);
-		Cell cell2 = row2.createCell(12,0);
-		cell2.setCellType(cell2.CELL_TYPE_STRING);
-		cell2.setCellValue(context);
+		//		Row row2 = sheet.getRow(rowCount+1);
+		//		Cell cell2 = row2.createCell(12,0);
+		//		cell2.setCellType(cell2.CELL_TYPE_STRING);
+		//		cell2.setCellValue(context);
 
 		i=rowCount+1;
 
 		FileOutputStream fos = new FileOutputStream("C:\\Users\\sofee.yu\\Desktop\\test.xlsx");
+		workbook.write(fos);
+		fos.close();
+	}
+	
+	@Keyword
+	public static void writeToExcelByCol(String str, int col, int ro) throws IOException{
+		FileInputStream fis = new FileInputStream("C:\\Users\\sofee.yu\\Desktop\\bestseller.xlsx");
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+		Row row = sheet.getRow(ro);
+		Cell cell = row.createCell(col,0);
+		cell.setCellType(cell.CELL_TYPE_STRING);
+		cell.setCellValue(str);
+
+		FileOutputStream fos = new FileOutputStream("C:\\Users\\sofee.yu\\Desktop\\bestseller.xlsx");
 		workbook.write(fos);
 		fos.close();
 	}

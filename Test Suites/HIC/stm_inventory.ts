@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>stm_inventory</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c7a1e67f-e25c-45fd-ae84-a54803c88f8d</testSuiteGuid>
+   <testCaseLink>
+      <guid>6ed9ee83-611b-4c2d-962c-278ba5c8eb30</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/stm_inventory</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/hic_inventory</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>30a30356-1a07-4d13-affe-5ec179faf381</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9142bd72-a6ad-4f95-b4a1-ea9e37ac677a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>planCount</value>
+         <variableId>fc04c901-57d7-4455-89ad-1c738153539b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

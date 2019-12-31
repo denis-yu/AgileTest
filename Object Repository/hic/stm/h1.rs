@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__cvv</name>
+   <name>h1</name>
    <tag></tag>
-   <elementGuidId>c40d671c-107c-4cef-b2ab-3b18dd6bf4ad</elementGuidId>
+   <elementGuidId>3ecd230e-0f7b-4a7e-8bae-185bc62345d8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'credit-card-cvv']</value>
+         <value>//h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>credit-card-cvv</value>
+      <value>//h1</value>
    </webElementProperties>
 </WebElementEntity>

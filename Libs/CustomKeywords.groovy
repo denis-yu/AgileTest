@@ -59,11 +59,19 @@ def static "test.MobileKeywords.getCurrentSessionMobileDriver"() {
 }
 
 def static "test.WriteExcel.writeToExcel"(
-    	String stmNumber	
-     , 	String context	) {
+    	String stmNumber	) {
     (new test.WriteExcel()).writeToExcel(
-        	stmNumber
-         , 	context)
+        	stmNumber)
+}
+
+def static "test.WriteExcel.writeToExcelByCol"(
+    	String str	
+     , 	int col	
+     , 	int ro	) {
+    (new test.WriteExcel()).writeToExcelByCol(
+        	str
+         , 	col
+         , 	ro)
 }
 
 def static "test.WriteExcel.writeContext"(
