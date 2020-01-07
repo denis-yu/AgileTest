@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>65096ff1-a9aa-46ea-be59-4126540b01fa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AHI/stm/Everest</testCaseId>
    </testCaseLink>
    <testCaseLink>

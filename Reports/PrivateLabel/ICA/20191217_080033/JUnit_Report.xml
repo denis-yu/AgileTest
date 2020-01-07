@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ICA" time="121" tests="0" failures="1" errors="0">
+   <testsuite name="ICA" tests="0" failures="1" errors="0" time="121" timestamp="2019-12-17 08:02:19" hostname="Administrator - 172.30.0.53" id="Test Suites/PrivateLabel/ICA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/0.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/1.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/2.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/3.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/4.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/5.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/6.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/7.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/8.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\1576587859593.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="2d6598085952714ced38099edb983ea7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/PL Site/ICA/stm/AdvantHealth" classname="Test Cases/PL Site/ICA/stm/AdvantHealth" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PL Site/ICA/stm/AdvantHealth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id(&quot;credit-card-cvv&quot;)[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)
+"/>
+         <system-out><![CDATA[2019-12-17 08:02:20 - [TEST_CASE][FAILED] - Test Cases/PL Site/ICA/stm/AdvantHealth: Test Cases/PL Site/ICA/stm/AdvantHealth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)
+
+
+2019-12-17 08:02:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"ICA", "carrierName":"AdvantHealth"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-17 08:02:20 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-17 08:02:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-17 08:02:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":"https://ica--qa.storefront.mybenefitskeeper.com"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-17 08:02:21 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2019-12-17 08:02:22 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://ica--qa.storefront.mybenefitskeeper.com'
+
+2019-12-17 08:02:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 08:02:23 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-17 08:02:23 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-17 08:02:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-17 08:02:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ica--qa.storefront.mybenefitskeeper.com'
+
+2019-12-17 08:02:30 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-17 08:02:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:02:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:02:30 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:02:31 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:02:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/0.png]]
+
+2019-12-17 08:02:32 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:02:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:02:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-17 08:02:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/census_stm"), ["zipcode":"35215"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/census_stm' successfully
+
+2019-12-17 08:02:32 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/census_stm: Test Cases/AHI/_include/census_stm
+
+2019-12-17 08:02:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today"), 10): Object 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clickable
+
+2019-12-17 08:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clickable
+
+2019-12-17 08:02:32 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today")): Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-12-17 08:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-12-17 08:02:33 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-17 08:02:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:02:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:02:33 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:02:33 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:02:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/1.png]]
+
+2019-12-17 08:02:34 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:02:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Location_zip-input"), zipcode): Text '35215' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-12-17 08:02:35 - [MESSAGE][PASSED] - Text '35215' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-12-17 08:02:35 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-12-17 08:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0"), "03031987"): Text '03031987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-12-17 08:02:36 - [MESSAGE][PASSED] - Text '03031987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-12-17 08:02:36 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Male")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-12-17 08:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-12-17 08:02:37 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Compare Plans")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-12-17 08:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-12-17 08:02:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM Quote Page/button_sort"), 20): Object 'Object Repository/mobileSanity/STM/STM Quote Page/button_sort' is visible
+
+2019-12-17 08:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM Quote Page/button_sort' is visible
+
+2019-12-17 08:02:42 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/check_quoteleadform"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/check_quoteleadform' successfully
+
+2019-12-17 08:02:45 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/check_quoteleadform: Test Cases/AHI/_include/check_quoteleadform
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/name"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-17 08:02:45 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/name: Test Cases/AHI/_include/name
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - City = City: null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - println(City): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-12-17 08:02:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-17 08:02:45 - [TEST_STEP][PASSED] - leadform_exist = test.MobileKeywords.isElementPresent_Web(findTestObject("mobileSanity/quote lead form/lead_form"), 20): test.MobileKeywords.isElementPresent_Web is PASSED
+
+2019-12-17 08:03:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'lightboxLeadForm']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 08:03:06 - [MESSAGE][PASSED] - test.MobileKeywords.isElementPresent_Web is PASSED
+
+2019-12-17 08:03:06 - [TEST_STEP][PASSED] - if (leadform_exist): null
+
+2019-12-17 08:03:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/check_quoteleadform' successfully
+
+2019-12-17 08:03:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:06 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:06 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/2.png]]
+
+2019-12-17 08:03:06 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:06 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-17 08:03:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/census_stm' successfully
+
+2019-12-17 08:03:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/goToDetail_stm"), ["carrier":"advanthealth"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/goToDetail_stm' successfully
+
+2019-12-17 08:03:07 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/goToDetail_stm: Test Cases/AHI/_include/goToDetail_stm
+
+2019-12-17 08:03:08 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-17 08:03:08 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-17 08:03:08 - [TEST_STEP][PASSED] - a_plan_name = "xpath=//a[contains(@href,'/term-health-insurance/plan/" + carrier + "')]": null
+
+2019-12-17 08:03:08 - [TEST_STEP][PASSED] - println(a_plan_name): null
+
+2019-12-17 08:03:08 - [TEST_STEP][PASSED] - selenium.click(a_plan_name): null
+
+2019-12-17 08:03:09 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-17 08:03:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:09 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-17 08:03:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:11 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:11 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/3.png]]
+
+2019-12-17 08:03:12 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/goToDetail_stm' successfully
+
+2019-12-17 08:03:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/apply_stm"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/apply_stm' successfully
+
+2019-12-17 08:03:12 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/apply_stm: Test Cases/AHI/_include/apply_stm
+
+2019-12-17 08:03:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan"), 5): Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-12-17 08:03:12 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-12-17 08:03:12 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan")): Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-12-17 08:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-12-17 08:03:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-17 08:03:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:12 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-17 08:03:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:14 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:14 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/4.png]]
+
+2019-12-17 08:03:15 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application"), 5): Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-12-17 08:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-12-17 08:03:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application")): Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-12-17 08:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-12-17 08:03:15 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-17 08:03:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:15 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-17 08:03:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:17 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:17 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/5.png]]
+
+2019-12-17 08:03:17 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/apply_stm' successfully
+
+2019-12-17 08:03:17 - [TEST_STEP][FAILED] - callTestCase(findTestCase("AHI/_include/goToEnd_stm_autofill"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("AHI/_include/goToEnd_stm_autofill"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)
+
+
+2019-12-17 08:03:18 - [TEST_CASE][FAILED] - Test Cases/AHI/_include/goToEnd_stm_autofill: Test Cases/AHI/_include/goToEnd_stm_autofill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)
+
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/name"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-17 08:03:18 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/name: Test Cases/AHI/_include/name
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - City = City: null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - println(City): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-12-17 08:03:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - if (verifyTextPresent("Month Duration Acknowledgement", false)): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:18 - [MESSAGE][PASSED] - Text 'Month Duration Acknowledgement' is present on page 
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/label_By checking this box I u")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/label_By checking this box I u' is clicked on
+
+2019-12-17 08:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/label_By checking this box I u' is clicked on
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_Continue to Application")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_Continue to Application' is clicked on
+
+2019-12-17 08:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_Continue to Application' is clicked on
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-17 08:03:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:18 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-12-17 08:03:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:23 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:23 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/6.png]]
+
+2019-12-17 08:03:24 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:24 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-17 08:03:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:24 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-17 08:03:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info"), 20): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is visible
+
+2019-12-17 08:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is visible
+
+2019-12-17 08:03:27 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-17 08:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-17 08:03:27 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-17 08:03:28 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-17 08:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-17 08:03:28 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-17 08:03:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue"), 20): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is visible
+
+2019-12-17 08:03:29 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is visible
+
+2019-12-17 08:03:29 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is clicked on
+
+2019-12-17 08:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is clicked on
+
+2019-12-17 08:03:29 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-17 08:03:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:29 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-12-17 08:03:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:34 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:34 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/7.png]]
+
+2019-12-17 08:03:35 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:35 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment' is clicked on
+
+2019-12-17 08:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment' is clicked on
+
+2019-12-17 08:03:35 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-17 08:03:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-17 08:03:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv"), 20): Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found
+
+2019-12-17 08:03:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 08:03:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found
+
+2019-12-17 08:03:56 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-17 08:03:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:58 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-17 08:03:58 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-17 08:03:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191217_080221/8.png]]
+
+2019-12-17 08:03:58 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-17 08:03:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-17 08:03:58 - [TEST_STEP][FAILED] - clearText(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv")): clearText(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)
+
+
+2019-12-17 08:04:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 08:04:20 - [MESSAGE][FAILED] - Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191217_080033\\1576587859593.png]]
+
+2019-12-17 08:04:20 - [MESSAGE][FAILED] - clearText(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)
+
+
+2019-12-17 08:04:20 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/AHI/_include/goToEnd_stm_autofill' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/AHI/_include/goToEnd_stm_autofill' failed)
+
+2019-12-17 08:04:20 - [MESSAGE][FAILED] - callTestCase(findTestCase("AHI/_include/goToEnd_stm_autofill"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-12-17 08:02:20 - [TEST_CASE][FAILED] - Test Cases/PL Site/ICA/stm/AdvantHealth: Test Cases/PL Site/ICA/stm/AdvantHealth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-17 08:02:19 - [TEST_SUITE][FAILED] - ICA: Test Cases/PL Site/ICA/stm/AdvantHealth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-12-17 08:02:19 - [TEST_SUITE][FAILED] - ICA: Test Cases/PL Site/ICA/stm/AdvantHealth FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to clear text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' located by 'By.xpath: id("credit-card-cvv")[count(. | //input[@type = 'text' and @id = 'credit-card-cvv']) = count(//input[@type = 'text' and @id = 'credit-card-cvv'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.clearText(ClearTextKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.ClearTextKeyword.execute(ClearTextKeyword.groovy:34)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.clearText(WebUiBuiltInKeywords.groovy:3817)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$clearText$8.call(Unknown Source)
+	at goToEnd_stm_autofill.run(goToEnd_stm_autofill:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:106)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:80)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at AdvantHealth.run(AdvantHealth:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576587633637.run(TempTestSuite1576587633637.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

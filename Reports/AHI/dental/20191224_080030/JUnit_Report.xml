@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="dental" time="213" tests="2" failures="0" errors="0">
+   <testsuite name="dental" tests="2" failures="0" errors="0" time="213" timestamp="2019-12-24 08:14:03" hostname="Administrator - 172.30.0.53" id="Test Suites/AHI/dental">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/0.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/1.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/2.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/3.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/4.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/5.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/6.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/7.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/8.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/9.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/0.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/1.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/2.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/3.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/4.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/5.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/6.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/7.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/8.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/9.png, D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/10.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="4ccec48963c840333e259cea6065e979"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/AHI/Dental/National General" classname="Test Cases/AHI/Dental/National General" status="PASSED">
+         <system-out><![CDATA[2019-12-24 08:14:04 - [TEST_CASE][PASSED] - Test Cases/AHI/Dental/National General: Test Cases/AHI/Dental/National General
+
+2019-12-24 08:14:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"dental", "carrierName":"National General"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-24 08:14:05 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-24 08:14:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-24 08:14:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-24 08:14:08 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2019-12-24 08:14:08 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-12-24 08:14:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-24 08:14:09 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-24 08:14:09 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-24 08:14:09 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-24 08:14:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-12-24 08:14:16 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-24 08:14:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:16 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:17 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/0.png]]
+
+2019-12-24 08:14:19 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-24 08:14:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/census_dental"), ["zipcode":zipcode, "dob":"12/12/1980"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/census_dental' successfully
+
+2019-12-24 08:14:19 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/census_dental: Test Cases/AHI/_include/census_dental
+
+2019-12-24 08:14:19 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/menu")): Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-12-24 08:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-12-24 08:14:19 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-24 08:14:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:23 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:23 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/1.png]]
+
+2019-12-24 08:14:23 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:23 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/nav_dental")): Object: 'Object Repository/mobileSanity/Common/side_nav/nav_dental' is clicked on
+
+2019-12-24 08:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/nav_dental' is clicked on
+
+2019-12-24 08:14:24 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:14:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:25 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:25 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/2.png]]
+
+2019-12-24 08:14:26 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), zipcode): Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-12-24 08:14:26 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-12-24 08:14:26 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-12-24 08:14:26 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), "12121980"): Text '12121980' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-12-24 08:14:26 - [MESSAGE][PASSED] - Text '12121980' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-12-24 08:14:26 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Male")): Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-12-24 08:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-12-24 08:14:26 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance")): Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-12-24 08:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-12-24 08:14:27 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:14:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:27 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:29 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:29 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/3.png]]
+
+2019-12-24 08:14:30 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/census_dental' successfully
+
+2019-12-24 08:14:30 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:14:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10): Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-12-24 08:14:30 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-12-24 08:14:30 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_company")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-12-24 08:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-12-24 08:14:30 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:32 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_ng")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_ng' is clicked on
+
+2019-12-24 08:14:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_ng' is clicked on
+
+2019-12-24 08:14:32 - [TEST_STEP][PASSED] - waitForJQueryLoad(20, STOP_ON_FAILURE): jQuery is ready.
+
+2019-12-24 08:14:32 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-12-24 08:14:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:32 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:32 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/4.png]]
+
+2019-12-24 08:14:33 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:33 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:14:33 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:35 - [TEST_STEP][PASSED] - scrollToPosition(0, 600): Browser is scrolled to position x = 0, y = 600
+
+2019-12-24 08:14:35 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 600
+
+2019-12-24 08:14:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:37 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan")): Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-12-24 08:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-12-24 08:14:37 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:14:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:37 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:37 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/5.png]]
+
+2019-12-24 08:14:39 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:39 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application")): Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-12-24 08:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-12-24 08:14:39 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:14:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:39 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:41 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:41 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/6.png]]
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/goToEnd_dental"), ["carrier":"nationalgeneral"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/goToEnd_dental' successfully
+
+2019-12-24 08:14:42 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/goToEnd_dental: Test Cases/AHI/_include/goToEnd_dental
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/name"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-24 08:14:42 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/name: Test Cases/AHI/_include/name
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-12-24 08:14:42 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - City = City: null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - println(City): null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-12-24 08:14:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-24 08:14:43 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-24 08:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), FirstName): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-12-24 08:14:47 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-12-24 08:14:47 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), LastName): Text 'ZZ11-vCEGqwKv' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-12-24 08:14:48 - [MESSAGE][PASSED] - Text 'ZZ11-vCEGqwKv' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-12-24 08:14:48 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), Address): Text 'YnkVfzGc' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-12-24 08:14:48 - [MESSAGE][PASSED] - Text 'YnkVfzGc' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-12-24 08:14:48 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), City): Text 'ZsjaJgNZ' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-12-24 08:14:48 - [MESSAGE][PASSED] - Text 'ZsjaJgNZ' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-12-24 08:14:48 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), AutoEmail): Text 'test.VKSaCQgW@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-12-24 08:14:48 - [MESSAGE][PASSED] - Text 'test.VKSaCQgW@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-12-24 08:14:48 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), Tel): Text '524-482-7956' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-12-24 08:14:49 - [MESSAGE][PASSED] - Text '524-482-7956' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-12-24 08:14:49 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment")): Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-12-24 08:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-12-24 08:14:49 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:14:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:49 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:51 - [TEST_STEP][PASSED] - if (carrier == "usa"): null
+
+2019-12-24 08:14:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:51 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:51 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/7.png]]
+
+2019-12-24 08:14:52 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:52 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), FirstName): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-12-24 08:14:52 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-12-24 08:14:52 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), LastName): Text 'ZZ11-vCEGqwKv' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-12-24 08:14:53 - [MESSAGE][PASSED] - Text 'ZZ11-vCEGqwKv' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-12-24 08:14:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true): All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-12-24 08:14:53 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-12-24 08:14:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true): All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123"): Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review")): Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-24 08:14:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:14:54 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:14:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("mobileSanity/Dental/app_page3/label"), 20): Object 'Object Repository/mobileSanity/Dental/app_page3/label' is clickable
+
+2019-12-24 08:14:57 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/app_page3/label' is clickable
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:57 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:14:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/8.png]]
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:14:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/label")): Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-12-24 08:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN")): Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-12-24 08:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-12-24 08:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-12-24 08:14:57 - [TEST_STEP][PASSED] - Thread.sleep(50000): null
+
+2019-12-24 08:15:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("mobileSanity/Dental/app_page4/js-app-confirmation"), 20): Object 'Object Repository/mobileSanity/Dental/app_page4/js-app-confirmation' is present
+
+2019-12-24 08:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/app_page4/js-app-confirmation' is present
+
+2019-12-24 08:15:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:15:53 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:15:53 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:15:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/National General/20191224_081407/9.png]]
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:15:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:15:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/goToEnd_dental' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AHI/Dental/USA Access" classname="Test Cases/AHI/Dental/USA Access" status="PASSED">
+         <system-out><![CDATA[2019-12-24 08:15:54 - [TEST_CASE][PASSED] - Test Cases/AHI/Dental/USA Access: Test Cases/AHI/Dental/USA Access
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"dental", "carrierName":"USA Access"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-24 08:15:54 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-24 08:15:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-24 08:15:54 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2019-12-24 08:15:54 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-12-24 08:15:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-24 08:15:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-24 08:15:56 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-24 08:15:56 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-24 08:16:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://praetemptatus.agilehealthinsurance.com'
+
+2019-12-24 08:16:00 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-24 08:16:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:00 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:00 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/0.png]]
+
+2019-12-24 08:16:01 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-24 08:16:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/census_dental"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/census_dental' successfully
+
+2019-12-24 08:16:01 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/census_dental: Test Cases/AHI/_include/census_dental
+
+2019-12-24 08:16:01 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/menu")): Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-12-24 08:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/menu' is clicked on
+
+2019-12-24 08:16:02 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-24 08:16:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:05 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:05 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/1.png]]
+
+2019-12-24 08:16:05 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:05 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Common/side_nav/nav_dental")): Object: 'Object Repository/mobileSanity/Common/side_nav/nav_dental' is clicked on
+
+2019-12-24 08:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Common/side_nav/nav_dental' is clicked on
+
+2019-12-24 08:16:05 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:16:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:06 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:06 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/2.png]]
+
+2019-12-24 08:16:07 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("mobileSanity/Dental/census/input_Location_zip-input"), zipcode): Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-12-24 08:16:07 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/mobileSanity/Dental/census/input_Location_zip-input'
+
+2019-12-24 08:16:07 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-12-24 08:16:07 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/census/input_Date of Birth_dob-0"), "12121980"): Text '12121980' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-12-24 08:16:07 - [MESSAGE][PASSED] - Text '12121980' is set on object 'Object Repository/mobileSanity/Dental/census/input_Date of Birth_dob-0'
+
+2019-12-24 08:16:07 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Male")): Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-12-24 08:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Male' is clicked on
+
+2019-12-24 08:16:07 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/census/label_Compare Dental Insurance")): Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-12-24 08:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/census/label_Compare Dental Insurance' is clicked on
+
+2019-12-24 08:16:08 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:16:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:08 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:16:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:10 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:10 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/3.png]]
+
+2019-12-24 08:16:10 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/census_dental' successfully
+
+2019-12-24 08:16:10 - [TEST_STEP][PASSED] - comment("-------------quote page--------------------"): -------------quote page--------------------
+
+2019-12-24 08:16:10 - [MESSAGE][INFO] - -------------quote page--------------------
+
+2019-12-24 08:16:10 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:16:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/Dental/filter/btn_company"), 10): Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-12-24 08:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/filter/btn_company' is visible
+
+2019-12-24 08:16:11 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_company")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-12-24 08:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_company' is clicked on
+
+2019-12-24 08:16:11 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:16:13 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_usa")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_usa' is clicked on
+
+2019-12-24 08:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_usa' is clicked on
+
+2019-12-24 08:16:13 - [TEST_STEP][PASSED] - waitForJQueryLoad(20, STOP_ON_FAILURE): jQuery is ready.
+
+2019-12-24 08:16:14 - [MESSAGE][PASSED] - jQuery is ready.
+
+2019-12-24 08:16:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:14 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:14 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/4.png]]
+
+2019-12-24 08:16:14 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:14 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/filter/btn_filter")): Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/filter/btn_filter' is clicked on
+
+2019-12-24 08:16:15 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/quote/a_Select This Plan")): Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-12-24 08:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/quote/a_Select This Plan' is clicked on
+
+2019-12-24 08:16:15 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:16:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:15 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:15 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/5.png]]
+
+2019-12-24 08:16:16 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:16 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/apply/span_Start Secure Application")): Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-12-24 08:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/apply/span_Start Secure Application' is clicked on
+
+2019-12-24 08:16:16 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:16:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:17 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/6.png]]
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/goToEnd_dental"), ["carrier":"usa"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/goToEnd_dental' successfully
+
+2019-12-24 08:16:17 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/goToEnd_dental: Test Cases/AHI/_include/goToEnd_dental
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/name"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-24 08:16:17 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/name: Test Cases/AHI/_include/name
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - City = City: null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - println(City): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-12-24 08:16:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-24 08:16:17 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-24 08:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-firstName"), FirstName): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-12-24 08:16:21 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-firstName'
+
+2019-12-24 08:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__member-P-1-lastName"), LastName): Text 'ZZ11-NDVtYpzL' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-12-24 08:16:21 - [MESSAGE][PASSED] - Text 'ZZ11-NDVtYpzL' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__member-P-1-lastName'
+
+2019-12-24 08:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__address"), Address): Text 'QjXxVDWR' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-12-24 08:16:21 - [MESSAGE][PASSED] - Text 'QjXxVDWR' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__address'
+
+2019-12-24 08:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__city"), City): Text 'JbtDUOTS' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-12-24 08:16:21 - [MESSAGE][PASSED] - Text 'JbtDUOTS' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__city'
+
+2019-12-24 08:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input__email"), AutoEmail): Text 'test.kWUvwgtk@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-12-24 08:16:21 - [MESSAGE][PASSED] - Text 'test.kWUvwgtk@suryani.cn' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input__email'
+
+2019-12-24 08:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page1/input_phone"), Tel): Text '359-943-2574' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-12-24 08:16:21 - [MESSAGE][PASSED] - Text '359-943-2574' is set on object 'Object Repository/mobileSanity/Dental/app_page1/input_phone'
+
+2019-12-24 08:16:21 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment")): Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-12-24 08:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment' is clicked on
+
+2019-12-24 08:16:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-24 08:16:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:22 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - if (carrier == "usa"): null
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:24 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/7.png]]
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/membership/label_ihaveread")): Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/label_ihaveread' is clicked on
+
+2019-12-24 08:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/label_ihaveread' is clicked on
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/membership/a_ok")): Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/a_ok' is clicked on
+
+2019-12-24 08:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/membership/a_ok' is clicked on
+
+2019-12-24 08:16:24 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-24 08:16:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:27 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:27 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/8.png]]
+
+2019-12-24 08:16:28 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-first"), FirstName): Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-12-24 08:16:28 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-first'
+
+2019-12-24 08:16:28 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-last"), LastName): Text 'ZZ11-NDVtYpzL' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-12-24 08:16:28 - [MESSAGE][PASSED] - Text 'ZZ11-NDVtYpzL' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-last'
+
+2019-12-24 08:16:28 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_MM010203040506070809101"), "12", true): All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-12-24 08:16:29 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_MM010203040506070809101'  using regular expression
+
+2019-12-24 08:16:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("mobileSanity/Dental/app_page2/select_YYYY2019202020212022202"), "2026", true): All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-12-24 08:16:29 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'  using regular expression
+
+2019-12-24 08:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-12-24 08:16:29 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__credit-card-number'
+
+2019-12-24 08:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/Dental/app_page2/input__cvv"), "123"): Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-12-24 08:16:29 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/mobileSanity/Dental/app_page2/input__cvv'
+
+2019-12-24 08:16:29 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_My billing address is th")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-12-24 08:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_My billing address is th' is clicked on
+
+2019-12-24 08:16:30 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-12-24 08:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/label_I Accept Authorization f' is clicked on
+
+2019-12-24 08:16:30 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review")): Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-12-24 08:16:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review' is clicked on
+
+2019-12-24 08:16:30 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-24 08:16:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-24 08:16:31 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-24 08:16:33 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("mobileSanity/Dental/app_page3/label"), 20): Object 'Object Repository/mobileSanity/Dental/app_page3/label' is clickable
+
+2019-12-24 08:16:41 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/app_page3/label' is clickable
+
+2019-12-24 08:16:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:41 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:16:41 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:16:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/9.png]]
+
+2019-12-24 08:16:41 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:16:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:16:42 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/label")): Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-12-24 08:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/label' is clicked on
+
+2019-12-24 08:16:42 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/p_CLICK TO SIGN")): Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-12-24 08:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/p_CLICK TO SIGN' is clicked on
+
+2019-12-24 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/Dental/app_page3/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-12-24 08:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/Dental/app_page3/a_Submit Your Application' is clicked on
+
+2019-12-24 08:16:44 - [TEST_STEP][PASSED] - Thread.sleep(50000): null
+
+2019-12-24 08:17:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("mobileSanity/Dental/app_page4/js-app-confirmation"), 20): Object 'Object Repository/mobileSanity/Dental/app_page4/js-app-confirmation' is present
+
+2019-12-24 08:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/Dental/app_page4/js-app-confirmation' is present
+
+2019-12-24 08:17:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:17:34 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-24 08:17:34 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-24 08:17:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AHI\\dental\\20191224_080030\\../Screenshots/iPhone 6/dental/USA Access/20191224_081554/10.png]]
+
+2019-12-24 08:17:35 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-24 08:17:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-24 08:17:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/goToEnd_dental' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-24 08:14:03 - [TEST_SUITE][PASSED] - dental: Test Cases/AHI/Dental/USA Access]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

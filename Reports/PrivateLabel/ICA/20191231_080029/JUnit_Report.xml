@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ICA" time="130" tests="1" failures="0" errors="0">
+   <testsuite name="ICA" tests="1" failures="0" errors="0" time="130" timestamp="2019-12-31 08:02:19" hostname="Administrator - 172.30.0.53" id="Test Suites/PrivateLabel/ICA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/0.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/1.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/2.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/3.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/4.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/5.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/6.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/7.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/8.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/9.png, D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/10.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="4f8125f05156b1fc5f32f367e2442b2a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/PL Site/ICA/stm/AdvantHealth" classname="Test Cases/PL Site/ICA/stm/AdvantHealth" status="PASSED">
+         <system-out><![CDATA[2019-12-31 08:02:20 - [TEST_CASE][PASSED] - Test Cases/PL Site/ICA/stm/AdvantHealth: Test Cases/PL Site/ICA/stm/AdvantHealth
+
+2019-12-31 08:02:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"ICA", "carrierName":"AdvantHealth"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-31 08:02:20 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2019-12-31 08:02:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-12-31 08:02:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":"https://ica--qa.storefront.mybenefitskeeper.com"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-31 08:02:21 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2019-12-31 08:02:22 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://ica--qa.storefront.mybenefitskeeper.com'
+
+2019-12-31 08:02:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-31 08:02:22 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2019-12-31 08:02:22 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox]']
+
+2019-12-31 08:02:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-31 08:02:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://ica--qa.storefront.mybenefitskeeper.com'
+
+2019-12-31 08:02:28 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-31 08:02:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:02:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:02:28 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:02:28 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:02:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/0.png]]
+
+2019-12-31 08:02:29 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:02:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:02:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2019-12-31 08:02:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/census_stm"), ["zipcode":"35215"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/census_stm' successfully
+
+2019-12-31 08:02:29 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/census_stm: Test Cases/AHI/_include/census_stm
+
+2019-12-31 08:02:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today"), 10): Object 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clickable
+
+2019-12-31 08:02:29 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clickable
+
+2019-12-31 08:02:29 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Home Page/a_Quote  Save Today")): Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-12-31 08:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Home Page/a_Quote  Save Today' is clicked on
+
+2019-12-31 08:02:30 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-31 08:02:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:02:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:02:30 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:02:30 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:02:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/1.png]]
+
+2019-12-31 08:02:30 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:02:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:02:30 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Location_zip-input"), zipcode): Text '35215' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-12-31 08:02:31 - [MESSAGE][PASSED] - Text '35215' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Location_zip-input'
+
+2019-12-31 08:02:31 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2019-12-31 08:02:31 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0"), "03031987"): Text '03031987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-12-31 08:02:31 - [MESSAGE][PASSED] - Text '03031987' is set on object 'Object Repository/mobileSanity/STM/STM Census Page/input_Date of Birth_dob-0'
+
+2019-12-31 08:02:31 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Male")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-12-31 08:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Male' is clicked on
+
+2019-12-31 08:02:32 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Census Page/label_Compare Plans")): Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-12-31 08:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Census Page/label_Compare Plans' is clicked on
+
+2019-12-31 08:02:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM Quote Page/button_sort"), 20): Object 'Object Repository/mobileSanity/STM/STM Quote Page/button_sort' is visible
+
+2019-12-31 08:02:36 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM Quote Page/button_sort' is visible
+
+2019-12-31 08:02:36 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-31 08:02:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/check_quoteleadform"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/check_quoteleadform' successfully
+
+2019-12-31 08:02:39 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/check_quoteleadform: Test Cases/AHI/_include/check_quoteleadform
+
+2019-12-31 08:02:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/name"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-31 08:02:40 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/name: Test Cases/AHI/_include/name
+
+2019-12-31 08:02:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-31 08:02:40 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - City = City: null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - println(City): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-12-31 08:02:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-31 08:02:41 - [TEST_STEP][PASSED] - leadform_exist = test.MobileKeywords.isElementPresent_Web(findTestObject("mobileSanity/quote lead form/lead_form"), 20): test.MobileKeywords.isElementPresent_Web is PASSED
+
+2019-12-31 08:03:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'lightboxLeadForm']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-31 08:03:03 - [MESSAGE][PASSED] - test.MobileKeywords.isElementPresent_Web is PASSED
+
+2019-12-31 08:03:03 - [TEST_STEP][PASSED] - if (leadform_exist): null
+
+2019-12-31 08:03:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/check_quoteleadform' successfully
+
+2019-12-31 08:03:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:03 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:03 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/2.png]]
+
+2019-12-31 08:03:04 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:04 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-31 08:03:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/census_stm' successfully
+
+2019-12-31 08:03:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/goToDetail_stm"), ["carrier":"advanthealth"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/goToDetail_stm' successfully
+
+2019-12-31 08:03:05 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/goToDetail_stm: Test Cases/AHI/_include/goToDetail_stm
+
+2019-12-31 08:03:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-31 08:03:05 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-31 08:03:05 - [TEST_STEP][PASSED] - a_plan_name = "xpath=//a[contains(@href,'/term-health-insurance/plan/" + carrier + "')]": null
+
+2019-12-31 08:03:05 - [TEST_STEP][PASSED] - println(a_plan_name): null
+
+2019-12-31 08:03:05 - [TEST_STEP][PASSED] - selenium.click(a_plan_name): null
+
+2019-12-31 08:03:07 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-31 08:03:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:07 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-31 08:03:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:09 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:09 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/3.png]]
+
+2019-12-31 08:03:09 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/goToDetail_stm' successfully
+
+2019-12-31 08:03:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/apply_stm"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/apply_stm' successfully
+
+2019-12-31 08:03:10 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/apply_stm: Test Cases/AHI/_include/apply_stm
+
+2019-12-31 08:03:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan"), 5): Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-12-31 08:03:10 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is visible
+
+2019-12-31 08:03:10 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan")): Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-12-31 08:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM PlanDetail Page/a_Apply for This Plan' is clicked on
+
+2019-12-31 08:03:10 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-31 08:03:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:10 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-31 08:03:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:12 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:12 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/4.png]]
+
+2019-12-31 08:03:13 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application"), 5): Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-12-31 08:03:13 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is visible
+
+2019-12-31 08:03:13 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/STM Apply Page/a_Start Secure Application")): Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-12-31 08:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/STM Apply Page/a_Start Secure Application' is clicked on
+
+2019-12-31 08:03:13 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-31 08:03:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:13 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-31 08:03:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:15 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:15 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/5.png]]
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/apply_stm' successfully
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/goToEnd_stm_autofill"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/goToEnd_stm_autofill' successfully
+
+2019-12-31 08:03:16 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/goToEnd_stm_autofill: Test Cases/AHI/_include/goToEnd_stm_autofill
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/name"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-31 08:03:16 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/name: Test Cases/AHI/_include/name
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - Address = Address: null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - City = City: null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - println(LastName): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - println(Address): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - println(City): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - println(Tel): null
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2019-12-31 08:03:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/name' successfully
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - try: Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - if (verifyTextPresent("Month Duration Acknowledgement", false)): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:16 - [MESSAGE][PASSED] - Text 'Month Duration Acknowledgement' is present on page 
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/label_By checking this box I u")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/label_By checking this box I u' is clicked on
+
+2019-12-31 08:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/label_By checking this box I u' is clicked on
+
+2019-12-31 08:03:16 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/button_Continue to Application")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_Continue to Application' is clicked on
+
+2019-12-31 08:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/button_Continue to Application' is clicked on
+
+2019-12-31 08:03:17 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-31 08:03:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:17 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-12-31 08:03:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:22 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:22 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/6.png]]
+
+2019-12-31 08:03:22 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-31 08:03:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:22 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2019-12-31 08:03:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info"), 20): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is visible
+
+2019-12-31 08:03:25 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is visible
+
+2019-12-31 08:03:25 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-31 08:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-31 08:03:25 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-31 08:03:26 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Autofill App Info")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-31 08:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Autofill App Info' is clicked on
+
+2019-12-31 08:03:26 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2019-12-31 08:03:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue"), 20): Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is visible
+
+2019-12-31 08:03:28 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is visible
+
+2019-12-31 08:03:28 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 1/a_Continue")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is clicked on
+
+2019-12-31 08:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 1/a_Continue' is clicked on
+
+2019-12-31 08:03:28 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-31 08:03:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:28 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2019-12-31 08:03:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:33 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:33 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/7.png]]
+
+2019-12-31 08:03:33 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:33 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment' is clicked on
+
+2019-12-31 08:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 2/a_Continue to Step 3 - Payment' is clicked on
+
+2019-12-31 08:03:33 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2019-12-31 08:03:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv"), 20): Object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' is visible
+
+2019-12-31 08:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' is visible
+
+2019-12-31 08:03:34 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-31 08:03:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:36 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:36 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/8.png]]
+
+2019-12-31 08:03:36 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:36 - [TEST_STEP][PASSED] - clearText(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv")): Text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' is cleared
+
+2019-12-31 08:03:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv' is cleared
+
+2019-12-31 08:03:37 - [TEST_STEP][PASSED] - setText(findTestObject("mobileSanity/STM/Page_App Page 3/input__credit-card-cvv"), "123"): Text '123' is set on object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'
+
+2019-12-31 08:03:37 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/mobileSanity/STM/Page_App Page 3/input__credit-card-cvv'
+
+2019-12-31 08:03:37 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f' is clicked on
+
+2019-12-31 08:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 3/label_I Accept Authorization f' is clicked on
+
+2019-12-31 08:03:37 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review' is clicked on
+
+2019-12-31 08:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 3/a_Continue to Step 4 - Review' is clicked on
+
+2019-12-31 08:03:37 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-12-31 08:03:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-31 08:03:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("mobileSanity/STM/Page_App Page 4/label"), 10): Object 'Object Repository/mobileSanity/STM/Page_App Page 4/label' is clickable
+
+2019-12-31 08:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 4/label' is clickable
+
+2019-12-31 08:03:38 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-12-31 08:03:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:40 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:03:40 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:03:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/9.png]]
+
+2019-12-31 08:03:41 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:03:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:03:41 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 4/label")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 4/label' is clicked on
+
+2019-12-31 08:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 4/label' is clicked on
+
+2019-12-31 08:03:41 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN' is clicked on
+
+2019-12-31 08:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 4/div_CLICK TO SIGN' is clicked on
+
+2019-12-31 08:03:41 - [TEST_STEP][PASSED] - click(findTestObject("mobileSanity/STM/Page_App Page 4/a_Submit Your Application")): Object: 'Object Repository/mobileSanity/STM/Page_App Page 4/a_Submit Your Application' is clicked on
+
+2019-12-31 08:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/mobileSanity/STM/Page_App Page 4/a_Submit Your Application' is clicked on
+
+2019-12-31 08:03:41 - [TEST_STEP][PASSED] - Thread.sleep(30000): null
+
+2019-12-31 08:04:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("mobileSanity/STM/Page_App Page 6/app-page-wrapper"), 20): Object 'Object Repository/mobileSanity/STM/Page_App Page 6/app-page-wrapper' is present
+
+2019-12-31 08:04:28 - [MESSAGE][PASSED] - Object 'Object Repository/mobileSanity/STM/Page_App Page 6/app-page-wrapper' is present
+
+2019-12-31 08:04:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:04:28 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2019-12-31 08:04:28 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2019-12-31 08:04:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\PrivateLabel\\ICA\\20191231_080029\\../Screenshots/iPhone 6/ICA/AdvantHealth/20191231_080221/10.png]]
+
+2019-12-31 08:04:29 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2019-12-31 08:04:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2019-12-31 08:04:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/goToEnd_stm_autofill' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-31 08:02:19 - [TEST_SUITE][PASSED] - ICA: Test Cases/PL Site/ICA/stm/AdvantHealth]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

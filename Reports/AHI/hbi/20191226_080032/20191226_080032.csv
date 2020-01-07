@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hbi,Safari 11,hbi flow,2019-12-26 08:11:54,2019-12-26 08:23:11,11m - 16.674s,FAILED
+,,,,,,
+Test Cases/AHI/HBI/Agile One,Safari 11,Agile One application flow,2019-12-26 08:11:55,2019-12-26 08:12:56,1m - 1.408s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Agile One""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:11:56,2019-12-26 08:11:57,0.880s,PASSED
+i = 0,Safari 11,,2019-12-26 08:11:57,2019-12-26 08:11:57,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:11:57,2019-12-26 08:12:06,9.962s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:12:06,2019-12-26 08:12:29,22.388s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:12:29,2019-12-26 08:12:34,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-26 08:12:34,2019-12-26 08:12:34,0.022s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Agile One 750""))",Safari 11,,2019-12-26 08:12:34,2019-12-26 08:12:56,22.193s,FAILED
+,,,,,,
+Test Cases/AHI/HBI/Legion Limited Medical,Safari 11,Axis Legion application flow,2019-12-26 08:12:56,2019-12-26 08:14:43,1m - 46.864s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Legion Limited Medical""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:12:57,2019-12-26 08:12:57,0.148s,PASSED
+i = 0,Safari 11,,2019-12-26 08:12:57,2019-12-26 08:12:57,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:12:57,2019-12-26 08:13:06,9.370s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:13:06,2019-12-26 08:13:32,26.007s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Legion Limited Medical 500""))",Safari 11,,2019-12-26 08:13:32,2019-12-26 08:13:33,0.874s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:13:33,2019-12-26 08:13:34,0.769s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:13:34,2019-12-26 08:13:34,0.654s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-26 08:13:34,2019-12-26 08:13:35,0.652s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:13:35,2019-12-26 08:13:36,0.956s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:13:36,2019-12-26 08:13:37,0.875s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-12-26 08:13:37,2019-12-26 08:13:38,0.684s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:13:38,2019-12-26 08:13:39,1.496s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:13:39,2019-12-26 08:13:44,5.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:13:44,2019-12-26 08:13:44,0.428s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""legionlimitedmedical""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:13:44,2019-12-26 08:14:43,58.474s,PASSED
+,,,,,,
+Test Cases/AHI/HBI/Cardinal Choice,Safari 11,Cardinal Choice application flow,2019-12-26 08:14:43,2019-12-26 08:15:38,55.184s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Cardinal Choice""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:14:43,2019-12-26 08:14:43,0.071s,PASSED
+i = 0,Safari 11,,2019-12-26 08:14:43,2019-12-26 08:14:43,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:14:43,2019-12-26 08:14:50,6.759s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:14:50,2019-12-26 08:15:12,21.679s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:15:12,2019-12-26 08:15:17,5.002s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-26 08:15:17,2019-12-26 08:15:17,0.012s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Cardinal Choice""))",Safari 11,,2019-12-26 08:15:17,2019-12-26 08:15:38,21.394s,FAILED
+,,,,,,
+Test Cases/AHI/HBI/Core Shield,Safari 11,Core Shield application flow,2019-12-26 08:15:38,2019-12-26 08:17:16,1m - 37.649s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Core Shield""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:15:38,2019-12-26 08:15:38,0.066s,PASSED
+i = 0,Safari 11,,2019-12-26 08:15:38,2019-12-26 08:15:38,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:15:38,2019-12-26 08:15:46,8.068s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:15:46,2019-12-26 08:16:07,20.839s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:16:07,2019-12-26 08:16:12,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-26 08:16:12,2019-12-26 08:16:12,0.012s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Core Shield""))",Safari 11,,2019-12-26 08:16:12,2019-12-26 08:16:13,0.509s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:16:13,2019-12-26 08:16:13,0.033s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:16:13,2019-12-26 08:16:14,1.190s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-26 08:16:14,2019-12-26 08:16:14,0.314s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:16:14,2019-12-26 08:16:14,0.089s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:16:14,2019-12-26 08:16:15,0.601s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-12-26 08:16:15,2019-12-26 08:16:16,0.551s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:16:16,2019-12-26 08:16:16,0.890s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:16:16,2019-12-26 08:16:21,5.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:16:21,2019-12-26 08:16:22,0.446s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""coreshield""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:16:22,2019-12-26 08:17:16,53.885s,PASSED
+,,,,,,
+Test Cases/AHI/HBI/Agile Secure,Safari 11,,2019-12-26 08:17:16,2019-12-26 08:18:28,1m - 12.421s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Agile Secure""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:17:16,2019-12-26 08:17:16,0.071s,PASSED
+i = 0,Safari 11,,2019-12-26 08:17:16,2019-12-26 08:17:16,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:17:16,2019-12-26 08:17:25,8.977s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [""zipcode"":""08701""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:17:25,2019-12-26 08:18:07,42.201s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-26 08:18:07,2019-12-26 08:18:28,21.029s,FAILED
+,,,,,,
+Test Cases/AHI/HBI/Fixed Cash Benefit,Safari 11,,2019-12-26 08:18:28,2019-12-26 08:20:04,1m - 35.463s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Fixed Cash Benefit""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:18:29,2019-12-26 08:18:29,0.063s,PASSED
+i = 0,Safari 11,,2019-12-26 08:18:29,2019-12-26 08:18:29,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:18:29,2019-12-26 08:18:35,6.419s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [""zipcode"":""85364""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:18:35,2019-12-26 08:18:53,18.383s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:18:53,2019-12-26 08:18:58,5.016s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-26 08:18:58,2019-12-26 08:18:59,0.076s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Fixed Cash Benefit""))",Safari 11,,2019-12-26 08:18:59,2019-12-26 08:18:59,0.612s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:18:59,2019-12-26 08:18:59,0.161s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:18:59,2019-12-26 08:19:01,1.229s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-26 08:19:01,2019-12-26 08:19:01,0.426s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:19:01,2019-12-26 08:19:02,1.315s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:19:02,2019-12-26 08:19:03,1.194s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-12-26 08:19:03,2019-12-26 08:19:04,0.688s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:19:04,2019-12-26 08:19:05,1.183s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:19:05,2019-12-26 08:19:10,5.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:19:10,2019-12-26 08:19:11,0.416s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""FixedCashBenefit""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:19:11,2019-12-26 08:20:04,52.934s,PASSED
+,,,,,,
+Test Cases/AHI/HBI/Health Choice,Safari 11,,2019-12-26 08:20:04,2019-12-26 08:21:35,1m - 30.927s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Health Choice""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:20:04,2019-12-26 08:20:04,0.064s,PASSED
+i = 0,Safari 11,,2019-12-26 08:20:04,2019-12-26 08:20:04,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:20:04,2019-12-26 08:20:10,5.971s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:20:10,2019-12-26 08:20:28,18.603s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:20:28,2019-12-26 08:20:33,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-26 08:20:33,2019-12-26 08:20:34,0.012s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Health Choice""))",Safari 11,,2019-12-26 08:20:34,2019-12-26 08:20:34,0.444s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:20:34,2019-12-26 08:20:34,0.055s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:20:34,2019-12-26 08:20:35,1.173s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-26 08:20:35,2019-12-26 08:20:36,0.358s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:20:36,2019-12-26 08:20:36,0.081s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:20:36,2019-12-26 08:20:36,0.706s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-12-26 08:20:36,2019-12-26 08:20:37,0.494s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:20:37,2019-12-26 08:20:37,0.117s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:20:37,2019-12-26 08:20:42,5.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:20:42,2019-12-26 08:20:42,0.427s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""healthchoiceplus""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:20:42,2019-12-26 08:21:35,52.263s,PASSED
+,,,,,,
+Test Cases/AHI/HBI/Vitala Care,Safari 11,,2019-12-26 08:21:35,2019-12-26 08:23:10,1m - 35.079s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""hbi"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:21:35,2019-12-26 08:21:35,0.063s,PASSED
+i = 0,Safari 11,,2019-12-26 08:21:35,2019-12-26 08:21:35,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:21:35,2019-12-26 08:21:41,5.995s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_hbi""), [""zipcode"":""90011""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:21:41,2019-12-26 08:21:58,16.716s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:21:58,2019-12-26 08:22:03,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2019-12-26 08:22:03,2019-12-26 08:22:03,0.011s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Vitala Care""))",Safari 11,,2019-12-26 08:22:03,2019-12-26 08:22:03,0.435s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:22:03,2019-12-26 08:22:03,0.012s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:22:03,2019-12-26 08:22:04,0.890s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2019-12-26 08:22:04,2019-12-26 08:22:04,0.348s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:22:04,2019-12-26 08:22:04,0.047s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:22:04,2019-12-26 08:22:05,1.178s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2019-12-26 08:22:05,2019-12-26 08:22:06,0.379s,PASSED
+waitForPageLoad(20),Safari 11,,2019-12-26 08:22:06,2019-12-26 08:22:06,0.043s,PASSED
+Thread.sleep(5000),Safari 11,,2019-12-26 08:22:06,2019-12-26 08:22:11,5.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2019-12-26 08:22:11,2019-12-26 08:22:11,0.412s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""state"":""ca"", ""carrier"":""vitalacare""], CONTINUE_ON_FAILURE)",Safari 11,,2019-12-26 08:22:11,2019-12-26 08:23:10,58.417s,PASSED

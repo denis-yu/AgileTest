@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HP,,,2019-12-29 08:00:42,2019-12-29 08:00:48,5.974s,ERROR
+,,,,,,
+Test Cases/HP/ACA/ACA,,,2019-12-29 08:00:43,2019-12-29 08:00:47,3.870s,ERROR
+now = new java.util.Date(),,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.007s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.002s,PASSED
+i = 0,,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.015s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""ACA""], CONTINUE_ON_FAILURE)",,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.027s,ERROR
+,,,,,,
+Test Cases/HP/Home/Home,,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.174s,ERROR
+now = new java.util.Date(),,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""home""], CONTINUE_ON_FAILURE)",,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.005s,ERROR
+,,,,,,
+Test Cases/HP/Medicare/Medicare,,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.450s,ERROR
+now = new java.util.Date(),,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.002s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Medicare""], CONTINUE_ON_FAILURE)",,,2019-12-29 08:00:47,2019-12-29 08:00:47,0.004s,ERROR
+,,,,,,
+Test Cases/HP/Short Term/STM,,,2019-12-29 08:00:47,2019-12-29 08:00:48,0.717s,ERROR
+now = new java.util.Date(),,,2019-12-29 08:00:48,2019-12-29 08:00:48,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",,,2019-12-29 08:00:48,2019-12-29 08:00:48,0.001s,PASSED
+"callTestCase(findTestCase(""mobileWeb/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""STM""], CONTINUE_ON_FAILURE)",,,2019-12-29 08:00:48,2019-12-29 08:00:48,0.003s,ERROR

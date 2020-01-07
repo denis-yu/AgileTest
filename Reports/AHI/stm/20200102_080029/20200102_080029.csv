@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+stm,Safari 11,,2020-01-02 08:08:02,2020-01-02 08:19:15,11m - 13.267s,FAILED
+,,,,,,
+Test Cases/AHI/stm/AdvantHealth,Safari 11,,2020-01-02 08:08:02,2020-01-02 08:10:10,2m - 8.062s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:08:02,2020-01-02 08:08:03,0.556s,PASSED
+i = 0,Safari 11,,2020-01-02 08:08:03,2020-01-02 08:08:03,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:08:03,2020-01-02 08:08:11,8.383s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:08:11,2020-01-02 08:08:29,17.285s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:08:29,2020-01-02 08:08:36,7.040s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:08:36,2020-01-02 08:08:42,6.199s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:08:42,2020-01-02 08:08:50,7.727s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:08:50,2020-01-02 08:10:10,1m - 20.309s,PASSED
+,,,,,,
+Test Cases/AHI/stm/Aspen,Safari 11,,2020-01-02 08:10:10,2020-01-02 08:11:48,1m - 38.497s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Aspen""], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:10:10,2020-01-02 08:10:10,0.095s,PASSED
+i = 0,Safari 11,,2020-01-02 08:10:10,2020-01-02 08:10:10,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:10:10,2020-01-02 08:10:17,6.899s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:10:17,2020-01-02 08:10:34,16.832s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""aspen""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:10:34,2020-01-02 08:10:40,6.520s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""aspen""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:10:40,2020-01-02 08:10:44,4.073s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:10:44,2020-01-02 08:10:51,6.119s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:10:51,2020-01-02 08:11:48,57.815s,FAILED
+,,,,,,
+Test Cases/AHI/stm/Companion,Safari 11,,2020-01-02 08:11:48,2020-01-02 08:14:00,2m - 11.535s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Companion""], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:11:49,2020-01-02 08:11:49,0.071s,PASSED
+i = 0,Safari 11,,2020-01-02 08:11:49,2020-01-02 08:11:49,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:11:49,2020-01-02 08:11:58,9.105s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:11:58,2020-01-02 08:12:18,20.046s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""pivotcompanion""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:12:18,2020-01-02 08:12:31,13.068s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""pivot-health-choice""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:12:31,2020-01-02 08:12:39,8.130s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:12:39,2020-01-02 08:12:51,12.136s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:12:51,2020-01-02 08:14:00,1m - 8.718s,PASSED
+,,,,,,
+Test Cases/AHI/stm/Everest Prime,Safari 11,,2020-01-02 08:14:00,2020-01-02 08:15:34,1m - 34.309s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Everest Prime""], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:14:00,2020-01-02 08:14:00,0.065s,PASSED
+i = 0,Safari 11,,2020-01-02 08:14:00,2020-01-02 08:14:00,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:14:00,2020-01-02 08:14:09,8.634s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:14:09,2020-01-02 08:14:26,17.372s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:14:26,2020-01-02 08:14:33,6.700s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:14:33,2020-01-02 08:14:37,4.171s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:14:37,2020-01-02 08:14:45,7.420s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:14:45,2020-01-02 08:15:34,49.748s,PASSED
+,,,,,,
+Test Cases/AHI/stm/NationalGeneral,Safari 11,,2020-01-02 08:15:34,2020-01-02 08:17:38,2m - 4.028s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""National General""], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:15:35,2020-01-02 08:15:35,0.066s,PASSED
+i = 0,Safari 11,,2020-01-02 08:15:35,2020-01-02 08:15:35,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:15:35,2020-01-02 08:15:42,7.526s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:15:42,2020-01-02 08:16:01,18.653s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:16:01,2020-01-02 08:16:08,6.730s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""nationalgeneral""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:16:08,2020-01-02 08:16:12,4.326s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:16:12,2020-01-02 08:16:19,7.571s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:16:19,2020-01-02 08:17:38,1m - 18.873s,PASSED
+,,,,,,
+Test Cases/AHI/stm/Slaico,Safari 11,,2020-01-02 08:17:38,2020-01-02 08:19:13,1m - 35.117s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""stm"", ""carrierName"":""Slaico""], CONTINUE_ON_FAILURE)",Safari 11,,2020-01-02 08:17:39,2020-01-02 08:17:39,0.063s,PASSED
+i = 0,Safari 11,,2020-01-02 08:17:39,2020-01-02 08:17:39,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:17:39,2020-01-02 08:17:46,7.301s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""60602""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:17:46,2020-01-02 08:18:06,19.662s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:18:06,2020-01-02 08:18:12,6.634s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""slaico""], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:18:12,2020-01-02 08:18:16,3.780s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:18:16,2020-01-02 08:18:22,6.412s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-01-02 08:18:22,2020-01-02 08:19:13,50.955s,PASSED

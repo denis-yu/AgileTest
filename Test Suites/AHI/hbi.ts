@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>8f7504bc-9e86-478c-b013-76998708a3eb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AHI/HBI/Agile One</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -25,7 +25,7 @@
    <testCaseLink>
       <guid>1672cd1e-792c-4083-b9c6-a8f364f0c557</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AHI/HBI/Cardinal Choice</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -37,7 +37,7 @@
    <testCaseLink>
       <guid>41f49251-bcd0-451f-b407-9a5e3448dbdc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/AHI/HBI/Agile Secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
