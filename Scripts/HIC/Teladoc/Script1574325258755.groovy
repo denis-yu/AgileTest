@@ -26,17 +26,19 @@ Thread.sleep(2000)
 
 WebUI.click(findTestObject('hic/nav/teladocLink'))
 
-Thread.sleep(2000)
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('hic/stm/zip'), zipcode)
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('hic/stm/census/zip'), zipcode)
 
 Thread.sleep(500)
 
-WebUI.setText(findTestObject('hic/stm/primaryDOB'), '03031987')
+WebUI.setText(findTestObject('hic/stm/census/primaryDOB'), '03031987')
 
-WebUI.click(findTestObject('hic/stm/female'))
+WebUI.click(findTestObject('hic/stm/census/female'))
 
 Thread.sleep(3000)
 
@@ -85,6 +87,10 @@ WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__city')
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__email'), GlobalVariable.AutoEmail)
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input_phone number'), GlobalVariable.Tel)
+
+Thread.sleep(2000)
+
+WebUI.scrollToElement(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment'), 10)
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment'))
 

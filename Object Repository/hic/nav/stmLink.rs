@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class='sc-cMljjf ijySvi nav-link' and text()='Short Term Insurance']</value>
+         <value>//div[contains(@class,'nav-item')]/a[text()='Short Term Insurance']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[@class='sc-cMljjf ijySvi nav-link' and text()='Short Term Insurance']</value>
+      <value>//div[contains(@class,'nav-item')]/a[text()='Short Term Insurance']</value>
    </webElementProperties>
 </WebElementEntity>

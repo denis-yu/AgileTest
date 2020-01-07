@@ -24,9 +24,11 @@ WebUI.click(findTestObject('hic/nav/navButton'))
 
 WebUI.click(findTestObject('hic/nav/medicareLink'))
 
-Thread.sleep(2000)
+Thread.sleep(5000)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Thread.sleep(2000)
 
 WebUI.setText(findTestObject('hic/aca/zip'), '33186')
 

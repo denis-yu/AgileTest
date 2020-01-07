@@ -30,6 +30,8 @@ Thread.sleep(2000)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Thread.sleep(2000)
+
 WebUI.callTestCase(findTestCase('HIC/_include/stm_census'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
 
 Thread.sleep(5000)
