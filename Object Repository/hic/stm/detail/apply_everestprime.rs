@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>apply_everestprime</name>
+   <tag></tag>
+   <elementGuidId>bcd9d1ee-b9a9-435c-a1f5-7540017348e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'/short-term/apply/everest')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'/short-term/apply/everest')]</value>
+   </webElementProperties>
+</WebElementEntity>

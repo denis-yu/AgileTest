@@ -90,6 +90,8 @@ WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input__email'
 
 WebUI.setText(findTestObject('mobileSanity/Teladoc/Page_App Page 1/input_phone number'), GlobalVariable.Tel)
 
+Thread.sleep(5000)
+
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment'))
 
 WebUI.waitForPageLoad(20)

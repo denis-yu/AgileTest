@@ -16,10 +16,10 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser(('https://valkyrie.healthinsurance.com/short-term/quote?affiliate=hicom&utm_source=hic&utm_medium=redirect&utm_campaign=hic_stm_census&zip=' + 
     zipcode) + '&primary.dob=1985-11-11&primary.gender=F')
 
-stmExist = CustomKeywords.'test.MobileKeywords.isElementPresent_Web'(findTestObject('hic/stm/h1'), 20)
+stmExist = CustomKeywords.'test.MobileKeywords.isElementPresent_Web'(findTestObject('hic/stm/census/h1'), 20)
 
 if (stmExist) {
-    stmNum = WebUI.getText(findTestObject('hic/stm/h1'))
+    stmNum = WebUI.getText(findTestObject('hic/stm/census/h1'))
 } else {
     stmNum = '0'
 }

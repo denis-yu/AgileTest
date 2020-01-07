@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('HIC/_include/get_hicScreenPath'), [('project') 
 
 GlobalVariable.i = 0
 
-WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://qa.healthinsurance.com/'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://valkyrie.healthinsurance.com'], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('hic/nav/navButton'))
 
@@ -28,15 +28,27 @@ WebUI.click(findTestObject('hic/nav/stmLink'))
 
 Thread.sleep(2000)
 
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HIC/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('HIC/_include/stm_census'), [('zipcode') : '60602'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('HIC/_include/stm_census - Copy'), [('zipcode') : '35215'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/filter_stm'), [('carrier') : 'aspen'], FailureHandling.STOP_ON_FAILURE)
+WebUI.scrollToElement(findTestObject('hic/stm/quote/a_aspen'), 10)
 
-WebUI.callTestCase(findTestCase('AHI/_include/goToDetail_stm'), [('carrier') : 'aspen'], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('hic/stm/quote/a_aspen'))
 
-WebUI.callTestCase(findTestCase('AHI/_include/apply_stm'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForPageLoad(20)
 
-WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_stm_autofill'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('HIC/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('hic/stm/detail/apply_aspen'))
+
+Thread.sleep(8000)
+
+Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('HIC/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('HIC/_include/goToEnd_stm'), [('carrier') : 'aspen'], FailureHandling.STOP_ON_FAILURE)
 

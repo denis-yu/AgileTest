@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_advanthealth</name>
+   <tag></tag>
+   <elementGuidId>b56150dc-8b3e-4cbb-a72c-fbe38a30207e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'/short-term/plan/advanthealth')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'/short-term/plan/advanthealth')]</value>
+   </webElementProperties>
+</WebElementEntity>

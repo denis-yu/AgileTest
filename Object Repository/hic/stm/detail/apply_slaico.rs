@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>apply_slaico</name>
+   <tag></tag>
+   <elementGuidId>326b61e6-e3d4-41ed-a024-1a9e8d817fa5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[contains(@href,'/short-term/apply/slaico')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[contains(@href,'/short-term/apply/slaico')]</value>
+   </webElementProperties>
+</WebElementEntity>

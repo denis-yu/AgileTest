@@ -31,19 +31,19 @@
    <testCaseLink>
       <guid>5ddba721-341e-41d4-9c9e-5c7ae041d729</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HIC/HBI/Agile One</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a2995640-09b0-49c9-b099-fb5afece2060</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HIC/HBI/Agile Secure</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5c7affd9-9b63-4933-a271-02111ed0d192</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HIC/HBI/Cardinal Choice</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -97,7 +97,7 @@
    <testCaseLink>
       <guid>ed4dc3f9-4242-419e-92e4-d8bcfc11cff8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HIC/STM/Companion</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -109,13 +109,13 @@
    <testCaseLink>
       <guid>f7650d0a-129e-486d-9746-9416e1340842</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HIC/STM/Everest</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>54f9fd39-0262-4078-8d07-963d45fed934</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/HIC/STM/NationalGeneral</testCaseId>
    </testCaseLink>
    <testCaseLink>

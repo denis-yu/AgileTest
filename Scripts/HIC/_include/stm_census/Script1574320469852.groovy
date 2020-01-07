@@ -13,17 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('hic/stm/zip'), zipcode)
+Thread.sleep(2000)
+
+WebUI.setText(findTestObject('hic/stm/census/zip'), zipcode)
 
 Thread.sleep(500)
 
-WebUI.setText(findTestObject('hic/stm/primaryDOB'), '03031987')
+WebUI.setText(findTestObject('hic/stm/census/primaryDOB'), '03031987')
 
-WebUI.click(findTestObject('hic/stm/female'))
+WebUI.click(findTestObject('hic/stm/census/female'))
 
 Thread.sleep(3000)
 
-WebUI.click(findTestObject('hic/stm/submitButton'))
+WebUI.waitForElementClickable(findTestObject('hic/stm/census/submitButton'), 20)
+
+WebUI.click(findTestObject('hic/stm/census/submitButton'))
 
 Thread.sleep(6000)
 
