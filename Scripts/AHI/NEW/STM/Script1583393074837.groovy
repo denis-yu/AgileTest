@@ -13,19 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-now = new Date()
-
-mydate = now.format('yyyyMMdd_HHmmss')
-
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'HP', ('carrierName') : 'Home'], FailureHandling.CONTINUE_ON_FAILURE)
-
-GlobalVariable.i = 0
-
-WebUI.openBrowser(GlobalVariable.ENV)
-
-Thread.sleep(3000)
-
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
-
