@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>nav_teladoc</name>
+   <name>dob-0</name>
    <tag></tag>
-   <elementGuidId>f8d56481-d676-4c2e-ba17-591a5b7a2eea</elementGuidId>
+   <elementGuidId>abd83052-24c5-4d65-97e9-8a3650af833d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ul[@class='global-side-nav-list']/li/a[contains(text(),'Telemedicine)]</value>
+         <value>//*[@id = 'dob-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//ul[@class='global-side-nav-list']/li/a[contains(text(),'Telemedicine)]</value>
+      <value>dob-0</value>
    </webElementProperties>
 </WebElementEntity>

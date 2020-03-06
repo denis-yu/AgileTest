@@ -27,7 +27,10 @@ import javax.imageio.ImageIO
 
 
 
-    WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
-    (GlobalVariable.i)++
+Thread.sleep(1000)
+
+WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
+
+(GlobalVariable.i)++
 
 

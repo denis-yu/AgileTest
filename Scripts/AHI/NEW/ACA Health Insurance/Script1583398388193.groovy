@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 //
 //mydate = now.format('yyyyMMdd_HHmmss')
 //GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'AdvantHealth/') + mydate) + '/')
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'stm', ('carrierName') : 'STM'], 
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'ifp', ('carrierName') : 'ACA Health Insurance'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
@@ -34,13 +34,13 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 selenium.click('//*[@class=\'filter-option-inner-inner\']')
 
-selenium.click('id=bs-select-1-6')
+selenium.click('id=bs-select-1-0')
 
 selenium.click('id=primaryCTA')
 
 for (second = 0; second < 10; second++) {
     try {
-        if (selenium.isElementPresent('id=js-traffic-to-aiq')) {
+        if (selenium.isElementPresent('xpath=//h1[contains(text(),\'Find the right Individual and Family health care plan for you\')]')) {
             break
         }
     }
@@ -52,7 +52,7 @@ for (second = 0; second < 10; second++) {
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-url = selenium.getAttribute('xpath=(//a[@id=\'js-traffic-to-aiq\'])@href')
+url = selenium.getAttribute('xpath=(//a[@class=\'front-door-quote-button\'])@href')
 
 WebUI.navigateToUrl(url)
 

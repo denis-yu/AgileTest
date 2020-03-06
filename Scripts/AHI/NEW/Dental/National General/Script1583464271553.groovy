@@ -12,52 +12,52 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.WebDriver as WebDriver
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-//now = new Date()
-//
-//mydate = now.format('yyyyMMdd_HHmmss')
-//GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'AdvantHealth/') + mydate) + '/')
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'stm', ('carrierName') : 'STM'], 
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'dental', ('carrierName') : 'National General'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-GlobalVariable.i = 0
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/census_dental'), [('zipcode') : zipcode, ('dob') : '12/12/1980'], FailureHandling.STOP_ON_FAILURE)
 
-def driver = DriverFactory.getWebDriver()
+WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
-String baseUrl = GlobalVariable.ENV
+WebUI.waitForElementVisible(findTestObject('mobileSanity/Dental/filter/btn_company'), 10)
 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
+WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_company'))
 
-selenium.click('//*[@class=\'filter-option-inner-inner\']')
+Thread.sleep(2000)
 
-selenium.click('id=bs-select-1-6')
+WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_ng'))
 
-selenium.click('id=primaryCTA')
-
-for (second = 0; second < 10; second++) {
-    try {
-        if (selenium.isElementPresent('id=js-traffic-to-aiq')) {
-            break
-        }
-    }
-    catch (Exception e) {
-    } 
-    
-    Thread.sleep(1000)
-}
+WebUI.waitForJQueryLoad(20, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-url = selenium.getAttribute('xpath=(//a[@id=\'js-traffic-to-aiq\'])@href')
+WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
-WebUI.navigateToUrl(url)
+Thread.sleep(2000)
+
+WebUI.scrollToPosition(0, 600)
+
+Thread.sleep(2000)
+
+WebUI.click(findTestObject('mobileSanity/Dental/quote/a_Select This Plan'))
 
 WebUI.waitForPageLoad(10)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
+
+WebUI.waitForPageLoad(10)
+
+Thread.sleep(2000)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_dental'), [('carrier') : 'nationalgeneral'], FailureHandling.CONTINUE_ON_FAILURE)
 
