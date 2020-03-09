@@ -16,7 +16,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'dental',('carrierName') : 'USA Access'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'AHI',('carrierName') : 'Dental - USA Access'], FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i=0
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 //
 //mydate = now.format('yyyyMMdd_HHmmss')
 //GlobalVariable.screenPath = (((GlobalVariable.stmPath + 'AdvantHealth/') + mydate) + '/')
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'stm', ('carrierName') : 'STM'], 
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'AHI', ('carrierName') : 'STM'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
