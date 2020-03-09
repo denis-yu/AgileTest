@@ -37,11 +37,11 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine')
 
 GlobalVariable.i = 0
 
-WebUI.openBrowser(GlobalVariable.ENV + '/medicare')
+WebUI.openBrowser(env + '/medicare')
 
 def driver = DriverFactory.getWebDriver()
 
-String baseUrl = GlobalVariable.ENV
+String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 

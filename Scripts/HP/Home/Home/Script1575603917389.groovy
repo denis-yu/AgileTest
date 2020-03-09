@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine')
 
 GlobalVariable.i = 0
 
-WebUI.openBrowser(GlobalVariable.ENV)
+WebUI.openBrowser(env)
 
 Thread.sleep(3000)
 

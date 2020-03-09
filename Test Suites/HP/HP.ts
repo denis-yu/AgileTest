@@ -15,47 +15,95 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/ACA</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>765fe61b-8cb8-4196-b9fb-ffba8a9b6cda</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>798620f0-8be1-489b-aa7a-2039aefb2a5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/Dental</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7f0fd6b6-cb54-4f14-b1f2-85b1bfc5437f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6b1cbd0b-f1ec-43c0-87b5-89005603c6a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/Medicaid Public</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f885aa10-0bce-420c-b889-d16b1b6319cc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>d8de0b92-ea94-4f02-9744-7a5a82c43f41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/Medicare</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>25f77dfb-238e-4011-a7ae-46d8dca851e6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e100b585-8c10-4983-be28-cd3e870582cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/Medigap</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4e94657b-d9f5-4362-b437-b60778e48f50</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>24249d02-452e-4580-be41-9ecdcf29ae92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/Small Business</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8aeb0bda-8af2-4529-9273-82b29a1764c7</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>bc616284-7b55-44c6-b1c4-bac65c5bf93c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Health Plans/STM</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7b18a44-d6bc-404d-a036-c81e55c50573</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f0359ad3-a237-46dc-9adc-8f321305954e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HP/Home/Home</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6ed34220-4262-4db5-b1cb-a41245b4b80d</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

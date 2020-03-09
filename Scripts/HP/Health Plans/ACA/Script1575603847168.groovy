@@ -39,7 +39,7 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine')
 
 int second
 
-WebUI.openBrowser(GlobalVariable.ENV+'/individual-health-insurance')
+WebUI.openBrowser(env+'/individual-health-insurance')
 
 Thread.sleep(3000)
 
@@ -47,7 +47,7 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHand
 
 def driver = DriverFactory.getWebDriver()
 
-String baseUrl = GlobalVariable.ENV
+String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
