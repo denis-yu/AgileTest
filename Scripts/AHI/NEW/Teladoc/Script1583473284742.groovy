@@ -1,4 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -18,21 +20,19 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine')
 
 GlobalVariable.i = 0
 
-'open site'
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'click menu'
-WebUI.click(findTestObject('mobileSanity/Common/side_nav/menu'))
+def driver = DriverFactory.getWebDriver()
 
-'wait time'
-Thread.sleep(3000)
+String baseUrl = GlobalVariable.ENV
 
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-'click nav teladoc'
-WebUI.click(findTestObject('mobileSanity/Common/side_nav/nav_teladoc'))
+selenium.click('//*[@class=\'filter-option-inner-inner\']')
 
-WebUI.waitForPageLoad(20)
+selenium.click('id=bs-select-1-7')
+
+selenium.click('id=primaryCTA')
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/front_door_h1'), 20)
 
@@ -54,8 +54,6 @@ Thread.sleep(3000)
 
 'click button'
 WebUI.click(findTestObject('mobileSanity/Teladoc/census/get_a_quote'))
-
-WebUI.waitForPageLoad(20)
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/Teladoc/apply_button'), 20)
 

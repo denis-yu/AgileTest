@@ -21,7 +21,51 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine')
 
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/census_dental'), [('zipcode') : zipcode, ('dob') : '12/12/1980'], FailureHandling.STOP_ON_FAILURE)
+def driver = DriverFactory.getWebDriver()
+
+String baseUrl = GlobalVariable.ENV
+
+selenium = new WebDriverBackedSelenium(driver, baseUrl)
+
+selenium.click('//*[@class=\'filter-option-inner-inner\']')
+
+selenium.click('id=bs-select-1-2')
+
+selenium.click('id=primaryCTA')
+
+for (second = 0; second < 20; second++) {
+	try {
+		if (selenium.isElementPresent('id=zip-input')) {
+			break
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	Thread.sleep(1000)
+}
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/census/input_Location_zip-input'), '35215')
+
+WebUI.setText(findTestObject('mobileSanity/Dental/census/input_Date of Birth_dob-0'), '12121980')
+
+WebUI.click(findTestObject('mobileSanity/Dental/census/label_Male'))
+
+selenium.click('id=js-see-plans')
+
+for (second = 0; second < 20; second++) {
+	try {
+		if (selenium.isElementPresent('id=js-quote-header')) {
+			break
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	Thread.sleep(1000)
+}
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('mobileSanity/Dental/filter/btn_filter'))
 
@@ -51,13 +95,107 @@ WebUI.waitForPageLoad(10)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Thread.sleep(3000)
+
 WebUI.click(findTestObject('mobileSanity/Dental/apply/span_Start Secure Application'))
 
-WebUI.waitForPageLoad(10)
-
-Thread.sleep(2000)
+for (second = 0; second < 20; second++) {
+	try {
+		if (selenium.isElementPresent('id=member-P-1-firstName')) {
+			break
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	Thread.sleep(1000)
+}
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_dental'), [('carrier') : 'nationalgeneral'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/name'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+Thread.sleep(3000)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__member-P-1-firstName'), GlobalVariable.FirstName)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__member-P-1-lastName'), GlobalVariable.LastName)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__address'), GlobalVariable.Address)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__city'), GlobalVariable.City)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input__email'), GlobalVariable.AutoEmail)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page1/input_phone'), GlobalVariable.Tel)
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment'))
+
+for (second = 0; second < 20; second++) {
+	try {
+		if (selenium.isElementPresent('id=credit-card-number')) {
+			break
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	Thread.sleep(1000)
+}
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-first'), GlobalVariable.FirstName)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-last'), GlobalVariable.LastName)
+
+WebUI.selectOptionByValue(findTestObject('mobileSanity/Dental/app_page2/select_MM010203040506070809101'), '12', true)
+
+WebUI.selectOptionByValue(findTestObject('mobileSanity/Dental/app_page2/select_YYYY2019202020212022202'), '2026', true)
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__credit-card-number'), '4111111111111111')
+
+WebUI.setText(findTestObject('mobileSanity/Dental/app_page2/input__cvv'), '123')
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_My billing address is th'))
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page2/label_I Accept Authorization f'))
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review'))
+
+for (second = 0; second < 20; second++) {
+	try {
+		if (selenium.isElementPresent('id=consent-checkbox-0')) {
+			break
+		}
+	}
+	catch (Exception e) {
+	}
+	
+	Thread.sleep(1000)
+}
+
+WebUI.waitForElementClickable(findTestObject('mobileSanity/Dental/app_page3/label'), 20)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page3/label'))
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page3/p_CLICK TO SIGN'))
+
+WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Application'))
+
+for (second = 0; second < 30; second++) {
+    try {
+        if (selenium.isElementPresent('xpath=//h2[contains(text(),\'Congratulation\')]')) {
+            break
+        }
+    }
+    catch (Exception e) {
+    } 
+    
+    Thread.sleep(1000)
+}
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
