@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="life" time="34" tests="0" failures="1" errors="0">
+   <testsuite name="life" tests="0" failures="1" errors="0" time="34" timestamp="2020-03-09 04:14:19" hostname="Administrator - 172.30.0.53" id="Test Suites/Life/life">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\../Screenshots/iPhone X/Life/Freedom Lite/20200309_041420/0.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\../Screenshots/iPhone X/Life/Freedom Lite/20200309_041420/1.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\1583741692196.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="8263b163d954d8db1633d97835edc82d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Life/Freedom Lite" classname="Test Cases/Life/Freedom Lite" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Life/Freedom Lite FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)
+"/>
+         <system-out><![CDATA[2020-03-09 04:14:19 - [TEST_CASE][FAILED] - Test Cases/Life/Freedom Lite: Test Cases/Life/Freedom Lite FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)
+
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"Life", "carrierName":"Freedom Lite"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-09 04:14:20 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-09 04:14:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":"https://qa.agilelifeinsurance.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-09 04:14:20 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-09 04:14:20 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.agilelifeinsurance.com/'
+
+2020-03-09 04:14:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-09 04:14:20 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone X}']
+
+2020-03-09 04:14:20 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --no-sandbox, --window-size=375,812, --ignore-certificate-errors]']
+
+2020-03-09 04:14:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-09 04:14:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.agilelifeinsurance.com/'
+
+2020-03-09 04:14:23 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-09 04:14:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-09 04:14:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-09 04:14:24 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-09 04:14:24 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-09 04:14:25 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-09 04:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\../Screenshots/iPhone X/Life/Freedom Lite/20200309_041420/0.png]]
+
+2020-03-09 04:14:26 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-09 04:14:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-09 04:14:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-09 04:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Life/get_your_free_quote")): Object: 'Object Repository/Life/get_your_free_quote' is clicked on
+
+2020-03-09 04:14:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/get_your_free_quote' is clicked on
+
+2020-03-09 04:14:27 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-09 04:14:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-09 04:14:29 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-09 04:14:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-09 04:14:30 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-09 04:14:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\../Screenshots/iPhone X/Life/Freedom Lite/20200309_041420/1.png]]
+
+2020-03-09 04:14:31 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-09 04:14:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-09 04:14:31 - [TEST_STEP][PASSED] - setText(findTestObject("Life/zip_input"), "35215"): Text '35215' is set on object 'Object Repository/Life/zip_input'
+
+2020-03-09 04:14:31 - [MESSAGE][PASSED] - Text '35215' is set on object 'Object Repository/Life/zip_input'
+
+2020-03-09 04:14:31 - [TEST_STEP][FAILED] - setText(findTestObject("Life/dob_0"), "01011988"): setText(findTestObject("Life/dob_0"), "01011988") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)
+
+
+2020-03-09 04:14:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'dob-0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-03-09 04:14:52 - [MESSAGE][FAILED] - Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200309_035452\\1583741692196.png]]
+
+2020-03-09 04:14:52 - [MESSAGE][FAILED] - setText(findTestObject("Life/dob_0"), "01011988") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-03-09 04:14:19 - [TEST_CASE][FAILED] - Test Cases/Life/Freedom Lite: Test Cases/Life/Freedom Lite FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-09 04:14:19 - [TEST_SUITE][FAILED] - life: Test Cases/Life/Freedom Lite FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-03-09 04:14:19 - [TEST_SUITE][FAILED] - life: Test Cases/Life/Freedom Lite FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '01011988' of object 'Object Repository/Life/dob_0' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Life/dob_0' located by 'By.xpath: //*[@id = 'dob-0']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Freedom Lite.run(Freedom Lite:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583740492802.run(TempTestSuite1583740492802.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

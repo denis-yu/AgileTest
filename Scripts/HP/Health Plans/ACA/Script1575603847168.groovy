@@ -99,6 +99,8 @@ for (second = 0; second < 10; second++) {
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Thread.sleep(3000)
+
 selenium.click('//a[contains(text(),\'Select\')]')
 
 for (second = 0; second < 10; second++) {
@@ -119,7 +121,7 @@ selenium.click('xpath=(//a[contains(text(),\'Apply Now\')])')
 
 for (second = 0; second < 10; second++) {
     try {
-        if (selenium.isElementPresent('//a[contains(text(),\'Select\')]')) {
+        if (selenium.isElementPresent('id=applyBody')) {
             break
         }
     }
@@ -131,9 +133,5 @@ for (second = 0; second < 10; second++) {
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('//a[contains(text(),\'Select\')]')
 
-Thread.sleep(2000)
-
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

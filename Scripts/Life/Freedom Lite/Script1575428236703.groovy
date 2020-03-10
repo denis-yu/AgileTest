@@ -24,13 +24,23 @@ WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https:/
 
 WebUI.click(findTestObject('Life/get_your_free_quote'))
 
-Thread.sleep(2000)
+for (second = 0; second < 10; second++) {
+    try {
+        if (selenium.isElementPresent('id=zip-input')) {
+            break
+        }
+    }
+    catch (Exception e) {
+    } 
+    
+    Thread.sleep(1000)
+}
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Life/zip_input'), '35215')
 
-WebUI.setText(findTestObject('Life/dob_0'), '01011988')
+WebUI.setText(findTestObject('Life/dob_0'), '01/01/1988')
 
 WebUI.click(findTestObject('Life/compare_plan'))
 

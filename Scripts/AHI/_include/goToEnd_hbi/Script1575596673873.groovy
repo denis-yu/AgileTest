@@ -106,9 +106,7 @@ WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/p_CLICK TO SIGN'))
 
 WebUI.click(findTestObject('mobileSanity/HBI/Page_App Page 3/a_Submit Your Application'))
 
-Thread.sleep(30000)
+WebUI.waitForElementPresent(findTestObject('mobileSanity/Common/app-confirmation'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent('Congratulations', false)
 

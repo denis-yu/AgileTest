@@ -18,7 +18,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'AHI', ('carrierName') : 'Dental - National General'], 
     FailureHandling.CONTINUE_ON_FAILURE)
-
+GlobalVariable.i=0
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [:], FailureHandling.STOP_ON_FAILURE)
 
 def driver = DriverFactory.getWebDriver()
