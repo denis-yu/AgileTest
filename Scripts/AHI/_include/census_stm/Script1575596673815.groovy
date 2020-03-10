@@ -17,7 +17,7 @@ WebUI.waitForElementClickable(findTestObject('mobileSanity/STM/Home Page/a_Quote
 
 WebUI.click(findTestObject('mobileSanity/STM/Home Page/a_Quote  Save Today'))
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForElementPresent(findTestObject('mobileSanity/STM/STM Census Page/input_Location_zip-input'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,13 +29,13 @@ WebUI.setText(findTestObject('mobileSanity/STM/STM Census Page/input_Date of Bir
 
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Male'))
 
+Thread.sleep(2000)
+
 WebUI.click(findTestObject('mobileSanity/STM/STM Census Page/label_Compare Plans'))
 
 WebUI.waitForElementVisible(findTestObject('mobileSanity/STM/STM Quote Page/button_sort'), 20)
 
 Thread.sleep(3000)
-
-WebUI.callTestCase(findTestCase('AHI/_include/check_quoteleadform'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

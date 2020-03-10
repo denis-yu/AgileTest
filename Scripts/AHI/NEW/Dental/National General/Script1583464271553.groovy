@@ -187,7 +187,7 @@ WebUI.click(findTestObject('mobileSanity/Dental/app_page3/a_Submit Your Applicat
 
 for (second = 0; second < 30; second++) {
     try {
-        if (selenium.isElementPresent('xpath=//h2[contains(text(),\'Congratulation\')]')) {
+        if (selenium.isElementPresent('id=app-confirmation')) {
             break
         }
     }

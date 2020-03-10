@@ -135,9 +135,8 @@ WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/p_'))
 
 WebUI.click(findTestObject('mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application'))
 
-Thread.sleep(50000)
+WebUI.waitForElementPresent(findTestObject('mobileSanity/Common/app-confirmation'), 30)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Congratulations', false)
 
