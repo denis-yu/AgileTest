@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+life,Safari 11,,2020-03-10 08:03:24,2020-03-10 08:04:20,55.729s,FAILED
+,,,,,,
+Test Cases/Life/Freedom Lite,Safari 11,,2020-03-10 08:03:25,2020-03-10 08:04:19,54.388s,FAILED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""Life"", ""carrierName"":""Freedom Lite""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 08:03:25,2020-03-10 08:03:26,0.776s,PASSED
+i = 0,Safari 11,,2020-03-10 08:03:26,2020-03-10 08:03:26,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://qa.agilelifeinsurance.com/""], STOP_ON_FAILURE)",Safari 11,,2020-03-10 08:03:26,2020-03-10 08:03:36,10.093s,PASSED
+"click(findTestObject(""Life/get_your_free_quote""))",Safari 11,,2020-03-10 08:03:36,2020-03-10 08:03:38,1.272s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-03-10 08:03:38,2020-03-10 08:03:48,10.332s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 08:03:48,2020-03-10 08:03:51,2.822s,PASSED
+"setText(findTestObject(""Life/zip_input""), ""35215"")",Safari 11,,2020-03-10 08:03:51,2020-03-10 08:03:53,2.225s,PASSED
+"setText(findTestObject(""Life/dob_0""), ""01/01/1988"")",Safari 11,,2020-03-10 08:03:53,2020-03-10 08:04:19,26.139s,FAILED

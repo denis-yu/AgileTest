@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="asegumed" time="160" tests="1" failures="0" errors="0">
+   <testsuite name="asegumed" tests="1" failures="0" errors="0" time="160" timestamp="2020-03-10 08:00:39" hostname="Administrator - 172.30.0.53" id="Test Suites/AseguMed/asegumed">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/0.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/1.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/2.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/3.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/4.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/5.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/6.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/7.png, D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/8.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="e45029ceed857df39e3add54628cfb53"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/AseguMed/Legion" classname="Test Cases/AseguMed/Legion" status="PASSED">
+         <system-out><![CDATA[2020-03-10 08:00:41 - [TEST_CASE][PASSED] - Test Cases/AseguMed/Legion: Test Cases/AseguMed/Legion
+
+2020-03-10 08:00:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"AseguMed", "carrierName":"Legion"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-10 08:00:45 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-10 08:00:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-10 08:00:46 - [TEST_STEP][PASSED] - openBrowser("https://pruebas.asegumed.com/"): Browser is opened with url: 'https://pruebas.asegumed.com/'
+
+2020-03-10 08:00:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-10 08:00:48 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-10 08:00:48 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-10 08:00:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-10 08:00:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://pruebas.asegumed.com/'
+
+2020-03-10 08:00:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:00:57 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:00:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:00:59 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/0.png]]
+
+2020-03-10 08:01:00 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:00 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/homepage/cta-button")): Object: 'Object Repository/AseguMed/homepage/cta-button' is clicked on
+
+2020-03-10 08:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/homepage/cta-button' is clicked on
+
+2020-03-10 08:01:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AseguMed/census_page/input_zip"), 20): Object 'Object Repository/AseguMed/census_page/input_zip' is present
+
+2020-03-10 08:01:02 - [MESSAGE][PASSED] - Object 'Object Repository/AseguMed/census_page/input_zip' is present
+
+2020-03-10 08:01:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:02 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:01:02 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:01:04 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/1.png]]
+
+2020-03-10 08:01:05 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AseguMed/census_page/input_zip"), "35215"): Keys '35215' sent to object: 'Object Repository/AseguMed/census_page/input_zip'
+
+2020-03-10 08:01:08 - [MESSAGE][PASSED] - Keys '35215' sent to object: 'Object Repository/AseguMed/census_page/input_zip'
+
+2020-03-10 08:01:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AseguMed/census_page/input_dob"), "12121988"): Keys '12121988' sent to object: 'Object Repository/AseguMed/census_page/input_dob'
+
+2020-03-10 08:01:08 - [MESSAGE][PASSED] - Keys '12121988' sent to object: 'Object Repository/AseguMed/census_page/input_dob'
+
+2020-03-10 08:01:08 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/census_page/label_gender_male")): Object: 'Object Repository/AseguMed/census_page/label_gender_male' is clicked on
+
+2020-03-10 08:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/census_page/label_gender_male' is clicked on
+
+2020-03-10 08:01:09 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/census_page/census_submit_button")): Object: 'Object Repository/AseguMed/census_page/census_submit_button' is clicked on
+
+2020-03-10 08:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/census_page/census_submit_button' is clicked on
+
+2020-03-10 08:01:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AseguMed/quote_page/detail_link_plan_2"), 20): Object 'Object Repository/AseguMed/quote_page/detail_link_plan_2' is present
+
+2020-03-10 08:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/AseguMed/quote_page/detail_link_plan_2' is present
+
+2020-03-10 08:01:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:10 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:01:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:01:11 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/2.png]]
+
+2020-03-10 08:01:12 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:12 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/quote_page/detail_link_plan_2")): Object: 'Object Repository/AseguMed/quote_page/detail_link_plan_2' is clicked on
+
+2020-03-10 08:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/quote_page/detail_link_plan_2' is clicked on
+
+2020-03-10 08:01:15 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-03-10 08:01:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-10 08:01:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:16 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:01:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:01:17 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/3.png]]
+
+2020-03-10 08:01:18 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:18 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/detail_page/detail_apply_button")): Object: 'Object Repository/AseguMed/detail_page/detail_apply_button' is clicked on
+
+2020-03-10 08:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/detail_page/detail_apply_button' is clicked on
+
+2020-03-10 08:01:22 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-03-10 08:01:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-10 08:01:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:22 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:01:22 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:01:24 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/4.png]]
+
+2020-03-10 08:01:25 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:25 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/apply_page/apply_button")): Object: 'Object Repository/AseguMed/apply_page/apply_button' is clicked on
+
+2020-03-10 08:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/apply_page/apply_button' is clicked on
+
+2020-03-10 08:01:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AseguMed/app page 1/input_firstname"), 20): Object 'Object Repository/AseguMed/app page 1/input_firstname' is present
+
+2020-03-10 08:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/AseguMed/app page 1/input_firstname' is present
+
+2020-03-10 08:01:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:27 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:01:27 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:01:28 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/5.png]]
+
+2020-03-10 08:01:29 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AseguMed/_include/name"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AseguMed/_include/name' successfully
+
+2020-03-10 08:01:29 - [TEST_CASE][PASSED] - Test Cases/AseguMed/_include/name: Test Cases/AseguMed/_include/name
+
+2020-03-10 08:01:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-10 08:01:30 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, internal.GlobalVariable.ENV): null
+
+2020-03-10 08:01:30 - [TEST_STEP][PASSED] - FirstName = "Test-123": null
+
+2020-03-10 08:01:30 - [TEST_STEP][PASSED] - LastName = selenium.getEval("{var x="áéíóúñüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="ZZ11-"; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2020-03-10 08:01:31 - [TEST_STEP][PASSED] - Address = selenium.getEval("{var x="áéíóúñüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2020-03-10 08:01:33 - [TEST_STEP][PASSED] - City = selenium.getEval("{var x="áéíóúñüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp=""; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp;}"): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - tel1 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - tel2 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<3;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - tel3 = selenium.getEval("{var x="123456789"; var tmp=""; for (i=0;i<4;i++) tmp+=x.charAt(Math.ceil(8*Math.random()));tmp;}"): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - Tel = selenium.getExpression(tel1 + "-" + tel2 + "-" + tel3): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - AutoEmail = selenium.getEval("{var x="ÁÉÍÓÚÑÜáéíóúñüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; var tmp="test."; for (i=0;i<8;i++) tmp+=x.charAt(Math.ceil(51*Math.random()));tmp+="@suryani.cn";}"): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - FirstName = FirstName: null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - LastName = LastName: null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - Address = Address: null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - City = City: null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - Tel = Tel: null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - AutoEmail = AutoEmail: null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - println(FirstName): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - println(LastName): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - println(Address): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - println(City): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - println(Tel): null
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - println(AutoEmail): null
+
+2020-03-10 08:01:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AseguMed/_include/name' successfully
+
+2020-03-10 08:01:34 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 1/input_firstname"), FirstName): Text 'Test-123' is set on object 'Object Repository/AseguMed/app page 1/input_firstname'
+
+2020-03-10 08:01:41 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/AseguMed/app page 1/input_firstname'
+
+2020-03-10 08:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 1/input_lastname"), LastName): Text 'ZZ11-jpTDsílq' is set on object 'Object Repository/AseguMed/app page 1/input_lastname'
+
+2020-03-10 08:01:43 - [MESSAGE][PASSED] - Text 'ZZ11-jpTDsílq' is set on object 'Object Repository/AseguMed/app page 1/input_lastname'
+
+2020-03-10 08:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 1/input_address"), Address): Text 'KNíúóQRq' is set on object 'Object Repository/AseguMed/app page 1/input_address'
+
+2020-03-10 08:01:44 - [MESSAGE][PASSED] - Text 'KNíúóQRq' is set on object 'Object Repository/AseguMed/app page 1/input_address'
+
+2020-03-10 08:01:44 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 1/input_city"), City): Text 'lQrGSWdF' is set on object 'Object Repository/AseguMed/app page 1/input_city'
+
+2020-03-10 08:01:45 - [MESSAGE][PASSED] - Text 'lQrGSWdF' is set on object 'Object Repository/AseguMed/app page 1/input_city'
+
+2020-03-10 08:01:45 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 1/input_email"), AutoEmail): Text 'test.ñTáXjEÉÍ@suryani.cn' is set on object 'Object Repository/AseguMed/app page 1/input_email'
+
+2020-03-10 08:01:45 - [MESSAGE][PASSED] - Text 'test.ñTáXjEÉÍ@suryani.cn' is set on object 'Object Repository/AseguMed/app page 1/input_email'
+
+2020-03-10 08:01:45 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 1/input_primaryPhone"), Tel): Text '864-424-2487' is set on object 'Object Repository/AseguMed/app page 1/input_primaryPhone'
+
+2020-03-10 08:01:45 - [MESSAGE][PASSED] - Text '864-424-2487' is set on object 'Object Repository/AseguMed/app page 1/input_primaryPhone'
+
+2020-03-10 08:01:45 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 1/continue_to_page_2_button")): Object: 'Object Repository/AseguMed/app page 1/continue_to_page_2_button' is clicked on
+
+2020-03-10 08:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 1/continue_to_page_2_button' is clicked on
+
+2020-03-10 08:01:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AseguMed/app page 2/input_credit-card-number"), 20): Object 'Object Repository/AseguMed/app page 2/input_credit-card-number' is present
+
+2020-03-10 08:01:47 - [MESSAGE][PASSED] - Object 'Object Repository/AseguMed/app page 2/input_credit-card-number' is present
+
+2020-03-10 08:01:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:47 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:01:47 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:01:48 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:01:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/6.png]]
+
+2020-03-10 08:01:49 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:01:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:01:49 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 2/input_credit-card-number"), "4111111111111111"): Text '4111111111111111' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-number'
+
+2020-03-10 08:01:51 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-number'
+
+2020-03-10 08:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 2/input_credit-card-first"), FirstName): Text 'Test-123' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-first'
+
+2020-03-10 08:01:52 - [MESSAGE][PASSED] - Text 'Test-123' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-first'
+
+2020-03-10 08:01:52 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 2/input_credit-card-last"), LastName): Text 'ZZ11-jpTDsílq' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-last'
+
+2020-03-10 08:01:52 - [MESSAGE][PASSED] - Text 'ZZ11-jpTDsílq' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-last'
+
+2020-03-10 08:01:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("AseguMed/app page 2/select_expiration-month"), "12", true): All options with value '12' are selected in object 'Object Repository/AseguMed/app page 2/select_expiration-month'  using regular expression
+
+2020-03-10 08:01:53 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/AseguMed/app page 2/select_expiration-month'  using regular expression
+
+2020-03-10 08:01:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("AseguMed/app page 2/select_expiration-year"), "2026", true): All options with value '2026' are selected in object 'Object Repository/AseguMed/app page 2/select_expiration-year'  using regular expression
+
+2020-03-10 08:01:55 - [MESSAGE][PASSED] - All options with value '2026' are selected in object 'Object Repository/AseguMed/app page 2/select_expiration-year'  using regular expression
+
+2020-03-10 08:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("AseguMed/app page 2/input_credit-card-cvv"), "123"): Text '123' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-cvv'
+
+2020-03-10 08:01:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/AseguMed/app page 2/input_credit-card-cvv'
+
+2020-03-10 08:01:55 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 2/input_js-same-billing")): Object: 'Object Repository/AseguMed/app page 2/input_js-same-billing' is clicked on
+
+2020-03-10 08:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 2/input_js-same-billing' is clicked on
+
+2020-03-10 08:01:55 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 2/input_credit-payment-authorization")): Object: 'Object Repository/AseguMed/app page 2/input_credit-payment-authorization' is clicked on
+
+2020-03-10 08:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 2/input_credit-payment-authorization' is clicked on
+
+2020-03-10 08:01:56 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 2/continue_to_page_3_button")): Object: 'Object Repository/AseguMed/app page 2/continue_to_page_3_button' is clicked on
+
+2020-03-10 08:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 2/continue_to_page_3_button' is clicked on
+
+2020-03-10 08:01:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("AseguMed/app page 3/input_consent-checkbox-0"), 20): Object 'Object Repository/AseguMed/app page 3/input_consent-checkbox-0' is present
+
+2020-03-10 08:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/AseguMed/app page 3/input_consent-checkbox-0' is present
+
+2020-03-10 08:02:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:02:08 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:02:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:02:09 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:02:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/7.png]]
+
+2020-03-10 08:02:10 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:02:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:02:10 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 3/input_consent-checkbox-0")): Object: 'Object Repository/AseguMed/app page 3/input_consent-checkbox-0' is clicked on
+
+2020-03-10 08:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 3/input_consent-checkbox-0' is clicked on
+
+2020-03-10 08:02:11 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 3/link_js-signature-autoFill")): Object: 'Object Repository/AseguMed/app page 3/link_js-signature-autoFill' is clicked on
+
+2020-03-10 08:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 3/link_js-signature-autoFill' is clicked on
+
+2020-03-10 08:02:11 - [TEST_STEP][PASSED] - click(findTestObject("AseguMed/app page 3/continue_to_page_4_button")): Object: 'Object Repository/AseguMed/app page 3/continue_to_page_4_button' is clicked on
+
+2020-03-10 08:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AseguMed/app page 3/continue_to_page_4_button' is clicked on
+
+2020-03-10 08:02:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("mobileSanity/Common/app-confirmation"), 50): Object 'Object Repository/mobileSanity/Common/app-confirmation' is not present after 50 second(s)
+
+2020-03-10 08:03:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'app-confirmation']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-03-10 08:03:16 - [MESSAGE][WARNING] - Object 'Object Repository/mobileSanity/Common/app-confirmation' is not present after 50 second(s)
+
+2020-03-10 08:03:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-10 08:03:16 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-10 08:03:16 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-10 08:03:17 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-10 08:03:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\AseguMed\\asegumed\\20200310_080033\\../Screenshots/iPhone 6/AseguMed/Legion/20200310_080046/8.png]]
+
+2020-03-10 08:03:18 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-10 08:03:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-10 08:00:39 - [TEST_SUITE][PASSED] - asegumed: Test Cases/AseguMed/Legion]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,387 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ahi,Safari 11,,2020-03-10 05:38:44,2020-03-10 05:46:34,7m - 49.231s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/ACA Health Insurance,Safari 11,,2020-03-10 05:38:45,2020-03-10 05:39:01,16.017s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""ACA Health Insurance""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:38:45,2020-03-10 05:38:46,0.567s,PASSED
+i = 0,Safari 11,,2020-03-10 05:38:46,2020-03-10 05:38:46,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:38:46,2020-03-10 05:38:54,8.279s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:38:54,2020-03-10 05:38:54,0.029s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:38:54,2020-03-10 05:38:54,0.012s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:38:54,2020-03-10 05:38:55,0.331s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:38:55,2020-03-10 05:38:55,0.173s,PASSED
+"selenium.click(""id=bs-select-1-0"")",Safari 11,,2020-03-10 05:38:55,2020-03-10 05:38:55,0.206s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:38:55,2020-03-10 05:38:56,0.777s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-03-10 05:38:56,2020-03-10 05:38:56,0.117s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:38:56,2020-03-10 05:38:57,1.544s,PASSED
+"url = selenium.getAttribute(""xpath=(//a[@class='front-door-quote-button'])@href"")",Safari 11,,2020-03-10 05:38:57,2020-03-10 05:38:58,0.089s,PASSED
+navigateToUrl(url),Safari 11,,2020-03-10 05:38:58,2020-03-10 05:38:59,1.844s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-10 05:38:59,2020-03-10 05:38:59,0.036s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:38:59,2020-03-10 05:39:01,1.531s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/Cancer Insurance,Safari 11,,2020-03-10 05:39:01,2020-03-10 05:40:33,1m - 31.920s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""Cancer Insurance""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:39:01,2020-03-10 05:39:01,0.082s,PASSED
+i = 0,Safari 11,,2020-03-10 05:39:01,2020-03-10 05:39:01,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:39:01,2020-03-10 05:39:07,5.696s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:39:07,2020-03-10 05:39:07,0.000s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:39:07,2020-03-10 05:39:07,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:39:07,2020-03-10 05:39:07,0.039s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:39:07,2020-03-10 05:39:07,0.164s,PASSED
+"selenium.click(""id=bs-select-1-1"")",Safari 11,,2020-03-10 05:39:07,2020-03-10 05:39:07,0.162s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:39:07,2020-03-10 05:39:08,0.860s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:39:08,2020-03-10 05:39:09,0.570s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:09,2020-03-10 05:39:10,1.493s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Cancer Insurance/zip""), ""35216"")",Safari 11,,2020-03-10 05:39:10,2020-03-10 05:39:11,0.165s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Cancer Insurance/dob-0""), ""01/01/1990"")",Safari 11,,2020-03-10 05:39:11,2020-03-10 05:39:11,0.185s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:39:11,2020-03-10 05:39:13,2.001s,PASSED
+"selenium.click(""//label[@for='gender-m-0']"")",Safari 11,,2020-03-10 05:39:13,2020-03-10 05:39:13,0.151s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:39:13,2020-03-10 05:39:16,3.002s,PASSED
+"selenium.click(""id=js-see-plans"")",Safari 11,,2020-03-10 05:39:16,2020-03-10 05:39:17,0.668s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:39:17,2020-03-10 05:39:39,21.969s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:39,2020-03-10 05:39:40,1.698s,PASSED
+"selenium.click(""xpath=(//a[contains(text(),'Option 1')])[1]"")",Safari 11,,2020-03-10 05:39:40,2020-03-10 05:39:42,1.758s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:39:42,2020-03-10 05:39:43,1.130s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:43,2020-03-10 05:39:45,1.545s,PASSED
+"selenium.click(""id=plan-details-primary-apply"")",Safari 11,,2020-03-10 05:39:45,2020-03-10 05:39:45,0.649s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:39:45,2020-03-10 05:39:47,1.287s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:47,2020-03-10 05:39:49,1.921s,PASSED
+"selenium.click(""id=applyButton"")",Safari 11,,2020-03-10 05:39:49,2020-03-10 05:39:50,1.354s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:39:50,2020-03-10 05:39:52,2.368s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:52,2020-03-10 05:39:54,1.603s,PASSED
+"callTestCase(findTestCase(""AHI/_include/name""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:54,2020-03-10 05:39:55,1.155s,PASSED
+"selenium.type(""id=member-P-1-firstName"", FirstName)",Safari 11,,2020-03-10 05:39:55,2020-03-10 05:39:55,0.173s,PASSED
+"selenium.type(""id=member-P-1-lastName"", LastName)",Safari 11,,2020-03-10 05:39:55,2020-03-10 05:39:55,0.136s,PASSED
+"selenium.type(""id=address"", Address)",Safari 11,,2020-03-10 05:39:55,2020-03-10 05:39:55,0.179s,PASSED
+"selenium.type(""id=city"", City)",Safari 11,,2020-03-10 05:39:55,2020-03-10 05:39:56,0.253s,PASSED
+"selenium.type(""id=email"", AutoEmail)",Safari 11,,2020-03-10 05:39:56,2020-03-10 05:39:56,0.234s,PASSED
+"selenium.type(""id=primaryPhone"", Tel)",Safari 11,,2020-03-10 05:39:56,2020-03-10 05:39:56,0.143s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:39:56,2020-03-10 05:39:57,0.442s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:39:57,2020-03-10 05:39:58,1.217s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:39:58,2020-03-10 05:39:59,1.456s,PASSED
+"for ([i = 1, i < 12, (i++)])",Safari 11,,2020-03-10 05:39:59,2020-03-10 05:40:05,5.326s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:40:05,2020-03-10 05:40:05,0.443s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:40:05,2020-03-10 05:40:07,1.815s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:07,2020-03-10 05:40:08,1.464s,PASSED
+"selenium.type(""id=credit-card-number"", ""4111123123123123"")",Safari 11,,2020-03-10 05:40:08,2020-03-10 05:40:08,0.127s,PASSED
+"selenium.type(""id=credit-card-first"", ""test"")",Safari 11,,2020-03-10 05:40:08,2020-03-10 05:40:09,0.152s,PASSED
+"selenium.type(""id=credit-card-last"", ""test"")",Safari 11,,2020-03-10 05:40:09,2020-03-10 05:40:09,0.177s,PASSED
+"selenium.select(""id=expiration-month"", ""12"")",Safari 11,,2020-03-10 05:40:09,2020-03-10 05:40:09,0.236s,PASSED
+"selenium.select(""id=expiration-year"", ""2026"")",Safari 11,,2020-03-10 05:40:09,2020-03-10 05:40:09,0.306s,PASSED
+"selenium.type(""id=credit-card-cvv"", ""123"")",Safari 11,,2020-03-10 05:40:09,2020-03-10 05:40:10,0.218s,PASSED
+"selenium.type(""id=credit-card-number"", ""4111123123123123"")",Safari 11,,2020-03-10 05:40:10,2020-03-10 05:40:10,0.133s,PASSED
+"selenium.click(""id=js-same-billing"")",Safari 11,,2020-03-10 05:40:10,2020-03-10 05:40:10,0.176s,PASSED
+"selenium.click(""id=credit-payment-authorization"")",Safari 11,,2020-03-10 05:40:10,2020-03-10 05:40:10,0.192s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:40:10,2020-03-10 05:40:10,0.396s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:40:10,2020-03-10 05:40:12,1.138s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:12,2020-03-10 05:40:13,1.514s,PASSED
+"selenium.click(""id=consent-checkbox-0"")",Safari 11,,2020-03-10 05:40:13,2020-03-10 05:40:13,0.160s,PASSED
+"selenium.click(""id=js-signature-tab"")",Safari 11,,2020-03-10 05:40:13,2020-03-10 05:40:13,0.208s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:40:13,2020-03-10 05:40:14,0.164s,PASSED
+"for ([second = 0, second < 30, (second++)])",Safari 11,,2020-03-10 05:40:14,2020-03-10 05:40:31,17.845s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:31,2020-03-10 05:40:33,1.430s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/Dental/National General,Safari 11,Dental - National General application flow,2020-03-10 05:40:33,2020-03-10 05:41:24,51.570s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""Dental - National General""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:40:33,2020-03-10 05:40:33,0.083s,PASSED
+i = 0,Safari 11,,2020-03-10 05:40:33,2020-03-10 05:40:33,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:33,2020-03-10 05:40:38,4.843s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:40:38,2020-03-10 05:40:38,0.001s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:40:38,2020-03-10 05:40:38,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:40:38,2020-03-10 05:40:38,0.020s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:40:38,2020-03-10 05:40:38,0.128s,PASSED
+"selenium.click(""id=bs-select-1-2"")",Safari 11,,2020-03-10 05:40:38,2020-03-10 05:40:38,0.143s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:40:38,2020-03-10 05:40:39,0.964s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:40:39,2020-03-10 05:40:40,0.539s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:40,2020-03-10 05:40:41,1.438s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Location_zip-input""), ""35215"")",Safari 11,,2020-03-10 05:40:41,2020-03-10 05:40:42,0.226s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Date of Birth_dob-0""), ""12121980"")",Safari 11,,2020-03-10 05:40:42,2020-03-10 05:40:42,0.279s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Male""))",Safari 11,,2020-03-10 05:40:42,2020-03-10 05:40:42,0.192s,PASSED
+"selenium.click(""id=js-see-plans"")",Safari 11,,2020-03-10 05:40:42,2020-03-10 05:40:43,0.837s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:40:43,2020-03-10 05:40:43,0.576s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:43,2020-03-10 05:40:45,1.467s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2020-03-10 05:40:45,2020-03-10 05:40:45,0.148s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2020-03-10 05:40:45,2020-03-10 05:40:45,0.066s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2020-03-10 05:40:45,2020-03-10 05:40:45,0.112s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:40:45,2020-03-10 05:40:47,2.002s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_ng""))",Safari 11,,2020-03-10 05:40:47,2020-03-10 05:40:47,0.151s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:47,2020-03-10 05:40:49,1.123s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:49,2020-03-10 05:40:50,1.791s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2020-03-10 05:40:50,2020-03-10 05:40:51,0.270s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:40:51,2020-03-10 05:40:53,2.002s,PASSED
+"scrollToPosition(0, 600)",Safari 11,,2020-03-10 05:40:53,2020-03-10 05:40:53,0.077s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:40:53,2020-03-10 05:40:55,2.001s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Safari 11,,2020-03-10 05:40:55,2020-03-10 05:40:56,1.368s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-10 05:40:56,2020-03-10 05:40:56,0.078s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:40:56,2020-03-10 05:40:58,1.499s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:40:58,2020-03-10 05:41:01,3.002s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Safari 11,,2020-03-10 05:41:01,2020-03-10 05:41:01,0.676s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:41:01,2020-03-10 05:41:02,0.952s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:02,2020-03-10 05:41:04,1.456s,PASSED
+"callTestCase(findTestCase(""AHI/_include/name""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:41:04,2020-03-10 05:41:04,0.179s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:41:04,2020-03-10 05:41:07,3.002s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-firstName""), FirstName)",Safari 11,,2020-03-10 05:41:07,2020-03-10 05:41:07,0.268s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-lastName""), LastName)",Safari 11,,2020-03-10 05:41:07,2020-03-10 05:41:08,0.347s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__address""), Address)",Safari 11,,2020-03-10 05:41:08,2020-03-10 05:41:09,1.331s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__city""), City)",Safari 11,,2020-03-10 05:41:09,2020-03-10 05:41:09,0.207s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__email""), AutoEmail)",Safari 11,,2020-03-10 05:41:09,2020-03-10 05:41:09,0.391s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input_phone""), Tel)",Safari 11,,2020-03-10 05:41:09,2020-03-10 05:41:10,0.204s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment""))",Safari 11,,2020-03-10 05:41:10,2020-03-10 05:41:10,0.552s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:41:10,2020-03-10 05:41:10,0.096s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:10,2020-03-10 05:41:12,1.462s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-first""), FirstName)",Safari 11,,2020-03-10 05:41:12,2020-03-10 05:41:12,0.306s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-last""), LastName)",Safari 11,,2020-03-10 05:41:12,2020-03-10 05:41:12,0.267s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_MM010203040506070809101""), ""12"", true)",Safari 11,,2020-03-10 05:41:12,2020-03-10 05:41:13,0.570s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_YYYY2019202020212022202""), ""2026"", true)",Safari 11,,2020-03-10 05:41:13,2020-03-10 05:41:14,0.861s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-number""), ""4111111111111111"")",Safari 11,,2020-03-10 05:41:14,2020-03-10 05:41:14,0.260s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__cvv""), ""123"")",Safari 11,,2020-03-10 05:41:14,2020-03-10 05:41:15,0.508s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_My billing address is th""))",Safari 11,,2020-03-10 05:41:15,2020-03-10 05:41:15,0.198s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_I Accept Authorization f""))",Safari 11,,2020-03-10 05:41:15,2020-03-10 05:41:15,0.268s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review""))",Safari 11,,2020-03-10 05:41:15,2020-03-10 05:41:15,0.455s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:41:15,2020-03-10 05:41:17,1.358s,PASSED
+"waitForElementClickable(findTestObject(""mobileSanity/Dental/app_page3/label""), 20)",Safari 11,,2020-03-10 05:41:17,2020-03-10 05:41:17,0.299s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:17,2020-03-10 05:41:19,1.450s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/label""))",Safari 11,,2020-03-10 05:41:19,2020-03-10 05:41:19,0.104s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/p_CLICK TO SIGN""))",Safari 11,,2020-03-10 05:41:19,2020-03-10 05:41:19,0.192s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/a_Submit Your Application""))",Safari 11,,2020-03-10 05:41:19,2020-03-10 05:41:19,0.154s,PASSED
+"for ([second = 0, second < 30, (second++)])",Safari 11,,2020-03-10 05:41:19,2020-03-10 05:41:23,3.670s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:23,2020-03-10 05:41:24,1.750s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/Dental/USA Access,Safari 11,,2020-03-10 05:41:24,2020-03-10 05:43:10,1m - 45.116s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""Dental - USA Access""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:41:25,2020-03-10 05:41:25,0.097s,PASSED
+i = 0,Safari 11,,2020-03-10 05:41:25,2020-03-10 05:41:25,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:25,2020-03-10 05:41:36,10.513s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:41:36,2020-03-10 05:41:36,0.001s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:41:36,2020-03-10 05:41:36,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:41:36,2020-03-10 05:41:36,0.027s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:41:36,2020-03-10 05:41:36,0.186s,PASSED
+"selenium.click(""id=bs-select-1-2"")",Safari 11,,2020-03-10 05:41:36,2020-03-10 05:41:36,0.181s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:41:36,2020-03-10 05:41:39,2.962s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:41:39,2020-03-10 05:41:39,0.055s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:39,2020-03-10 05:41:41,1.575s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Location_zip-input""), ""35215"")",Safari 11,,2020-03-10 05:41:41,2020-03-10 05:41:41,0.202s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/census/input_Date of Birth_dob-0""), ""12121980"")",Safari 11,,2020-03-10 05:41:41,2020-03-10 05:41:41,0.198s,PASSED
+"click(findTestObject(""mobileSanity/Dental/census/label_Male""))",Safari 11,,2020-03-10 05:41:41,2020-03-10 05:41:41,0.136s,PASSED
+"selenium.click(""id=js-see-plans"")",Safari 11,,2020-03-10 05:41:41,2020-03-10 05:41:42,0.736s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:41:42,2020-03-10 05:41:43,0.640s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:43,2020-03-10 05:41:44,1.461s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2020-03-10 05:41:44,2020-03-10 05:41:44,0.162s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Dental/filter/btn_company""), 10)",Safari 11,,2020-03-10 05:41:44,2020-03-10 05:41:44,0.060s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_company""))",Safari 11,,2020-03-10 05:41:44,2020-03-10 05:41:45,0.124s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:41:45,2020-03-10 05:41:47,2.001s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_usa""))",Safari 11,,2020-03-10 05:41:47,2020-03-10 05:41:47,0.738s,PASSED
+"waitForJQueryLoad(20, STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:47,2020-03-10 05:41:48,0.794s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:48,2020-03-10 05:41:50,2.205s,PASSED
+"click(findTestObject(""mobileSanity/Dental/filter/btn_filter""))",Safari 11,,2020-03-10 05:41:50,2020-03-10 05:41:50,0.153s,PASSED
+"click(findTestObject(""mobileSanity/Dental/quote/a_Select This Plan""))",Safari 11,,2020-03-10 05:41:50,2020-03-10 05:41:52,1.316s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-10 05:41:52,2020-03-10 05:41:52,0.014s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:41:52,2020-03-10 05:41:53,1.464s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:41:53,2020-03-10 05:41:56,3.008s,PASSED
+"click(findTestObject(""mobileSanity/Dental/apply/span_Start Secure Application""))",Safari 11,,2020-03-10 05:41:56,2020-03-10 05:41:59,2.298s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:41:59,2020-03-10 05:42:00,1.639s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:42:00,2020-03-10 05:42:02,1.507s,PASSED
+"callTestCase(findTestCase(""AHI/_include/name""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:42:02,2020-03-10 05:42:02,0.220s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:42:02,2020-03-10 05:42:05,3.002s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-firstName""), FirstName)",Safari 11,,2020-03-10 05:42:05,2020-03-10 05:42:05,0.296s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__member-P-1-lastName""), LastName)",Safari 11,,2020-03-10 05:42:05,2020-03-10 05:42:06,0.373s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__address""), Address)",Safari 11,,2020-03-10 05:42:06,2020-03-10 05:42:06,0.466s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__city""), City)",Safari 11,,2020-03-10 05:42:06,2020-03-10 05:42:06,0.308s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input__email""), AutoEmail)",Safari 11,,2020-03-10 05:42:06,2020-03-10 05:42:07,0.450s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page1/input_phone""), Tel)",Safari 11,,2020-03-10 05:42:07,2020-03-10 05:42:10,3.222s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page1/a_Continue to Step 2 - Payment""))",Safari 11,,2020-03-10 05:42:10,2020-03-10 05:42:11,0.986s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:42:11,2020-03-10 05:42:11,0.228s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:42:11,2020-03-10 05:42:13,2.001s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/membership/label_ihaveread""))",Safari 11,,2020-03-10 05:42:13,2020-03-10 05:42:13,0.165s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/membership/a_ok""))",Safari 11,,2020-03-10 05:42:13,2020-03-10 05:42:14,0.356s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:42:14,2020-03-10 05:42:17,3.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:42:17,2020-03-10 05:42:18,1.592s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-first""), FirstName)",Safari 11,,2020-03-10 05:42:18,2020-03-10 05:42:19,0.258s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-last""), LastName)",Safari 11,,2020-03-10 05:42:19,2020-03-10 05:42:19,0.476s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_MM010203040506070809101""), ""12"", true)",Safari 11,,2020-03-10 05:42:19,2020-03-10 05:42:20,0.747s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Dental/app_page2/select_YYYY2019202020212022202""), ""2026"", true)",Safari 11,,2020-03-10 05:42:20,2020-03-10 05:42:20,0.512s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__credit-card-number""), ""4111111111111111"")",Safari 11,,2020-03-10 05:42:20,2020-03-10 05:42:21,0.478s,PASSED
+"setText(findTestObject(""mobileSanity/Dental/app_page2/input__cvv""), ""123"")",Safari 11,,2020-03-10 05:42:21,2020-03-10 05:42:21,0.236s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_My billing address is th""))",Safari 11,,2020-03-10 05:42:21,2020-03-10 05:42:21,0.136s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/label_I Accept Authorization f""))",Safari 11,,2020-03-10 05:42:21,2020-03-10 05:42:21,0.163s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page2/a_Continue to Step 3 - Review""))",Safari 11,,2020-03-10 05:42:21,2020-03-10 05:42:22,0.269s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:42:22,2020-03-10 05:42:32,10.593s,PASSED
+"waitForElementClickable(findTestObject(""mobileSanity/Dental/app_page3/label""), 20)",Safari 11,,2020-03-10 05:42:32,2020-03-10 05:42:32,0.062s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:42:32,2020-03-10 05:42:34,1.933s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/label""))",Safari 11,,2020-03-10 05:42:34,2020-03-10 05:42:34,0.177s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/p_CLICK TO SIGN""))",Safari 11,,2020-03-10 05:42:34,2020-03-10 05:42:35,0.560s,PASSED
+"click(findTestObject(""mobileSanity/Dental/app_page3/a_Submit Your Application""))",Safari 11,,2020-03-10 05:42:35,2020-03-10 05:42:36,0.793s,PASSED
+"for ([second = 0, second < 30, (second++)])",Safari 11,,2020-03-10 05:42:36,2020-03-10 05:43:08,32.285s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:08,2020-03-10 05:43:10,1.499s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/HBI,Safari 11,,2020-03-10 05:43:10,2020-03-10 05:43:25,15.071s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""HBI""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:43:10,2020-03-10 05:43:10,0.105s,PASSED
+i = 0,Safari 11,,2020-03-10 05:43:10,2020-03-10 05:43:10,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:43:10,2020-03-10 05:43:15,5.110s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:43:15,2020-03-10 05:43:15,0.000s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:43:15,2020-03-10 05:43:15,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:43:15,2020-03-10 05:43:15,0.033s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:43:15,2020-03-10 05:43:15,0.177s,PASSED
+"selenium.click(""id=bs-select-1-3"")",Safari 11,,2020-03-10 05:43:15,2020-03-10 05:43:16,0.167s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:43:16,2020-03-10 05:43:16,0.896s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-03-10 05:43:16,2020-03-10 05:43:17,0.485s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:17,2020-03-10 05:43:18,1.438s,PASSED
+"url = selenium.getAttribute(""xpath=(//a[@id='js-traffic-to-aiq'])@href"")",Safari 11,,2020-03-10 05:43:18,2020-03-10 05:43:18,0.052s,PASSED
+navigateToUrl(url),Safari 11,,2020-03-10 05:43:18,2020-03-10 05:43:23,4.515s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-10 05:43:23,2020-03-10 05:43:23,0.113s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:23,2020-03-10 05:43:25,1.563s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/Medicare,Safari 11,,2020-03-10 05:43:25,2020-03-10 05:43:33,8.849s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""Medicare""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:43:25,2020-03-10 05:43:25,0.150s,PASSED
+i = 0,Safari 11,,2020-03-10 05:43:25,2020-03-10 05:43:25,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:43:25,2020-03-10 05:43:30,5.507s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:43:30,2020-03-10 05:43:30,0.000s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:43:30,2020-03-10 05:43:30,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:43:30,2020-03-10 05:43:31,0.016s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:43:31,2020-03-10 05:43:31,0.142s,PASSED
+"selenium.click(""id=bs-select-1-4"")",Safari 11,,2020-03-10 05:43:31,2020-03-10 05:43:31,0.145s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:43:31,2020-03-10 05:43:32,1.069s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-03-10 05:43:32,2020-03-10 05:43:32,0.033s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:32,2020-03-10 05:43:33,1.592s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/Pet Insurance,Safari 11,,2020-03-10 05:43:34,2020-03-10 05:44:52,1m - 18.091s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""Pet Insurance""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:43:34,2020-03-10 05:43:34,0.072s,PASSED
+i = 0,Safari 11,,2020-03-10 05:43:34,2020-03-10 05:43:34,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:43:34,2020-03-10 05:43:40,6.032s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:43:40,2020-03-10 05:43:40,0.000s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:43:40,2020-03-10 05:43:40,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:43:40,2020-03-10 05:43:40,0.017s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:43:40,2020-03-10 05:43:40,0.144s,PASSED
+"selenium.click(""id=bs-select-1-5"")",Safari 11,,2020-03-10 05:43:40,2020-03-10 05:43:40,0.152s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:43:40,2020-03-10 05:43:41,0.658s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:43:41,2020-03-10 05:43:41,0.489s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:41,2020-03-10 05:43:43,2.077s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Cancer Insurance/zip""), ""35216"")",Safari 11,,2020-03-10 05:43:43,2020-03-10 05:43:44,0.288s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:43:44,2020-03-10 05:43:47,3.002s,PASSED
+"selenium.click(""id=js-see-plans"")",Safari 11,,2020-03-10 05:43:47,2020-03-10 05:43:47,0.583s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:43:47,2020-03-10 05:43:48,0.669s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:48,2020-03-10 05:43:49,1.475s,PASSED
+"setText(findTestObject(""mobileSanity/Pet Insurance/name-input""), ""Test cat"")",Safari 11,,2020-03-10 05:43:49,2020-03-10 05:43:50,0.205s,PASSED
+"selenium.click(""id=js-continue"")",Safari 11,,2020-03-10 05:43:50,2020-03-10 05:43:50,0.170s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:43:50,2020-03-10 05:43:51,1.056s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:51,2020-03-10 05:43:52,1.476s,PASSED
+"selenium.click(""//label[@for='p-cat']"")",Safari 11,,2020-03-10 05:43:52,2020-03-10 05:43:52,0.123s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:43:52,2020-03-10 05:43:54,1.102s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:54,2020-03-10 05:43:55,1.483s,PASSED
+"setText(findTestObject(""mobileSanity/Pet Insurance/dob-mm-input""), ""01"")",Safari 11,,2020-03-10 05:43:55,2020-03-10 05:43:55,0.159s,PASSED
+"setText(findTestObject(""mobileSanity/Pet Insurance/dob-dd-input""), ""01"")",Safari 11,,2020-03-10 05:43:55,2020-03-10 05:43:55,0.185s,PASSED
+"setText(findTestObject(""mobileSanity/Pet Insurance/dob-yyyy-input""), ""2016"")",Safari 11,,2020-03-10 05:43:55,2020-03-10 05:43:56,0.178s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:43:56,2020-03-10 05:43:57,1.068s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:43:57,2020-03-10 05:43:58,1.456s,PASSED
+"selenium.click(""//label[@for='p-no']"")",Safari 11,,2020-03-10 05:43:58,2020-03-10 05:43:58,0.140s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:43:58,2020-03-10 05:44:00,1.540s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:00,2020-03-10 05:44:01,1.445s,PASSED
+"selenium.click(""id=applyCta"")",Safari 11,,2020-03-10 05:44:01,2020-03-10 05:44:02,0.928s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:44:02,2020-03-10 05:44:04,1.833s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:04,2020-03-10 05:44:05,1.463s,PASSED
+"callTestCase(findTestCase(""AHI/_include/name""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:05,2020-03-10 05:44:06,0.160s,PASSED
+"selenium.type(""id=member-P-1-firstName"", FirstName)",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:06,0.120s,PASSED
+"selenium.type(""id=member-P-1-lastName"", LastName)",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:06,0.119s,PASSED
+"selenium.type(""id=address"", Address)",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:06,0.119s,PASSED
+"selenium.type(""id=city"", City)",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:06,0.145s,PASSED
+"selenium.type(""id=email"", AutoEmail)",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:06,0.127s,PASSED
+"selenium.type(""id=primaryPhone"", Tel)",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:06,0.128s,PASSED
+"selenium.click(""id=pet-veterinary-clinic-flag"")",Safari 11,,2020-03-10 05:44:06,2020-03-10 05:44:07,0.151s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-10 05:44:07,2020-03-10 05:44:09,2.002s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:44:09,2020-03-10 05:44:09,0.289s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:44:09,2020-03-10 05:44:10,1.253s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:10,2020-03-10 05:44:11,1.439s,PASSED
+"selenium.type(""id=credit-card-number"", ""4111111111111111"")",Safari 11,,2020-03-10 05:44:11,2020-03-10 05:44:12,0.130s,PASSED
+"selenium.type(""id=credit-card-first"", ""test"")",Safari 11,,2020-03-10 05:44:12,2020-03-10 05:44:12,0.114s,PASSED
+"selenium.type(""id=credit-card-last"", ""test"")",Safari 11,,2020-03-10 05:44:12,2020-03-10 05:44:12,0.138s,PASSED
+"selenium.select(""id=expiration-month"", ""12"")",Safari 11,,2020-03-10 05:44:12,2020-03-10 05:44:12,0.244s,PASSED
+"selenium.select(""id=expiration-year"", ""2026"")",Safari 11,,2020-03-10 05:44:12,2020-03-10 05:44:12,0.206s,PASSED
+"selenium.type(""id=credit-card-cvv"", ""123"")",Safari 11,,2020-03-10 05:44:12,2020-03-10 05:44:12,0.139s,PASSED
+"selenium.type(""id=credit-card-number"", ""4111111111111111"")",Safari 11,,2020-03-10 05:44:12,2020-03-10 05:44:13,0.119s,PASSED
+"selenium.click(""id=js-same-billing"")",Safari 11,,2020-03-10 05:44:13,2020-03-10 05:44:13,0.177s,PASSED
+"selenium.click(""id=credit-payment-authorization"")",Safari 11,,2020-03-10 05:44:13,2020-03-10 05:44:13,0.141s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:44:13,2020-03-10 05:44:13,0.297s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-03-10 05:44:13,2020-03-10 05:44:15,2.159s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:15,2020-03-10 05:44:17,1.436s,PASSED
+"selenium.click(""id=consent-checkbox-0"")",Safari 11,,2020-03-10 05:44:17,2020-03-10 05:44:17,0.134s,PASSED
+"selenium.click(""id=consent-checkbox-1"")",Safari 11,,2020-03-10 05:44:17,2020-03-10 05:44:17,0.140s,PASSED
+"selenium.click(""id=consent-checkbox-2"")",Safari 11,,2020-03-10 05:44:17,2020-03-10 05:44:17,0.138s,PASSED
+"selenium.click(""id=consent-checkbox-3"")",Safari 11,,2020-03-10 05:44:17,2020-03-10 05:44:17,0.155s,PASSED
+"selenium.click(""id=js-signature-tab"")",Safari 11,,2020-03-10 05:44:17,2020-03-10 05:44:18,0.305s,PASSED
+"selenium.click(""id=js-app-continue-link"")",Safari 11,,2020-03-10 05:44:18,2020-03-10 05:44:18,0.262s,PASSED
+"for ([second = 0, second < 30, (second++)])",Safari 11,,2020-03-10 05:44:18,2020-03-10 05:44:50,32.220s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:50,2020-03-10 05:44:52,1.442s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/STM,Safari 11,,2020-03-10 05:44:52,2020-03-10 05:45:07,15.816s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""STM""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:44:52,2020-03-10 05:44:52,0.074s,PASSED
+i = 0,Safari 11,,2020-03-10 05:44:52,2020-03-10 05:44:52,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:44:52,2020-03-10 05:44:58,5.641s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:44:58,2020-03-10 05:44:58,0.001s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:44:58,2020-03-10 05:44:58,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:44:58,2020-03-10 05:44:58,0.016s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:44:58,2020-03-10 05:44:58,0.144s,PASSED
+"selenium.click(""id=bs-select-1-6"")",Safari 11,,2020-03-10 05:44:58,2020-03-10 05:44:58,0.158s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:44:58,2020-03-10 05:44:59,1.038s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-03-10 05:44:59,2020-03-10 05:44:59,0.489s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:44:59,2020-03-10 05:45:01,1.537s,PASSED
+"url = selenium.getAttribute(""xpath=(//a[@id='js-traffic-to-aiq'])@href"")",Safari 11,,2020-03-10 05:45:01,2020-03-10 05:45:01,0.183s,PASSED
+navigateToUrl(url),Safari 11,,2020-03-10 05:45:01,2020-03-10 05:45:05,3.960s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-10 05:45:05,2020-03-10 05:45:06,0.758s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:06,2020-03-10 05:45:07,1.563s,PASSED
+,,,,,,
+Test Cases/AHI/NEW/Teladoc,Safari 11,teladoc application flow,2020-03-10 05:45:07,2020-03-10 05:46:32,1m - 24.606s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AHI"", ""carrierName"":""Teladoc""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-10 05:45:08,2020-03-10 05:45:08,0.073s,PASSED
+i = 0,Safari 11,,2020-03-10 05:45:08,2020-03-10 05:45:08,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:08,2020-03-10 05:45:14,5.929s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-10 05:45:14,2020-03-10 05:45:14,0.001s,PASSED
+baseUrl = ENV,Safari 11,,2020-03-10 05:45:14,2020-03-10 05:45:14,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-10 05:45:14,2020-03-10 05:45:14,0.019s,PASSED
+"selenium.click(""//*[@class='filter-option-inner-inner']"")",Safari 11,,2020-03-10 05:45:14,2020-03-10 05:45:14,0.148s,PASSED
+"selenium.click(""id=bs-select-1-7"")",Safari 11,,2020-03-10 05:45:14,2020-03-10 05:45:14,0.167s,PASSED
+"selenium.click(""id=primaryCTA"")",Safari 11,,2020-03-10 05:45:14,2020-03-10 05:45:15,1.280s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/front_door_h1""), 20)",Safari 11,,2020-03-10 05:45:15,2020-03-10 05:45:16,0.729s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:16,2020-03-10 05:45:17,1.465s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), 20)",Safari 11,,2020-03-10 05:45:17,2020-03-10 05:45:17,0.059s,PASSED
+"sendKeys(findTestObject(""mobileSanity/Teladoc/census/input_Location_zip-input""), ""35215"")",Safari 11,set zip code,2020-03-10 05:45:17,2020-03-10 05:45:18,0.116s,PASSED
+Thread.sleep(500),Safari 11,set dob,2020-03-10 05:45:18,2020-03-10 05:45:18,0.501s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/census/input_Date of Birth_dob-0""), ""12121980"")",Safari 11,,2020-03-10 05:45:18,2020-03-10 05:45:18,0.216s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/census/label_Male""))",Safari 11,,2020-03-10 05:45:18,2020-03-10 05:45:18,0.169s,PASSED
+Thread.sleep(3000),Safari 11,,2020-03-10 05:45:18,2020-03-10 05:45:21,3.001s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/census/get_a_quote""))",Safari 11,click button,2020-03-10 05:45:21,2020-03-10 05:45:22,0.449s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/apply_button""), 20)",Safari 11,,2020-03-10 05:45:22,2020-03-10 05:45:22,0.473s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:22,2020-03-10 05:45:24,1.537s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/apply_button""))",Safari 11,,2020-03-10 05:45:24,2020-03-10 05:45:25,0.610s,PASSED
+waitForPageLoad(20),Safari 11,,2020-03-10 05:45:25,2020-03-10 05:45:25,0.709s,PASSED
+"waitForElementPresent(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName""), 20)",Safari 11,,2020-03-10 05:45:25,2020-03-10 05:45:25,0.042s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:25,2020-03-10 05:45:27,1.415s,PASSED
+"callTestCase(findTestCase(""AHI/_include/name""), [:], STOP_ON_FAILURE)",Safari 11,get name,2020-03-10 05:45:27,2020-03-10 05:45:27,0.166s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-firstName""), FirstName)",Safari 11,,2020-03-10 05:45:27,2020-03-10 05:45:27,0.209s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__member-P-1-lastName""), LastName)",Safari 11,,2020-03-10 05:45:27,2020-03-10 05:45:27,0.254s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/select_01020304050607""), ""05"", true)",Safari 11,,2020-03-10 05:45:27,2020-03-10 05:45:28,0.354s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/select_00102030405060708091011""), ""06"", true)",Safari 11,,2020-03-10 05:45:28,2020-03-10 05:45:28,0.424s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input_lbs""), ""180"")",Safari 11,,2020-03-10 05:45:28,2020-03-10 05:45:28,0.172s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__address""), Address)",Safari 11,,2020-03-10 05:45:28,2020-03-10 05:45:29,0.216s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__city""), City)",Safari 11,,2020-03-10 05:45:29,2020-03-10 05:45:29,0.216s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input__email""), AutoEmail)",Safari 11,,2020-03-10 05:45:29,2020-03-10 05:45:29,0.400s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/input_phone number""), Tel)",Safari 11,,2020-03-10 05:45:29,2020-03-10 05:45:30,0.466s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-10 05:45:30,2020-03-10 05:45:35,5.001s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 1/a_Continue to Step 2 - Payment""))",Safari 11,,2020-03-10 05:45:35,2020-03-10 05:45:35,0.256s,PASSED
+waitForPageLoad(20),Safari 11,,2020-03-10 05:45:35,2020-03-10 05:45:35,0.029s,PASSED
+"waitForElementVisible(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first""), 20)",Safari 11,,2020-03-10 05:45:35,2020-03-10 05:45:35,0.183s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:35,2020-03-10 05:45:37,1.450s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-first""), FirstName)",Safari 11,,2020-03-10 05:45:37,2020-03-10 05:45:37,0.208s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-last""), LastName)",Safari 11,,2020-03-10 05:45:37,2020-03-10 05:45:37,0.238s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/select_MM010203040506070809101""), ""12"", true)",Safari 11,,2020-03-10 05:45:37,2020-03-10 05:45:37,0.463s,PASSED
+"selectOptionByValue(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/select_YYYY2019202020212022202""), ""2026"", true)",Safari 11,,2020-03-10 05:45:37,2020-03-10 05:45:38,0.483s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-number""), ""4111111111111111"")",Safari 11,,2020-03-10 05:45:38,2020-03-10 05:45:38,0.287s,PASSED
+"setText(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/input__credit-card-cvv""), ""122"")",Safari 11,,2020-03-10 05:45:38,2020-03-10 05:45:38,0.181s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/label_My billing address is th""))",Safari 11,,2020-03-10 05:45:38,2020-03-10 05:45:39,0.127s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/label_I Accept Authorization f""))",Safari 11,,2020-03-10 05:45:39,2020-03-10 05:45:39,0.111s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 2/a_Continue to Step 3 - Review""))",Safari 11,,2020-03-10 05:45:39,2020-03-10 05:45:39,0.525s,PASSED
+waitForPageLoad(20),Safari 11,,2020-03-10 05:45:39,2020-03-10 05:45:41,2.256s,PASSED
+"waitForElementPresent(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""), 20)",Safari 11,,2020-03-10 05:45:41,2020-03-10 05:45:50,8.483s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-10 05:45:50,2020-03-10 05:45:55,5.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:45:55,2020-03-10 05:45:56,1.541s,PASSED
+"scrollToElement(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""), 10)",Safari 11,,2020-03-10 05:45:56,2020-03-10 05:45:56,0.055s,PASSED
+"waitForElementClickable(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""), 10)",Safari 11,,2020-03-10 05:45:56,2020-03-10 05:45:57,0.051s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/label""))",Safari 11,,2020-03-10 05:45:57,2020-03-10 05:45:57,0.133s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/p_""))",Safari 11,,2020-03-10 05:45:57,2020-03-10 05:45:57,0.190s,PASSED
+"click(findTestObject(""mobileSanity/Teladoc/Page_App Page 3/a_Submit Your Application""))",Safari 11,,2020-03-10 05:45:57,2020-03-10 05:45:57,0.154s,PASSED
+"waitForElementPresent(findTestObject(""mobileSanity/Common/app-confirmation""), 30)",Safari 11,,2020-03-10 05:45:57,2020-03-10 05:46:31,33.540s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-10 05:46:31,2020-03-10 05:46:32,1.469s,PASSED

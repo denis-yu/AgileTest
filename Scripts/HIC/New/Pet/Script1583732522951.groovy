@@ -36,7 +36,7 @@ selenium.click('id=product-lines')
 
 selenium.click('//*[@id=\'product-lines\']/following::div/button[contains(text(),\'Pet Insurance\')]')
 
-selenium.click('//button[contains(text(),\'COMPARE HEALTHPLANS\')]')
+selenium.click('//button[contains(text(),\'COMPARE HEALTH PLANS\')]')
 
 for (second = 0; second < 20; second++) {
     try {

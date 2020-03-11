@@ -32,7 +32,7 @@ String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.click('//button[contains(text(),\'COMPARE HEALTHPLANS\')]')
+selenium.click('//button[contains(text(),\'COMPARE HEALTH PLANS\')]')
 
 for (second = 0; second < 10; second++) {
     try {

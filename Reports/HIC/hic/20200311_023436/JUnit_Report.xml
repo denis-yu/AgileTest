@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="hic" time="64" tests="0" failures="0" errors="8">
+   <testsuite name="hic" tests="0" failures="0" errors="8" time="64" timestamp="2020-03-11 02:34:39" hostname="Administrator - 172.30.0.53" id="Test Suites/HIC/hic">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/ACA/ACA/20200311_023440/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Cancer/Cancer/20200311_023448/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Dental/USA Access/20200311_023459/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/HBI/HBI/20200311_023507/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Medicare/Medicare/20200311_023514/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Pet/Pet/20200311_023525/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/STM/STM/20200311_023532/0.png, D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Teladoc/Teladoc/20200311_023537/0.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="39702b80f9c79b4e3b9b52df476e1521"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/HIC/New/ACA" classname="Test Cases/HIC/New/ACA" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/ACA FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:34:39 - [TEST_CASE][ERROR] - Test Cases/HIC/New/ACA: Test Cases/HIC/New/ACA FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"ACA", "carrierName":"ACA"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:34:40 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:34:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:34:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:34:40 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:34:41 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:34:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:34:41 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:34:41 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:34:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-11 02:34:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:34:45 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:34:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:34:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:34:45 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:34:45 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:34:46 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:34:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/ACA/ACA/20200311_023440/0.png]]
+
+2020-03-11 02:34:46 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:34:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:34:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:34:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:34:46 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:34:46 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:34:46 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:34:47 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'ACA Health Insurance')]"): null
+
+2020-03-11 02:34:47 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:34:47 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:34:39 - [TEST_CASE][ERROR] - Test Cases/HIC/New/ACA: Test Cases/HIC/New/ACA FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/Cancer" classname="Test Cases/HIC/New/Cancer" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/Cancer FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Cancer.run(Cancer:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583724604507.run(Script1583724604507.groovy:39)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:34:47 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Cancer: Test Cases/HIC/New/Cancer FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Cancer.run(Cancer:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583724604507.run(Script1583724604507.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"Cancer", "carrierName":"Cancer"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:34:48 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:34:48 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:34:48 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:34:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:34:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:34:51 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:34:51 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:34:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:34:53 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:34:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:34:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:34:54 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:34:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:34:55 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:34:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Cancer/Cancer/20200311_023448/0.png]]
+
+2020-03-11 02:34:55 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:34:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:34:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:34:55 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:34:55 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:34:55 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:34:55 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:34:56 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'Cancer Insurance')]"): null
+
+2020-03-11 02:34:56 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Cancer.run(Cancer:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583724604507.run(Script1583724604507.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:34:56 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Cancer.run(Cancer:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583724604507.run(Script1583724604507.groovy:39)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:34:47 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Cancer: Test Cases/HIC/New/Cancer FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Cancer.run(Cancer:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583724604507.run(Script1583724604507.groovy:39)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/Dental" classname="Test Cases/HIC/New/Dental" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/Dental FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Dental.run(Dental:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731110248.run(Script1583731110248.groovy:35)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:34:56 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Dental: Test Cases/HIC/New/Dental FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Dental.run(Dental:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731110248.run(Script1583731110248.groovy:35)
+	... 13 more
+
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"Dental", "carrierName":"USA Access"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:34:59 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:34:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:34:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:00 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:35:00 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:35:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:35:01 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:35:01 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:35:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:04 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:35:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:35:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:05 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:35:05 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:35:06 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:35:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Dental/USA Access/20200311_023459/0.png]]
+
+2020-03-11 02:35:06 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:35:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:06 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:35:06 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:35:06 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:35:06 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'Dental')]"): null
+
+2020-03-11 02:35:07 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Dental.run(Dental:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731110248.run(Script1583731110248.groovy:35)
+	... 13 more
+
+
+2020-03-11 02:35:07 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Dental.run(Dental:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731110248.run(Script1583731110248.groovy:35)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:34:56 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Dental: Test Cases/HIC/New/Dental FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Dental.run(Dental:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731110248.run(Script1583731110248.groovy:35)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/HBI" classname="Test Cases/HIC/New/HBI" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/HBI FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at HBI.run(HBI:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731799742.run(Script1583731799742.groovy:39)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:35:07 - [TEST_CASE][ERROR] - Test Cases/HIC/New/HBI: Test Cases/HIC/New/HBI FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at HBI.run(HBI:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731799742.run(Script1583731799742.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"HBI", "carrierName":"HBI"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:07 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:35:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:07 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:35:07 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:35:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:35:08 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:35:08 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:35:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:12 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:35:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:35:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:12 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:35:12 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:35:13 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:35:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/HBI/HBI/20200311_023507/0.png]]
+
+2020-03-11 02:35:13 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:35:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:13 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:35:13 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:35:13 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:35:13 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'Hospital Indemnity Plans')]"): null
+
+2020-03-11 02:35:14 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at HBI.run(HBI:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731799742.run(Script1583731799742.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:35:14 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at HBI.run(HBI:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731799742.run(Script1583731799742.groovy:39)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:35:07 - [TEST_CASE][ERROR] - Test Cases/HIC/New/HBI: Test Cases/HIC/New/HBI FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at HBI.run(HBI:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583731799742.run(Script1583731799742.groovy:39)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/Medicare" classname="Test Cases/HIC/New/Medicare" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/Medicare FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Medicare.run(Medicare:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583722637163.run(Script1583722637163.groovy:35)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:35:14 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Medicare: Test Cases/HIC/New/Medicare FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Medicare.run(Medicare:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583722637163.run(Script1583722637163.groovy:35)
+	... 13 more
+
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"Medicare", "carrierName":"Medicare"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:14 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:35:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:35:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:15 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:35:15 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com/'
+
+2020-03-11 02:35:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:35:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:35:17 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:35:17 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:35:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com/'
+
+2020-03-11 02:35:20 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:35:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:35:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:21 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:35:21 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:35:22 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:35:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Medicare/Medicare/20200311_023514/0.png]]
+
+2020-03-11 02:35:23 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:35:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:35:23 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:35:23 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:35:23 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Medicare.run(Medicare:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583722637163.run(Script1583722637163.groovy:35)
+	... 13 more
+
+
+2020-03-11 02:35:24 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Medicare.run(Medicare:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583722637163.run(Script1583722637163.groovy:35)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:35:14 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Medicare: Test Cases/HIC/New/Medicare FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Medicare.run(Medicare:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583722637163.run(Script1583722637163.groovy:35)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/Pet" classname="Test Cases/HIC/New/Pet" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/Pet FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Pet.run(Pet:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732522951.run(Script1583732522951.groovy:39)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:35:24 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Pet: Test Cases/HIC/New/Pet FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Pet.run(Pet:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732522951.run(Script1583732522951.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"Pet", "carrierName":"Pet"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:25 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:35:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:25 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:35:25 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:35:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:35:27 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:35:27 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:35:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:29 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:35:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:35:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:29 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:35:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:35:30 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:35:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Pet/Pet/20200311_023525/0.png]]
+
+2020-03-11 02:35:31 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:35:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:31 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:35:31 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:35:31 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:35:31 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:35:31 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'Pet Insurance')]"): null
+
+2020-03-11 02:35:31 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Pet.run(Pet:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732522951.run(Script1583732522951.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:35:31 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Pet.run(Pet:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732522951.run(Script1583732522951.groovy:39)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:35:24 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Pet: Test Cases/HIC/New/Pet FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Pet.run(Pet:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732522951.run(Script1583732522951.groovy:39)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/STM" classname="Test Cases/HIC/New/STM" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/STM FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at STM.run(STM:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732361465.run(Script1583732361465.groovy:39)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:35:31 - [TEST_CASE][ERROR] - Test Cases/HIC/New/STM: Test Cases/HIC/New/STM FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at STM.run(STM:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732361465.run(Script1583732361465.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"STM", "carrierName":"STM"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:32 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:35:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:32 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:35:32 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:35:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:35:32 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:35:32 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:35:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:35 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:35:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:35:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:35 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:35:35 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:35:36 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:35:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/STM/STM/20200311_023532/0.png]]
+
+2020-03-11 02:35:36 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:35:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:35:36 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:35:36 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:35:36 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'Short Term Insurance')]"): null
+
+2020-03-11 02:35:37 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at STM.run(STM:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732361465.run(Script1583732361465.groovy:39)
+	... 13 more
+
+
+2020-03-11 02:35:37 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at STM.run(STM:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732361465.run(Script1583732361465.groovy:39)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:35:31 - [TEST_CASE][ERROR] - Test Cases/HIC/New/STM: Test Cases/HIC/New/STM FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at STM.run(STM:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583732361465.run(Script1583732361465.groovy:39)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HIC/New/Teladoc" classname="Test Cases/HIC/New/Teladoc" status="ERROR">
+         <error type="ERROR" message="Test Cases/HIC/New/Teladoc FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Teladoc.run(Teladoc:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583733125683.run(Script1583733125683.groovy:35)
+	... 13 more
+"/>
+         <system-out><![CDATA[2020-03-11 02:35:37 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Teladoc: Test Cases/HIC/New/Teladoc FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Teladoc.run(Teladoc:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583733125683.run(Script1583733125683.groovy:35)
+	... 13 more
+
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("HIC/_include/get_hicScreenPath"), ["project":"HIC", "productLine":"Teladoc", "carrierName":"Teladoc"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:37 - [TEST_CASE][PASSED] - Test Cases/HIC/_include/get_hicScreenPath: Test Cases/HIC/_include/get_hicScreenPath
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + project + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-11 02:35:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/HIC/_include/get_hicScreenPath' successfully
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":env], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:37 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-11 02:35:37 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-11 02:35:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-11 02:35:38 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-11 02:35:38 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-11 02:35:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.healthinsurance.com'
+
+2020-03-11 02:35:41 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-11 02:35:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-11 02:35:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:41 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-11 02:35:41 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-11 02:35:42 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-11 02:35:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HIC\\hic\\20200311_023436\\../Screenshots/iPhone 6/HIC/Teladoc/Teladoc/20200311_023537/0.png]]
+
+2020-03-11 02:35:42 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-11 02:35:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-11 02:35:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-11 02:35:42 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-11 02:35:42 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-11 02:35:42 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-11 02:35:42 - [TEST_STEP][PASSED] - selenium.click("id=product-lines"): null
+
+2020-03-11 02:35:43 - [TEST_STEP][PASSED] - selenium.click("//*[@id='product-lines']/following::div/button[contains(text(),'Telemedicine')]"): null
+
+2020-03-11 02:35:43 - [TEST_STEP][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]"): selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Teladoc.run(Teladoc:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583733125683.run(Script1583733125683.groovy:35)
+	... 13 more
+
+
+2020-03-11 02:35:43 - [MESSAGE][ERROR] - selenium.click("//button[contains(text(),'COMPARE HEALTHPLANS')]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Teladoc.run(Teladoc:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583733125683.run(Script1583733125683.groovy:35)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2020-03-11 02:35:37 - [TEST_CASE][ERROR] - Test Cases/HIC/New/Teladoc: Test Cases/HIC/New/Teladoc FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Teladoc.run(Teladoc:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583733125683.run(Script1583733125683.groovy:35)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-11 02:34:39 - [TEST_SUITE][ERROR] - hic: Test Cases/HIC/New/ACA FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2020-03-11 02:34:39 - [TEST_SUITE][ERROR] - hic: Test Cases/HIC/New/ACA FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element //button[contains(text(),'COMPARE HEALTHPLANS')] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at ACA.run(ACA:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1583908476651.run(TempTestSuite1583908476651.groovy:36)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //button[contains(text(),'COMPARE HEALTHPLANS')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WIN-U215233FMVE', ip: '172.30.0.53', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:117)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click.call(Unknown Source)
+	at Script1583723920815.run(Script1583723920815.groovy:39)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>
