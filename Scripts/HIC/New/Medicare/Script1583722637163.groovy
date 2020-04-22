@@ -43,7 +43,7 @@ for (second = 0; second < 10; second++) {
     catch (Exception e) {
     } 
     
-    Thread.sleep(1000)
+    Thread.sleep(2000)
 }
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
