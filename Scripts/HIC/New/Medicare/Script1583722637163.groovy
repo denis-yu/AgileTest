@@ -32,7 +32,11 @@ String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.click('//button[contains(text(),\'COMPARE HEALTH PLANS\')]')
+selenium.click('//span[@class=\'navbar-toggler-icon\']')
+
+selenium.click('//a[@class=\'dropdown-toggle nav-link\']')
+
+selenium.click('//a[contains(text(),\'Medicare\')]')
 
 for (second = 0; second < 10; second++) {
     try {

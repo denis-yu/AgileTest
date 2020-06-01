@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TriStar,Safari 11,,2020-05-14 08:12:36,2020-05-14 08:14:46,2m - 9.617s,PASSED
+,,,,,,
+Test Cases/PL Site/TriStar/hbi/Vitala Care,Safari 11,,2020-05-14 08:12:37,2020-05-14 08:14:43,2m - 5.581s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""TriStar"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-14 08:12:38,2020-05-14 08:12:39,0.870s,PASSED
+i = 0,Safari 11,,2020-05-14 08:12:39,2020-05-14 08:12:39,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://tristar--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-05-14 08:12:39,2020-05-14 08:13:07,27.669s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""90011""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-14 08:13:07,2020-05-14 08:13:47,40.167s,PASSED
+Thread.sleep(5000),Safari 11,,2020-05-14 08:13:47,2020-05-14 08:13:52,5.002s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-05-14 08:13:52,2020-05-14 08:13:52,0.033s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Vitala Care""))",Safari 11,,2020-05-14 08:13:52,2020-05-14 08:13:53,0.568s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-14 08:13:53,2020-05-14 08:13:53,0.028s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-14 08:13:53,2020-05-14 08:13:54,1.705s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-05-14 08:13:54,2020-05-14 08:13:55,0.715s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-14 08:13:55,2020-05-14 08:13:55,0.067s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-14 08:13:55,2020-05-14 08:13:57,1.686s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-05-14 08:13:57,2020-05-14 08:13:57,0.470s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-14 08:13:57,2020-05-14 08:13:57,0.026s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-14 08:13:57,2020-05-14 08:13:59,1.532s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""vitalacare"", ""state"":""ca""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-14 08:13:59,2020-05-14 08:14:43,43.995s,PASSED

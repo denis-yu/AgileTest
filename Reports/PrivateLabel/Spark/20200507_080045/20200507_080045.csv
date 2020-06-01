@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Spark,Safari 11,,2020-05-07 08:08:15,2020-05-07 08:17:16,9m - 0.901s,PASSED
+,,,,,,
+Test Cases/PL Site/Spark/hbi/Health Choice,Safari 11,,2020-05-07 08:08:16,2020-05-07 08:10:14,1m - 57.985s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""Spark"", ""carrierName"":""Health Choice""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:08:17,2020-05-07 08:08:18,1.231s,PASSED
+i = 0,Safari 11,,2020-05-07 08:08:18,2020-05-07 08:08:18,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://spark--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:08:18,2020-05-07 08:08:37,19.351s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""35215""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:08:37,2020-05-07 08:09:21,44.030s,PASSED
+Thread.sleep(5000),Safari 11,,2020-05-07 08:09:21,2020-05-07 08:09:26,5.006s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-05-07 08:09:26,2020-05-07 08:09:26,0.115s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Health Choice""))",Safari 11,,2020-05-07 08:09:26,2020-05-07 08:09:28,1.251s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-07 08:09:28,2020-05-07 08:09:28,0.042s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:09:28,2020-05-07 08:09:30,1.887s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-05-07 08:09:30,2020-05-07 08:09:31,1.803s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-07 08:09:31,2020-05-07 08:09:31,0.030s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:09:31,2020-05-07 08:09:33,1.622s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-05-07 08:09:33,2020-05-07 08:09:34,0.650s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-07 08:09:34,2020-05-07 08:09:34,0.085s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:09:34,2020-05-07 08:09:35,1.556s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""healthchoiceplus""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:09:35,2020-05-07 08:10:14,38.710s,PASSED
+,,,,,,
+Test Cases/PL Site/Spark/hbi/Vitala Care,Safari 11,,2020-05-07 08:10:14,2020-05-07 08:12:20,2m - 5.573s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""Spark"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:10:14,2020-05-07 08:10:14,0.074s,PASSED
+i = 0,Safari 11,,2020-05-07 08:10:14,2020-05-07 08:10:14,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://spark--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:10:14,2020-05-07 08:10:37,22.202s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""90011""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:10:37,2020-05-07 08:11:22,44.910s,PASSED
+Thread.sleep(5000),Safari 11,,2020-05-07 08:11:22,2020-05-07 08:11:27,5.140s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-05-07 08:11:27,2020-05-07 08:11:27,0.073s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Vitala Care""))",Safari 11,,2020-05-07 08:11:27,2020-05-07 08:11:28,1.375s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-07 08:11:28,2020-05-07 08:11:28,0.042s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:11:28,2020-05-07 08:11:30,1.851s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-05-07 08:11:30,2020-05-07 08:11:31,1.063s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-07 08:11:31,2020-05-07 08:11:31,0.025s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:11:31,2020-05-07 08:11:33,1.536s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-05-07 08:11:33,2020-05-07 08:11:33,0.557s,PASSED
+waitForPageLoad(10),Safari 11,,2020-05-07 08:11:33,2020-05-07 08:11:33,0.116s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:11:33,2020-05-07 08:11:35,1.607s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""vitalacare"", ""state"":""ca""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:11:35,2020-05-07 08:12:20,44.704s,PASSED
+,,,,,,
+Test Cases/PL Site/Spark/stm/AdvantHealth,Safari 11,,2020-05-07 08:12:20,2020-05-07 08:14:49,2m - 29.182s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""Spark"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:12:20,2020-05-07 08:12:20,0.105s,PASSED
+i = 0,Safari 11,,2020-05-07 08:12:20,2020-05-07 08:12:20,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://spark--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:12:20,2020-05-07 08:12:35,14.640s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:12:35,2020-05-07 08:12:50,15.669s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:12:50,2020-05-07 08:12:59,8.782s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:12:59,2020-05-07 08:13:05,5.666s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:13:05,2020-05-07 08:13:13,8.479s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:13:13,2020-05-07 08:14:49,1m - 35.600s,PASSED
+,,,,,,
+Test Cases/PL Site/Spark/stm/Everest Prime,Safari 11,,2020-05-07 08:14:49,2020-05-07 08:17:15,2m - 26.385s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""Spark"", ""carrierName"":""Everest Prime""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:14:49,2020-05-07 08:14:49,0.077s,PASSED
+i = 0,Safari 11,,2020-05-07 08:14:49,2020-05-07 08:14:49,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://spark--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:14:49,2020-05-07 08:15:09,19.675s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [:], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-07 08:15:09,2020-05-07 08:15:22,12.984s,PASSED
+"callTestCase(findTestCase(""AHI/_include/filter_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:15:22,2020-05-07 08:15:30,8.172s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""everest""], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:15:30,2020-05-07 08:15:35,5.509s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:15:35,2020-05-07 08:15:44,8.510s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-07 08:15:44,2020-05-07 08:17:15,1m - 31.219s,PASSED

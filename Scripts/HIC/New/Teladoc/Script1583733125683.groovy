@@ -28,11 +28,11 @@ String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.click('id=product-lines')
+selenium.click('//span[@class=\'navbar-toggler-icon\']')
 
-selenium.click('//*[@id=\'product-lines\']/following::div/button[contains(text(),\'Telemedicine\')]')
+selenium.click('//a[@class=\'dropdown-toggle nav-link\']')
 
-selenium.click('//button[contains(text(),\'COMPARE HEALTH PLANS\')]')
+selenium.click('//a[contains(text(),\'Telemedicine\')]')
 
 for (second = 0; second < 10; second++) {
 	try {
@@ -69,8 +69,6 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHand
 
 Thread.sleep(1000)
 
-'click button'
-WebUI.click(findTestObject('mobileSanity/Teladoc/census/get_a_quote'))
 
 WebUI.waitForPageLoad(20)
 

@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+life,Safari 11,,2020-03-12 08:03:23,2020-03-12 08:04:40,1m - 16.901s,PASSED
+,,,,,,
+Test Cases/Life/Freedom Lite,Safari 11,,2020-03-12 08:03:23,2020-03-12 08:04:38,1m - 14.518s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""Life"", ""carrierName"":""Freedom Lite""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-12 08:03:24,2020-03-12 08:03:25,1.453s,PASSED
+i = 0,Safari 11,,2020-03-12 08:03:25,2020-03-12 08:03:25,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://qa.agilelifeinsurance.com/""], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:03:25,2020-03-12 08:03:37,11.549s,PASSED
+driver = getWebDriver(),Safari 11,,2020-03-12 08:03:37,2020-03-12 08:03:37,0.013s,PASSED
+"baseUrl = ""https://qa.agilelifeinsurance.com/""",Safari 11,,2020-03-12 08:03:37,2020-03-12 08:03:37,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-03-12 08:03:37,2020-03-12 08:03:37,0.087s,PASSED
+"click(findTestObject(""Life/get_your_free_quote""))",Safari 11,,2020-03-12 08:03:37,2020-03-12 08:03:38,1.136s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-03-12 08:03:38,2020-03-12 08:03:38,0.107s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:03:38,2020-03-12 08:03:40,1.485s,PASSED
+"setText(findTestObject(""Life/zip_input""), ""35215"")",Safari 11,,2020-03-12 08:03:40,2020-03-12 08:03:40,0.228s,PASSED
+"setText(findTestObject(""Life/dob_0""), ""01/01/1988"")",Safari 11,,2020-03-12 08:03:40,2020-03-12 08:03:41,1.086s,PASSED
+"click(findTestObject(""Life/compare_plan""))",Safari 11,,2020-03-12 08:03:41,2020-03-12 08:03:44,2.677s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-12 08:03:44,2020-03-12 08:03:49,5.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:03:49,2020-03-12 08:03:51,1.749s,PASSED
+"click(findTestObject(""Life/a_Elite_10K""))",Safari 11,,2020-03-12 08:03:51,2020-03-12 08:03:51,0.744s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-12 08:03:51,2020-03-12 08:03:53,2.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:03:53,2020-03-12 08:03:55,1.552s,PASSED
+"click(findTestObject(""Life/apply_for_this_plan""))",Safari 11,,2020-03-12 08:03:55,2020-03-12 08:03:55,0.549s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-12 08:03:55,2020-03-12 08:03:57,2.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:03:57,2020-03-12 08:03:59,1.509s,PASSED
+"click(findTestObject(""Life/applyButton""))",Safari 11,,2020-03-12 08:03:59,2020-03-12 08:04:00,0.769s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-12 08:04:00,2020-03-12 08:04:02,2.044s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:04:02,2020-03-12 08:04:03,1.664s,PASSED
+"click(findTestObject(""Life/fillApp""))",Safari 11,,2020-03-12 08:04:03,2020-03-12 08:04:04,0.298s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-12 08:04:04,2020-03-12 08:04:06,2.002s,PASSED
+"click(findTestObject(""Life/js-app-continue-link""))",Safari 11,,2020-03-12 08:04:06,2020-03-12 08:04:06,0.292s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-12 08:04:06,2020-03-12 08:04:08,2.003s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:04:08,2020-03-12 08:04:10,1.551s,PASSED
+"click(findTestObject(""Life/credit-payment-authorization""))",Safari 11,,2020-03-12 08:04:10,2020-03-12 08:04:10,0.423s,PASSED
+"click(findTestObject(""Life/js-app-continue-link""))",Safari 11,,2020-03-12 08:04:10,2020-03-12 08:04:10,0.301s,PASSED
+Thread.sleep(2000),Safari 11,,2020-03-12 08:04:10,2020-03-12 08:04:12,2.012s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:04:12,2020-03-12 08:04:14,2.217s,PASSED
+"click(findTestObject(""Life/consent-checkbox-0""))",Safari 11,,2020-03-12 08:04:14,2020-03-12 08:04:15,0.652s,PASSED
+"click(findTestObject(""Life/js-signature-autoFill""))",Safari 11,,2020-03-12 08:04:15,2020-03-12 08:04:15,0.132s,PASSED
+"click(findTestObject(""Life/js-app-continue-link""))",Safari 11,,2020-03-12 08:04:15,2020-03-12 08:04:15,0.178s,PASSED
+Thread.sleep(20000),Safari 11,,2020-03-12 08:04:15,2020-03-12 08:04:35,20.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-12 08:04:35,2020-03-12 08:04:38,2.345s,PASSED

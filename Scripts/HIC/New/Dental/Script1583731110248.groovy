@@ -28,11 +28,11 @@ String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.click('id=product-lines')
+selenium.click('//span[@class=\'navbar-toggler-icon\']')
 
-selenium.click('//*[@id=\'product-lines\']/following::div/button[contains(text(),\'Dental\')]')
+selenium.click('//a[@class=\'dropdown-toggle nav-link\']')
 
-selenium.click('//button[contains(text(),\'COMPARE HEALTH PLANS\')]')
+selenium.click('//a[contains(text(),\'Dental\')]')
 
 for (second = 0; second < 10; second++) {
 	try {

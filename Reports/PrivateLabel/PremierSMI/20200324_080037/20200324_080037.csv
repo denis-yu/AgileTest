@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PremierSMI,Safari 11,,2020-03-24 08:12:06,2020-03-24 08:20:54,8m - 47.678s,PASSED
+,,,,,,
+Test Cases/PL Site/PremierSMI/AdvantHealth,Safari 11,,2020-03-24 08:12:07,2020-03-24 08:14:36,2m - 29.057s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""PremierSMI"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:12:07,2020-03-24 08:12:12,5.240s,PASSED
+i = 0,Safari 11,,2020-03-24 08:12:12,2020-03-24 08:12:12,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://premiersmi--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:12:12,2020-03-24 08:12:26,13.685s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:12:26,2020-03-24 08:12:40,14.501s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:12:40,2020-03-24 08:12:46,6.063s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:12:46,2020-03-24 08:12:55,8.414s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:12:55,2020-03-24 08:14:36,1m - 40.732s,PASSED
+,,,,,,
+Test Cases/PL Site/PremierSMI/Aspen,Safari 11,,2020-03-24 08:14:36,2020-03-24 08:16:48,2m - 12.738s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""PremierSMI"", ""carrierName"":""Aspen""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:14:36,2020-03-24 08:14:36,0.078s,PASSED
+i = 0,Safari 11,,2020-03-24 08:14:36,2020-03-24 08:14:36,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://premiersmi--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:14:36,2020-03-24 08:14:44,8.500s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:14:44,2020-03-24 08:14:59,14.967s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""aspen""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:14:59,2020-03-24 08:15:05,5.221s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:15:05,2020-03-24 08:15:14,8.896s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:15:14,2020-03-24 08:16:48,1m - 34.883s,PASSED
+,,,,,,
+Test Cases/PL Site/PremierSMI/Health Choice,Safari 11,,2020-03-24 08:16:48,2020-03-24 08:18:48,2m - 0.007s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""PremierSMI"", ""carrierName"":""Health Choice""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:16:49,2020-03-24 08:16:49,0.082s,PASSED
+i = 0,Safari 11,,2020-03-24 08:16:49,2020-03-24 08:16:49,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://premiersmi--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:16:49,2020-03-24 08:16:55,6.688s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""35215""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:16:55,2020-03-24 08:17:41,45.162s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-24 08:17:41,2020-03-24 08:17:46,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-03-24 08:17:46,2020-03-24 08:17:46,0.076s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Health Choice""))",Safari 11,,2020-03-24 08:17:46,2020-03-24 08:17:47,0.853s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:17:47,2020-03-24 08:17:47,0.062s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:17:47,2020-03-24 08:17:48,1.495s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-03-24 08:17:48,2020-03-24 08:17:48,0.414s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:17:48,2020-03-24 08:17:49,0.012s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:17:49,2020-03-24 08:17:50,1.437s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-03-24 08:17:50,2020-03-24 08:17:50,0.494s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:17:50,2020-03-24 08:17:51,0.121s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:17:51,2020-03-24 08:17:52,1.690s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""healthchoiceplus""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:17:52,2020-03-24 08:18:48,56.148s,PASSED
+,,,,,,
+Test Cases/PL Site/PremierSMI/Legion,Safari 11,,2020-03-24 08:18:48,2020-03-24 08:20:53,2m - 4.845s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""PremierSMI"", ""carrierName"":""Legion""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:18:49,2020-03-24 08:18:49,0.093s,PASSED
+i = 0,Safari 11,,2020-03-24 08:18:49,2020-03-24 08:18:49,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://premiersmi--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:18:49,2020-03-24 08:19:04,15.012s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""35215""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:19:04,2020-03-24 08:19:47,43.568s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-24 08:19:47,2020-03-24 08:19:52,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-03-24 08:19:52,2020-03-24 08:19:52,0.024s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Legion Limited Medical 500""))",Safari 11,,2020-03-24 08:19:52,2020-03-24 08:19:53,0.748s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:19:53,2020-03-24 08:19:53,0.027s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:19:53,2020-03-24 08:19:56,2.467s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-03-24 08:19:56,2020-03-24 08:19:56,0.688s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:19:56,2020-03-24 08:19:56,0.081s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:19:56,2020-03-24 08:19:58,2.033s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-03-24 08:19:58,2020-03-24 08:19:59,0.999s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:19:59,2020-03-24 08:20:00,0.099s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:20:00,2020-03-24 08:20:02,2.768s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""legion""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:20:02,2020-03-24 08:20:53,50.912s,PASSED

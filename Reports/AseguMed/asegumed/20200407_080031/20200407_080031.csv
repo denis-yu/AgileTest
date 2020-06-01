@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+asegumed,Safari 11,,2020-04-07 08:00:38,2020-04-07 08:03:30,2m - 52.188s,PASSED
+,,,,,,
+Test Cases/AseguMed/Legion,Safari 11,,2020-04-07 08:00:39,2020-04-07 08:03:29,2m - 50.155s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""AseguMed"", ""carrierName"":""Legion""], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:00:43,2020-04-07 08:00:45,2.546s,PASSED
+i = 0,Safari 11,,2020-04-07 08:00:45,2020-04-07 08:00:45,0.001s,PASSED
+"openBrowser(""https://pruebas.asegumed.com/"")",Safari 11,,2020-04-07 08:00:45,2020-04-07 08:01:01,15.505s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:01,2020-04-07 08:01:06,5.095s,PASSED
+"click(findTestObject(""AseguMed/homepage/cta-button""))",Safari 11,,2020-04-07 08:01:06,2020-04-07 08:01:09,2.815s,PASSED
+"waitForElementPresent(findTestObject(""AseguMed/census_page/input_zip""), 20)",Safari 11,,2020-04-07 08:01:09,2020-04-07 08:01:09,0.284s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:09,2020-04-07 08:01:12,2.836s,PASSED
+"sendKeys(findTestObject(""AseguMed/census_page/input_zip""), ""35215"")",Safari 11,,2020-04-07 08:01:12,2020-04-07 08:01:13,1.149s,PASSED
+"sendKeys(findTestObject(""AseguMed/census_page/input_dob""), ""12121988"")",Safari 11,,2020-04-07 08:01:13,2020-04-07 08:01:13,0.416s,PASSED
+"click(findTestObject(""AseguMed/census_page/label_gender_male""))",Safari 11,,2020-04-07 08:01:13,2020-04-07 08:01:17,3.736s,PASSED
+"click(findTestObject(""AseguMed/census_page/census_submit_button""))",Safari 11,,2020-04-07 08:01:17,2020-04-07 08:01:22,4.990s,PASSED
+"waitForElementPresent(findTestObject(""AseguMed/quote_page/detail_link_plan_2""), 20)",Safari 11,,2020-04-07 08:01:22,2020-04-07 08:01:23,1.198s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:23,2020-04-07 08:01:25,2.034s,PASSED
+"click(findTestObject(""AseguMed/quote_page/detail_link_plan_2""))",Safari 11,,2020-04-07 08:01:25,2020-04-07 08:01:30,4.994s,PASSED
+waitForPageLoad(10),Safari 11,,2020-04-07 08:01:30,2020-04-07 08:01:31,0.116s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:31,2020-04-07 08:01:33,2.073s,PASSED
+"click(findTestObject(""AseguMed/detail_page/detail_apply_button""))",Safari 11,,2020-04-07 08:01:33,2020-04-07 08:01:39,6.691s,PASSED
+waitForPageLoad(10),Safari 11,,2020-04-07 08:01:39,2020-04-07 08:01:39,0.206s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:39,2020-04-07 08:01:43,3.380s,PASSED
+"click(findTestObject(""AseguMed/apply_page/apply_button""))",Safari 11,,2020-04-07 08:01:43,2020-04-07 08:01:50,7.374s,PASSED
+"waitForElementPresent(findTestObject(""AseguMed/app page 1/input_firstname""), 20)",Safari 11,,2020-04-07 08:01:50,2020-04-07 08:01:54,3.320s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:54,2020-04-07 08:01:56,1.936s,PASSED
+"callTestCase(findTestCase(""AseguMed/_include/name""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:01:56,2020-04-07 08:02:01,5.555s,PASSED
+"setText(findTestObject(""AseguMed/app page 1/input_firstname""), FirstName)",Safari 11,,2020-04-07 08:02:01,2020-04-07 08:02:05,4.083s,PASSED
+"setText(findTestObject(""AseguMed/app page 1/input_lastname""), LastName)",Safari 11,,2020-04-07 08:02:05,2020-04-07 08:02:06,0.797s,PASSED
+"setText(findTestObject(""AseguMed/app page 1/input_address""), Address)",Safari 11,,2020-04-07 08:02:06,2020-04-07 08:02:06,0.482s,PASSED
+"setText(findTestObject(""AseguMed/app page 1/input_city""), City)",Safari 11,,2020-04-07 08:02:06,2020-04-07 08:02:07,0.478s,PASSED
+"setText(findTestObject(""AseguMed/app page 1/input_email""), AutoEmail)",Safari 11,,2020-04-07 08:02:07,2020-04-07 08:02:07,0.439s,PASSED
+"setText(findTestObject(""AseguMed/app page 1/input_primaryPhone""), Tel)",Safari 11,,2020-04-07 08:02:07,2020-04-07 08:02:08,0.234s,PASSED
+"click(findTestObject(""AseguMed/app page 1/continue_to_page_2_button""))",Safari 11,,2020-04-07 08:02:08,2020-04-07 08:02:08,0.217s,PASSED
+"waitForElementPresent(findTestObject(""AseguMed/app page 2/input_credit-card-number""), 20)",Safari 11,,2020-04-07 08:02:08,2020-04-07 08:02:08,0.582s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:02:08,2020-04-07 08:02:10,1.822s,PASSED
+"setText(findTestObject(""AseguMed/app page 2/input_credit-card-number""), ""4111111111111111"")",Safari 11,,2020-04-07 08:02:10,2020-04-07 08:02:11,0.383s,PASSED
+"setText(findTestObject(""AseguMed/app page 2/input_credit-card-first""), FirstName)",Safari 11,,2020-04-07 08:02:11,2020-04-07 08:02:11,0.408s,PASSED
+"setText(findTestObject(""AseguMed/app page 2/input_credit-card-last""), LastName)",Safari 11,,2020-04-07 08:02:11,2020-04-07 08:02:12,0.549s,PASSED
+"selectOptionByValue(findTestObject(""AseguMed/app page 2/select_expiration-month""), ""12"", true)",Safari 11,,2020-04-07 08:02:12,2020-04-07 08:02:13,1.147s,PASSED
+"selectOptionByValue(findTestObject(""AseguMed/app page 2/select_expiration-year""), ""2026"", true)",Safari 11,,2020-04-07 08:02:13,2020-04-07 08:02:13,0.481s,PASSED
+"setText(findTestObject(""AseguMed/app page 2/input_credit-card-cvv""), ""123"")",Safari 11,,2020-04-07 08:02:13,2020-04-07 08:02:13,0.236s,PASSED
+"click(findTestObject(""AseguMed/app page 2/input_js-same-billing""))",Safari 11,,2020-04-07 08:02:13,2020-04-07 08:02:14,0.147s,PASSED
+"click(findTestObject(""AseguMed/app page 2/input_credit-payment-authorization""))",Safari 11,,2020-04-07 08:02:14,2020-04-07 08:02:14,0.144s,PASSED
+"click(findTestObject(""AseguMed/app page 2/continue_to_page_3_button""))",Safari 11,,2020-04-07 08:02:14,2020-04-07 08:02:14,0.273s,PASSED
+"waitForElementPresent(findTestObject(""AseguMed/app page 3/input_consent-checkbox-0""), 20)",Safari 11,,2020-04-07 08:02:14,2020-04-07 08:02:25,10.881s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:02:25,2020-04-07 08:02:26,1.506s,PASSED
+"click(findTestObject(""AseguMed/app page 3/input_consent-checkbox-0""))",Safari 11,,2020-04-07 08:02:26,2020-04-07 08:02:27,0.112s,PASSED
+"click(findTestObject(""AseguMed/app page 3/link_js-signature-autoFill""))",Safari 11,,2020-04-07 08:02:27,2020-04-07 08:02:27,0.151s,PASSED
+"click(findTestObject(""AseguMed/app page 3/continue_to_page_4_button""))",Safari 11,,2020-04-07 08:02:27,2020-04-07 08:02:27,0.153s,PASSED
+"waitForElementPresent(findTestObject(""mobileSanity/Common/app-confirmation""), 50)",Safari 11,,2020-04-07 08:02:27,2020-04-07 08:03:27,1m - 0.418s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-04-07 08:03:27,2020-04-07 08:03:29,1.565s,PASSED

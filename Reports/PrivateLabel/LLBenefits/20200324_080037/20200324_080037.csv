@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LLBenefits,Safari 11,,2020-03-24 08:05:29,2020-03-24 08:07:13,1m - 43.706s,PASSED
+,,,,,,
+Test Cases/PL Site/LLBenefits/hbi/Vitala Care,Safari 11,,2020-03-24 08:05:29,2020-03-24 08:07:11,1m - 41.860s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""LLBenefits"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:05:30,2020-03-24 08:05:31,0.691s,PASSED
+i = 0,Safari 11,,2020-03-24 08:05:31,2020-03-24 08:05:31,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://llbenefits--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:05:31,2020-03-24 08:05:39,8.262s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""33186""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:05:39,2020-03-24 08:06:23,44.430s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-24 08:06:23,2020-03-24 08:06:28,5.001s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-03-24 08:06:28,2020-03-24 08:06:28,0.064s,PASSED
+"click(findTestObject(""PLSite/a_vitalacare""))",Safari 11,,2020-03-24 08:06:28,2020-03-24 08:06:29,0.792s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:06:29,2020-03-24 08:06:29,0.072s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:06:29,2020-03-24 08:06:31,1.474s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-03-24 08:06:31,2020-03-24 08:06:32,0.992s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:06:32,2020-03-24 08:06:32,0.050s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:06:32,2020-03-24 08:06:33,1.457s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-03-24 08:06:33,2020-03-24 08:06:34,0.460s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-24 08:06:34,2020-03-24 08:06:34,0.057s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-24 08:06:34,2020-03-24 08:06:36,1.794s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""vitalacare"", ""state"":""fl""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-24 08:06:36,2020-03-24 08:07:11,35.773s,PASSED

@@ -1,0 +1,144 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HP,Safari 11,,2020-05-26 08:02:55,2020-05-26 08:24:42,21m - 47.562s,ERROR
+,,,,,,
+Test Cases/HP/Health Plans/ACA,Safari 11,,2020-05-26 08:03:01,2020-05-26 08:08:21,5m - 19.872s,ERROR
+now = new java.util.Date(),Safari 11,,2020-05-26 08:03:11,2020-05-26 08:03:11,0.015s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:03:11,2020-05-26 08:03:11,0.004s,PASSED
+i = 0,Safari 11,,2020-05-26 08:03:11,2020-05-26 08:03:12,1.235s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""ACA""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:03:12,2020-05-26 08:03:13,1.160s,PASSED
+second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 11,,2020-05-26 08:03:13,2020-05-26 08:03:13,0.012s,PASSED
+"openBrowser(env + ""/individual-health-insurance"")",Safari 11,,2020-05-26 08:03:13,2020-05-26 08:05:19,2m - 6.219s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:05:19,2020-05-26 08:05:22,3.086s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:05:22,2020-05-26 08:05:36,13.147s,PASSED
+driver = getWebDriver(),Safari 11,,2020-05-26 08:05:36,2020-05-26 08:05:36,0.011s,PASSED
+baseUrl = env,Safari 11,,2020-05-26 08:05:36,2020-05-26 08:05:36,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-05-26 08:05:36,2020-05-26 08:05:44,8.322s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:05:44,2020-05-26 08:05:54,9.975s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:05:54,2020-05-26 08:05:59,4.628s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:05:59,2020-05-26 08:06:07,8.124s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2020-05-26 08:06:07,2020-05-26 08:06:19,12.295s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2020-05-26 08:06:19,2020-05-26 08:06:23,3.821s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:06:23,2020-05-26 08:06:50,27.052s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:06:50,2020-05-26 08:06:56,5.806s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:06:56,2020-05-26 08:06:59,3.002s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2020-05-26 08:06:59,2020-05-26 08:07:00,0.920s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:07:00,2020-05-26 08:08:09,1m - 9.857s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:08:09,2020-05-26 08:08:19,9.076s,PASSED
+"selenium.click(""xpath=(//a[contains(text(),'Apply Now')])"")",Safari 11,,2020-05-26 08:08:19,2020-05-26 08:08:20,1.923s,ERROR
+,,,,,,
+Test Cases/HP/Health Plans/Dental,Safari 11,,2020-05-26 08:08:21,2020-05-26 08:12:29,4m - 8.506s,PASSED
+now = new java.util.Date(),Safari 11,,2020-05-26 08:08:25,2020-05-26 08:08:25,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:08:25,2020-05-26 08:08:25,0.003s,PASSED
+i = 0,Safari 11,,2020-05-26 08:08:25,2020-05-26 08:08:25,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Dental""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:08:25,2020-05-26 08:08:28,2.650s,PASSED
+second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 11,,2020-05-26 08:08:28,2020-05-26 08:08:28,0.001s,PASSED
+"openBrowser(env + ""/dental-insurance"")",Safari 11,,2020-05-26 08:08:28,2020-05-26 08:09:52,1m - 24.201s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:09:52,2020-05-26 08:09:57,5.014s,PASSED
+driver = getWebDriver(),Safari 11,,2020-05-26 08:09:57,2020-05-26 08:09:57,0.002s,PASSED
+baseUrl = env,Safari 11,,2020-05-26 08:09:57,2020-05-26 08:09:57,0.233s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-05-26 08:09:57,2020-05-26 08:09:58,0.882s,PASSED
+selenium.refresh(),Safari 11,,2020-05-26 08:09:58,2020-05-26 08:09:59,1.015s,PASSED
+"selenium.waitForPageToLoad(""30000"")",Safari 11,,2020-05-26 08:09:59,2020-05-26 08:10:13,13.349s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:10:13,2020-05-26 08:10:18,4.835s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:10:18,2020-05-26 08:10:21,2.963s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2020-05-26 08:10:21,2020-05-26 08:10:25,4.047s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2020-05-26 08:10:25,2020-05-26 08:10:29,4.311s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:10:29,2020-05-26 08:10:36,7.201s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:10:36,2020-05-26 08:10:38,2.017s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2020-05-26 08:10:38,2020-05-26 08:10:42,4.280s,PASSED
+"for ([second = 0, second < 20, (second++)])",Safari 11,,2020-05-26 08:10:42,2020-05-26 08:11:00,17.271s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:11:00,2020-05-26 08:11:03,2.938s,PASSED
+"url = selenium.getAttribute(""xpath=(//a[contains(text(),'Apply Now')])@href"")",Safari 11,,2020-05-26 08:11:03,2020-05-26 08:11:03,0.845s,PASSED
+openBrowser(url),Safari 11,,2020-05-26 08:11:04,2020-05-26 08:12:06,1m - 2.253s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:12:06,2020-05-26 08:12:11,5.065s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:12:11,2020-05-26 08:12:29,18.238s,PASSED
+,,,,,,
+Test Cases/HP/Health Plans/Medicaid Public,Safari 11,,2020-05-26 08:12:29,2020-05-26 08:15:33,3m - 3.949s,PASSED
+now = new java.util.Date(),Safari 11,,2020-05-26 08:12:54,2020-05-26 08:12:54,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:12:54,2020-05-26 08:12:54,0.001s,PASSED
+i = 0,Safari 11,,2020-05-26 08:12:54,2020-05-26 08:12:54,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Medicaid Public""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:12:54,2020-05-26 08:12:54,0.109s,PASSED
+second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 11,,2020-05-26 08:12:54,2020-05-26 08:12:54,0.000s,PASSED
+"openBrowser(env + ""/medicaid-public-plans"")",Safari 11,,2020-05-26 08:12:54,2020-05-26 08:14:16,1m - 21.944s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:14:16,2020-05-26 08:14:19,3.017s,PASSED
+driver = getWebDriver(),Safari 11,,2020-05-26 08:14:19,2020-05-26 08:14:19,0.001s,PASSED
+baseUrl = env,Safari 11,,2020-05-26 08:14:19,2020-05-26 08:14:19,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-05-26 08:14:19,2020-05-26 08:14:21,1.226s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:14:21,2020-05-26 08:14:22,1.657s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:14:22,2020-05-26 08:14:30,8.199s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2020-05-26 08:14:30,2020-05-26 08:14:37,6.483s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2020-05-26 08:14:37,2020-05-26 08:14:51,13.978s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:14:51,2020-05-26 08:15:16,25.009s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:15:16,2020-05-26 08:15:19,2.597s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2020-05-26 08:15:19,2020-05-26 08:15:29,10.526s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2020-05-26 08:15:29,2020-05-26 08:15:30,0.597s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:15:30,2020-05-26 08:15:33,3.762s,PASSED
+,,,,,,
+Test Cases/HP/Health Plans/Medicare,Safari 11,,2020-05-26 08:15:33,2020-05-26 08:16:13,39.443s,FAILED
+now = new java.util.Date(),Safari 11,,2020-05-26 08:15:44,2020-05-26 08:15:44,0.021s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:15:44,2020-05-26 08:15:44,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Medicare""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:15:44,2020-05-26 08:15:45,0.126s,PASSED
+i = 0,Safari 11,,2020-05-26 08:15:45,2020-05-26 08:15:45,0.001s,PASSED
+"openBrowser(env + ""/medicare"")",Safari 11,,2020-05-26 08:15:45,2020-05-26 08:16:13,28.235s,FAILED
+,,,,,,
+Test Cases/HP/Health Plans/Medigap,Safari 11,,2020-05-26 08:16:13,2020-05-26 08:18:02,1m - 48.680s,PASSED
+now = new java.util.Date(),Safari 11,,2020-05-26 08:16:15,2020-05-26 08:16:15,0.011s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:16:15,2020-05-26 08:16:15,0.001s,PASSED
+i = 0,Safari 11,,2020-05-26 08:16:15,2020-05-26 08:16:15,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Medigap""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:16:15,2020-05-26 08:16:15,0.099s,PASSED
+second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 11,,2020-05-26 08:16:15,2020-05-26 08:16:15,0.001s,PASSED
+"openBrowser(env + ""/medicare-medigap"")",Safari 11,,2020-05-26 08:16:15,2020-05-26 08:17:10,55.132s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:17:10,2020-05-26 08:17:13,3.037s,PASSED
+driver = getWebDriver(),Safari 11,,2020-05-26 08:17:13,2020-05-26 08:17:13,0.002s,PASSED
+baseUrl = env,Safari 11,,2020-05-26 08:17:13,2020-05-26 08:17:13,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-05-26 08:17:13,2020-05-26 08:17:15,2.102s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:17:15,2020-05-26 08:17:16,0.538s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:17:16,2020-05-26 08:17:20,4.395s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2020-05-26 08:17:20,2020-05-26 08:17:22,2.216s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2020-05-26 08:17:22,2020-05-26 08:17:23,1.083s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:17:23,2020-05-26 08:17:40,16.830s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:17:40,2020-05-26 08:17:44,3.597s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2020-05-26 08:17:44,2020-05-26 08:17:49,5.071s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2020-05-26 08:17:49,2020-05-26 08:17:57,8.540s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:17:57,2020-05-26 08:18:02,4.268s,PASSED
+,,,,,,
+Test Cases/HP/Health Plans/Small Business,Safari 11,,2020-05-26 08:18:02,2020-05-26 08:20:44,2m - 42.269s,PASSED
+now = new java.util.Date(),Safari 11,,2020-05-26 08:18:10,2020-05-26 08:18:10,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:18:10,2020-05-26 08:18:10,0.001s,PASSED
+i = 0,Safari 11,,2020-05-26 08:18:10,2020-05-26 08:18:10,0.000s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Small Business""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:18:10,2020-05-26 08:18:10,0.122s,PASSED
+second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Safari 11,,2020-05-26 08:18:10,2020-05-26 08:18:10,0.001s,PASSED
+"openBrowser(env + ""/small-business-health-insurance"")",Safari 11,,2020-05-26 08:18:10,2020-05-26 08:19:25,1m - 14.961s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:19:25,2020-05-26 08:19:28,3.003s,PASSED
+driver = getWebDriver(),Safari 11,,2020-05-26 08:19:28,2020-05-26 08:19:28,0.001s,PASSED
+baseUrl = env,Safari 11,,2020-05-26 08:19:28,2020-05-26 08:19:28,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-05-26 08:19:28,2020-05-26 08:19:29,0.637s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:19:29,2020-05-26 08:19:29,0.709s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:19:29,2020-05-26 08:19:40,10.555s,PASSED
+"selenium.type(""id=location"", ""32209"")",Safari 11,,2020-05-26 08:19:40,2020-05-26 08:19:48,8.101s,PASSED
+"selenium.click(""id=findPlans"")",Safari 11,,2020-05-26 08:19:48,2020-05-26 08:20:02,14.350s,PASSED
+"for ([second = 0, second < 10, (second++)])",Safari 11,,2020-05-26 08:20:02,2020-05-26 08:20:14,11.248s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:20:14,2020-05-26 08:20:16,2.566s,PASSED
+"selenium.click(""//a[contains(text(),'Select')]"")",Safari 11,,2020-05-26 08:20:16,2020-05-26 08:20:40,23.579s,PASSED
+"for ([second = 0, second < 60, (second++)])",Safari 11,,2020-05-26 08:20:40,2020-05-26 08:20:40,0.050s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:20:40,2020-05-26 08:20:44,4.112s,PASSED
+,,,,,,
+Test Cases/HP/Health Plans/STM,Safari 11,,2020-05-26 08:20:44,2020-05-26 08:22:49,2m - 5.051s,ERROR
+now = new java.util.Date(),Safari 11,,2020-05-26 08:21:15,2020-05-26 08:21:15,0.001s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:21:15,2020-05-26 08:21:15,0.174s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""STM""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:21:15,2020-05-26 08:21:18,2.846s,PASSED
+i = 0,Safari 11,,2020-05-26 08:21:18,2020-05-26 08:21:18,0.001s,PASSED
+"openBrowser(env + ""/short-term-health-insurance"")",Safari 11,,2020-05-26 08:21:18,2020-05-26 08:22:35,1m - 17.099s,PASSED
+driver = getWebDriver(),Safari 11,,2020-05-26 08:22:35,2020-05-26 08:22:35,0.002s,PASSED
+baseUrl = env,Safari 11,,2020-05-26 08:22:35,2020-05-26 08:22:35,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Safari 11,,2020-05-26 08:22:35,2020-05-26 08:22:44,8.745s,PASSED
+"selenium.click(""id=location"")",Safari 11,,2020-05-26 08:22:44,2020-05-26 08:22:49,4.903s,ERROR
+,,,,,,
+Test Cases/HP/Home/Home,Safari 11,,2020-05-26 08:22:49,2020-05-26 08:24:36,1m - 46.816s,PASSED
+now = new java.util.Date(),Safari 11,,2020-05-26 08:22:53,2020-05-26 08:22:53,0.002s,PASSED
+"mydate = now.format(""yyyyMMdd_HHmmss"")",Safari 11,,2020-05-26 08:22:53,2020-05-26 08:22:53,0.002s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HP"", ""carrierName"":""Home""], CONTINUE_ON_FAILURE)",Safari 11,,2020-05-26 08:22:53,2020-05-26 08:22:54,0.687s,PASSED
+i = 0,Safari 11,,2020-05-26 08:22:54,2020-05-26 08:22:54,0.002s,PASSED
+openBrowser(env),Safari 11,,2020-05-26 08:22:54,2020-05-26 08:24:28,1m - 34.203s,PASSED
+Thread.sleep(3000),Safari 11,,2020-05-26 08:24:28,2020-05-26 08:24:31,3.122s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-05-26 08:24:31,2020-05-26 08:24:36,4.557s,PASSED
