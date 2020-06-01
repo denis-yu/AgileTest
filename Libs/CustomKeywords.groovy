@@ -58,10 +58,28 @@ def static "test.MobileKeywords.getCurrentSessionMobileDriver"() {
     (new test.MobileKeywords()).getCurrentSessionMobileDriver()
 }
 
+def static "test.WriteExcel.writeToOneExcel"(
+    	int mapdN	
+     , 	String mapdP	
+     , 	int pdN	
+     , 	String pdP	
+     , 	String file	
+     , 	int i	) {
+    (new test.WriteExcel()).writeToOneExcel(
+        	mapdN
+         , 	mapdP
+         , 	pdN
+         , 	pdP
+         , 	file
+         , 	i)
+}
+
 def static "test.WriteExcel.writeToExcel"(
-    	String stmNumber	) {
+    	String stmNumber	
+     , 	int i	) {
     (new test.WriteExcel()).writeToExcel(
-        	stmNumber)
+        	stmNumber
+         , 	i)
 }
 
 def static "test.WriteExcel.writeToExcelByCol"(
