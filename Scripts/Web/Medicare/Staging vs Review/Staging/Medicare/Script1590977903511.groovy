@@ -15,14 +15,20 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 
+WebUI.callTestCase(findTestCase('Web/_include/get_screenPath'), [('project') : 'Medicare', ('module') : 'staging/medicare'], FailureHandling.STOP_ON_FAILURE)
+
+GlobalVariable.i = 0
+
 //census
-WebUI.openBrowser('https://sunmaker.medicare.healthinsurance.com/census')
+WebUI.openBrowser('https://staging.medicare.healthinsurance.com')
 
 def driver = DriverFactory.getWebDriver()
 
-String baseUrl = 'https://sunmaker.medicare.healthinsurance.com/census'
+String baseUrl = 'https://staging.medicare.healthinsurance.com'
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('hic/medicare/census.location.zip'), zip)
 
@@ -31,8 +37,11 @@ WebUI.click(findTestObject('hic/medicare/see medicare plans'))
 //quote
 WebUI.waitForElementPresent(findTestObject('hic/medicare/mapd'), 20)
 
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
 selenium.click('xpath=//a[text()="See Plan Details"]')
 
 Thread.sleep(5000)
 
-//detail
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
