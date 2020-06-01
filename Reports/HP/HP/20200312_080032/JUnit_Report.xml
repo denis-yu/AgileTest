@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HP" time="211" tests="8" failures="0" errors="0">
+   <testsuite name="HP" tests="8" failures="0" errors="0" time="211" timestamp="2020-03-12 08:00:37" hostname="Administrator - 172.30.0.53" id="Test Suites/HP/HP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/3.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/4.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/3.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicaid Public/20200312_080219/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicaid Public/20200312_080219/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicaid Public/20200312_080219/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicare/20200312_080242/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicare/20200312_080242/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicare/20200312_080242/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medigap/20200312_080300/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medigap/20200312_080300/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medigap/20200312_080300/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Small Business/20200312_080317/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Small Business/20200312_080317/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Small Business/20200312_080317/2.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/STM/20200312_080338/0.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/STM/20200312_080338/1.png, D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Home/20200312_080359/0.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="f14687f30c3d91226a1d33d65f191980"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/HP/Health Plans/ACA" classname="Test Cases/HP/Health Plans/ACA" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:00:39 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/ACA: Test Cases/HP/Health Plans/ACA
+
+2020-03-12 08:00:43 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:00:43 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:00:43 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:00:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"ACA"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:00:44 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:00:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-03-12 08:00:44 - [TEST_STEP][PASSED] - openBrowser(env + "/individual-health-insurance"): Browser is opened with url: 'http://pengujian.healthpocket.com/individual-health-insurance'
+
+2020-03-12 08:00:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:00:45 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:00:45 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:00:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-12 08:01:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/individual-health-insurance'
+
+2020-03-12 08:01:01 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:01:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:05 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:01:05 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:06 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:01:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/0.png]]
+
+2020-03-12 08:01:07 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:01:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:07 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:01:07 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:01:07 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:01:08 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'No Thanks. I want to see ACA plans.')]")): null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'No Thanks. I want to see ACA plans.')]"): null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:09 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=location")): null
+
+2020-03-12 08:01:10 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:01:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:10 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:01:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:11 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:01:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/1.png]]
+
+2020-03-12 08:01:12 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:01:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:12 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:01:13 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:01:13 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:13 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:13 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:01:13 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:14 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:14 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:01:20 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:01:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:20 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:01:20 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:21 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:01:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/2.png]]
+
+2020-03-12 08:01:23 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:01:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:23 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:01:26 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2020-03-12 08:01:28 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:28 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:28 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:01:29 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:30 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:30 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:01:34 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:01:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:34 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:01:34 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:35 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:01:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/3.png]]
+
+2020-03-12 08:01:36 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:01:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:36 - [TEST_STEP][PASSED] - selenium.click("xpath=(//a[contains(text(),'Apply Now')])"): null
+
+2020-03-12 08:01:41 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:41 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:41 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=applyBody")): null
+
+2020-03-12 08:01:41 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:01:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:41 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:01:42 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:43 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:01:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/ACA/20200312_080044/4.png]]
+
+2020-03-12 08:01:43 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:01:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Health Plans/Dental" classname="Test Cases/HP/Health Plans/Dental" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:01:43 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/Dental: Test Cases/HP/Health Plans/Dental
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Dental"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:01:44 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:01:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-03-12 08:01:44 - [TEST_STEP][PASSED] - openBrowser(env + "/dental-insurance"): Browser is opened with url: 'http://pengujian.healthpocket.com/dental-insurance'
+
+2020-03-12 08:01:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:01:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:01:46 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:01:46 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:01:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/dental-insurance'
+
+2020-03-12 08:01:51 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:01:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:01:54 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:01:54 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:01:54 - [TEST_STEP][PASSED] - selenium.refresh(): null
+
+2020-03-12 08:01:54 - [TEST_STEP][PASSED] - selenium.waitForPageToLoad("30000"): null
+
+2020-03-12 08:01:56 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:56 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:56 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=location")): null
+
+2020-03-12 08:01:56 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:01:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:56 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:01:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:57 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:01:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/0.png]]
+
+2020-03-12 08:01:57 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:01:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:01:57 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:01:58 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:01:58 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:01:58 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:58 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:01:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:01:59 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:01:59 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:02:01 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:02 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:02 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/1.png]]
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - for ([second = 0, second < 20, (second++)]): null
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:02:03 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:04 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:04 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:02:04 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:05 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:05 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:02:05 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:06 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:06 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:02:06 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:07 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:07 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:02:07 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:08 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:08 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("xpath=(//a[contains(text(),'Apply Now')])")): null
+
+2020-03-12 08:02:09 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:09 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:09 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:10 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/2.png]]
+
+2020-03-12 08:02:10 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:10 - [TEST_STEP][PASSED] - url = selenium.getAttribute("xpath=(//a[contains(text(),'Apply Now')])@href"): null
+
+2020-03-12 08:02:10 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://praetemptatus.agilehealthinsurance.com/dental-insurance-quotes?utm_source=healthpocket&utm_medium=detail_page&utm_campaign=dental_detail_page_xsell'
+
+2020-03-12 08:02:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:02:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:02:12 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:02:12 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:02:14 - [MESSAGE][PASSED] - Browser is opened with url: 'http://praetemptatus.agilehealthinsurance.com/dental-insurance-quotes?utm_source=healthpocket&utm_medium=detail_page&utm_campaign=dental_detail_page_xsell'
+
+2020-03-12 08:02:14 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:02:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:17 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:17 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:18 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Dental/20200312_080144/3.png]]
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Health Plans/Medicaid Public" classname="Test Cases/HP/Health Plans/Medicaid Public" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:02:19 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/Medicaid Public: Test Cases/HP/Health Plans/Medicaid Public
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Medicaid Public"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:02:19 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:02:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-03-12 08:02:19 - [TEST_STEP][PASSED] - openBrowser(env + "/medicaid-public-plans"): Browser is opened with url: 'http://pengujian.healthpocket.com/medicaid-public-plans'
+
+2020-03-12 08:02:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:02:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:02:20 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:02:20 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:02:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/medicaid-public-plans'
+
+2020-03-12 08:02:23 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=location")): null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:26 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:26 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:27 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicaid Public/20200312_080219/0.png]]
+
+2020-03-12 08:02:28 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:28 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:02:29 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:02:29 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:02:29 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:29 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:02:33 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:34 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:34 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:02:34 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:34 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:34 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:36 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicaid Public/20200312_080219/1.png]]
+
+2020-03-12 08:02:37 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:37 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2020-03-12 08:02:40 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2020-03-12 08:02:40 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:40 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//div/h2[contains(text(),'Ways to Learn More')]")): null
+
+2020-03-12 08:02:40 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:40 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:40 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:41 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicaid Public/20200312_080219/2.png]]
+
+2020-03-12 08:02:41 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Health Plans/Medicare" classname="Test Cases/HP/Health Plans/Medicare" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:02:41 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/Medicare: Test Cases/HP/Health Plans/Medicare
+
+2020-03-12 08:02:41 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:02:41 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:02:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Medicare"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:02:42 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:02:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:02:42 - [TEST_STEP][PASSED] - openBrowser(env + "/medicare"): Browser is opened with url: 'http://pengujian.healthpocket.com/medicare'
+
+2020-03-12 08:02:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:02:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:02:43 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:02:43 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:02:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/medicare'
+
+2020-03-12 08:02:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:02:47 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:02:47 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:02:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:47 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:47 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:48 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicare/20200312_080242/0.png]]
+
+2020-03-12 08:02:49 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:49 - [TEST_STEP][PASSED] - selenium.click("id=location"): null
+
+2020-03-12 08:02:49 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:02:50 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:02:50 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2020-03-12 08:02:50 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:50 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:02:50 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:51 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:51 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:02:53 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:53 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:54 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:02:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicare/20200312_080242/1.png]]
+
+2020-03-12 08:02:55 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:02:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:55 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2020-03-12 08:02:55 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2020-03-12 08:02:55 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:55 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2020-03-12 08:02:55 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:56 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:56 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2020-03-12 08:02:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:57 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:57 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2020-03-12 08:02:57 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:58 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:02:58 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Benefits & Coverage')]")): null
+
+2020-03-12 08:02:58 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:02:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:02:58 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:02:58 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:02:59 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medicare/20200312_080242/2.png]]
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Health Plans/Medigap" classname="Test Cases/HP/Health Plans/Medigap" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:03:00 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/Medigap: Test Cases/HP/Health Plans/Medigap
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Medigap"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:00 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:03:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-03-12 08:03:00 - [TEST_STEP][PASSED] - openBrowser(env + "/medicare-medigap"): Browser is opened with url: 'http://pengujian.healthpocket.com/medicare-medigap'
+
+2020-03-12 08:03:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:03:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:03:01 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:03:01 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:03:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/medicare-medigap'
+
+2020-03-12 08:03:04 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=location")): null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:08 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:09 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medigap/20200312_080300/0.png]]
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:10 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:11 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:11 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:12 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:12 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:12 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:13 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medigap/20200312_080300/1.png]]
+
+2020-03-12 08:03:13 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:13 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2020-03-12 08:03:14 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2020-03-12 08:03:14 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:14 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Plan Benefits')]")): null
+
+2020-03-12 08:03:14 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:15 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:15 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a/h2[contains(text(),'Plan Benefits')]")): null
+
+2020-03-12 08:03:15 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:15 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:15 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:16 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Medigap/20200312_080300/2.png]]
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Health Plans/Small Business" classname="Test Cases/HP/Health Plans/Small Business" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:03:17 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/Small Business: Test Cases/HP/Health Plans/Small Business
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Small Business"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:17 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:03:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - second = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2020-03-12 08:03:17 - [TEST_STEP][PASSED] - openBrowser(env + "/small-business-health-insurance"): Browser is opened with url: 'http://pengujian.healthpocket.com/small-business-health-insurance'
+
+2020-03-12 08:03:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:03:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:03:18 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:03:18 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:03:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/small-business-health-insurance'
+
+2020-03-12 08:03:22 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=location")): null
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:26 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:27 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Small Business/20200312_080317/0.png]]
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:28 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:29 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:29 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:32 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:32 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:32 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:33 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Small Business/20200312_080317/1.png]]
+
+2020-03-12 08:03:34 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:34 - [TEST_STEP][PASSED] - selenium.click("//a[contains(text(),'Select')]"): null
+
+2020-03-12 08:03:36 - [TEST_STEP][PASSED] - for ([second = 0, second < 60, (second++)]): null
+
+2020-03-12 08:03:36 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:36 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//div/h2[contains(text(),'Ways to Enroll or Learn More')]")): null
+
+2020-03-12 08:03:36 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:37 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:37 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Small Business/20200312_080317/2.png]]
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Health Plans/STM" classname="Test Cases/HP/Health Plans/STM" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:03:38 - [TEST_CASE][PASSED] - Test Cases/HP/Health Plans/STM: Test Cases/HP/Health Plans/STM
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"STM"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:38 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:03:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - openBrowser(env + "/short-term-health-insurance"): Browser is opened with url: 'http://pengujian.healthpocket.com/short-term-health-insurance'
+
+2020-03-12 08:03:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:03:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:03:40 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:03:40 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:03:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com/short-term-health-insurance'
+
+2020-03-12 08:03:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:03:43 - [TEST_STEP][PASSED] - baseUrl = env: null
+
+2020-03-12 08:03:43 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:03:44 - [TEST_STEP][PASSED] - selenium.click("id=location"): null
+
+2020-03-12 08:03:44 - [TEST_STEP][PASSED] - selenium.type("id=location", "32209"): null
+
+2020-03-12 08:03:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:44 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:44 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:45 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/STM/20200312_080338/0.png]]
+
+2020-03-12 08:03:46 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:46 - [TEST_STEP][PASSED] - selenium.click("id=findPlans"): null
+
+2020-03-12 08:03:46 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:03:46 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:46 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:46 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:47 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:47 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:47 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:48 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:48 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:49 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:49 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:49 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:50 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:50 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:51 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:52 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:52 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:52 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:53 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:53 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:54 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:54 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:55 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:55 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:55 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:56 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:56 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("//a[contains(text(),'Select')]")): null
+
+2020-03-12 08:03:56 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:57 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:57 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:58 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/STM/20200312_080338/1.png]]
+
+2020-03-12 08:03:58 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HP/Home/Home" classname="Test Cases/HP/Home/Home" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:03:58 - [TEST_CASE][PASSED] - Test Cases/HP/Home/Home: Test Cases/HP/Home/Home
+
+2020-03-12 08:03:58 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:58 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"HP", "carrierName":"Home"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:59 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:03:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'http://pengujian.healthpocket.com'
+
+2020-03-12 08:03:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-03-12 08:03:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:03:59 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:03:59 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:04:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://pengujian.healthpocket.com'
+
+2020-03-12 08:04:03 - [TEST_STEP][PASSED] - Thread.sleep(3000): null
+
+2020-03-12 08:04:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:06 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:04:06 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:04:07 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:04:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\HP\\HP\\20200312_080032\\../Screenshots/iPhone 6/HP/Home/20200312_080359/0.png]]
+
+2020-03-12 08:04:07 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:04:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-12 08:00:37 - [TEST_SUITE][PASSED] - HP: Test Cases/HP/Home/Home]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

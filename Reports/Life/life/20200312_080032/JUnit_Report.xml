@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="life" time="76" tests="1" failures="0" errors="0">
+   <testsuite name="life" tests="1" failures="0" errors="0" time="76" timestamp="2020-03-12 08:03:23" hostname="Administrator - 172.30.0.53" id="Test Suites/Life/life">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032"/>
+         <property name="logFiles" value="D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/0.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/1.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/2.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/3.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/4.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/5.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/6.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/7.png, D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/8.png"/>
+         <property name="hostName" value="Administrator - 172.30.0.53"/>
+         <property name="os" value="Windows Server 2012 R2 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Safari 11"/>
+         <property name="hostAddress" value="172.30.0.53"/>
+         <property name="sessionId" value="a5a2e3caa0348bb19c0421da376711c6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2012 R2"/>
+      </properties>
+      <testcase name="Test Cases/Life/Freedom Lite" classname="Test Cases/Life/Freedom Lite" status="PASSED">
+         <system-out><![CDATA[2020-03-12 08:03:23 - [TEST_CASE][PASSED] - Test Cases/Life/Freedom Lite: Test Cases/Life/Freedom Lite
+
+2020-03-12 08:03:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenPath"), ["productLine":"Life", "carrierName":"Freedom Lite"], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:24 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenPath: Test Cases/AHI/_include/get_screenPath
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - m = getExecutionProperties(): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - deviceName = get("mobileEmulation").get("deviceName"): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - println(deviceName): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - now = new java.util.Date(): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - mydate = now.format("yyyyMMdd_HHmmss"): null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - screenPath = "../Screenshots/": null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - screenPath = screenPath + deviceName + "/" + productLine + "/" + carrierName + "/" + mydate + "/": null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - println(screenPath): null
+
+2020-03-12 08:03:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenPath' successfully
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - i = 0: null
+
+2020-03-12 08:03:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/openWebSite"), ["env":"https://qa.agilelifeinsurance.com/"], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-12 08:03:25 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/openWebSite: Test Cases/AHI/_include/openWebSite
+
+2020-03-12 08:03:26 - [TEST_STEP][PASSED] - openBrowser(env): Browser is opened with url: 'https://qa.agilelifeinsurance.com/'
+
+2020-03-12 08:03:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-03-12 08:03:26 - [MESSAGE][INFO] - User set preference: ['mobileEmulation', '{deviceName=iPhone 6}']
+
+2020-03-12 08:03:26 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito, --aggressive-cache-discard, --window-size=375,677, --no-sandbox, --ignore-certificate-errors]']
+
+2020-03-12 08:03:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-03-12 08:03:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qa.agilelifeinsurance.com/'
+
+2020-03-12 08:03:34 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2020-03-12 08:03:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-03-12 08:03:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:35 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:35 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:36 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/0.png]]
+
+2020-03-12 08:03:37 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/openWebSite' successfully
+
+2020-03-12 08:03:37 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2020-03-12 08:03:37 - [TEST_STEP][PASSED] - baseUrl = "https://qa.agilelifeinsurance.com/": null
+
+2020-03-12 08:03:37 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2020-03-12 08:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Life/get_your_free_quote")): Object: 'Object Repository/Life/get_your_free_quote' is clicked on
+
+2020-03-12 08:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/get_your_free_quote' is clicked on
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - for ([second = 0, second < 10, (second++)]): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - try: null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - if (selenium.isElementPresent("id=zip-input")): null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - break: null
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:38 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:38 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:39 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/1.png]]
+
+2020-03-12 08:03:40 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Life/zip_input"), "35215"): Text '35215' is set on object 'Object Repository/Life/zip_input'
+
+2020-03-12 08:03:40 - [MESSAGE][PASSED] - Text '35215' is set on object 'Object Repository/Life/zip_input'
+
+2020-03-12 08:03:40 - [TEST_STEP][PASSED] - setText(findTestObject("Life/dob_0"), "01/01/1988"): Text '01/01/1988' is set on object 'Object Repository/Life/dob_0'
+
+2020-03-12 08:03:41 - [MESSAGE][PASSED] - Text '01/01/1988' is set on object 'Object Repository/Life/dob_0'
+
+2020-03-12 08:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Life/compare_plan")): Object: 'Object Repository/Life/compare_plan' is clicked on
+
+2020-03-12 08:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/compare_plan' is clicked on
+
+2020-03-12 08:03:44 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2020-03-12 08:03:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:49 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:49 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:50 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/2.png]]
+
+2020-03-12 08:03:51 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Life/a_Elite_10K")): Object: 'Object Repository/Life/a_Elite_10K' is clicked on
+
+2020-03-12 08:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/a_Elite_10K' is clicked on
+
+2020-03-12 08:03:51 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-12 08:03:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:53 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:53 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:54 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/3.png]]
+
+2020-03-12 08:03:55 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Life/apply_for_this_plan")): Object: 'Object Repository/Life/apply_for_this_plan' is clicked on
+
+2020-03-12 08:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/apply_for_this_plan' is clicked on
+
+2020-03-12 08:03:55 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-12 08:03:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:57 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:03:57 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:03:58 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:03:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/4.png]]
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:03:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Life/applyButton")): Object: 'Object Repository/Life/applyButton' is clicked on
+
+2020-03-12 08:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/applyButton' is clicked on
+
+2020-03-12 08:04:00 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-12 08:04:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:02 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:04:02 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:04:03 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:04:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/5.png]]
+
+2020-03-12 08:04:03 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:04:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:03 - [TEST_STEP][PASSED] - click(findTestObject("Life/fillApp")): Object: 'Object Repository/Life/fillApp' is clicked on
+
+2020-03-12 08:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/fillApp' is clicked on
+
+2020-03-12 08:04:04 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-12 08:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Life/js-app-continue-link")): Object: 'Object Repository/Life/js-app-continue-link' is clicked on
+
+2020-03-12 08:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/js-app-continue-link' is clicked on
+
+2020-03-12 08:04:06 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-12 08:04:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:08 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:04:08 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:04:09 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:04:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/6.png]]
+
+2020-03-12 08:04:10 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:04:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Life/credit-payment-authorization")): Object: 'Object Repository/Life/credit-payment-authorization' is clicked on
+
+2020-03-12 08:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/credit-payment-authorization' is clicked on
+
+2020-03-12 08:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Life/js-app-continue-link")): Object: 'Object Repository/Life/js-app-continue-link' is clicked on
+
+2020-03-12 08:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/js-app-continue-link' is clicked on
+
+2020-03-12 08:04:10 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2020-03-12 08:04:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:12 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:04:12 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:04:13 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:04:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/7.png]]
+
+2020-03-12 08:04:14 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:04:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Life/consent-checkbox-0")): Object: 'Object Repository/Life/consent-checkbox-0' is clicked on
+
+2020-03-12 08:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/consent-checkbox-0' is clicked on
+
+2020-03-12 08:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Life/js-signature-autoFill")): Object: 'Object Repository/Life/js-signature-autoFill' is clicked on
+
+2020-03-12 08:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/js-signature-autoFill' is clicked on
+
+2020-03-12 08:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Life/js-app-continue-link")): Object: 'Object Repository/Life/js-app-continue-link' is clicked on
+
+2020-03-12 08:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Life/js-app-continue-link' is clicked on
+
+2020-03-12 08:04:15 - [TEST_STEP][PASSED] - Thread.sleep(20000): null
+
+2020-03-12 08:04:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("AHI/_include/get_screenshot"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully
+
+2020-03-12 08:04:35 - [TEST_CASE][PASSED] - Test Cases/AHI/_include/get_screenshot: Test Cases/AHI/_include/get_screenshot
+
+2020-03-12 08:04:35 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2020-03-12 08:04:36 - [TEST_STEP][PASSED] - takeScreenshot(screenPath + i + ".png"): Taking screenshot successfully
+
+2020-03-12 08:04:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Test\\AgileTest\\Reports\\Life\\life\\20200312_080032\\../Screenshots/iPhone 6/Life/Freedom Lite/20200312_080325/8.png]]
+
+2020-03-12 08:04:38 - [TEST_STEP][PASSED] - (internal.GlobalVariable.i++): null
+
+2020-03-12 08:04:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AHI/_include/get_screenshot' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-03-12 08:03:23 - [TEST_SUITE][PASSED] - life: Test Cases/Life/Freedom Lite]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

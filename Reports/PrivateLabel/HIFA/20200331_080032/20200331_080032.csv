@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HIFA,Safari 11,,2020-03-31 08:04:28,2020-03-31 08:10:26,5m - 58.832s,PASSED
+,,,,,,
+Test Cases/PL Site/HIFA/hbi/Health Choice,Safari 11,,2020-03-31 08:04:28,2020-03-31 08:06:13,1m - 44.748s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HIFA"", ""carrierName"":""Health Choice""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:04:29,2020-03-31 08:04:29,0.501s,PASSED
+i = 0,Safari 11,,2020-03-31 08:04:29,2020-03-31 08:04:29,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://hifa--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:04:29,2020-03-31 08:04:37,8.391s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""35215""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:04:37,2020-03-31 08:05:26,48.840s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-31 08:05:26,2020-03-31 08:05:31,5.080s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-03-31 08:05:31,2020-03-31 08:05:31,0.062s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Health Choice""))",Safari 11,,2020-03-31 08:05:31,2020-03-31 08:05:32,0.737s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-31 08:05:32,2020-03-31 08:05:32,0.016s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:05:32,2020-03-31 08:05:34,1.448s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-03-31 08:05:34,2020-03-31 08:05:34,0.523s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-31 08:05:34,2020-03-31 08:05:34,0.013s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:05:34,2020-03-31 08:05:36,1.439s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-03-31 08:05:36,2020-03-31 08:05:36,0.803s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-31 08:05:36,2020-03-31 08:05:36,0.026s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:05:36,2020-03-31 08:05:38,1.953s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""healthchoiceplus""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:05:38,2020-03-31 08:06:13,34.342s,PASSED
+,,,,,,
+Test Cases/PL Site/HIFA/hbi/Vitala Care,Safari 11,,2020-03-31 08:06:13,2020-03-31 08:08:05,1m - 52.779s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HIFA"", ""carrierName"":""Vitala Care""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:06:13,2020-03-31 08:06:13,0.092s,PASSED
+i = 0,Safari 11,,2020-03-31 08:06:13,2020-03-31 08:06:13,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://hifa--qa.storefront.mybenefitskeeper.com""], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:06:13,2020-03-31 08:06:21,7.866s,PASSED
+"callTestCase(findTestCase(""PL Site/_include/census_hbi""), [""zipcode"":""90011""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:06:21,2020-03-31 08:07:08,46.668s,PASSED
+Thread.sleep(5000),Safari 11,,2020-03-31 08:07:08,2020-03-31 08:07:13,5.000s,PASSED
+"scrollToPosition(200, 2300)",Safari 11,,2020-03-31 08:07:13,2020-03-31 08:07:13,0.025s,PASSED
+"click(findTestObject(""mobileSanity/HBI/quote/a_Vitala Care""))",Safari 11,,2020-03-31 08:07:13,2020-03-31 08:07:13,0.798s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-31 08:07:13,2020-03-31 08:07:13,0.017s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:07:13,2020-03-31 08:07:15,1.442s,PASSED
+"click(findTestObject(""mobileSanity/HBI/detail/a_Apply for This Plan""))",Safari 11,,2020-03-31 08:07:15,2020-03-31 08:07:16,0.869s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-31 08:07:16,2020-03-31 08:07:16,0.016s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:07:16,2020-03-31 08:07:18,2.323s,PASSED
+"click(findTestObject(""mobileSanity/HBI/Page_Apply/span_Start Secure Application""))",Safari 11,,2020-03-31 08:07:18,2020-03-31 08:07:20,2.280s,PASSED
+waitForPageLoad(10),Safari 11,,2020-03-31 08:07:20,2020-03-31 08:07:20,0.063s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenshot""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:07:20,2020-03-31 08:07:22,1.571s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_hbi""), [""carrier"":""vitalacare"", ""state"":""ca""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:07:22,2020-03-31 08:08:05,43.493s,PASSED
+,,,,,,
+Test Cases/PL Site/HIFA/stm/AdvantHealth,Safari 11,,2020-03-31 08:08:05,2020-03-31 08:10:26,2m - 20.156s,PASSED
+"callTestCase(findTestCase(""AHI/_include/get_screenPath""), [""productLine"":""HIFA"", ""carrierName"":""AdvantHealth""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:08:06,2020-03-31 08:08:06,0.090s,PASSED
+i = 0,Safari 11,,2020-03-31 08:08:06,2020-03-31 08:08:06,0.001s,PASSED
+"callTestCase(findTestCase(""AHI/_include/openWebSite""), [""env"":""https://hifa--qa.storefront.mybenefitskeeper.com""], CONTINUE_ON_FAILURE)",Safari 11,,2020-03-31 08:08:06,2020-03-31 08:08:15,9.022s,PASSED
+"callTestCase(findTestCase(""AHI/_include/census_stm""), [""zipcode"":""35215""], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:08:15,2020-03-31 08:08:34,19.254s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToDetail_stm""), [""carrier"":""advanthealth""], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:08:34,2020-03-31 08:08:40,6.096s,PASSED
+"callTestCase(findTestCase(""AHI/_include/apply_stm""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:08:40,2020-03-31 08:08:49,9.111s,PASSED
+"callTestCase(findTestCase(""AHI/_include/goToEnd_stm_autofill""), [:], STOP_ON_FAILURE)",Safari 11,,2020-03-31 08:08:49,2020-03-31 08:10:26,1m - 36.421s,PASSED

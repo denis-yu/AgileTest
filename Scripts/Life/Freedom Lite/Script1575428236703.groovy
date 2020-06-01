@@ -12,7 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'Life', ('carrierName') : 'Freedom Lite'], 
@@ -21,6 +22,12 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine')
 GlobalVariable.i = 0
 
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://qa.agilelifeinsurance.com/'], FailureHandling.STOP_ON_FAILURE)
+
+def driver = DriverFactory.getWebDriver()
+
+String baseUrl = 'https://qa.agilelifeinsurance.com/'
+
+selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 WebUI.click(findTestObject('Life/get_your_free_quote'))
 
