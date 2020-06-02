@@ -15,7 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 
-WebUI.callTestCase(findTestCase('Web/_include/get_screenPath_standard'), [('project') : 'Medicare', ('module') : 'Medicare'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web/_include/get_screenPath_standard'), [('project') : 'Medicare', ('module') : 'Help'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.i = 0
 
@@ -39,9 +40,9 @@ WebUI.waitForElementPresent(findTestObject('hic/medicare/mapd'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('xpath=//a[text()="See Plan Details"]')
+selenium.click('xpath=//img[contains(@src,\'help\')]')
 
-Thread.sleep(5000)
+WebUI.waitForElementPresent(findTestObject('medicare/quote/help_modal_head'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
