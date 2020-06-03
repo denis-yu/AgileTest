@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>your_curren_plan_zip_input</name>
+   <tag></tag>
+   <elementGuidId>94f00751-3e91-46f9-97f5-75bde449c552</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='input-group-append']/preceding-sibling::input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='input-group-append']/preceding-sibling::input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -26,6 +27,7 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
 
@@ -76,7 +78,7 @@ class MobileKeywords {
 	@Keyword
 	def clickJS(TestObject to){
 		WebElement element = WebUiBuiltInKeywords.findWebElement(to);
-		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+		WebUI.executeJavaScript("arguments[0].click();", Arrays.asList(element))
 	}
 
 	@Keyword
@@ -84,6 +86,14 @@ class MobileKeywords {
 		WebDriver driver = DriverFactory.getWebDriver();
 		WebElement element = driver.findElement(By.xpath(xpath))
 		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+	}
+	
+	@Keyword
+	def clickActionByXpath(String xpath){
+		WebDriver driver = DriverFactory.getWebDriver()
+		WebElement svgObject = driver.findElement(By.xpath(xpath));
+		Actions builder = new Actions(driver);
+		builder.click(svgObject).build().perform();
 	}
 
 

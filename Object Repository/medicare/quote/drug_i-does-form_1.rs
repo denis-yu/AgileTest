@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drug_i-does-form_1</name>
+   <tag></tag>
+   <elementGuidId>094dc460-3934-4cf3-9ca1-ed77b62f7f0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for='i-dose-form']/following::div/div[2]/descendant::*[name()='svg']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for='i-dose-form']/following::div/div[2]/descendant::*[name()='svg']</value>
+   </webElementProperties>
+</WebElementEntity>

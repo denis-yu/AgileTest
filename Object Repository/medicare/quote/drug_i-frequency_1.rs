@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drug_i-frequency_1</name>
+   <tag></tag>
+   <elementGuidId>666e08d7-b392-467a-9ef5-fbe5dfa51126</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for='i-frequency']/following::div/div[2]/div/*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for='i-frequency']/following::div/div[2]/div/*</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -15,7 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 
-WebUI.callTestCase(findTestCase('Web/_include/get_screenPath_standard'), [('project') : 'Medicare', ('module') : 'Medicare'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Web/_include/get_screenPath_standard'), [('project') : 'Medicare', ('module') : 'Zipcode modal'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.i = 0
 
@@ -30,7 +31,7 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('hic/medicare/census.location.zip'), zip)
+WebUI.setText(findTestObject('hic/medicare/census.location.zip'), '35215')
 
 WebUI.click(findTestObject('hic/medicare/see medicare plans'))
 
@@ -39,9 +40,23 @@ WebUI.waitForElementPresent(findTestObject('hic/medicare/mapd'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('xpath=//a[text()="See Plan Details"]')
+selenium.click('xpath=//a[contains(text(),\'35215\')]')
 
-Thread.sleep(5000)
+WebUI.waitForElementPresent(findTestObject('medicare/quote/zipcode_modal_head'), 20)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+selenium.click('xpath=//input[@id=\'zip\']/following-sibling::div/button')
+
+WebUI.setText(findTestObject('medicare/quote/zipcode_modal_input'), '32701')
+
+Thread.sleep(3)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+selenium.click('xpath=//button[text()=\'Update my location\']')
+
+WebUI.waitForElementPresent(findTestObject('hic/medicare/mapd'), 20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>compare_checkbox_2</name>
+   <tag></tag>
+   <elementGuidId>bea853c1-00d2-4f96-b90d-af453ece2d45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(//label[text()='Compare'])[2]/preceding::input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>(//label[text()='Compare'])[2]/preceding::input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

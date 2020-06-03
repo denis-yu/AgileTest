@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>drug_i-dose-id_1</name>
+   <tag></tag>
+   <elementGuidId>ba9a97c0-3477-4eb9-b1c3-f17518eeb508</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@for='i-dose-id']/following::div/div[2]/div/*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@for='i-dose-id']/following::div/div[2]/div/*</value>
+   </webElementProperties>
+</WebElementEntity>
