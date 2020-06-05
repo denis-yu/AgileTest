@@ -10,25 +10,23 @@ import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
-import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebDriver as WebDriver
+import ru.yandex.qatools.ashot.AShot as AShot
+import ru.yandex.qatools.ashot.Screenshot as Screenshot
+import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider as WebDriverCoordsProvider
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies as ShootingStrategies
+import java.io.File as File
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import javax.imageio.ImageIO as ImageIO
 
-WebUI.callTestCase(findTestCase('Web/_include/get_screenPath'), [('project') : 'Medicare', ('module') : 'Compare plan'], 
-    FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(1000)
 
-GlobalVariable.i = 0
+WebUI.takeScreenshot((GlobalVariable.screenPath + GlobalVariable.i) + '.png')
 
-//census
-WebUI.openBrowser('https://staging.medicare.healthinsurance.com')
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-String baseUrl = 'https://staging.medicare.healthinsurance.com'
-
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
-
-CustomKeywords.'test.ImageKeywords.takeEntirePage'(driver, 300)
+(GlobalVariable.i)++
 
