@@ -11,25 +11,25 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c2f80285-4124-4e76-82f8-9a64f30c1fc1</testSuiteGuid>
    <testCaseLink>
-      <guid>0678de18-6704-46d1-8b23-7d45e0d1f7fa</guid>
+      <guid>0ed13a3e-8643-46d1-86cb-f8d92d20ae1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Compare plan</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7341613d-c58a-4d5e-8293-a4e1c1d1b4f3</guid>
+      <guid>1a0ae9c1-3c60-4aec-9eff-c98aef69b0ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Filter and sort</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>164d8a1f-72fe-409c-815b-a52e085b0038</guid>
+      <guid>499a2cc6-8dca-4fad-a86f-af0f1bf3e92d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Healthcare visits</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>349cad43-6d0f-469a-b5bf-5b9b57cf7eb1</guid>
+      <guid>0236b5e3-f1d1-4566-a4a3-622f22dd86ae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Help</testCaseId>
@@ -41,7 +41,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>b1881e7f-dc12-4a2c-beb6-369bdd1b138b</guid>
+      <guid>18e22818-99d8-492f-9051-1f53c177841a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Main Flow</testCaseId>
@@ -53,31 +53,37 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bb41ca24-030c-4745-9d03-743e32b9be2f</guid>
+      <guid>b1a2b261-6692-41ad-bde7-82d9d9b5e5eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/No inventory</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9250970-6e7f-4bf5-865f-c51e5fceae41</guid>
+      <guid>6eab6b06-e022-4ce5-ace6-ed9c785ee47f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Pharmacy</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e7466c09-ff2b-4d21-9086-fba8b8dc9d52</guid>
+      <guid>a1ca0cce-f1bf-4430-bdce-1a193d881976</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Prescription drugs</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03d43081-ba12-420f-adfc-ad6ef4b31e3d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Save progress</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>89f57c06-5096-48d8-92b2-500db004baba</guid>
+      <guid>55498bf7-5633-40ca-bd84-bccfc99e506b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Your Current Plan</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f4b04c34-cb10-4d02-93f1-48a8a979f4b7</guid>
+      <guid>f92ddfb7-2044-4cad-bde0-49aff434ee4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web/Medicare/Staging vs Review/Review/Zipcode modal</testCaseId>
