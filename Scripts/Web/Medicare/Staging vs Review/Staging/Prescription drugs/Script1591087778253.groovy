@@ -74,11 +74,6 @@ selenium.mouseDown('//label[@for=\'i-dose-form\']/following::div/div/div/input')
 
 Thread.sleep(2)
 
-//x=selenium.getElementPositionLeft('//label[@for=\'i-dose-form\']/following::div/div[2]/descendant::*[local-name()=\'svg\']')
-//y=selenium.getElementPositionTop('//label[@for=\'i-dose-form\']/following::div/div[2]/descendant::*[local-name()=\'svg\']')
-//
-//println x
-//println y
 selenium.click('//label[@for=\'i-dose-form\']/following::div/div[2]/div/div')
 
 Thread.sleep(2)

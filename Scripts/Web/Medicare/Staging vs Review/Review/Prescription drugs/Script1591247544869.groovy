@@ -72,27 +72,22 @@ selenium.mouseDown('//label[@for=\'i-dose-form\']/following::div/div/div/input')
 
 Thread.sleep(2)
 
-CustomKeywords.'MobileKeywords.clickActionByXpath'('//label[@for=\'i-dose-form\']/following::div/div[2]/descendant::*[name()=\'svg\']')
+selenium.click('//label[@for=\'i-dose-form\']/following::div/div[2]/div/div')
 
-//selenium.clickAt('//label[@for=\'i-dose-form\']/following::div/div[2]/*/*','10,10')
 Thread.sleep(2)
 
 selenium.mouseDown('//label[@for=\'i-dose-id\']/following::div/div/div/input')
 
 Thread.sleep(2)
 
-CustomKeywords.'MobileKeywords.clickJS'(findTestObject('medicare/quote/drug_i-dose-id_1'))
-
-//selenium.clickAt('//label[@for=\'i-dose-id\']/following::div/div[2]/*/*','10,10')
+selenium.click('//label[@for=\'i-dose-id\']/following::div/div[2]/div/div/div')
 Thread.sleep(2)
 
 selenium.mouseDown('//label[@for=\'i-frequency\']/following::div/div/div/input')
 
 Thread.sleep(2)
 
-CustomKeywords.'MobileKeywords.clickJS'(findTestObject('medicare/quote/drug_i-frequency_1'))
-
-//selenium.clickAt('//label[@for=\'i-frequency\']/following::div/div[2]/*/*','10,10')
+selenium.click('//label[@for=\'i-frequency\']/following::div/div[2]/div/div')
 Thread.sleep(2)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)

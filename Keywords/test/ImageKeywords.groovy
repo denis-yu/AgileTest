@@ -25,13 +25,13 @@ import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies
 
 public class ImageKeywords {
-	
+
 	@Keyword
 	public void takeEntirePage(WebDriver driver, Integer timeout = 300){
 		Screenshot screenshot = new AShot().
-			coordsProvider(new WebDriverCoordsProvider()).
-			shootingStrategy(ShootingStrategies.viewportPasting(timeout)).
-			takeScreenshot(driver)
+				coordsProvider(new WebDriverCoordsProvider()).
+				shootingStrategy(ShootingStrategies.viewportPasting(timeout)).
+				takeScreenshot(driver)
 		ImageIO.write(screenshot.getImage(), "PNG", new File("../Screenshots/Web/1.png"))
 		(GlobalVariable.i)++
 	}
