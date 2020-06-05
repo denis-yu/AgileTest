@@ -87,7 +87,7 @@ class MobileKeywords {
 		WebElement element = driver.findElement(By.xpath(xpath))
 		WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
 	}
-	
+
 	@Keyword
 	def clickActionByXpath(String xpath){
 		WebDriver driver = DriverFactory.getWebDriver()
