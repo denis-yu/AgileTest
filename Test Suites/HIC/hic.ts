@@ -11,7 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6a7adaa9-d433-43e1-b481-d3167125d837</testSuiteGuid>
    <testCaseLink>
-      <guid>fc3c7613-9d8c-47cd-8ed4-800bdbd5f878</guid>
+      <guid>872487c8-9324-4ebf-86b2-511cb6d8dcfc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/ACA</testCaseId>
@@ -23,7 +23,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>9455eae3-8330-4daf-bfe3-973f8b36ecee</guid>
+      <guid>1bc5419d-0ea0-4975-a4c1-e4968b81a2c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/Cancer</testCaseId>
@@ -35,7 +35,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc550d91-089b-4974-a03b-a19bc5ea82b4</guid>
+      <guid>c4b1ae10-bb17-40d6-bad6-72edc4920710</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/Dental</testCaseId>
@@ -47,7 +47,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0df42d25-f2da-4500-a243-84fabd6a5449</guid>
+      <guid>e73d55a8-4e7d-4eb3-8adf-37a6acb8ad59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/HBI</testCaseId>
@@ -59,7 +59,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5f32291-a031-479b-a94c-164bc39fba1e</guid>
+      <guid>6ad8182b-2b8c-4154-8f9f-d3ac52ad11e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/Medicare</testCaseId>
@@ -71,7 +71,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>af2934c4-633c-4e6f-8a15-1a608d93c804</guid>
+      <guid>1bcffb76-05b9-448f-b261-4fc47182ff18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/Pet</testCaseId>
@@ -83,7 +83,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3f26df93-56dd-443f-9f7e-98c61c74d254</guid>
+      <guid>71d6b8e4-6f6c-4e7b-8730-b3a6d12c8a0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/STM</testCaseId>
@@ -95,7 +95,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c896b27d-676e-47f5-8c16-63e78667d8d1</guid>
+      <guid>61411418-c6ec-48b6-944f-2f0fe1095773</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/HIC/New/Teladoc</testCaseId>
