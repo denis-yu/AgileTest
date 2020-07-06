@@ -1,12 +1,8 @@
 package internal
 
 import com.kms.katalon.core.configuration.RunConfiguration
-import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
-import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
-import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.main.TestCaseMain
+
 
 /**
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
@@ -85,37 +81,28 @@ public class GlobalVariable {
      
 
     static {
-        def allVariables = [:]        
-        allVariables.put('default', ['ENV' : 'https://praetemptatus.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'i' : 0, 'screenPath' : '../Screenshots/', 'stmPath' : '../Screenshots/mobileWeb/stm/', 'hbiPath' : '../Screenshots/mobileWeb/hbi/', 'dentalPath' : '../Screenshots/mobileWeb/dental/', 'teladocPath' : '../Screenshots/mobileWeb/teladoc/', 'HPPath' : '../Screenshots/HP/'])
-        allVariables.put('bondsmith', allVariables['default'] + ['ENV' : 'https://bondsmith.healthpocket.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'i' : 0, 'screenPath' : '../Screenshots/', 'stmPath' : '../Screenshots/mobileWeb/stm/', 'hbiPath' : '../Screenshots/mobileWeb/hbi/', 'dentalPath' : '../Screenshots/mobileWeb/dental/', 'teladocPath' : '../Screenshots/mobileWeb/teladoc/', 'HPPath' : '../Screenshots/HP/'])
-        allVariables.put('loki', allVariables['default'] + ['ENV' : 'https://loki.healthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'Tel' : '', 'City' : '', 'AutoEmail' : '', 'i' : 0, 'screenPath' : '../Screenshots/', 'stmPath' : '../Screenshots/mobileWeb/stm/', 'hbiPath' : '../Screenshots/mobileWeb/hbi/', 'dentalPath' : '../Screenshots/mobileWeb/dental/', 'teladocPath' : '../Screenshots/mobileWeb/teladoc/', 'HPPath' : '../Screenshots/HP/'])
-        allVariables.put('staging', allVariables['default'] + ['ENV' : 'https://staging.agilehealthinsurance.com'])
-        allVariables.put('windrunner', allVariables['default'] + ['ENV' : 'https://windrunner.agilehealthinsurance.com', 'FirstName' : '', 'LastName' : '', 'Address' : '', 'City' : '', 'Tel' : '', 'AutoEmail' : ''])
-        
-        String profileName = RunConfiguration.getExecutionProfile()
-        def selectedVariables = allVariables[profileName]
-		
-		for(object in selectedVariables){
-			String overridingGlobalVariable = RunConfiguration.getOverridingGlobalVariable(object.key)
-			if(overridingGlobalVariable != null){
-				selectedVariables.put(object.key, overridingGlobalVariable)
-			}
-		}
-
-        ENV = selectedVariables["ENV"]
-        FirstName = selectedVariables["FirstName"]
-        LastName = selectedVariables["LastName"]
-        Address = selectedVariables["Address"]
-        Tel = selectedVariables["Tel"]
-        City = selectedVariables["City"]
-        AutoEmail = selectedVariables["AutoEmail"]
-        i = selectedVariables["i"]
-        screenPath = selectedVariables["screenPath"]
-        stmPath = selectedVariables["stmPath"]
-        hbiPath = selectedVariables["hbiPath"]
-        dentalPath = selectedVariables["dentalPath"]
-        teladocPath = selectedVariables["teladocPath"]
-        HPPath = selectedVariables["HPPath"]
-        
+        try {
+            def selectedVariables = TestCaseMain.getGlobalVariables("default")
+			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
+            selectedVariables += RunConfiguration.getOverridingParameters()
+    
+            ENV = selectedVariables['ENV']
+            FirstName = selectedVariables['FirstName']
+            LastName = selectedVariables['LastName']
+            Address = selectedVariables['Address']
+            Tel = selectedVariables['Tel']
+            City = selectedVariables['City']
+            AutoEmail = selectedVariables['AutoEmail']
+            i = selectedVariables['i']
+            screenPath = selectedVariables['screenPath']
+            stmPath = selectedVariables['stmPath']
+            hbiPath = selectedVariables['hbiPath']
+            dentalPath = selectedVariables['dentalPath']
+            teladocPath = selectedVariables['teladocPath']
+            HPPath = selectedVariables['HPPath']
+            
+        } catch (Exception e) {
+            TestCaseMain.logGlobalVariableError(e)
+        }
     }
 }

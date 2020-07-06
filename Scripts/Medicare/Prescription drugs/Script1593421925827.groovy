@@ -23,11 +23,11 @@ WebUI.callTestCase(findTestCase('Medicare/_include/get_screenPath'), [('project'
 GlobalVariable.i = 0
 
 //census
-WebUI.openBrowser('https://staging.medicare.healthinsurance.com')
+WebUI.openBrowser(GlobalVariable.ENV)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-String baseUrl = 'https://staging.medicare.healthinsurance.com'
+String baseUrl = GlobalVariable.ENV
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
