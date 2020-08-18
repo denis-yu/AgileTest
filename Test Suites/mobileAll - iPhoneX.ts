@@ -96,5 +96,14 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/PrivateLabel/TriStar</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>medicare-staging</profileName>
+            <runConfigurationId>iphonex</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Medicare/medicare_mobile</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
