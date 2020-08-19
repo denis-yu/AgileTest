@@ -18,16 +18,7 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Custom</groupName>
-            <profileName>default</profileName>
-            <runConfigurationId>iphonex</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/AseguMed/asegumed</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
-            <groupName>Custom</groupName>
-            <profileName>default</profileName>
+            <profileName>hic-qa</profileName>
             <runConfigurationId>iphonex</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -95,6 +86,15 @@
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/PrivateLabel/TriStar</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Custom</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>iphonex</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/PrivateLabel/Quentin</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

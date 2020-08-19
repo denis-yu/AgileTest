@@ -41,6 +41,18 @@
       <testCaseId>Test Cases/AHI/NEW/Dental/USA Access</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>caf81b02-1467-42ca-8b0b-7d0d9d3fb53b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AHI/NEW/Dental/Delta Dental</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7d772942-23f0-4009-9e2c-db06f8c393bf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5212af7d-95aa-43c5-9a41-f6c4f2fbf8ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

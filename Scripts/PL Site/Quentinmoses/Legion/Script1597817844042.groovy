@@ -12,40 +12,36 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 
-WebUI.callTestCase(findTestCase('Medicare/_include/get_screenPath'), [('project') : 'Medicare', ('module') : 'Save progress'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'Quentin Moses', ('carrierName') : 'Legion'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0
 
-//census
-WebUI.openBrowser(GlobalVariable.ENV+'/saved-progress/ngvw7322')
+WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://quentin--qa.storefront.mybenefitskeeper.com'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('PL Site/_include/census_hbi'), [('zipcode') : '90011'], FailureHandling.CONTINUE_ON_FAILURE)
 
-def driver = DriverFactory.getWebDriver()
+Thread.sleep(5000)
 
-String baseUrl = GlobalVariable.ENV
+WebUI.click(findTestObject('mobileSanity/HBI/quote/a_Legion Limited Medical 500'))
 
-selenium = new WebDriverBackedSelenium(driver, baseUrl)
-
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
-
-selenium.click('//a[text()=\'Save Progress\']')
-
-WebUI.delay(2)
+WebUI.waitForPageLoad(10)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('//*[@id=\'progress-saved-popup\']/*[name()=\'svg\']')
+WebUI.click(findTestObject('mobileSanity/HBI/detail/a_Apply for This Plan'))
 
-Thread.sleep(1)
-
-selenium.click('//a[text()=\'Estimated Annual Costs\']/following::p/a')
-
-Thread.sleep(2)
+WebUI.waitForPageLoad(10)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('mobileSanity/HBI/Page_Apply/span_Start Secure Application'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('AHI/_include/goToEnd_hbi'), [('carrier') : 'legion'], FailureHandling.CONTINUE_ON_FAILURE)
 

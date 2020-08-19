@@ -16,4 +16,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Life/Freedom Lite</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ab9a88bf-baeb-4198-a844-c78336587066</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Life/Cancer Insurance</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84b21481-4886-477e-ade9-dea7877a4563</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Life/Pet Insurance</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -16,7 +16,7 @@ import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverB
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 
-WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'Life', ('carrierName') : 'Freedom Lite'], 
+WebUI.callTestCase(findTestCase('AHI/_include/get_screenPath'), [('productLine') : 'Life', ('carrierName') : 'Freedom Elite'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 GlobalVariable.i = 0

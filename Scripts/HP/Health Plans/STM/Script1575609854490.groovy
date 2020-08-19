@@ -44,25 +44,13 @@ String baseUrl = env
 
 selenium = new WebDriverBackedSelenium(driver, baseUrl)
 
-selenium.click('id=location')
-
-selenium.type('id=location', '32209')
-
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('id=findPlans')
+url = selenium.getAttribute('xpath=(//a[text()=\'Find Plans Now\'])@href')
 
-for (second = 0; second < 10; second++) {
-    try {
-        if (selenium.isElementPresent('//a[contains(text(),\'Select\')]')) {
-            break
-        }
-    }
-    catch (Exception e) {
-    } 
-    
-    Thread.sleep(1000)
-}
+WebUI.navigateToUrl(url)
+
+WebUI.waitForPageLoad(20)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('hic/medicare/zip'), '33186')
 
 Thread.sleep(3000)
 
-selenium.click('//button[contains(text(),\'Compare Plans\')]')
+selenium.click('//input[@name=\'census.location.zip\']/following::button[1]')
 
 for (second = 0; second < 10; second++) {
     try {

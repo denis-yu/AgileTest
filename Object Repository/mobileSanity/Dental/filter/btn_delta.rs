@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>zip</name>
+   <name>btn_delta</name>
    <tag></tag>
-   <elementGuidId>1c073939-0cf0-49f6-a5a8-62a03e909408</elementGuidId>
+   <elementGuidId>e7105d13-e164-4fef-96ad-8db14b5cf455</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'census.location.zip']</value>
+         <value>//*[@class = 'quote-filter-faux-input' and @for = 'carrier-delta-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>class</name>
       <type>Main</type>
-      <value>census.location.zip</value>
+      <value>quote-filter-faux-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>carrier-delta-1</value>
    </webElementProperties>
 </WebElementEntity>
