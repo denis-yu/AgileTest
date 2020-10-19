@@ -106,4 +106,28 @@
          <variableId>7d5cdb53-50d6-48e8-ae59-1e6a09c0c667</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>30c32e9a-e476-4521-aae5-d485945bf490</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/New/Landing page/Life Line Screen AEP</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>988c9709-ed05-4fde-8f43-7de5784d732b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/New/Landing page/Life Line Screen</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6d9528b-3d8c-4001-8aac-f79d6d56b1e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/New/Landing page/Pursuant AEP</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>84bfe538-790d-47cb-b740-4ff8c5a8d21e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/New/Landing page/Pursuant</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
