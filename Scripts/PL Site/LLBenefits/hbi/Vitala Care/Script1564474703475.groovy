@@ -21,7 +21,7 @@ GlobalVariable.i = 0
 WebUI.callTestCase(findTestCase('AHI/_include/openWebSite'), [('env') : 'https://llbenefits--qa.storefront.mybenefitskeeper.com'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('PL Site/_include/census_hbi'), [('zipcode') : '33186'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('PL Site/_include/census_hbi'), [('zipcode') : zipcode], FailureHandling.CONTINUE_ON_FAILURE)
 
 Thread.sleep(5000)
 

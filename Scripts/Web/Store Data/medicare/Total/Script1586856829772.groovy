@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium as WebDriverBackedSelenium
 
-GlobalVariable.i++
+(GlobalVariable.i)++
 
 WebUI.openBrowser('https://sunmaker.medicare.healthinsurance.com/census')
 
