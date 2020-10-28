@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>silverscript</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>dc78bb7a-e229-4faf-8816-3df32b2bba36</testSuiteGuid>
+   <testCaseLink>
+      <guid>43e5e618-6144-468a-a51f-b2daab92572c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/Plan enrollment/SilverScript</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4872d21a-7651-4f3e-8fc5-89130a375408</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/all states</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3209a342-01ae-4602-b249-73edebeb27af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4872d21a-7651-4f3e-8fc5-89130a375408</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>6ed43199-71b4-49b2-9421-9e30adad4e23</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
