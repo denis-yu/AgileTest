@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>wellcare</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6295ca4f-2fb1-4744-a535-eabbad6ad827</testSuiteGuid>
+   <testCaseLink>
+      <guid>6b43c4e9-ef6b-4ef6-bc60-fabbd11b9516</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/Plan enrollment/WellCare</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>479021c9-b054-4157-9311-c2905678090c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/all states</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1c3c568d-a81a-4cca-86ae-53be61f5c704</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>479021c9-b054-4157-9311-c2905678090c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>a803e36d-f8aa-4f59-927d-0c1b7db7e872</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

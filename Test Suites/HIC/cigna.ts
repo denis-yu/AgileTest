@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>cigna</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>a441f74d-d4bd-4dee-89fa-542c8b14f9bf</testSuiteGuid>
+   <testCaseLink>
+      <guid>476ea4f3-62e4-4d70-b709-998415be19d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/Plan enrollment/Cigna</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2cbcd731-f749-4e33-b99a-ae2914ace9d9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/all states</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6eaefacf-0f21-4de8-8e05-5ab294fd319b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2cbcd731-f749-4e33-b99a-ae2914ace9d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>fe53c518-76b9-4c38-9eb0-e4a227119794</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

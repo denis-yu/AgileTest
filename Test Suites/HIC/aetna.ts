@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>aetna</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>20</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>099c1e86-db9a-4543-b96b-b8048c69a7c3</testSuiteGuid>
+   <testCaseLink>
+      <guid>31d39be6-1e18-4dd2-a81a-ed16b68f3f16</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/HIC/Plan enrollment/Aetna</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b03583af-8db5-4b53-89fc-33e9597a0c5c</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-20</value>
+         </iterationEntity>
+         <testDataId>Data Files/all states</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9495c749-23c1-4be0-83d2-022225be0e97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b03583af-8db5-4b53-89fc-33e9597a0c5c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
+         <variableId>1c661245-d5f8-42a6-a4bc-c0f784a8cb9d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
