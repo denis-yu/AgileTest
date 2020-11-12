@@ -72,9 +72,9 @@ Thread.sleep(2)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('//a[text()=\'Enroll\']')
+selenium.click('//button[text()=\'Enroll\']')
 
-Thread.sleep(2)
+Thread.sleep(5)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 

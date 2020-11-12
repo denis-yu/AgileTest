@@ -39,9 +39,9 @@ WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHand
 
 selenium.click('//button[contains(text(),\'Cleveland\')]')
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('hic/medicare/see medicare plans'))
+//WebUI.click(findTestObject('hic/medicare/see medicare plans'))
 
 WebUI.waitForElementPresent(findTestObject('medicare/quote/no_inventory_back'), 20)
 

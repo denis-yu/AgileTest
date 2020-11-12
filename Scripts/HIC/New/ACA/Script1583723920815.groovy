@@ -52,7 +52,7 @@ for (second = 0; second < 10; second++) {
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('hic/medicare/zip'), '33186')
+WebUI.setText(findTestObject('hic/aca/zip'), '33186')
 
 Thread.sleep(3000)
 

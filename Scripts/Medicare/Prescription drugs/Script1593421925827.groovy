@@ -50,7 +50,7 @@ WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('//button[contains(text(),\'Add prescription drugs\')]')
+selenium.click('//button[contains(text(),\'Add Prescription Drugs\')]')
 
 WebUI.delay(2)
 

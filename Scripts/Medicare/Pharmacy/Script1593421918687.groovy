@@ -48,7 +48,7 @@ Thread.sleep(2)
 
 WebUI.callTestCase(findTestCase('AHI/_include/get_screenshot'), [:], FailureHandling.STOP_ON_FAILURE)
 
-selenium.click('//button[contains(text(),\'Add Your Pharmacy\')]')
+selenium.click('//button[contains(text(),\'Add Pharmacy\')]')
 
 WebUI.waitForElementPresent(findTestObject('medicare/quote/pharmacy_walgreens'), 20)
 
